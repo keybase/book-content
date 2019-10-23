@@ -1,0 +1,69 @@
+{#
+        print partial '../../call_item.toffee',
+
+          title:  'sig/post_auth'
+          method: 'POST'
+          login_needed: false
+          watch_for : [ "REPLAY" ]
+          suffix: """
+            <h4>sig/post_auth</h4>
+            <p>
+              This endpoint is useful for a public-key (rather than password-based)
+              login system.  All the user really needs to do is to prove ownership
+              of his/her registered private key to the server.  The best way
+              to do this is to sign something.
+            </p>
+            <p>
+              The user should sign an "auth" payload and post it to the server.
+              An example looks like:
+              <hcode>json
+              {
+                  "body": {
+                      "key": {
+                          "kid" : "01012d9ce89835930b52041f739f95bf63765804c55cb6c897331a096749bdcc8b170a",
+                          "host": "keybase.io",
+                          "uid": "15a9e2826313eaf005291a1ae00c3f00",
+                          "username": "taco422107"
+                      },
+                      "auth": {
+                        "nonce": null
+                      },
+                      "type": "auth",
+                      "version": 1
+                  },
+                  "ctime": 1386537779,
+                  "expire_in": 86400,
+                  "tag": "signature"
+              }
+              </hcode>
+            </p>
+            <p>
+              The client can provide an optional nonce to randomize the signatures. If
+              the client does provide a nonce, it will enforce that it hasn't been used
+              before (and return a <code>"REPLAY"</code> error if so).
+              The server checks the signature for validatity, and on success,
+              will return an <em>auth_token</em>, which is the SHA-256 hash of signature body
+              (i.e., the binary PGP message minus the headers and checksum).
+              Note that the client dictates when this token will expire
+              by the <code>expire_in</code> field of the JSON signature payload.
+            </p>
+            <p>
+              The client should then use this <em>auth_token</em> like a session cookie. Whenever the
+              client makes a request to the server, it should send it in the
+              <code>X-Keybase-Auth-Token</code> HTTP header.
+            </p>
+          """
+          sample_params : """
+                sig :               "----- BEGIN PGP MESSAGE ----- ..."
+                email_or_username : "maxtaco"
+          """
+          sample_output: """
+          {
+            "status": {
+              "code": 0,
+              "name": "OK"
+            }
+            "auth_token" : "fd2667b9b396150603ea0b567eaf3334c3..."
+          }
+          """
+#}

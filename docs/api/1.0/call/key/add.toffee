@@ -1,0 +1,45 @@
+{#
+        print partial '../../call_item.toffee',
+          title:  'key/add'
+          
+          method: 'POST'
+          login_needed: true
+          suffix: """
+            <h4>Acceptable public key format(s)</h4>
+            <p>
+              An uploaded public key should be an armored PGP key. An uploaded private
+              key should be in <a href="../../p3skb_format">P3SKB</a> format.
+              You can upload both at the same time, or 
+              the private after the public, but you can't upload the private before the public.
+            </p>
+            <h4>If you already have a public key</h4>
+            <p>
+                This will replace your public key, which will also
+                invalidate any public proofs of identity. You'll need
+                to re-prove yourself.
+            </p>
+            <h4>Primary key</h4>
+            <p>
+                Keybase only supports one key pair per user, currently,
+                and so make sure you pass <code>true</code> for is_primary.
+            </p>
+          """
+          sample_params: """
+                public_key:     "-----BEGIN PGP PUBLIC..."
+                private_key:    "hKRib2R5gqRwcml2gqRkY..."
+                csrf_token:     "lgHZIDU1YzA3OWJfff..."
+                is_primary:     true
+          """
+          sample_output: """
+            {
+              "status": {
+                "code": 0,
+                "name": "OK"
+              },
+              "kid":            "0101d9d962be6ee38cdadedd6...",
+              "csrf_token":     "lgHZIDU1YzA3OWJmNWYxNjUwZ...",
+              "is_primary":     true
+            }
+          """
+          watch_for: ["BAD_SESSION"]
+#}

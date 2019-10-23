@@ -1,0 +1,28 @@
+{#
+        print partial '../../call_item.toffee',
+          
+          title:  'sig/next_seqno'
+          method : 'GET'
+          login_needed : true
+          suffix : """
+            <h4>sig/next_seqno</h4>
+            <p>
+               Get the next sequence number in the user's signature chain, returning also
+               the hash of the previous block.
+            </p>
+          """
+          sample_params : """
+             type : "PUBLIC"  ## other types aren't supported yet
+          """
+          sample_output : """
+          {
+            "status": {
+              "code": 0,
+              "name": "OK"
+            },
+            "prev":       "c450220f5235fcb646a66dfb4225dd65...",
+            "seqno": 2,
+            "csrf_token": "lgHZIDVhMjYwOTQ3OTM5OGNhODljYzRh..."
+          }
+          """
+#}
