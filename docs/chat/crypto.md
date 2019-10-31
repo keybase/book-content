@@ -1,3 +1,4 @@
+{% set page_title = "Chat Crypto" %} 
 ## High Level Overview
 
 When Alice sends a message to Bob, she uses the same keys that she would use to

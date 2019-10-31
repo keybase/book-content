@@ -1,12 +1,3 @@
-#{partial './kbp_header.toffee'}
-
-{# yername = me?.basics?.username or 'yourname' #}
-{# botname = 'kbpbot' #}
-
-<div id="introducing-kbp">
-
-<md>
-
 ## Access Control with .kbp_config
 
 `.kbp_config` is an optional `json`-encoded configuration file. By default,
@@ -30,14 +21,14 @@ go get -u github.com/keybase/client/go/kbfs/kbpagesconfig
 directory, so typically you can `cd` into the site root and use it:
 
 ```bash
-$ cd /keybase/private/#{yername},#{botname}/my-site
+$ cd /keybase/private/yourname,kbpbot/my-site
 $ kbpagesconfig ...
 ```
 
 Or override the directory using `-d` flag:
 
 ```bash
-$ kbpagesconfig -d /keybase/private/#{yername},#{botname}/my-site ...
+$ kbpagesconfig -d /keybase/private/yourname,kbpbot/my-site ...
 ```
 
 Watch [this asciinema
@@ -161,10 +152,4 @@ In `json`:
   }
 }
 ```
-
-</md>
-
-</div>
-#{partial './kbp_footer.toffee'}
-
 
