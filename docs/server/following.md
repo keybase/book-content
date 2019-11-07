@@ -1,9 +1,3 @@
-#{partial './server_security_header.toffee'}
-{#
-  lcol = "col-sm-6 col-md-6"
-  rcol = "col-sm-6 col-md-6"
-#}
-
 <div id="page-doc-following">
 
   <h2>Understanding following (previously called "tracking")</h2>
@@ -244,6 +238,4 @@ Is this the maria you wanted? [y/N]</pre>
       </p>
   </div>
 
-</div>{## /page-doc-following /.contents ##}
-#{partial './server_security_footer.toffee'}
-
+</div>

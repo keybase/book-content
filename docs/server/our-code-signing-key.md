@@ -1,5 +1,3 @@
-#{partial './server_security_header.toffee'}
-
 <h2>Our public code-signing key</h2>
 
 
@@ -29,5 +27,3 @@
 <p>
   <code>eb187c8cbf63d8ca0dfb3cba97e8e310fc3fde52</code>
 </p>
-
-#{partial './server_security_footer.toffee'}

@@ -1,5 +1,3 @@
-#{partial './server_security_header.toffee'}
-
 <h2>Our Public Key for Publishing Merkle Roots to the Bitcoin Blockchain</h2>
 
 <p>
@@ -35,5 +33,3 @@ QjwajBRoj0bxNTpL
 -----END PGP MESSAGE-----
 
 </hcode>
-
-#{partial './server_security_footer.toffee'}

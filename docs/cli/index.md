@@ -1,7 +1,3 @@
-#{partial './command_line_header.toffee'}
-
-<md>
-
 ## Basics
 
 This page is just a sampler. [Download](/download) the Keybase app and use the built-in help:
@@ -192,8 +188,3 @@ cat some_backup.sql | keybase pgp encrypt -o enc_backup.asc \
 #### More examples soon
 
 Use `keybase help` to learn what's available.
-
-</md>
-
-#{partial './command_line_footer.toffee'}
-

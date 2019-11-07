@@ -1,7 +1,3 @@
-#{partial './stellar_header.toffee'}
-
-<div>
-
 <md>
 
 ## Stellar wallet key management
@@ -140,11 +136,3 @@ be decryptable.
 * [download it!](/download)
 * [all other documentation](/docs)
 * [reporting issues via GitHub](https://github.com/keybase/client/issues)
-
-
-</md>
-
-</div>
-#{partial './stellar_footer.toffee'}
-
-

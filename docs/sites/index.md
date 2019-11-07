@@ -1,9 +1,3 @@
-#{partial './kbfs_header.toffee'}
-{#
-  yername = me?.basics?.username or 'yourname'
-#}
-<md>
-
   ## Keybase.pub
 
   [Keybase.pub](https://keybase.pub) serves anything it can find in `/keybase/public`. Poetry. Cat pics. Midi files. Hot, hot recipes.
@@ -33,6 +27,3 @@
   - your idea here
   - your other idea here
   - your third and final idea
-
-</md>
-#{partial './kbfs_footer.toffee'}

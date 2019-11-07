@@ -1,10 +1,3 @@
-#{partial 'server_security_header.toffee'}
-{# P = "#" #}
-
-<div class="merkle-root-in-bitcoin-blockchain">
-
-  <md>
-
     ## Keybase is now writing to the Bitcoin blockchain
 
 
@@ -392,7 +385,3 @@
     In sum, this statement was hashed into my signature chain, which was hashed into Keybase's Merkle
     tree, which eventually was injected into the Bitcoin blockchain, for all eternity. That's a strong
     guarantee.
-  </md>
-
-</div><!-- /merkle-root-in-bitcoin-blockchain -->
-#{partial 'server_security_footer.toffee'}

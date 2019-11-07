@@ -1,5 +1,3 @@
-#{partial './server_security_header.toffee'}
-
 <h2>Our Merkle root signing key</h2>
 
 
@@ -158,5 +156,3 @@ SLOcqa+kq/vL6AXsXFpFr+ovOrU=
 -----END PGP PUBLIC KEY BLOCK-----
 
 </hcode>
-
-#{partial './server_security_footer.toffee'}
