@@ -1,8 +1,3 @@
-#{partial './header.toffee'}
-<div class="guide-box">
-
-<md>
-
 # Linux User Guide
 Welcome to the Keybase Linux User Guide!
 
@@ -577,5 +572,3 @@ team on Keybase and post in the `#feature-requests` channel. Or if you just need
 general help, post in the `#general` channel.
 </md>
 </div>
-
-#{partial './footer.toffee'}
