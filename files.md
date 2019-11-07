@@ -5,6 +5,8 @@ Store and share files securely, confidentially, and quickly. Anything you upload
 
 To access files on Keybase, you must have a Keybase account. Yes, this means if you share a file with someone who doesn’t have a Keybase account, they have to create one. But, this is an important security measure. This ensures that your files are only shared with the people you intend to share them with. It also guarantees to the person you’re sharing with that the files came from you. [There’s no opportunity for phishing scams or clicking on bad links].
 
+{# Question: Is this a good way to add questions inline? #}
+
 There are three types of files with different privacy features: public, private, and team. 
 
 ### Public files 
