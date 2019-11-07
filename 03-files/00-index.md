@@ -1,67 +1,26 @@
 # Files
+Keybase lets you store and share files securely, confidentially, and quickly.
 
-## What it is
-Store and share files securely, confidentially, and quickly. Anything you upload to Keybase is end-to-end encrypted. No one else can read or access your documents (not even Keybase), unless you choose to share them. 
+{# Questions: Do we need to specify how much storage people have on Keybase? How about what kinds of files they can upload? What is a “Universal Path” and a “Local Path”? #}
 
-To access files on Keybase, you must have a Keybase account. Yes, this means if you share a file with someone who doesn’t have a Keybase account, they have to create one. But, this is an important security measure. This ensures that your files are only shared with the people you intend to share them with. It also guarantees to the person you’re sharing with that the files came from you. [There’s no opportunity for phishing scams or clicking on bad links].
+Anything you upload to Keybase is [end-to-end encrypted](link to info about encryption). This means that no one else can read or access your documents (not even Keybase), unless you make them public or to choose to share them with others. If and when someone accesses your files, they can be certain the files were created by you (because they’re automatically [signed](link to info about signing) by you).
 
-{# Question: Is this a good way to add questions inline? #}
+You can upload and share files through the Keybase app, Finder (on a Mac), or TK (on Windows). 
 
-There are three types of files with different privacy features: public, private, and team. 
+Files can be added to folders that have different privacy features: public, private, and team. 
 
-### Public files 
-Anyone can access your public files (they don’t have to be on Keybase). 
+**Public folder** 
+Anyone can view files in your public folder (they don’t have to be on Keybase) at https://keybase.pub/TKyourusername. 
 
-[Use cases for public files besides website?] 
+You can also turn your public files into a simple, static website. [Learn more about building a website on Keybase](link to Pages content).
 
-You can also turn your public files into a simple, static website. [Learn more about building a website](link to Pages content).
+**Private folder**
+Only you and the people you choose to share with can access files in your private folder. 
 
-### Private files
-Only you and the people you choose to share with can access your private files. 
+To access private files on Keybase, you must have a Keybase account. This means if you share a file with someone who doesn’t have a Keybase account, they have to create one. This is an important security measure that ensures your files are only shared with the people you intend to share them with. It also guarantees to the person you’re sharing with that the files came from you. Phishing scams and malevolent links be banned!
 
-[Automatic creation of files to share with others on Keybase.]
+**Team folder**
+Files in a team folder can only be accessed by the people on a team or [subteam](link to details on subteams). Files in a team folder cannot be public.
 
-### Team files
-Everyone on a team can access team files. 
-No public team files.
+[TK: Something about what Universal Path and Local Path mean for those who are curious and why it might be useful for some people. But if you don’t know what it means and don’t care, you can ignore it.]
 
-
-
-## [How to/How it works]
-
-Add files
-1.
-2.
-3.
-
-Share files
-1.
-2.
-3.
-
-## [Additional benefits]
-Experimental feature: Render HTML content in a browser (only index.md).
-
-Sharing does not require [syncing] — [documents are streamed on demand]. 
-
-No clicking on links from strangers.
-
-Subteams.
-
-## QUESTIONS
-
-Do we need to specify what kinds of files you can save/share?
-How much storage do you have (as an individual and as a team)? 10GB for free? More for paid accounts TBD?
-
-You can only share files with people who have Keybase accounts. This ensures that your files are only shared with the people you intended to share them with. It also guarantees to the person you’re sharing with that the files came from you. [There’s no opportunity for phishing scams or clicking on bad links].
-
-## Documentation
-* https://techcrunch.com/2016/02/05/keybase-introduces-end-to-end-encrypted-file-sharing-service/
-* https://keybase.io/docs/kbp
-* https://keybase.io/docs/kbfs
-
-## Pages
-What it is
-Build a [static/simple] website. Publish HTML or Markdown files from your public folder to sldistin.keybase.pub. Or link a custom domain.
-How it works
-TK
