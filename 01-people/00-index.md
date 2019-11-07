@@ -1,9 +1,5 @@
 # People
 
-## Sara Hey!
-
-skjdfhsdajkfhadsfsd
-
 We provide secure communications tools for individuals and teams.
 
 Keybase provides much more than secure end-to-end encryption. Fundamentally, what makes Keybase extra special is that we also care about the identity of people and helping you ensure you're communicating with the right people whether it's in a team chat, a shared file, or a commit to a Git repo.
