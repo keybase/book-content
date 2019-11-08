@@ -1,11 +1,13 @@
 # Files
 Keybase lets you store and share files securely, confidentially, and quickly.
 
-{# Questions: Do we need to specify how much storage people have on Keybase? How about what kinds of files they can upload? What is a “Universal Path” and a “Local Path”? #}
+{# Questions: Do we need to specify how much storage people have on Keybase? How about what kinds of files they can upload? #}
 
 Anything you upload to Keybase is [end-to-end encrypted](link to info about encryption). This means that no one else can read or access your documents (not even Keybase), unless you make them public or to choose to share them with others. If and when someone accesses your files, they can be certain the files were created by you (because they’re automatically [signed](link to info about signing) by you).
 
-You can upload and share files through the Keybase app, Finder (on a Mac), or TK (on Windows). 
+You can upload and share files through the Keybase app, Finder (on a Mac), or TK (on Windows).
+
+TK: Something about why files cannot be accessed when you’re offline.
 
 Files can be added to folders that have different privacy features: public, private, and team. 
 
@@ -22,5 +24,5 @@ To access private files on Keybase, you must have a Keybase account. This means 
 **Team folder**  
 Files in a team folder can only be accessed by the people on a team or [subteam](link to details on subteams). Files in a team folder cannot be public.
 
-[TK: Something about what Universal Path and Local Path mean for those who are curious and why it might be useful for some people. But if you don’t know what it means and don’t care, you can ignore it.]
+TK: Add something about using Universal Path and Local Path.
 
