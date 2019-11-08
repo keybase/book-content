@@ -1,3 +1,5 @@
+# Sharing
+
 ## Uploading and sharing 
 {# Questions: Can you upload files from a “device” or only from a “computer”? Can you only organize (rename, add stuff to) folders from Finder? What are team permissions for folders (e.g. Anyone on a team can add stuff to a team folder but who on a team can add/organize folders?) #}
 ### Uploading files
