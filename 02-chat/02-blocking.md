@@ -1,4 +1,4 @@
-## Blocking
+# Blocking
 If you block someone on Keybase, they will no longer be able to create conversations or teams with you. You will no longer see them under your followers or suggestions for following. But please note, they may be able to figure out that you blocked them. 
 
 {# Questions: How can they find out if you blocked them? Can they still search for you/see that you are on Keybase or can they just guess if they can no longer chat or team you that you blocked them? Can blocking be undone? Can you search for and find someone you’ve blocked? Why would someone have to block a conversation after blocking a user, per this tweet: https://twitter.com/yaelwrites/status/1186085136707620864? And, is blocking a conversation still a feature (I can’t figure it out)? #}
