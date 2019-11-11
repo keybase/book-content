@@ -1,4 +1,4 @@
-## Exploding messages
+# Exploding messages
 If you send an exploding message, it will permanently disappear after a given period of time, just like you’re Inspector Gadget’s boss. {# Note: IG is a temp reference: I need to look up how ephemeral messages are referenced on Insta, SnapChat #} On Keybase, an exploded message is guaranteed to totally disappear after your chosen period of time. No one will be able to find or read it, even if they have access to your device. 
 
 **To send an exploding message:**  
