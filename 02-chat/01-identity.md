@@ -1,19 +1,17 @@
-{# Note: I forgot to include the 01 prefix before identity and can't figure out how to update it. #}
-
-## [Identity]
+# [Identity]
 You can chat with someone you know on the internet by searching for a social identity: Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number. 
 
 TK: Something about identity proofs? https://keybase.io/docs/chat/phones_and_emails
 
 TK: Something about what happens when you send a chat to someone who isn’t yet on Keybase  
-### Privacy & security
+## Privacy & security
 TK: General blurb on how and why you are searchable for others on Keybase chat
 
 {# Question: Does the above make sense to include here? I’m thinking it’d be useful to explain why you can’t have a totally “private” account but maybe I’m overthinking it *and* I don’t totally understand related the public/private key stuff well enough to explain it. #}
 
 For more details, you can [read Keybase’s Privacy Policy](https://keybase.io/docs/privacypolicy).
 
-#### Contact info
+## Contact info
 By default, other Keybase users may start a chat with you by searching for your email or phone number. But, you can make that information unsearchable. You can also choose whether or not you wish to share your contacts with Keybase.
 
 **To make your email and phone number unsearchable:**  
