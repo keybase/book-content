@@ -1,10 +1,34 @@
 # People
 
-We provide secure communications tools for individuals and teams.
+{# Falling back to an outline for now. #}
 
-Keybase provides much more than secure end-to-end encryption. Fundamentally, what makes Keybase extra special is that we also care about the identity of people and helping you ensure you're communicating with the right people whether it's in a team chat, a shared file, or a commit to a Git repo.
+When you first sign up for Keybase, you create an account with a username.
 
-In this chapter, we'll explain how Keybase does more than keep your secrets secret, exploring topics like proofs, devices, and following.
+Keybase creates a key pair, and the public key is guaranteed to be associated with the account you just created.
+
+This is very secure, unless you lose your phone or computer (whichever you signed up with). It's so secure, you don't need a password.
+
+To make it more secure, you can attach another device to your account. What's really happening when you do this is that the new device generates another key pair, and that public key is also associated with your account, and both private keys are used to assure this.
+
+This is very secure, and now you're protected against losing a single device.
+
+You can also create paper keys, which you should store somewhere like a locked drawer.
+
+Now your account is even more secure. As long as you don't lose access to all of your devices (and paper keys) at the same time, you can remove any device that you have lost or replaced.
+
+At this point, you have control over your account in a way that is extremely resistent to known attacks.
+
+But, to fully realize the power of Keybase, it's important to prove this account really belongs to you.
+
+Proofs are one way to do this. Explain proofs. Maybe explain signing. Telling people in person is another way.
+
+Friends can also follow you. This is a bit different than following on Twitter, but it's a similar concept. When you follow someone on Keybase, you're signing their identity (series of events), which helps prove to others that their identity hasn't been tampered with. Over time, this provides a lot of trust that your account has not been compromised, because it would require someone to compromise your account for a long period of time. The longer the period of time, the less likely someone could keep it up.
+
+Over time, this guarantees to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
+
+We provide secure communication tools for individuals and teams.
+
+In this chapter, we'll explain how Keybase does more than keep your secrets secret, exploring topics like [proofs](/people/proofs), [devices](/people/devices), and [following](/people/following).
 
 ## TODO
 
