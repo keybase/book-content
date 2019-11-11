@@ -1,3 +1,5 @@
+{# Note: I forgot to include the 01 prefix before identity and can't figure out how to update it. #}
+
 ## [Identity]
 You can chat with someone you know on the internet by searching for a social identity: Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number. 
 
