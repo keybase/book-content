@@ -30,6 +30,8 @@ We provide secure communication tools for individuals and teams.
 
 In this chapter, we'll explain how Keybase does more than keep your secrets secret, exploring topics like [proofs](/people/proofs), [devices](/people/devices), and [following](/people/following).
 
+{# Note: this is a helpful explanation of identity that most non-technical users might understand: https://www.quora.com/What-is-Keybase-in-laymans-terms #}
+
 ## TODO
 
 We need to explain what signing is. Just crypto magic to guarantee something doesn't change? Tripwire analogy? "The first thing that came to mind is "snapshot". Like, snapshotting a person's identity at this point in time. This conveys that it's something that could change the road, but that you have a historical piece of evidence to compare those changes to."To my understanding, "tracking" is more like "pinning". You pin a key of somebody else and remember it.
