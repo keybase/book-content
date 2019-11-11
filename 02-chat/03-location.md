@@ -1,4 +1,4 @@
-## Location sharing
+# Location sharing
 You can securely share your location through a chat with an individual or a team. When you do so, only the person or people you intend to share your location with will receive it. Not even Keybase will know your location. To learn about how this works, [read more about location sharing](https://keybase.io/docs/chat/location).
 
 **To share your live location:**  
