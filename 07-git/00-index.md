@@ -61,6 +61,4 @@ Under the hood, Git has support for [remote helpers](https://git-scm.com/docs/gi
 
 This means that your data is encrypted and not even the Keybase staff can see what's in there (nor its name, the filenames, your other configuration, etc.), but additionally it means that every time someone (either you, or another member of a shared repository team) `push`es data to or `pull`s (or `clone`s) data from one of these repositories, all writes are verified by your private keys, which never leave your device. You can be sure that your team members did indeed push the changes that the Git history log says they did.
 
- 
-
-
+Additionally, using the Git repositories functionality in the Keybase app (or via the command line), is different from just hosting your local Git repositories in the Keybase [filesystem](/files), because with first-class Git repositories, Keybase knows to lock your repository when necessary. This prevents two people (or two devices controlled by the same person) from overwriting each others' changes, and causing conflicts. 
