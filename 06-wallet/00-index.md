@@ -9,7 +9,7 @@ If you’re new to cryptocurrency, the nice thing about your Keybase wallet is t
 {# Question: there are a lot more things that [make Stellar interesting](https://www.stellar.org/overview) but I don’t know how much detail we want or need to go into here. Is it worthwhile/interesting to include a quick crypto-primer? #}
 
 ## Sending and receiving Lumens
-All of your transactions are automatically tied to your [Keybase identity] so you can easily send and receive Lumens to and from other Keybase users, Stellar addresses, or your other Stellar accounts.
+All of your transactions are automatically tied to your [Keybase identity] so you can easily send and receive Lumens to and from other Keybase users, Stellar addresses, or your other Stellar accounts via your wallet or chat.
 
 **To send or receive Lumens through your wallet**
 1. Hit the Hamburger menu icon.
@@ -17,6 +17,9 @@ All of your transactions are automatically tied to your [Keybase identity] so yo
 3. Select your recipient or user.
 4. Enter the amount.
 5. Hit send or request to complete your transaction.
+
+**To send or receive Lumens through chat**
+TK: slightly different experiences on mobile and desktop apps 
 
 ## Exchanging Lumens
 You can [exchange Lumens into other currencies] outside of the Keybase app. To do so, you’ll need your Stellar address and secret key. 
