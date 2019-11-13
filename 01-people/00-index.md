@@ -2,7 +2,7 @@
 
 Let’s talk about identity.
 
-When you first sign up for an online account, there are a couple of steps that have become pretty standard:
+When you first sign up for an account online, there are a couple of steps that have become pretty standard:
 
 * You create a username, so that you have a friendly way to refer to your account and establish identity.
 * You create a password, so that no one else can access your account.
@@ -17,7 +17,7 @@ Usernames do a pretty good job, but even if you typically use the same username 
 
 DIAGRAM: "I'm ____ on ____."
 
-Passwords don’t do such a good job, so other concepts have been introduced to help. Password managers can generate random passwords for every account, and this helps protect against…TK. You can also set up [multi-factor auth](TK), so even if your password is compromised, your account might not be.
+Passwords don’t do such a good job, so additional concepts have been introduced to help. Password managers can be used to generate strong, random passwords for every account. You can also set up [multi-factor auth](TK), so even if your password is compromised, your account might not be.
 
 Keybase improves upon both of these basic concepts in important ways.
 
