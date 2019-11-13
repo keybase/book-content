@@ -1,45 +1,40 @@
 # People
 
-{# Falling back to an outline for now. #}
+Let’s talk about identity.
 
-When you first sign up for Keybase, you create an account with a username.
+When you first sign up for an online account, there are a couple of steps that have become pretty standard:
 
-Keybase creates a key pair, and the public key is guaranteed to be associated with the account you just created.
+* You create a username, so that you have a friendly way to refer to your account and establish identity.
+* You create a password, so that no one else can access your account.
 
-This is very secure, unless you lose your phone or computer (whichever you signed up with). It's so secure, you don't need a password.
+DIAGRAM: Standard signup form with username, password, and confirm password fields.
 
-To make it more secure, you can attach another device to your account. What's really happening when you do this is that the new device generates another key pair, and that public key is also associated with your account, and both private keys are used to assure this.
+These two concepts are important when we talk about identity online. There needs to be trust that an account belongs to you, and there needs to be trust that only you can access the account.
 
-This is very secure, and now you're protected against losing a single device.
+DIAGRAM: Account ---> You & You ---> Account
 
-You can also create paper keys, which you should store somewhere like a locked drawer.
+Usernames do a pretty good job, but even if you typically use the same username everywhere, your friends can’t know for sure that it’s really you at first. Over time, you can establish trust by linking to your account from your personal website (or from other, established accounts), telling people in person, etc.
 
-Now your account is even more secure. As long as you don't lose access to all of your devices (and paper keys) at the same time, you can remove any device that you have lost or replaced.
+DIAGRAM: "I'm ____ on ____."
 
-At this point, you have control over your account in a way that is extremely resistent to known attacks.
+Passwords don’t do such a good job, so other concepts have been introduced to help. Password managers can generate random passwords for every account, and this helps protect against…TK. You can also set up [multi-factor auth](TK), so even if your password is compromised, your account might not be.
 
-But, to fully realize the power of Keybase, it's important to prove this account really belongs to you.
+Keybase improves upon both of these basic concepts in important ways.
 
-Proofs are one way to do this. Explain proofs. Maybe explain signing. Telling people in person is another way.
+When you sign up for Keybase, strong cryptography guarantees an association between your account and the device you signed up with. This means that no one else can compromise your account without having your device, and if you authenticate with multiple devices, no one else can compromise your account without having all of your devices. We’ll talk about this more in the [next section](TK).
 
-Friends can also follow you. This is a bit different than following on Twitter, but it's a similar concept. When you follow someone on Keybase, you're signing their identity (series of events), which helps prove to others that their identity hasn't been tampered with. Over time, this provides a lot of trust that your account has not been compromised, because it would require someone to compromise your account for a long period of time. The longer the period of time, the less likely someone could keep it up.
+You prove that an account belongs to you through [social proofs](TK) and [following](TK), both of which also rely on strong cryptography.
 
-Over time, this guarantees to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
+The result is that your Keybase account is more secure than other online accounts. Keybase is a place where you can think of people as people, because the association between you, your account, and your devices is trustworthy.
+
+## Scraps
+
+Keybase is like MMFA, multi-multi-factor auth. Maybe a table that shows what's needed to compromise an account protected with MFA and what's needed to compromise a Keybase account. In one column, a compromised password (super common, unfortunately) and a spoofed phone number (possible and proven, link to examples) is what you need. In the other column, you have to steal every device authed with a Keybase account at the same time, and break into someone's house to steal their paper keys, and keep up the compromise over a long period of time. Which do you think is stronger?
 
 We provide secure communication tools for individuals and teams.
 
 In this chapter, we'll explain how Keybase does more than keep your secrets secret, exploring topics like [proofs](/people/proofs), [devices](/people/devices), and [following](/people/following).
 
 {# Note: this is a helpful explanation of identity that most non-technical users might understand: https://www.quora.com/What-is-Keybase-in-laymans-terms #}
-
-## TODO
-
-We need to explain what signing is. Just crypto magic to guarantee something doesn't change? Tripwire analogy? "The first thing that came to mind is "snapshot". Like, snapshotting a person's identity at this point in time. This conveys that it's something that could change the road, but that you have a historical piece of evidence to compare those changes to."To my understanding, "tracking" is more like "pinning". You pin a key of somebody else and remember it.
-
-> When you generate a key pair, it's completely arbitrary which one you choose to be the public key, and which is the private key. If you encrypt with one, you can decrypt with the other - it works in both directions.
->
-> So, it's fairly simple to see how you can encrypt a message with the receiver's public key, so that the receiver can decrypt it with their private key.
->
-> A signature is proof that the signer has the private key that matches some public key. To do this, it would be enough to encrypt the message with that sender's private key, and include the encrypted version alongside the plaintext version. To verify the sender, decrypt the encrypted version, and check that it is the same as the plaintext."
 
 [what do we trust Keybase with?](https://github.com/keybase/keybase-issues/issues/78)
