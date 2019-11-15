@@ -2,6 +2,10 @@
 
 [Existing docs](https://keybase.io/docs/server_security/following)
 
+Friends can also follow you. This is a bit different than following on Twitter, but it's a similar concept. When you follow someone on Keybase, you're signing their identity (series of events, including devices added and removed, proofs, etc.), which helps prove to others that their identity hasn’t been tampered with. Over time, this provides a lot of trust that your account has not been compromised, because it would require someone to compromise your account for a long period of time. The longer the period of time, the less likely someone could keep it up.
+
+Over time, this guarantees to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
+
 > Note: When we use a word that might need explaining, link it always, even if the reader should've read an explanation by this point. In this way, the book has a narrative, but the web is the web, and each URL should be independent.
 
 Every account on Keybase has a public history. "Sigchains" let Keybase clients reconstruct the present without trusting Keybase's servers. And when you "follow" someone on Keybase, you sign a snapshot of your view of the claims in their sigchain.

@@ -1,12 +1,12 @@
 # Proofs
 
-In the world of Keybase, people are people. Yes, we have accounts, and our accounts have usernames, but the promise of Keybase goes deeper than this.
+Once you’ve signed up for a Keybase account and have added another device (or two) and a paper key (or two), your ownership of your account is extremely reliable. In fact, it's much more reliable than any account protected with only a password (even with MFA). Well done.
 
-After you sign up for Keybase, how do you let the people you know that it's really you? You could tell them in person what your Keybase username is, or you could begin building credibility that it's really you by adding social proofs.
+Now you're ready to let others know your Keybase account is really yours. The best way to do this is to tell people in person, especially people you know, but there are probably people you primarily interact with online, and you want them to know your account is really yours, too.
 
-One of the most popular social proofs to add is Twitter.
+Proofs are a good way to provide this assurance. In spirit, proofs are a simple way to let people know that the person who owns a particular Keybase account can prove they also own other online accounts, or even websites, and these proofs are public and provable.
 
-
+One of the most popular social proofs to add is Twitter…
 
 ## Archive
 
