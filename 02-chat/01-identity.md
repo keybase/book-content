@@ -1,13 +1,12 @@
-# [Identity]
-You can chat with someone you know on the internet by searching for a social identity: Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number. 
+# Chatting with individuals and groups
+All of your chats with individuals or groups of people (aka "small teams" or any group that's not a "big team") are at the top of your "inbox." This section of chat functions like a super-duper secure and searchable version of messaging on your phone. 
 
-TK: Something about identity proofs? https://keybase.io/docs/chat/phones_and_emails
+You can chat with someone you know on the internet by searching for a social identity: Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number.  You can manage notifications for each chat TK: Something about what happens when you send a chat to someone who isn’t yet on Keybase  
 
-TK: Something about what happens when you send a chat to someone who isn’t yet on Keybase  
+All of your chats with "big teams" are in the lower part of your "inbox." Learn more about [big teams].
+ 
 ## Privacy & security
-TK: General blurb on how and why you are searchable for others on Keybase chat
-
-{# Question: Does the above make sense to include here? I’m thinking it’d be useful to explain why you can’t have a totally “private” account but maybe I’m overthinking it *and* I don’t totally understand related the public/private key stuff well enough to explain it. #}
+TK: General blurb on how and why you are searchable for others on Keybase chat and any upcoming features we can mention to improve security and privacy / problem with bots/spammy people?
 
 For more details, you can [read Keybase’s Privacy Policy](https://keybase.io/docs/privacypolicy).
 
