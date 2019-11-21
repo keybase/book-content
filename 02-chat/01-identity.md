@@ -1,29 +1,30 @@
-# Chatting with individuals and groups
-All of your chats with individuals or groups of people (aka "small teams" or any group that's not a "big team") are at the top of your "inbox." This section of chat functions like a super-duper secure and searchable version of messaging on your phone. 
+# Inbox
+All of your chats on Keybase are organized in one inbox. Your chats with individuals and groups of people are grouped at the top. Your chats with teams are grouped below. This lets you see all of your chats, from a high level, in one place.
 
-You can chat with someone you know on the internet by searching for a social identity: Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number.  You can manage notifications for each chat TK: Something about what happens when you send a chat to someone who isn’t yet on Keybase  
+You can start a new chat with someone you know on the internet by searching for their social identity on Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number. If you start a chat with someone who doesn’t have a Keybase account, they will have to create one before they can receive your message.
 
-All of your chats with "big teams" are in the lower part of your "inbox." Learn more about [big teams].
+Chats with individuals and groups work similarly to SMS and group texts (but, in case you forgot, they’re super duper secure). New messages move a conversation to the top of your inbox.   
+
+## Teams
+Teams are useful for chats and file sharing with large groups, organizations, companies, and communities. 
+
+If you want to be able to add and remove people from a group chat, you need to create a team. Teams also allow you to organize chats by adding channels. 
+
+Channels are useful for focused chats on say, a specific project or lunch ideas, but they are not private. **Everyone on a team can search and read all messages and files shared in any and every channel.** To create chats or share files that are private to specific team members, you need to [make a subteam](link to subteam section). 
+
+You can also reply privately to messages within team chats. Those chats move to the top of your inbox, outside of the team chat, and always remain private between you and that other person.
  
-## Privacy & security
-TK: General blurb on how and why you are searchable for others on Keybase chat and any upcoming features we can mention to improve security and privacy / problem with bots/spammy people?
+There are lots more features that are useful for teams. Skip ahead to [learn more](link to teams section).
+ 
+## Chat history
+Your entire history of messages and files shared in chats are searchable and readable by everyone in the chat on a team (except for exploded messages, of course). 
+ 
+In teams, owners can determine the length of chat history. Messages can be auto-deleted never, or at set intervals as short as 30 seconds and as long as 365 days. 
+ 
+But, so long as you choose to keep your chat history, you’ll always be able to dig into all of it. 
+ 
+## Notifications
+You can manage the chat notifications you do or don’t want to receive for every chat or channel. Notifications can be sent to your desktop or mobile device. 
+ 
+Chat notifications only share that a message was sent. Notifications do not reveal the contents of a message. 
 
-For more details, you can [read Keybase’s Privacy Policy](https://keybase.io/docs/privacypolicy).
-
-## Contact info
-By default, other Keybase users may start a chat with you by searching for your email or phone number. But, you can make that information unsearchable. You can also choose whether or not you wish to share your contacts with Keybase.
-
-**To make your email and phone number unsearchable:**  
-1. On your device or computer, open the Hamburger menu (insert icon?).
-2. Navigate to Settings.
-3. Navigate to Your account.
-4. Under Email & phone, select the gear icon (insert icon?) to the right of your email and phone number. 
-5. Select Make unsearchable for each email and phone number you wish to make unsearchable. Your action will be confirmed with the text “Not searchable” under your information.
-
-Your contacts are not automatically imported into Keybase. You must allow Keybase to import your contacts. If you choose to import your contacts to Keybase, you can always remove them. 
-
-**To remove contacts:**  
-1. On your mobile device, open the Hambuger menu (insert icon?).
-2. Navigate to Settings.
-3. Select Phone contacts.
-4. Select Remove contacts.
