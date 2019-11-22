@@ -14,6 +14,8 @@ Note: What's happening when you do this is that the new device generates another
 
 You should also create at least one paper key, which you should store somewhere like a locked drawer. We recommend you not store a paper key on your computer, which is why we call them paper keys.
 
+![](https://files.faculty.com/2Wka0zVa.png)
+
 As long as you don't lose access to all of your devices (and paper keys) at the same time, you can remove any device that you have lost or replaced, and you can add any new device that you might buy in the future.
 
 At this point, you have control over your account in a way that is extremely reliable and trustworthy. Now you're ready to let people know this account belongs to you. In the next section, you'll learn all about [proofs]().
