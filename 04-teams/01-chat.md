@@ -1,4 +1,4 @@
-# Creating and managing a team  
+# Managing a team  
 Before you create a team, you should know that teams are public. Outsiders can see that they exist but not necessarily who is in them. Team members can choose to publish the teams they belong to on their profiles. 
 
 And like other names on Keybase, team names cannot be changed. All team names must be unique, between 2 and 16 characters, and cannot start with an underscore. 
