@@ -1,35 +1,76 @@
-# Chat
-A chat is automatically created for each new team. Until you create channels, a team chat appears the same as an individual chat [at the top of your “inbox”]. 
+# Creating and managing a team  
+Before you create a team, you should know that teams are public. Outsiders can see that they exist but not necessarily who is in them. Team members can choose to publish the teams they belong to on their profiles. 
 
-Each new member added is announced in the team chat. When you add channels to a team chat, your team becomes and is grouped as a “big team” [in the lower part of your inbox].  **Everyone on a team can read and search all chats and files in all channels**. 
+And like other names on Keybase, team names cannot be changed. All team names must be unique, between 2 and 16 characters, and cannot start with an underscore. 
 
-To create chats [or files] that are private to specific team members, you need to make a subteam. Subteams can also include members who are not a part of the initial team. 
+## Adding and removing team members
+Turning a group chat into a team lets you add and remove team members. You can also create a team from scratch. Or, if your team is on Slack, you can [import it right into Keybase](https://keybase.io/slack-importer/).
 
-Individual team members can reply privately to messages within team chats. [Hit the three dots to the upper-right of a message and select Reply privately. That chat moves up to the top of your inbox with other “small team” messages]. Those messages always remain private between those two individuals. 
+Adding members by Keybase username is the quickest way to create a team. If you add others by their social handle, email, or phone numbers, they will need to create a Keybase account before they can join. If you add a team member who has a Keybase account by a social profile, you will need to confirm that the person you know by their social profile is the same person on Keybase before they can join your team. {# <-- this paragraph is maybe TMI? #}
 
-In addition to channels and subteams, team chats have access to all the same features as other chats: files, GIFS, location sharing, coin flips, and exploding messages.
+As team members are added, they’re announced in chat. All new team members can search and read the entire chat history (or at least whatever hasn’t exploded). 
 
-[Go back to read more about chat](link to chat section) or [learn more about GIFS, location sharing, coin flips, and exploding messages](link to chat special features section). 
+If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
 
-## Channels
-Channels can be used to organize team chats. If you add a channel to a team chat, your team becomes a big team [and the inbox moves to the lower part of the sidebar]. 
+### Roles and permissions
+As you add team members, you will need to assign roles which give each team member different permissions. In most cases, most people should be writers, unless you're managing a community. Then, you might want readers for your members. You can always change roles later. 
 
-Everyone on a team, except readers, can create channels. And — we’re mentioning this again because it’s important — everyone on a team can read and access messages and files shared in any team channel. (To create chats or share files that are private to specific team members, you need to [make a subteam](link to subteam section).) 
+**Owners:**
+* Can create chat channels
+* Can create subteams
+* Can add and remove members
+* Can manage team members’ roles
+* Can write and read in chats and folders
+* Can delete team 
 
-**To create a chat channel:**
-1. [Hit the gear icon to the right of the team name / TK different experiences on mobile and desktop.]
-2. Select Manage or Create chat channels. 
+**Admins:**
+* Can create chat channels
+* Can create subteams
+* Can add and remove members
+* Can manage team members’ roles
+* Can write and read in chats and folders
+* *Can not* delete the team
 
-Manage chat channels also allows you to delete chat channels. If you delete a chat channel, all messages will be lost and gone forever.
+**Writers:** 
+* Can write and read in chats and folders
+* Can create chat channels
+* *Can not* create subteams
+* *Can not* add and remove members
+* *Can not* manage team members’ roles
+* *Can not* delete the team
 
-## Notifications
-You can manage the chat notifications you do or don’t want to receive for every chat or channel. Notifications can be sent to your desktop or mobile device. When chat notifications are sent, they only share that a message was posted by a team member. Notifications do not reveal the contents of a message (need to verify - is this always true?). 
+**Readers:**
+* Can write in chats but can only read in folders
+* *Can not* create chat channels
+* *Can not* create subteams
+* *Can not* add and remove members
+* *Can not* manage team members’ roles
+* *Can not* delete team
 
-**To manage notifications:**  
-TK: different experience for small teams and big teams
-On small teams, you can quickly mute and unmute notifications (shhh icon) within chat
-On big teams, you can manage desktop and mobile notifications per channel.
+{# The above info may be more useful as a diagram/chart. There’s a reference with more detail here, under Access Matrix: https://keybase.io/docs/teams/design #}
 
-## Message history
-The entire saved history of messages and files shared within team chats are searchable and readable by everyone on a team (except for exploded messages, of course). Owners determine the length of messages history. Messages can be auto-deleted never, or at set intervals as short as 30 seconds and as long as 365 days. 
-{# Question: Is this within teams or within channels? #}
+## Big teams
+If you create channels for a chat, your team becomes a big team (no matter how many people are in it, even a team of two can be a big team). Chats for big teams appear in the lower part of your inbox. 
+
+Channels are a way to organize chats. They’re useful for focused conversations on say, a specific project or lunch ideas, but they are not private. **Everyone on a team can search and read all messages and files shared in any and every channel.**  Channels are not a way to privately chat or share files. To do that, you need to create a subteam. 
+
+## Subteams
+A subteam is a group of people created from within a small team or big team. A subteam does not need to include all members of a team. A subteam can also include people from outside of a team. For example, an organization may want to create subteams for a particular team and a hiring committee. These subteams might be named patagonia.design and patagonia.design.hiring.
+
+Essentially, subteams are a way to create private chats and folders within teams. {# Need to add something about what subteams enables for Git. #} And while teams are public (outsiders may see that they exist but can’t necessarily see everyone who is in them), subteams can be completely hidden from anyone who isn’t in them. If you want a subteam to remain totally hidden, make sure members don’t publish the subteam to their profiles.
+
+Just like teams, subteams are “small teams” until they add chat channels and become a “big team.” But permissions and roles work a little differently. Only team owners and admins can make subteams. Subteams do not have owners. Subteams may have implicit admins, people who are admins of the parent team but not of this subteam. Implicit admins do not have access to files and chats shared within a subteam.
+
+{# Docs say this: “An implicit admin of a subteam who hasn't been explicitly added to the subteam does not get access to server-gated keys for that team, and therefore does not get access to KBFS and chat data. Thus, a subteam can avoid dangerous situations in which all of its members have lost their access to data.” BUT implicit admins can delete subteams, which would delete all of their files and chats. #}
+
+[Learn more about how subteams work on Keybase](https://keybase.io/docs/teams/design). 
+
+## Open teams
+If you’re building a community, you can make an open team that anyone can join. If you like, you can also publicize it to the Keybase community. 
+
+If you know of an open team you’d like to join, for example keybasefriends or stellar.public, you can hit [Join a team] to request being added. Since you can’t necessarily see who is on a team, Keybase pings the admin for you. The admin can accept or ignore your request.
+
+## Leaving or deleting a team
+If you leave a team, any messages and files you shared remain with the team, but you lose access to them. You can only rejoin a team if you are invited by an admin or owner. 
+
+Only a team owner can delete a team. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost, all data in the team folder(s) is lost, and all team members are notified.
