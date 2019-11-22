@@ -1,3 +1,9 @@
-# Git
-TK 
-Notes: Git is organized under Git (not under teams). You can see a demo if you ask to join the team keybasefriends.
+# Files
+Team files work the same way they work everywhere else on Keybase. Keybase lets you store and share files securely, confidentially, and quickly. Teams and subteams can store up to 100 GB.
+
+Anything you upload to Keybase is automatically end-to-end encrypted. This means that only the people on your team or subteam can read or access your files.
+
+You can upload and share files with a team through the Keybase app, Finder (on a Mac), or Explorer (on Windows).
+ 
+[Learn more about files on Keybase](link to files chapter).
+
