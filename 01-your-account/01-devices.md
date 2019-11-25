@@ -1,8 +1,6 @@
 # Devices
 
-Note: Users can sign up on the website, without a key, until at least one device is added. Chris Coyne says this is probably going away soon, so let's assume a device and key are required to establish an account.
-
-When you sign up for Keybase, you sign up with the Keybase app on a device such as your phone or computer. Strong cryptography guarantees an association between your account and the device you sign up with.
+Before you can create a Keybase account, you need to install the app on your computer or device. When you sign up for your Keybase account, you create a username (that *cannot* be changed). But you *don’t* create a password. Instead, strong cryptography guarantees an association between your account and the device — e.g., your phone or computer — that you sign up with.
 
 ![]({{url_for('static', filename='img/kb-one-device.png')}})
 
