@@ -4,17 +4,17 @@ Note: Users can sign up on the website, without a key, until at least one device
 
 When you sign up for Keybase, you sign up with the Keybase app on a device such as your phone or computer. Strong cryptography guarantees an association between your account and the device you sign up with.
 
-![]({{url_for('static', filename='img/people-device.png')}})
+![]({{url_for('static', filename='img/kb-one-device.png')}})
 
 This association is guaranteed, which means the only way to lose your account is to lose your device. For this reason, a good next step is to add another device to your account. You can do this by installing Keybase on another device, providing your Keybase username, and then adding that device using the one you signed up with (using a QR code). After doing this, strong cryptography guarantees an association between your account and both devices.
 
-![]({{url_for('static', filename='img/people-devices-multi.png')}})
+![]({{url_for('static', filename='img/kb-two-devices.png')}})
 
 Note: What's happening when you do this is that the new device generates another key pair, the new public key is added to your account, and both private keys are used to prove this.
 
 You should also create at least one paper key, which you should store somewhere like a locked drawer. We recommend you not store a paper key on your computer, which is why we call them paper keys.
 
-![]({{url_for('static', filename='img/people-devices-paper.png')}})
+![]({{url_for('static', filename='img/kb-three-devices.png')}})
 
 As long as you don't lose access to all of your devices (and paper keys) at the same time, you can remove any device that you have lost or replaced, and you can add any new device that you might buy in the future.
 
