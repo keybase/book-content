@@ -1,4 +1,4 @@
-# Uploading and sharing 
+{% set section_title = "Uploading and sharing " %}
 You can upload and share files directly on your computer (via Finder or Macs or Explorer on Windows) or in the app Keybase app via files, teams, or chats. 
 
 ## On your computer

@@ -1,4 +1,4 @@
-# Privacy
+{% set section_title = "Privacy" %}
 Right now, anyone on Keybase can start a chat with anyone else on Keybase. TK: General blurb on how and why you are searchable for others on Keybase chat.
 
 For more details, you can [read Keybase’s Privacy Policy](https://keybase.io/docs/privacypolicy).

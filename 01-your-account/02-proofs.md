@@ -1,4 +1,4 @@
-# Proofs
+{% set section_title = "Proofs" %}
 
 Once you’ve signed up for a Keybase account and have added another device (or two) and a paper key (or two), your ownership of your account is extremely reliable. In fact, it’s much more reliable than any account protected with only a password (even with MFA). Well done.
 

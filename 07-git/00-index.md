@@ -1,4 +1,4 @@
-# Git
+{% set section_title = "Git" %}
 
 Keybase has first-class support for free, encrypted, authenticated, and private [Git](https://git-scm.com/) repositories.
 

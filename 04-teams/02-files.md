@@ -1,4 +1,4 @@
-# Chat
+{% set section_title = "Chat" %}
 A chat is automatically created for each team. Chat for teams works pretty much the same as it does for individuals on Keybase but there are a couple nice things to know.
  
 For one, team members can reply privately to messages within team chats. Those messages always remain private between those two individuals. Team owners or admins can never access private chats. 

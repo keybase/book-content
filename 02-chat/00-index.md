@@ -1,4 +1,4 @@
-# Chat
+{% set section_title = "Chat" %}
 You can use chat on Keybase to share messages and files with anyone you know IRL or online. You can chat with individuals, with groups of people, or teams. 
 
 When you communicate with someone on Keybase, you can be 100% sure your conversation is just between you and that person — not even Keybase can read your messages. This also means that if you chat with someone you’re also on a team with, the team owner will never be able to access your messages.

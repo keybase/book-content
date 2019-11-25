@@ -1,4 +1,4 @@
-# Important tips
+{% set section_title = "Important tips" %}
 Before you can create a Keybase account, you need to install the app on your personal computer or device. 
 
 As a head’s up, you’ll need to allow Keybase to install a new helper tool. Enter your computer or device’s password to allow the installation.

@@ -1,4 +1,4 @@
-# Teams
+{% set section_title = "Teams" %}
 A team on Keybase is simply a group of people. For example, an organization or company, a group of friends, or an open community with a shared interest can all be teams.
  
 Teams are categorized as small teams, big teams, and subteams. [Chats](link to chat section) and [files](link to files section) are automatically created for every new team. Teams can also use [Git](link to Git section). 

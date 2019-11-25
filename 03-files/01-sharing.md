@@ -1,4 +1,4 @@
-# Folders
+{% set section_title = "Folders" %}
 Files can be organized in folders that have different privacy features: public, private, and team. You can add your own folders within these folders.
 
 ## Private 

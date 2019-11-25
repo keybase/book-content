@@ -1,4 +1,4 @@
-# Devices
+{% set section_title = "Devices" %}
 
 Before you can create a Keybase account, you need to install the app. When you sign up for your Keybase account, you create a username (that *cannot* be changed). But you *don’t* create a password. Instead, strong cryptography guarantees an association between your account and the device — e.g., your phone or computer — that you sign up with.
 

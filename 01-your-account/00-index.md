@@ -1,4 +1,4 @@
-# Your Account
+{% set section_title = "Your Account" %}
 
 Elsewhere online, a username and password are a standard way to establish an account and with that, a somewhat trustworthy identity. You create a username so you have a friendly way to refer to your account and establish identity. You create a password so no one else can access your account.
 

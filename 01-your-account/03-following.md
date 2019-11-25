@@ -1,4 +1,4 @@
-# Following
+{% set section_title = "Following" %}
 
 [Existing docs](https://keybase.io/docs/server_security/following)
 

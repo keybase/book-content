@@ -1,4 +1,4 @@
-# Inbox
+{% set section_title = "Inbox" %}
 All of your chats on Keybase are organized in one inbox. Your chats with individuals and groups of people are grouped at the top. Your chats with teams are grouped below. This lets you see all of your chats, from a high level, in one place.
 
 You can start a new chat with someone you know on the internet by searching for their social identity on Twitter, Facebook, GitHub, Reddit, or Hacker News. Or, you chat with someone you know IRL by searching for their email or phone number. If you start a chat with someone who doesn’t have a Keybase account, they will have to create one before they can receive your message.

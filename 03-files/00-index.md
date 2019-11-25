@@ -1,4 +1,4 @@
-# Files
+{% set section_title = "Files" %}
 Keybase lets you store and share files securely, confidentially, and quickly. Individuals can store up to 250 GB. Teams and subteams can store up to 100 GB.
 
 Anything you upload to Keybase is automatically [end-to-end encrypted](link to info about encryption). This means that no one else can read or access your files (nope, not even Keybase), unless you make them public or to choose to share them with others. If and when someone accesses your files, they can be 100% certain the files were created by you (because they’re automatically [signed](link to info about signing) by you).

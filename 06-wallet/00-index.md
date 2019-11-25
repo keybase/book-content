@@ -1,4 +1,4 @@
-# Wallet
+{% set section_title = "Wallet" %}
 
 Every Keybase account comes with a cryptocurrency wallet. This wallet is primarily for Stellar Lumens (XLM), but it can hold other currencies that are trusted through the Stellar network. There are a couple reasons for this. One is that [Keybase is funded by the Stellar Development Foundation](https://keybase.io/blog/keybase-stellar). And two is that we think Stellar is really a great decentralized, open-source, multi-currency network. Unlike most others, Stellar supports global transactions and automatically converts Lumens into whatever currency you prefer. Plus, transactions cost a fraction of a cent, are very fast, and don’t consume massive amounts of energy. 
 
