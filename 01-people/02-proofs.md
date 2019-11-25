@@ -8,6 +8,10 @@ Proofs are a good way to provide this assurance. In spirit, proofs are a simple 
 
 One of the most popular social proofs to add is Twitter…
 
+![]({{url_for('static', filename='img/kb-one-account.png')}})
+
+![]({{url_for('static', filename='img/kb-three-accounts.png')}})
+
 ## Archive
 
 Brief history lesson? What brought us to public key cryptography and how the challenge has been reduced to knowing whether a particular public key really belongs to the person you think it belongs to.
