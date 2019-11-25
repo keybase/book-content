@@ -12,6 +12,8 @@ One of the most popular social proofs to add is Twitter…
 
 ![]({{url_for('static', filename='img/kb-three-accounts.png')}})
 
+![]({{url_for('static', filename='img/kb-linked-devices-accounts.png')}})
+
 ## Archive
 
 Brief history lesson? What brought us to public key cryptography and how the challenge has been reduced to knowing whether a particular public key really belongs to the person you think it belongs to.
