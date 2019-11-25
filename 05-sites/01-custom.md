@@ -64,7 +64,7 @@ my-site.example.com. 300 IN TXT "kbp=git@keybase:team/gitwithkbpbot/git-site"
 
 After the regular DNS propagation delays, the pushed contents of the `master` branch of your repository will be available at `https://my-site.exampke.com`. 
 
-{# note: the old bits about private shared (no team) github repositories seem to be deprecated; I can't figure out how to do it if it's still possible #}
+{# note: the old bits about private shared (no team) Git repositories seem to be deprecated; I can't figure out how to do it if it's still possible #}
 
 ### Access Control
 
