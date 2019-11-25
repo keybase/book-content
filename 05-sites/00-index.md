@@ -1,4 +1,5 @@
-# Keybase Sites
+{% set section_title = "Keybase Sites" %}
+{% set nav_title = "Sites" %}
 
 One of the perks of the [Keybase filesystem](/files) is that you can easily host a website in your public folder. In this chapter, we’ll show you how, and we’ll also show you [how to configure a custom domain](/sites/custom).
 
