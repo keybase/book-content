@@ -7,15 +7,13 @@ When you first sign up for an account online, there are a couple of steps that h
 * You create a username, so that you have a friendly way to refer to your account and establish identity.
 * You create a password, so that no one else can access your account.
 
-DIAGRAM: Standard signup form with username, password, and confirm password fields.
+![]({{url_for('static', filename='img/kb-signup.png')}})
 
 These two concepts are important when we talk about identity online. There needs to be trust that an account belongs to you, and there needs to be trust that only you can access the account.
 
-DIAGRAM: Account ---> You & You ---> Account
-
 Usernames do a pretty good job, but even if you typically use the same username everywhere, your friends can’t know for sure that it’s really you at first. Over time, you can establish trust by linking to your account from your personal website (or from other, established accounts), telling people in person, etc.
 
-DIAGRAM: "I'm ____ on ____."
+![]({{url_for('static', filename='img/kb-passwords.png')}})
 
 Passwords don’t do such a good job, so additional concepts have been introduced to help. Password managers can be used to generate strong, random passwords for every account. You can also set up [multi-factor auth](TK), so even if your password is compromised, your account might not be.
 
