@@ -3,9 +3,9 @@ Before you can create a Keybase account, you need to install the app on your per
 
 As a head’s up, you’ll need to allow Keybase to install a new helper tool. Enter your computer or device’s password to allow the installation.
 
-While the app’s installing, there are a few things you should think about. Read on for all the juicy details.
+While the app’s installing, there are a few things you should think about. 
 
-## Username  
+## Your username  
 To create your Keybase account, you’ll need to choose your username. But please note:
 
 **Your username is public and it cannot be changed.**
