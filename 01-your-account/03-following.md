@@ -6,6 +6,8 @@ Friends can also follow you. This is a bit different than following on Twitter, 
 
 Over time, this guarantees to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
 
+### Questions, Assumptions, and Notes
+
 > Note: When we use a word that might need explaining, link it always, even if the reader should've read an explanation by this point. In this way, the book has a narrative, but the web is the web, and each URL should be independent.
 
 Every account on Keybase has a public history. "Sigchains" let Keybase clients reconstruct the present without trusting Keybase's servers. And when you "follow" someone on Keybase, you sign a snapshot of your view of the claims in their sigchain.
