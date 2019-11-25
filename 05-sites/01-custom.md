@@ -48,7 +48,25 @@ You might notice that we said *https*, not just *http*. Thanks to [Let's Encrypt
 
 You may prefer the workflow of publishing your content through [Git](/git) instead of regular [files](/files). We've got you covered.
 
-Instead of creating a shared folder, above, you can create a shared Keybase Git repository.
+Instead of creating a shared folder, above, you can create a shared Keybase Git repository, and publish that.
 
-{# TODO: I can't quite figure out how to create a private git repository and share it with kbpbot in the main app. #}
+First, you'll need to be on a team with `kbpbot`. You can create a new [team](/teams) and invite `kbpbot` to join it. In the main app, under Teams, `Create a team`, give it a name (we'll call ours `gitwithkbpbot`, but it can be anything), then `Add members` and invite `kbpbot` (it can do its job with just `reader` permissions). You can also add `kbpbot` to an existing team if you'd prefer.
+
+Now you can create a Git repository to use for your new site. In the main app, under Git: `New repository`, `New team repository`, choose the shared team with `kbpbot`, and give the repository a name. Let's call ours `git-site`.
+
+Clone the repository and add some content to it. Push to `master`.
+
+The DNS configuration for Git is a little different. The main `CNAME`/`ALIAS` record is the same (points at `kbp.keybaseapi.com`), but the `TXT` record needs to tell `kbpbot` about the Git repository instead of the filesystem location like before. It looks like this:
+
+```
+my-site.example.com. 300 IN TXT "kbp=git@keybase:team/gitwithkbpbot/git-site"
+```
+
+After the regular DNS propagation delays, the pushed contents of the `master` branch of your repository will be available at `https://my-site.exampke.com`. 
+
+{# note: the old bits about private shared (no team) github repositories seem to be deprecated; I can't figure out how to do it if it's still possible #}
+
+### Access Control
+
+If you'd like to set up basic HTTP authentication with your shared sites, you can do this by creating a `.kbp_config` file that is used to handle site-specific configuration. More information on `.kbp_config` and HTTP auth is [available in the docs](https://keybase.io/docs/kbp/kbp_config).
 
