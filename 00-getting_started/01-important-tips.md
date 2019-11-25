@@ -21,10 +21,10 @@ You’ll also have to create a name for your computer or device — and for any 
 
 Your devices help make your Keybase account secure and trustworthy. [Learn more](link to Devices section).
 
-## Password
-You don’t need to create a password for your Keybase account unless you sign out of the app. The cryptography that Keybase uses is more secure than passwords. [Learn more](link to People section).
+## On passwords
+It may seem strange, but you won’t be asked to create a password when you set up your account. That’s because you don’t need one unless you sign out of the app. The cryptography that Keybase uses is way more secure than passwords. You can [learn why in People](link to People section).
 
-## Keybase is free. Forever?
+## Keybase is free
 For now, Keybase is free for everyone. [Keybase is financially supported](https://keybase.io/blog/keybase-stellar) by the [Stellar Development Foundation](https://www.stellar.org/foundation/). 
 
 In the future, we may change our business model and charge for large teams or enterprises. But, we promise to keep Keybase free for everyone already using the app, as well as for personal and community use. So, go forth and enjoy!
