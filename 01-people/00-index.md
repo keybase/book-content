@@ -13,8 +13,6 @@ These two concepts are important when we talk about identity online. There needs
 
 Usernames do a pretty good job, but even if you typically use the same username everywhere, your friends can’t know for sure that it’s really you at first. Over time, you can establish trust by linking to your account from your personal website (or from other, established accounts), telling people in person, etc.
 
-![]({{url_for('static', filename='img/kb-passwords.png')}})
-
 Passwords don’t do such a good job, so additional concepts have been introduced to help. Password managers can be used to generate strong, random passwords for every account. You can also set up [multi-factor auth](TK), so even if your password is compromised, your account might not be.
 
 Keybase improves upon both of these basic concepts in important ways.
