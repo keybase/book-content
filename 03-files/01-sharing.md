@@ -1,6 +1,6 @@
 {% set section_title = "Sharing" %}
-# Sharing 
-To share files, upload them into a Keybase folder by dragging and dropping them right in or hitting the big ol’ Upload button in the app. You can upload files into three folders (or folders you’ve created within those folders) that have different privacy features: public, private, and team. 
+
+To share files, upload them into a Keybase folder by dragging and dropping them right in or hitting the big ol’ Upload button in the app. You can upload files into three folders (or folders you’ve created within those folders) that have different privacy features: public, private, and team.
 
 ## Private files
 Only you and the people you choose to share with can access files in your private folder. A handy way to quickly share files with someone you know on Keybase is to create a new folder and name it like so: ``yourusername,theirusername``. The people named on the folder will automatically have access to it.
@@ -12,5 +12,3 @@ Anyone on the internet can view the files in your public folder. You can also tu
 
 ## Team files
 A folder is automatically created for every team. Files in a team folder can only be accessed by the people on that team. But everyone on team can access all the files in the team folder. If you want to share files with only specific team members, you should create a subteam. Learn more about that in the [Teams chapter](link to Teams).
-
-
