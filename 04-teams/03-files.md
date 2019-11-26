@@ -5,5 +5,5 @@ Anything you upload to Keybase is automatically end-to-end encrypted. This means
 
 You can upload and share files with a team through the Keybase app, Finder (on a Mac), or Explorer (on Windows).
  
-[Learn more about files on Keybase](link to files chapter).
+Learn more in the [Files chapter](link to files chapter).
 
