@@ -22,7 +22,7 @@ On the command line, or in your Git UI tool of choice ([GitHub Desktop](https://
 
 ```
 sean@sarcasm tmp % git clone keybase://team/faculty_secrets/secrets
-Cloning into ’secrets’...
+Cloning into 'secrets'...
 Initializing Keybase... done.
 Syncing with Keybase... done.
 Counting: 77.01 KB... done.
