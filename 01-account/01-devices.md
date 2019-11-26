@@ -1,10 +1,10 @@
 {% set section_title = "Devices" %}
 
-Before you can create a Keybase account, you need to install the app. When you sign up for your Keybase account, you create a username (that *cannot* be changed). But you *don’t* create a password. Instead, strong cryptography guarantees an association between your account and the device — e.g., your phone or computer — that you sign up with.
+Before you can create a Keybase account, you need to install the app. When you sign up for your Keybase account, you create a username (that cannot be changed). But you *don’t* create a password. Instead, strong cryptography guarantees an association between your account and the device — e.g., your phone or computer — that you sign up with.
 
 ![]({{url_for("static", filename="img/kb-one-device.png")}})
 
-This association is guaranteed, which means the only way to lose your account is to lose your device. For this reason, a good next step is to add another device to your account. You can do this by installing Keybase on another device, providing your Keybase username, and then adding that device with the one you signed up with (using a QR code). After doing this, strong cryptography guarantees an association between your account and both devices.
+This association is guaranteed, which means the only way to lose your account is to lose your device. For this reason, a good next step is to add another device to your account. You can do this by installing Keybase on another device, providing your Keybase username, and then adding that device with the one you signed up with (using a QR code). After doing this, strong cryptography guarantees an association between your account and *both* devices.
 
 ![]({{url_for("static", filename="img/kb-two-devices.png")}})
 
