@@ -13,10 +13,10 @@ We know there are lots of reasons why people may need to change their usernames.
 ## Device names
 You’ll also name your computer or device, and any other device you add to Keybase. Like your username, device names are public and can’t be changed. Again, choose carefully. 
 
-Your devices also help make your Keybase account secure and trustworthy. [Learn more](link to Devices section).
+Your devices also help make your Keybase account secure and trustworthy. [Learn more](/account/devices).
 
 ## On passwords
-It may seem strange, but you won’t be asked to create a password when you set up your account. That’s because you don’t need one unless you sign out of the app. The cryptography that Keybase uses is way, way, way more secure than passwords. You can [learn why in the Your Account chapter](link to Your Account chapter).
+It may seem strange, but you won’t be asked to create a password when you set up your account. That’s because you don’t need one unless you sign out of the app. The cryptography that Keybase uses is way, way, way more secure than passwords. You can [learn why in the Your Account chapter](/account).
 
 ## Keybase is free
 For now, Keybase is free for everyone. [Keybase is financially supported](https://keybase.io/blog/keybase-stellar) by the [Stellar Development Foundation](https://www.stellar.org/foundation/). 

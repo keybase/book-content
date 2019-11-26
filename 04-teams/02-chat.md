@@ -5,7 +5,7 @@ For one, team members can reply privately to messages within team chats. Those m
  
 Otherwise, team chats have access to all the special features as other chats: files, location sharing, coin flips, and exploding messages.
  
-Read more in the [Chat chapter](link to Chat chapter). 
+Read more in the [Chat chapter](/chat). 
  
 ## Channels
 Channels can be used to organize team chats. If you add a channel to a team chat, your team becomes a big team and the chat moves to the lower part of your inbox. 
