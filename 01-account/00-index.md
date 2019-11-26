@@ -2,7 +2,7 @@
 
 Elsewhere online, a username and password are a standard way to establish an account and with that, a somewhat trustworthy identity. You create a username so you have a friendly way to refer to your account and establish identity. You create a password so no one else can access your account.
 
-![]({{url_for('static', filename='img/kb-signup.png')}})
+![]({{url_for("static", filename="img/kb-signup.png")}})
 
 These two concepts are important to online identity: others need to trust that an account belongs to you, and that only you can access that account.
 

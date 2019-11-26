@@ -18,9 +18,9 @@ All of your transactions are automatically tied to your [Keybase identity](/peop
 
 **To send or receive Lumens through chat**
 
-To quickly send Lumens from chat, you can send a private or team message that contains the syntax `+NXLM@username` where `N` is a number and `username` is the Keybase username of the person to which you'd like to send the Lumens (the `XLM` part can also be lowercase: `xlm`). e.g. `Hey; thanks for picking up that tab when forgot my wallet. +100XLM@chris`.
+To quickly send Lumens from chat, you can send a private or team message that contains the syntax `+NXLM@username` where `N` is a number and `username` is the Keybase username of the person to which you’d like to send the Lumens (the `XLM` part can also be lowercase: `xlm`). e.g. `Hey; thanks for picking up that tab when forgot my wallet. +100XLM@chris`.
 
-Before sending this message, the Keybase app will confirm the amount and receiver of the Lumens you're about to send (and it will show you the approximate value in US Dollars). You can send or cancel at this time.
+Before sending this message, the Keybase app will confirm the amount and receiver of the Lumens you’re about to send (and it will show you the approximate value in US Dollars). You can send or cancel at this time.
 
 
 ## Exchanging Lumens
@@ -33,7 +33,7 @@ In addition to sending Lumens, you can use the Wallet to transfer other currenci
 1. Hit the gear icon.
 1. Hit "Add Trustlines" (or "Manage Trustlines")
 
-Once you've added another Trustline, such as `USD: anchorusd.com`, you can convert Lumens (or other currencies) to this new currency when sending {# we need a word for "money" #} money to someone else on Keybase. Once you have another currency in your wallet, you can also send that directly to another recipient.
+Once you’ve added another Trustline, such as `USD: anchorusd.com`, you can convert Lumens (or other currencies) to this new currency when sending {# we need a word for "money" #} money to someone else on Keybase. Once you have another currency in your wallet, you can also send that directly to another recipient.
 
 Once you have Trustlines set up, you are free to remove them through the same interface (via "Manage Trustlines"), but you cannot remove all Trustlines for which you have currency in your wallet. (If you have USD in your wallet, the Keybase app will not allow you to remove all Trustlines for USD.) 
 
@@ -48,7 +48,7 @@ Once you have Trustlines set up, you are free to remove them through the same in
 1. Pick an asset to send, and the amount (such as "8.00 USD")
 1. Pick an asset from the "you will send approximately" section; you can convert any of the assets in your wallet to the sent currency
 1. Hit "Calculate"
-1. The app will tell you the approximate amount you're about to send
+1. The app will tell you the approximate amount you’re about to send
 1. If everything looks right to you, click "Send"
 
 
