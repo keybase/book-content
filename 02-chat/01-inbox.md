@@ -20,7 +20,4 @@ Your entire history of messages and files shared in chats are searchable and rea
 In team chats, owners can determine the length of chat history. Messages can be auto-deleted never, or at set intervals as short as 30 seconds and as long as 365 days. 
  
 But, so long as you choose to keep your chat history, you’ll always be able to dig into all of it. 
- 
-## Notifications
-You can manage the chat notifications you do or don’t want to receive for every chat or channel. Notifications can be sent to your desktop or mobile device. 
 
