@@ -12,6 +12,8 @@ Passwords are less effective. If you want an account to actually be secure, you 
 
 Keybase improves upon both of these concepts in significant ways.
 
+![]({{url_for('static', filename='img/kb-one-device.png')}})
+
 When you create a Keybase account, strong cryptography guarantees an association between your account and the device you signed up with. This means that no one else can access your account without having your device. If you add additional devices to your account, no one else can compromise your account without having all of your devices. You further prove that an account belongs to you through social proofs and following, both of which also rely on strong cryptography.
 
 The result is that your Keybase account is much more secure and trustworthy than other online accounts.
