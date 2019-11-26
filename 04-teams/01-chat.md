@@ -13,7 +13,7 @@ As team members are added, they’re announced in chat. All new team members can
 If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
 
 ### Roles and permissions
-As you add team members, you will need to assign roles which give each team member different permissions. In most cases, most people should be writers, unless you're managing a community. Then, you might want readers for your members. You can always change roles later. 
+As you add team members, you will need to assign roles which give each team member different permissions. In most cases, most people should be writers, unless you’re managing a community. Then, you might want readers for your members. You can always change roles later. 
 
 **Owners:**
 * Can create chat channels
@@ -61,7 +61,7 @@ Essentially, subteams are a way to create private chats and folders within teams
 
 Just like teams, subteams are “small teams” until they add chat channels and become a “big team.” But permissions and roles work a little differently. Only team owners and admins can make subteams. Subteams do not have owners. Subteams may have implicit admins, people who are admins of the parent team but not of this subteam. Implicit admins do not have access to files and chats shared within a subteam.
 
-{# Docs say this: “An implicit admin of a subteam who hasn't been explicitly added to the subteam does not get access to server-gated keys for that team, and therefore does not get access to KBFS and chat data. Thus, a subteam can avoid dangerous situations in which all of its members have lost their access to data.” BUT implicit admins can delete subteams, which would delete all of their files and chats. #}
+{# Docs say this: “An implicit admin of a subteam who hasn’t been explicitly added to the subteam does not get access to server-gated keys for that team, and therefore does not get access to KBFS and chat data. Thus, a subteam can avoid dangerous situations in which all of its members have lost their access to data.” BUT implicit admins can delete subteams, which would delete all of their files and chats. #}
 
 [Learn more about how subteams work on Keybase](https://keybase.io/docs/teams/design). 
 

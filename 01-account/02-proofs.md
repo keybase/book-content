@@ -8,11 +8,11 @@ Proofs are a good way to provide this assurance. In spirit, proofs are a simple 
 
 One of the most popular social proofs to add is Twitter.
 
-![]({{url_for('static', filename='img/kb-one-account.png')}})
+![]({{url_for(’static’, filename=’img/kb-one-account.png’)}})
 
-![]({{url_for('static', filename='img/kb-three-accounts.png')}})
+![]({{url_for(’static’, filename=’img/kb-three-accounts.png’)}})
 
-![]({{url_for('static', filename='img/kb-linked-devices-accounts.png')}})
+![]({{url_for(’static’, filename=’img/kb-linked-devices-accounts.png’)}})
 
 ### Questions, Assumptions, and Notes
 
