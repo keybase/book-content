@@ -9,7 +9,7 @@ Keybase Book
 [Tagline]
 Crypto for everyone
 
-[Subhead]
+[Subhead]  
 Everything you do on Keybase is encrypted, private, and secure.
 
 [Chapters: Icon/illo, chapter title, and summary]
@@ -18,7 +18,7 @@ Getting Started
 Keybase is different. Here are things you need to know.
 
 Your Account  
-Your Keybase account is more secure than other online accounts. Learn why.
+It’s way more secure than other online accounts. Learn how.
 
 Chat  
 Share messages and files with anyone.
@@ -38,10 +38,10 @@ Send, receive, and exchange currencies.
 Git  
 Create and share private, secure repositories. 
 
-[Other potential bits]
-Download the app (it’s freeeeee)
-Search
-Send feedback
-Sign up for feature updates (and/or Read about the latest update about [TK: privacy])
-Link to crypto docs
-Link to blog
+[Other potential bits]  
+* Download the app (it’s freeeeee)
+* Search
+* Send feedback
+* Sign up for feature updates (and/or Read about the latest update about [TK: privacy])
+* Link to crypto docs
+* Link to blog
