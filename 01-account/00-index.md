@@ -1,9 +1,9 @@
 {% set section_title = "Your Account" %}
 
-Your Keybase account is way more secure than most other online accounts, thanks to strong cryptography. To help explain how your Keybase account is so secure, we’ll start with a closer look at how most other online accounts work.
-
 TL;DR: Username and password combinations help create only somewhat secure accounts. Keybase creates super secure accounts by using public-key cryptography to associate your account with the device(s) you install the app on and other actions taken, including social proofs and following. 
-{# would be nice to format this as “important info” #}
+{# Would be nice to format this differently than other text on this page #}
+
+Your Keybase account is way more secure than most other online accounts, thanks to strong cryptography. To help explain how your Keybase account is so secure, we’ll start with a closer look at how most other online accounts work.
 
 ![]({{url_for("static", filename="img/kb-signup.png")}})
 {# Can we update this image? Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
