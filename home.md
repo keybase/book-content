@@ -18,7 +18,7 @@ Getting Started
 Keybase is different. Here are things you need to know.
 
 Your Account  
-Your Keybase account is more secure than other online accounts. 
+It’s way more secure than other online accounts. Learn how.
 
 Chat  
 Share messages and files with anyone.
