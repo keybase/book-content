@@ -1,6 +1,6 @@
 {% set section_title = "Devices" %}
 
-## Your devices help make your account more secure
+## Make your account more secure
 TL;DR: Adding devices and paper keys to your Keybase account helps make it more secure. No one can compromise your account unless they have access to all of your devices and paper keys.
 {# Would be nice to format this differently than other text on this page. #}
 
@@ -14,7 +14,7 @@ This association guarantees that you can only access your account through your d
 
 If you lose or replace a device, you can and should remove it.  You can add any new device that you might buy in the future. So long as you don’t lose all of your devices at the same time, you can always access your Keybase account.
 
-### Paper keys help too
+### Paper keys help, too
 But say you do lose all of your devices at once. If you’ve created a paper key, you can still access your Keybase account and remove all of those devices.
 
 Paper keys work similarly to devices. [Creating one automatically associates the long string of words with your account.] {# Is that true? Can we explain a little how paper keys work? #} 
