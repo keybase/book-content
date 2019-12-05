@@ -3,6 +3,8 @@
 ## Welcome to Keybase
 Keybase is a free and super secure app for chats, teams, files, and more. It’s [open-source](https://github.com/keybase/client) and powered by [public-key cryptography](https://keybase.io/docs/crypto/overview). 
 
+{# Need: better intro that includes why you should use Keybase, what you can use it on, and any tips for downloading #}
+
 Cryptography ensures Keybase’s security but it also means the app works a little differently than others. Here are a few things you should know as you get started. 
 
 ### Your username  
