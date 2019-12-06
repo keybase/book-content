@@ -1,6 +1,10 @@
 {% set section_title = "Following" %}
 
-Friends can also follow you. This is a bit different than following on Twitter, but it’s a similar concept. When you follow someone on Keybase, you’re signing their identity (series of events, including devices added and removed, proofs, etc.), which helps prove to others that their identity hasn’t been tampered with. Over time, this provides a lot of trust that your account has not been compromised, because it would require someone to compromise your account for a long period of time. The longer the period of time, the less likely someone could keep it up.
+## Confirm who your friends are
+
+TL;DR: Following helps confirm that people are who they say they are on Keybase. {# VIP info/tip: Only follow someone if you’re sure they are who they say they are. #} 
+
+You can follow people you know and they can follow you. But it’s not the same as following someone on Twitter or Instagram. When you follow someone on Keybase, you’re confirming that they are who they say they are. {# Need a friendlier way to talk about this: You’re signing their identity (series of events, including devices added and removed, proofs, etc.), which helps prove to others that their identity hasn’t been tampered with. #} Over time, this provides a lot of trust that an account has not been compromised, because it would require someone to compromise that account for a long period of time. The longer the period of time, the less likely someone could keep it up.
 
 Over time, this guarantees to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
 

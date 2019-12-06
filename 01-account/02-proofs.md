@@ -1,6 +1,6 @@
 {% set section_title = "Proofs" %}
 
-## Tell people who you are on Keybase
+## Confirm who you are 
 
 TL;DR: Proofs publicly and provably link your Keybase account to your other online accounts so people can see that you are really you.
 
@@ -8,7 +8,7 @@ Once you’ve added a device (or two) and a paper key (or two), your ownership o
 
 Now you’re ready to let others know your Keybase account belongs to you. The best way to do this is to tell them in person, especially people you know. But there are probably people you primarily interact with online or don’t know yet, and you want them to know your account is really yours, too.
 
-Proofs are a good way to provide this assurance. In spirit, proofs are a simple way to let people know that the person who owns a particular Keybase account can prove they also own other online accounts, or even websites, and these proofs are public and provable.
+Proofs are a good way to provide this assurance. In spirit, proofs are a simple way to let people know that the person who owns a particular Keybase account can prove they also own other online accounts or websites. These proofs are public and provable.
 
 ### Proofs are public
 VIP info/tip: When you add a proof, make sure it’s public and don’t delete it.
