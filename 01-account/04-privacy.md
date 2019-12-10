@@ -1,4 +1,4 @@
-{% set section_title = “Privacy” %}
+{% set section_title = "Privacy" %}
 
 ## Rough draft: Public keys have to be public
 TL;DR Accounts on Keybase can’t be private but you can block people and control who can add you to chats and teams.
