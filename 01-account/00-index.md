@@ -21,20 +21,20 @@ Passwords are less effective. If you want an account to actually be secure, you 
 
 You don’t actually need a password on Keybase because your trustworthy identity is built differently — and is actually secure.
 
-### Public-key encryption provides more protection
+### Public-key encryption is more secure
 Before we get into this, let’s define some terms that will be useful to understand. Encryption is the process of scrambling data or info so that it can’t be read. Decryption reverses that so data can be read again. 
 
 Encryption and decryption can happen symmetrically or asymmetrically. In symmetric encryption, the same key, or process, is used to both scramble and unscramble the data. In asymmetric encryption, two different keys are used: one for scrambling the data and another for unscrambling. It takes a ton of math to make this happen, but we won’t get into that. For now, we’ll use a short story to show how this works.
 
-Say two people, Alice and Bob, need to share a credit card number over the internet. If they use symmetric encryption, they both need to have the same key to encrypt and decrypt the information. If they met in person, sharing the key would be easy. But over the open internet, anyone could intercept the key and then also be able to decrypt and access the credit card number. If Alice and Bob use asymmetric encryption, Alice could encrypt the number using one key and Bob could decrypt it using another. Alice could even use Bob’s public key — a key that anyone has access to — to encrypt. Bob would then decrypt it using his private key — one that only he has access to. Keybase uses this asymmetric, or public-key, cryptography. Every message or file that’s sent through Keybase is encrypted using a public key and decrypted using a private key.
+Say two people, Alice and Bob, need to share a credit card number over the internet. If they use symmetric encryption, they both need to have the same key to encrypt and decrypt the information. If they met in person, sharing the key would be easy. But over the open internet, anyone could intercept the key and then also be able to decrypt and access the credit card number. If Alice and Bob use asymmetric encryption, Alice could encrypt the number using one key and Bob could decrypt it using another. Alice could even use Bob’s public key — a key that anyone has access to — to encrypt. (Alice just needs to be absolutely sure that Bob is really Bob. Learn about that in [Proofs](/proofs).) Bob would then decrypt it using his private key — one that only he has access to. Keybase uses this asymmetric, or public-key, cryptography. 
+Every message or file that’s sent through Keybase is encrypted using a public key and decrypted using a private key.
 
 When you create an account on Keybase, you get a public key and a private key. Think of your account as a lockbox. Anyone can drop something in your lockbox using the public key. But only you can retrieve what’s in the lockbox using your private key. 
 
 Public-key cryptography also powers secure websites (https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as the username and password you use to access them. 
 
-{# Copy need: a good, clear explanation of how public-key encryption works. Resources: https://support.1password.com/authentication-encryption/
-https://www.cloudflare.com/learning/ssl/how-does-public-key-encryption-work/ #}
+So, instead of relying on usernames and passwords to protect your private key, Keybase uses more cryptography. When you create a Keybase account, strong cryptography associates your account with the device you signed up with. This means that no one else can access your account without having your device. If you add additional devices to your account, no one else can compromise your account without having all of your devices. 
 
-So, instead of relying on usernames and passwords to protect your private key, Keybase uses more cryptography. When you create a Keybase account, strong cryptography associates your account with the device you signed up with. This means that no one else can access your account without having your device. If you add additional devices to your account, no one else can compromise your account without having all of your devices. You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also supported by strong cryptography.
+You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also supported by strong cryptography.
 
 As a result, your Keybase account is much more secure and trustworthy than other online accounts.
