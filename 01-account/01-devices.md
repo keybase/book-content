@@ -6,7 +6,7 @@ TL;DR: Adding devices and paper keys to your Keybase account helps make it more 
 
 VIP info/tip: Add multiple devices and paper keys to your account to ensure its security.
 
-When you create your Keybase account, strong cryptography guarantees an association between your account and the device — your phone or computer — that you sign up with.
+When you create your Keybase account, strong cryptography guarantees an association between your account and the device — your phone or computer — that you sign up with. 
 
 ![]({{url_for("static", filename="img/kb-one-device.png")}})
 
