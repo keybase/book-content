@@ -14,7 +14,7 @@ This association guarantees that you can only access your account through your d
 
 ![]({{url_for("static", filename="img/kb-two-devices.png")}})
 
-If you lose or replace a device, you can and should remove it.  You can add any new device that you might buy in the future. So long as you don’t lose all of your devices at the same time, you can always access your Keybase account.
+If you lose or replace a device, you can and should remove it.  You can also add any new device that you might buy in the future. So long as you don’t lose all of your devices at the same time, you can always access your Keybase account.
 
 ### Paper keys help, too
 But say you do lose all of your devices at once. If you’ve created a paper key, you can still access your Keybase account and remove all of those devices.
@@ -26,4 +26,4 @@ You should create at least one paper key. We recommend that you write it down (i
 ![]({{url_for('static', filename='img/kb-three-devices.png')}})
 {# illo update: minor but can we edit the paper key to show an actual string of words written so it looks more like an actual paper key? #}
 
-With a few devices and paper keys, you have control over your account in a way that is extremely reliable and trustworthy. Now you’re ready to let people know this account belongs to you.
+With a few devices and paper keys, you have control over your account in a way that is extremely reliable and trustworthy. Now you’re ready to let people know this account belongs to you with proofs.
