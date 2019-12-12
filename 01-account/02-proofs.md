@@ -10,6 +10,8 @@ Now you’re ready to let others know your Keybase account belongs to you. The b
 
 Proofs are a good way to provide this assurance. In spirit, proofs are a simple way to let people know that the person who owns a particular Keybase account can prove they also own other online accounts or websites. These proofs are public and provable.
 
+{#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
+
 ### Proofs are public
 VIP info/tip: When you add a proof, make sure it’s public and don’t delete it.
 
