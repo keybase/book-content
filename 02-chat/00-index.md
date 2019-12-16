@@ -1,7 +1,7 @@
 {% set section_title = "Chat" %}
 ## Securely share messages and files
 
-You can use chat on Keybase to share messages and files with anyone you know IRL or online: individuals, groups of people, or teams. All of your chats are organized in one inbox.
+You can use chat on Keybase to share messages and files with anyone you know IRL or online: individuals, groups of people, or teams. 
 
 When you chat with someone on Keybase, you can be 100% sure your conversation is just between you and that person. No one else, not even Keybase, can read your messages. 
 
