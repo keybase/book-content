@@ -9,13 +9,12 @@ Keeping public keys public makes sure that everyone has access to all the featur
 
 You can trust that people are who they say they are on Keybase — not just because they say they are, and not just because Keybase says they are, but — because absolutely anyone can double-check and be sure that they are. This is also why you can’t use a private Twitter or GitHub account as proofs. If accounts are private, not everyone can verify them, and the system starts to break down.
 
-### You can block and report inappropriate accounts
-But, you can still control how you use Keybase and who can interact with you here. You can keep your account open and block and report people as needed, on an individual basis. Or, you can close off chat you can Learn more about blocking people and controlling who can add you to chats and teams in Chat.
+### Blocking and reporting
+But, you can still control how you use Keybase and who can interact with you here. You can block and report people on an individual basis. Or, you can limit who can chat with you and add you to a team. Learn more in [Chat](chat/blocking).
 
-### Something about following/followers TK
 Even if you block someone, they can still follow you. You can remove them from your follows so you don’t see them. But they can still see you.
 
-## Privacy policy TK
+### Privacy policy TK
 Keybase won’t sell or rent your data or content for any reason.
 
 By design, Keybase can’t access, sell, transmit, or use your encrypted content.
