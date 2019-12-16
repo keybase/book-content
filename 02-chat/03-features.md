@@ -1,7 +1,8 @@
 {% set section_title = "Special features" %}
-Like most other chat apps, you can send people GIFs and emoji-laden messages. But Keybase lets you do a lot of other things that you can’t do in other places, like share your location, make extra-sensitive messages explode, or flip a coin. 
+## Do more with chat
+Like most other chat apps, you can send people GIFs and emoji-laden messages. You can even send audio messages from a mobile device. But Keybase lets you do a lot of other things that you can’t do in other places, like share your location, make extra-sensitive messages explode, or flip a coin. 
 
-You can even send or request funds over chat, in Lumens or any other currency you choose. Learn more about that in the [Wallet chapter](/wallet).
+You can also send or request funds over chat, in Lumens or any other currency you choose. Learn more about that in the [Wallet chapter](/wallet).
 
 ## Location sharing
 You can securely share your location through a chat with any individual, group, or team. You can even share your live location for a set period of time and it will automatically update as you move. 

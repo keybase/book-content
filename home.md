@@ -40,6 +40,7 @@ Create and share private, secure repositories.
 
 [Other potential bits]  
 * Download the app (it’s freeeeee)
+* Point people to Keybase FM for latest feature updates
 * Search
 * Send feedback
 * Sign up for feature updates (and/or Read about the latest update about [TK: privacy])
