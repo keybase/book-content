@@ -25,16 +25,16 @@ Verifying myself: I am marypoppins on Keybase.io. qqwVuwQvrQjnXG-2MUb7pdkhZzBwyX
 
 For convenience, Keybase will verify this proof. But importantly, anyone can (you don’t have to trust Keybase). So, your tweet must be public and you can’t delete it.
 
-![]({{url_for("static", filename="img/kb-one-account.png")}})
+![](/img/kb-one-account.png)
 
 {# Can this illo be updated to include what looks like a screenshot of Mary Poppins’s tweet to help indicate that the tweet itself must be public/visible/not deleted? #}
 
 It’s a good idea to add multiple proofs. More proofs give people more assurance that your Keybase account really belongs to you.
 
-![]({{url_for("static", filename="img/kb-three-accounts.png")}})
+![](/img/kb-three-accounts.png)
 
 Once you’ve added multiple devices and multiple proofs, you can be sure that only you can access your Keybase account, and other people can be sure your Keybase account really belongs to you.
 
-![]({{url_for("static", filename="img/kb-linked-devices-accounts.png")}})
+![](/img/kb-linked-devices-accounts.png)
 
 Your account is extremely trustworthy. Now you can securely use chat, files, and all the other features on Keybase.

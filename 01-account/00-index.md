@@ -8,7 +8,7 @@ TL;DR: Accounts protected by a username and password are only somewhat secure. Y
 Your Keybase account is way more secure than most other online accounts, thanks to strong cryptography. To help explain how your Keybase account is so secure, we’ll start with a closer look at how most other online accounts work.
 
 ### Passwords are only kinda secure
-![]({{url_for("static", filename="img/kb-signup.png")}})
+![](/img/kb-signup.png)
 {# illo need: Update this one. Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
 
 Elsewhere online, a username and password are all you need to create an account. You create a username so you have a friendly way to refer to your account and establish identity. You create a password so no one else can access your account. 
