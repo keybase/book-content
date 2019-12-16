@@ -1,6 +1,6 @@
 {% set section_title = "Privacy" %}
 
-## Accounts are public but features can be private
+## Accounts are public  
 TL;DR Accounts on Keybase can’t be totally private. But you can block and report people. You can also control who is allowed to add you to Keybase features like chats and teams.
 
 Accounts on Keybase are public. You can block and report people and control who can add you to chats and teams. But you can’t make your account private. This may seem a little nuts but it’s actually part of what makes Keybase so secure. On Keybase, anyone can find anyone else’s public key and know that it’s absolutely the right one without having to use any other (potentially vulnerable and hackable) channels of communication.
@@ -15,7 +15,7 @@ But, you can still control how you use Keybase and who can interact with you her
 ### Something about following/followers TK
 Even if you block someone, they can still follow you. You can remove them from your follows so you don’t see them. But they can still see you.
 
-## Something about Keybase’s general privacy policy TK
+## Privacy policy TK
 Keybase won’t sell or rent your data or content for any reason.
 
 By design, Keybase can’t access, sell, transmit, or use your encrypted content.
