@@ -1,19 +1,19 @@
 {% set section_title = "Keybase Sites" %}
 {% set nav_title = "Sites" %}
 
-One of the perks of the [Keybase filesystem](/files) is that you can easily host a website in your public folder. In this chapter, we’ll show you how, and we’ll also show you [how to configure a custom domain](/sites/custom).
+One of the perks of [Keybase Files](/files) is that you can easily host a website in your public folder. 
 
 ## Quick start
 
-Create a file called `index.md` in your public folder (`/keybase/public/{username}`) with the following content:
+Create a file called `index.md` with the following content:
 
 ```
 # Hello, world!
 ```
 
-Once you save this file, your website is immediately available at `https://{username}.keybase.pub/`. Try it out!
+Drop this file into your public folder and you’ll see it immediately available at `https://{username}.keybase.pub/`. Try it out.
 
-The `#` is [Markdown](https://daringfireball.net/projects/markdown/basics), and you can use HTML, too. Instead of `index.md`, an HTML file needs to be named `index.html`.
+The formatting (`#`) used in this example is [Markdown](https://daringfireball.net/projects/markdown/basics). You can use HTML, too. But instead of `index.md`, name an HTML file `index.html`.
 
 ## Organizing your website
 
