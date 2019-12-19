@@ -1,4 +1,4 @@
-{% set section_title = "Custom domains” %}
+{% set section_title = "Custom domains" %}
 
 You can also use a custom domain with Keybase Sites.
 
