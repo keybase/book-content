@@ -12,4 +12,4 @@ You can manage who can and can't chat with you with blocking. You can also repor
 [**Special features**](/chat/special-features)
 Keybase’s encryption enables some special features like location sharing, exploding messages, and coin flips. 
 
-{# nice to have a visual blurb that says something like: Chat on Keybase is entirely encrypted, private, and secure. You can be 100% sure your conversation is just between you and that person. No one else, not even Keybase, can read your messages. #}
+{# Nice to have a stylized blurb that says something like: Chat on Keybase is entirely encrypted, private, and secure. You can be 100% sure your conversation is just between you and that person. No one else, not even Keybase, can read your messages. #}
