@@ -1,6 +1,6 @@
 {% set section_title = "Security & identity" %}
 
-## Protect your data and your identity
+## Protect your data and identity
 Keybase uses public-key cryptography to protect both your files and messages *and* your account itself. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account. 
 
 ### Your account is your identity
@@ -31,9 +31,9 @@ If you used asymmetric encryption, you could encrypt the message using one key o
 Keybase uses this asymmetric, public-key encryption. And more specifically, we use 256-bit encryption — one of the most secure methods. Someone would have to try more than 115 quattuorvigintillion possible keys to hack your private keys. Not even a hundred thousand computers could try all those keys in trillions of years. 
 
 #### Messages and files on Keybase are encrypted
-Every message or file that’s sent through Keybase is encrypted using a public key and decrypted using a private key. You can think of your account as a lockbox. Anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
+Every message or file on Keybase is encrypted using a public key and decrypted using a private key. You can think of Keybase as a lockbox. Anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
 
-Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity — or the username and password you use to access them. 
+Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity — as the username and password you use to access them. 
 
 #### Keybase accounts are also encrypted
 {# illo: need to think this through more but would be nice to have something that shows something like a lockbox inside of a lockbox. The outer lockbox is your encrypted account (maybe show the two keys, one on your device and one on Keybase’s server) and the inter lockbox contains the encrypted messages and files you send (maybe also show the keys encrypting and decrypting your messages). #}
