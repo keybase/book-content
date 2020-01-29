@@ -1,11 +1,9 @@
 {% set section_title = "Crypto 101" %}
 
-## Your Keybase account is super, super secure
-TL;DR: Accounts protected by a username and password are only somewhat secure. Your Keybase account is super secure because it uses public-key cryptography to protect both your account *and* the files and messages you share and receive. 
+## Protect your identity and your data
+Your Keybase account is super secure because it uses public-key cryptography to protect both the files and messages you share and receive *and* your account itself. Protecting your account is important because it’s basically your identity. It confirms that you are actually *you* on the internet. 
 
-{# Would be nice to format this differently than other text on this page #}
-
-Your Keybase account is way more secure than most other online accounts, thanks to strong cryptography. To help explain how your Keybase account is so secure, we’ll start with a closer look at how most other online accounts work.
+To help explain how your Keybase account is so secure, we’ll start with a closer look at how most other online accounts work.
 
 ### Passwords are only kinda secure
 ![](/img/kb-signup.png)
