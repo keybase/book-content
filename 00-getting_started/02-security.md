@@ -13,12 +13,13 @@ Together, a username and password help establish a potentially secure and trustw
 
 But, usernames are only somewhat effective. Even if you use the same username everywhere, your friends can’t know for sure that it’s really you. Over time, you can build trust by linking to your account from your personal website or other established accounts (like your Twitter or Instagram), or by telling people in person.
 
-Passwords are less effective. If you want an account to actually be secure, you likely use a password manager to generate a strong, random password. You may also set up multi-factor authentication; so even if your password is compromised, your account might not be. But with just a password, your account — and your identity — can easily be compromised. 
+Passwords are less effective. If you want an account to actually be secure, you likely use a password manager to generate a strong, random password. You may also set up multi-factor authentication; so even if your password is compromised, your account might not be. But with just a password, your account — and with it, your identity — can easily be compromised. 
 
+### Encryption provides exponential security
 You don’t need a password on Keybase because your account is protected with layers of encryption. Creating an account on Keybase establishes an online identity that’s much more  trustworthy than most other accounts. Your friends, family, and other contacts can be sure that you are who you say you are on Keybase.
 
-### Asymmetric encryption provides exponential security
-Before we get into the details, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process — basically a ton of math that we won’t get into — that does the encrypting or decrypting.
+#### Keybase uses asymmetric, 256-bit encryption
+Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process — basically a ton of math that we won’t get into — that does the encrypting or decrypting.
 
 Encryption and decryption can happen symmetrically or asymmetrically. In **symmetric encryption**, the same key is used to both scramble and unscramble the data. In **asymmetric encryption**, a pair of two different keys, usually, a public and a private key are used: one for scrambling the data and another for unscrambling. 
 
@@ -32,18 +33,19 @@ That is really secure. But in case you’re not convinced, we’ll tell a short 
 
 Say you need to share a top secret message with Mary Poppins,  over the internet. If you used symmetric encryption, both of you would need to have the same key. If you met in person, sharing the key would be easy. But if you tried to share the key over the internet, anyone could intercept it and then also be able to decrypt and access your top secret message. 
 
-If you used asymmetric encryption, you could encrypt the message using a public key and Ms. Poppins could decrypt it using her private key. You just need to be absolutely sure that Mary Poppins is really Mary Poppins. Thankfully, she has a Keybase account (for the purposes of this story, at least). 
+If you used asymmetric encryption, you could encrypt the message using a public key and Ms. Poppins could decrypt it using her private key. You just need to be absolutely sure that Mary Poppins is really Mary Poppins. Thankfully, for the purposes of this story, at least, she has a Keybase account. You can send her your top secret message by finding her and chatting her on Keybase.
 
-#### Messages and files on Keybase are encrypted
-Every message or file on Keybase is encrypted using a public key and decrypted using a private key. You can think of Keybase as a lockbox. Anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
+### Messages and files are encrypted
+Every message or file on Keybase is encrypted using a public key and decrypted using a private key. If think of Keybase as a lockbox: anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
 
-Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity — as the username and password you use to access them. 
+Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity or account — or as the username and password you use to access them. 
 
-#### Keybase accounts are also encrypted
+### Accounts are also encrypted
 {# illo: need to think this through more but would be nice to have something that shows something like a lockbox inside of a lockbox. The outer lockbox is your encrypted account (maybe show the two keys, one on your device and one on Keybase’s server) and the inter lockbox contains the encrypted messages and files you send (maybe also show the keys encrypting and decrypting your messages). #}
 
 Instead of relying on usernames and passwords to protect your account — your identity — Keybase uses more cryptography. 
 
+#### Devices, proofs, and following provide even more protection
 When you create your account, Keybase creates a key pair. The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account without having your device (not even Keybase). If you add additional devices to your account, [each one of those devices also gets a key pair]. So, no one else can compromise your account without having all of your devices. This guarantees that only you have access to your account, your “lockbox,” or more importantly — your identity. 
 
 You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also protected by cryptography. 
