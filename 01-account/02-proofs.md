@@ -1,40 +1,29 @@
 {% set section_title = "Proofs" %}
 
 ## Confirm who you are 
-
 TL;DR: Proofs publicly and provably link your Keybase account to your other online accounts so people can see that you are really you.
 
-Once you’ve added a device (or two) and a paper key (or two), your ownership of your account is extremely reliable. In fact, it’s much more trustworthy than any account protected with only a password. Well done.
+VIP tip: Add multiple proofs to provide more assurance that you are you.
 
-Now you’re ready to let others know your Keybase account belongs to you. The best way to do this is to tell them in person, especially people you know. But there are probably people you primarily interact with online or don’t know yet, and you want them to know your account is really yours, too.
+The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.  
 
-Proofs are a good way to provide this assurance. In spirit, proofs are a simple way to let people know that the person who owns a particular Keybase account can prove they also own other online accounts or websites. These proofs are public and provable.
+Proofs let people know that the person who owns a particular Keybase account also owns other online accounts or websites. Proofs are public and provable.
 
 {#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
 
-### Proofs are public
-VIP info/tip: When you add a proof, make sure it’s public and don’t delete it.
+### Add proofs
+You can add your Twitter, GitHub, Reddit, or HackerNews accounts, or your personal website as proofs on your Keybase account. 
 
-You can add proofs for your Twitter, GitHub, Reddit, or HackerNews accounts, or your personal website. Twitter is one of the most popular social proofs. 
-
-To prove your link to your Twitter account, you’ll be asked to tweet something like this:
-
-```
-Verifying myself: I am marypoppins on Keybase.io. qqwVuwQvrQjnXG-2MUb7pdkhZzBwyXWujXUz / https://keybase.io/marypoppins/sigs/qqwVuwQvrQjnXG-2MUb7pdkhZzBwyXWujXUz
-```
-
-For convenience, Keybase will verify this proof. But importantly, anyone can (you don’t have to trust Keybase). So, your tweet must be public and you can’t delete it.
+For convenience, Keybase verifies proofs. But importantly, anyone can—you don’t have to trust Keybase. So, proofs must be public and you can’t delete them.
 
 ![](/img/kb-one-account.png)
+{# update this illo to 1: include a screenshot of Mary Poppins’s tweet to help indicate that the tweet itself must be public/visible/not deleted and 2: indicate that the tweet confirms the proof with something like a checkmark #}
 
-{# Can this illo be updated to include what looks like a screenshot of Mary Poppins’s tweet to help indicate that the tweet itself must be public/visible/not deleted? #}
+For example, if you want to use your Twitter account as a proof, you’ll tweet a specific phrase that includes your Keybase username. For the proof to work, you must tweet the phrase exactly as it is, your account must be public, and you can’t delete the tweet.
 
-It’s a good idea to add multiple proofs. More proofs give people more assurance that your Keybase account really belongs to you.
+All of that info must be available to allow other people to verify your proof.
 
 ![](/img/kb-three-accounts.png)
 
-Once you’ve added multiple devices and multiple proofs, you can be sure that only you can access your Keybase account, and other people can be sure your Keybase account really belongs to you.
+Add as many proofs as you can. More proofs give people more assurance that your Keybase account really belongs to you. 
 
-![](/img/kb-linked-devices-accounts.png)
-
-Your account is extremely trustworthy. Now you can securely use chat, files, and all the other features on Keybase.
