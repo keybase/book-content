@@ -12,7 +12,7 @@ Proofs let people know that the person who owns a particular Keybase account als
 {#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
 
 ### Add proofs
-You can add your Twitter, GitHub, Reddit, or HackerNews accounts, or your personal website as proofs on your Keybase account. 
+You can add your Twitter, GitHub, Reddit, or HackerNews accounts, or your personal website as proofs. 
 
 For convenience, Keybase verifies proofs. But importantly, anyone can—you don’t have to trust Keybase. So, proofs must be public and you can’t delete them.
 
