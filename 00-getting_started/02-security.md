@@ -1,7 +1,7 @@
 {% set section_title = "Security" %}
 
 ## Protect your data and identity
-Keybase uses public-key cryptography to protect both your files and messages *and* your account itself. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account. 
+Cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account. 
 
 ### Your account is your identity
 ![](/img/kb-signup.png)
