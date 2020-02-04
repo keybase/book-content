@@ -1,20 +1,17 @@
 {% set section_title = "Privacy" %}
 
 ## Manage your privacy  
-TL;DR Keybase won’t ever sell or rent your data or content. And by design, Keybase can’t access, sell, transmit, or use any of your chats or files (they’re encrypted!). But accounts on Keybase can’t be totally private. You can block and report people. You can also control who is allowed to add you to Keybase features like chats and teams.
+By design, Keybase can’t access or use any of your messages or files (because they’re end-to-end encrypted).  
 
+But accounts on Keybase can’t be totally private. And public info can’t be totally deleted. You can revoke info to indicate that it’s changed. You can block and report people. You can also control who is allowed to add you to Keybase features like chats and teams.
 
-### Keybase’s privacy policy 
-You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long but you can also skip around to find the info that’s most important to you. 
+### Your data is your data 
+You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long and you can skip around to find the info that’s most important to you. 
 
-The gist is that Keybase won’t sell or rent your data or content for any reason. We’ll never rely on ads for revenue. Instead, we’ll probably eventually charge for special features for larger corporations.
+The gist is that Keybase won’t sell or rent your data or content for any reason. We can’t even access it. And, we’ll never rely on ads for revenue. Eventually, we may charge for special features for larger corporations. (But individual and existing accounts will always be free.)
 
-Keybase can’t access, sell, transmit, or use your private messages or files. We
-
-We use a public blockchain to protect our users from misbehaving servers. Because of that, you can’t delete your publicly announced account information and account activity once you post it to your signature chain. You can, however, revoke it. Revoking, in Keybase, means retracting the original statement, indicating that it’s no longer true, or that the information has changed.
-
-
-https://keybase.io/docs/privacypolicy
+### Public info can’t be deleted 
+Keybase uses a public blockchain to protect you from bad actors. Because of this, you can’t delete any account information that’s public (your username, device names, and proofs, for example). You can revoke public info. Revoking, in Keybase, means retracting the original information, indicating that it’s no longer true, or has otherwise changed.
 
 Accounts on Keybase are public. You can block and report people. You can even control who can add you to chats and teams. But you can’t make your account totally private. This may seem a little nuts but it’s actually part of what makes Keybase so trustworthy. On Keybase, anyone can find anyone else’s public key and know that it’s absolutely the right one without having to use any other (potentially vulnerable and hackable) channels of communication.
 
