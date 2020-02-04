@@ -1,7 +1,7 @@
 {% set section_title = "Important tips" %}
 
 ## Before you get started
-The most important thing to know is that your Keybase account and everything you share through it are encrypted and secure. Not even Keybase can access your data. This means we’ll never sell or rent it. (We couldn’t, even if we wanted to do. But rest assured, we really don’t want to.)
+The most important thing to know is that your Keybase account and everything you share through it are end-to-end encrypted and secure. Not even Keybase can access your data. This means we’ll never sell or rent it. (We couldn’t, even if we wanted to do. But rest assured, we really don’t want to.)
 
 You should also know that some of your information is public. Know what’s what before you create your account.
 
