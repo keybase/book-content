@@ -4,14 +4,14 @@ Message friends, share sensitive information with colleagues, or organize entire
 
 {# insert annotated screenshot of inbox #}
 
-### With individuals
+### Chat with individuals
 To start new chats quickly, find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
 
 If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. 
 
 Chats with individuals and groups work similarly to SMS and group texts (but, in case you forgot, they’re super duper secure). New messages move a conversation to the top of your inbox.   
 
-### With groups of people
+### Chat with groups of people
 You can use Chat on Keybase just like you would group messages on your phone. But you can also do a lot more.
 
 If you want to add or remove people from a group, turn it into a team. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels to a chat, your team becomes a big team (and moves to the lower part of your inbox).
