@@ -16,7 +16,3 @@ Proofs link your Keybase account to your other online accounts so people can see
 [Following](accounts/following)  
 Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. [Learn more](accounts/following).
 
-[Privacy](accounts/privacy)  
-Keybase accounts can’t be totally private. But you can control who is allowed to add you to things like chats and teams. You can also block and report people. [Learn more](accounts/privacy).
-
-
