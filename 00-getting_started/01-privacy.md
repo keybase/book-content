@@ -5,7 +5,7 @@ Your messages and files on Keybase are end-to-end encrypted. Not even Keybase ca
 
 But accounts on Keybase can’t be totally private. And some public info can’t be totally deleted. 
 
-You can also block and report people. You can further control who’s allowed to add you to Keybase features like chats and teams.
+You can block and report people. You can further control who’s allowed to add you to Keybase features like [Chat](/chat) and [Teams](/teams).
 
 ### Your data is your data 
 You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long and you can skip around to find the info that’s most important to you. 
@@ -26,14 +26,14 @@ So, anyone on the internet can search, find, and see your Keybase account and so
 
 Your username, device names, and public key also can’t be deleted. These pieces of information are basically cryptographically linked to your Keybase account. They’re all part of a public record that bolsters the [security](getting-started/security) of your account. 
 
-#### Your username is public. 
+#### Your username is public and can’t be changed or deleted. 
 Before you create your account, give your username some thought. Anyone on the internet can see it and it can’t be changed or deleted.
 
 Choosing your username is the first thing in a series of things you’ll do to help establish [your account](/your-account) — which is basically your online identity — on Keybase. Changing it has the potential to undo everything that helps confirm that you are who you say you are. 
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 
-#### Device names are public.
+#### Device names are public and can’t be changed or deleted.
 You’ll also name the computer and/or devices you download Keybase on. Device names are also visible to everyone on the internet and can’t be changed or deleted.
 
 Again, choose carefully. Your devices help make your Keybase account secure and trustworthy. Devices can be revoked, Learn more in [Devices](/account/devices).
@@ -45,9 +45,9 @@ You can control who can interact with you on Keybase. You can block and report p
 
 When you block someone, they’re removed from your public list of followers. You won’t see them and their account will not be publicly associated with yours. But they can still follow you. 
 
-When you report someone, we review their account. We will remove people that have violated our [terms](https://keybase.io/docs/terms). Please provide additional information so we can remove spammers, abusers, and harassers as quickly as possible.
+When you report someone, we review their account as quickly as humanly possible. We will remove people that have violated our [terms](https://keybase.io/docs/terms). Please provide additional information so we can remove spammers, abusers, and harassers even more quickly.
 
-## Notes/Scraps
+### Notes/Scraps
 On Keybase, anyone can find anyone else’s public key and know that it’s absolutely the right one without having to use any other (potentially vulnerable and hackable) channels of communication.
 
 Keeping public keys public makes sure that everyone has access to all the features and functionality on Keybase. It also helps ensure that you get the messages and files that are intended for you.
