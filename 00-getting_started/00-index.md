@@ -1,7 +1,7 @@
 {% set section_title = "The Basics" %}
 
-## Connect and share safely and securely
-Chat, collaborate, manage files, and more on Keybase. You can use it do pretty much anything you do on the internet—but safely and securely.
+## Connect, share, and get work done safely and securely
+Chat, collaborate, manage files, and more on Keybase. Keybase has all the tools you need to connect, share, and get work done safely and securely. 
 
 Keybase is free and will never be supported by adds. Your data is your data for ever and ever. Keybase can’t even access it. 
 

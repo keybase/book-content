@@ -1,8 +1,12 @@
 {% set section_title = "Your inbox" %}
-## All your chats in one place
-All of your chats on Keybase are organized in one inbox. Your chats with individuals, groups, and teams are collected at the top. If you’re part of a big team (a team chat with channels), those chats will be grouped below.  
+## Chat and share securely
+All of your chats on Keybase are organized in one secure inbox. 
 
-You can start a new chat with someone you know on the internet by searching for their social identity on different platforms. Or, you can chat with someone you know IRL by searching for their email or phone number. If you start a chat with someone who doesn’t have a Keybase account, they will have to create one before they can receive your message.
+Chats with individuals, groups, and teams are collected at the top. If you’re part of a big team (a team chat with channels), those chats will be grouped below.  
+
+To start new chats quickly, find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
+
+If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message.
 
 Chats with individuals and groups work similarly to SMS and group texts (but, in case you forgot, they’re super duper secure). New messages move a conversation to the top of your inbox.   
 
