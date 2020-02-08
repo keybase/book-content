@@ -1,11 +1,11 @@
 {% set section_title = "Keybase Sites" %}
 {% set nav_title = "Sites" %}
 
-## Make a website
-One of the perks of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder. 
+## Make a simple website
+One of the lesser known perks of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder. 
 
-### Get started quickly
-To see how it works, create a document and title it `index.md`. You can type anything in your file but it’s kind of a tradition to try new things out on the internet with this:
+### Try it out
+To see how it works, create a document and title it `index.md`. You can type anything but it’s kind of a tradition to try new things out on the internet with this:
 
 ```
 # Hello, world!
@@ -15,7 +15,7 @@ Drop this index file into your public folder and you’ll immediately see it on 
 
 The formatting (`#`) used in this example is [Markdown](https://daringfireball.net/projects/markdown/basics). You can use [HTML](https://www.w3schools.com/html/), too. But instead of `index.md`, name a file with HTML `index.html`.
 
-### Organize your website
+### Organize your pages
 To add and organize pages on your website, you just need to create and organize folders in your public folder. 
 
 Only files titled `index.md` or `index.html` (they’re called index files, go figure) will show up on your website. So, to add multiple pages, you need to add multiple folders, each with an index file. 
