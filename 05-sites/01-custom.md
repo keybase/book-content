@@ -1,25 +1,18 @@
 {% set section_title = "Custom domains" %}
 
+### Add a custom domain
 You can also use a custom domain with Keybase Sites.
 
-This is done by sharing a private folder with a special Keybase bot user, and adding a couple DNS records on your domain name, which instruct Keybase how and where to host your content.
+You’ll need to share a private folder with a Keybase bot and add a couple DNS records on your domain name, which instruct Keybase how and where to host your content.
 
-You can also share a [Git](/git) repository, but we’ll cover a simple shared folder first.
-
+#### Share a folder with kbpbot
 Let’s say you’d like to share some files on a host called `my-site.example.com` (assuming you own `example.com` and control the DNS). 
 
-### Share a folder with kbpbot
-
-The first thing you’ll need to do is to share a folder with the keybase user named `kbpbot` (Keybase Pages Bot).
-
-Then, go to your Files in Keybase. In your private folder,  create another folder titled `person,kbpbot` (this is `/keybase/private/person,kbpbot`). Only you and `kbpbot` can access, read, and edit files in this private folder. 
+The first thing you’ll need to do is to share a folder with `kbpbot`. In your private Keybase folder, create another folder titled `person,kbpbot`. Only you and `kbpbot` can access, read, and edit files in this private folder. 
 
 Within this folder, you need another folder that will hold your site’s contents. Let’s call that `my-site`. So, you’ll now have a folder titled `/keybase/private/person,kbpbot/my-site`. Drop some HTML, CSS, images, and any other files you’d like to share on a public HTTPS host in here.
 
-Sharing your data with `kbpbot` isn’t enough, though. The next step is setting up DNS records.
-
-### Set up DNS records
-
+#### Set up DNS records
 In order for your domain/hostname to point at the Keybase servers, you’ll need to set up a `CNAME` record (you could also use an `ALIAS` record to forward an `A`/`AAAA` record) that points at the hostname `kbp.keybaseapi.com`. So, you’d have something like:
 
 ```
@@ -38,15 +31,13 @@ _keybase_pages.my-site.example.com. 300 IN TXT "kbp=/keybase/private/person,kbpb
 
 This record tells `kbpbot` to look in this folder to share your files.
 
-### A secure (HTTPS) connection
-
-If your configuration went smoothly, the contents of your Keybase folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
+#### Your site is secure (HTTPS) 
+If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
 
 You might notice that we said *https*, not just *http*. Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, and for free.
 
-### Using Git instead
-
-You may prefer the workflow of publishing your content through [Git](/git) instead of regular [files](/files). We’ve got you covered.
+### Use Git instead
+You may prefer to publish your content through [Git](/git) instead of regular [files](/files). We’ve got you covered.
 
 Instead of creating a shared folder, as above, you can create a shared Keybase Git repository, and publish that.
 
