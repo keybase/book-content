@@ -31,7 +31,7 @@ _keybase_pages.my-site.example.com. 300 IN TXT "kbp=/keybase/private/person,kbpb
 
 This record tells `kbpbot` to look in this folder to share your files.
 
-#### Your site is secure (HTTPS) 
+#### Bask in sweet HTTPS security 
 If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
 
 You might notice that we said *https*, not just *http*. Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, and for free.
@@ -58,7 +58,6 @@ After the regular DNS propagation delays, the pushed contents of the `master` br
 {# note: the old bits about private shared (no team) Git repositories seem to be deprecated; I can’t figure out how to do it if it’s still possible #}
 
 ### Access control
-
 If you’d like to set up basic HTTP authentication with your shared sites, you can do this by creating a `.kbp_config` file that is used to handle site-specific configuration. 
 
 You can learn more about .kbp_config and HTTP auth [in the docs](https://keybase.io/docs/kbp/kbp_config).
