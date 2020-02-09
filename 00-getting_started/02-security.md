@@ -1,11 +1,12 @@
 {% set section_title = "Security" %}
 
-## Protect your data and identity
+## Keep your data and identity secure
 Cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account. 
 
 ### Your account is your identity
 ![](/img/kb-signup.png)
 {# illo need: Update this one. Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
+By identity, we don’t mean your entire being, that would be weird. But you can and should think of your online identity as something you don’t want people to steal or compromise. 
 
 Often, a username and password are all you need to create an online account. You create a username so you have a friendly way to claim the account as your own. You create a password so no one else can access it. 
 
