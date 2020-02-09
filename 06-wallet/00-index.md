@@ -10,17 +10,16 @@ If you want to learn more, read up on the [blog] (https://keybase.io/blog/keybas
 ### Send and receive Lumens
 All of your transactions are automatically tied to your Keybase [account](/account) so it’s quick and easy to send and receive Lumens to and from other people on Keybase, Stellar addresses, or your other Stellar accounts. You can do so in Wallet or Chat.
 
-#### Send or receive in Wallet
+#### Send in Wallet
 1. Select the Hamburger menu icon.
 2. Select Wallet.
 3. Select your recipient or username.
 4. Enter the amount.
 5. Select send or request to complete your transaction.
 
-#### Send or receive in Chat
-To send Lumens in Chat, write a message that contains `+NXLM@username`. `N` is the amount and `username` is the Keybase username of the person you’d like to send the Lumens to. For example, `Thanks for picking up the tab when I forgot my wallet. +100XLM@chris`.
-
-Before sending this message, Keybase will confirm the amount and receiver of the Lumens. It will also show you the approximate value in US Dollars. 
+#### Send in Chat
+1. Write a message that contains `+NXLM@username`. `N` is the amount and `username` is the Keybase username of the person you’d like to send the Lumens to. For example, `Thanks for picking up the tab when I forgot my wallet. +100XLM@chris`.
+2. Keybase will confirm the amount and receiver of the Lumens before sending the message. It will also show you the approximate value in US Dollars. 
 
 ### Exchange Lumens
 You can also transfer other currencies using the *Trustlines* built into the Stellar network path payments.
@@ -35,7 +34,7 @@ Once you’ve added another Trustline, such as `USD: anchorusd.com`, you can con
 
 You can remove Trustlines in the same way, via “Manage Trustlines.” But you can’t remove all Trustlines for which you have currency in your wallet. (For example, if you have USD in your wallet, you can’t remove all Trustlines for USD.) 
 
-#### Send a currency other than Lumens
+#### Send other currencies
 1. Select the Hamburger menu icon.
 2. Select Wallet to open your wallet.
 3. Select Send.
