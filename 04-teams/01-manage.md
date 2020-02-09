@@ -1,58 +1,28 @@
 {% set section_title = "Manage a team  " %}
-## Manage a team
-Before you create a team, there are a few things you should know:
-* Teams are public. Outsiders can see that they exist but not necessarily who is in them. 
-* Team members can choose to publish the teams they belong to on their profiles. 
-* Team names cannot be changed. 
-* All team names must be unique, between 2 and 16 characters, and cannot start with an underscore. 
 
-### Add and remove team members
-You can create a team from scratch. Or if your team’s on Slack, you can [import it right into Keybase](https://keybase.io/slack-importer/).
+### Organize your people
+Teams can be what we call big teams, subteams, or open teams. Each has different features and abilities.
 
-Adding members by Keybase username is the quickest way to create a team. If you add people by their social handle, email, or phone numbers, they’ll need to create a Keybase account before they can join. 
+#### Big teams: Organize chats in channels
+If you create channels for a chat, your team becomes a big team. It doesn’t matter how many people are in it, even a team of two can be a big team. 
 
-As team members are added, they’re announced in chat. All new team members can search and read the entire chat history (or at least whatever hasn’t exploded). 
+Channels are a way to organize chats. They’re useful for focused conversations on say, a specific project or lunch ideas, but they’re not private. Everyone on a team can search and read all messages and files shared in any and every channel. To privately chat or share files, you need to create a subteam. 
 
-If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
+#### Subteams: Share private messages and files
+A subteam is a group of people within a team. A subteam can also include people from outside of a team. For example, an organization may want to create subteams for a particular team and a hiring committee. These subteams might be named `earnieforpresident.policy` and `earnieforpresident.policy.hiring`.
 
-#### Roles and permissions
-When you add team members, you’ll assign roles which give each team member different permissions. In most cases, most people should be writers, unless you’re managing a community. Then, you might want your members to be readers. You can always change roles later. 
+Subteams let you share private chats and folders within teams. And while teams are public (outsiders may see that they exist but can’t necessarily see everyone  in them), subteams are stealthy. People who aren’t in them can’t see them. 
 
-**Owners:**
-* Can create chat channels
-* Can create subteams
-* Can add and remove members
-* Can manage team members’ roles
-* Can write and read in chats and folders
-* Can delete team 
+Just like teams, a subteam can become a “big team” by adding chat channels. But permissions and roles work a little differently:
+* Only team owners and admins can make subteams. 
+* Subteams do not have owners. 
+* Subteams may have “implicit admins,” people who are admins of the parent team but not of this subteam. 
+* Implicit admins do not have access to files and chats shared within a subteam.
 
-**Admins:**
-* Can create chat channels
-* Can create subteams
-* Can add and remove members
-* Can manage team members’ roles
-* Can write and read in chats and folders
-* *Can not* delete the team
+{# Docs say this: “An implicit admin of a subteam who hasn’t been explicitly added to the subteam does not get access to server-gated keys for that team, and therefore does not get access to KBFS and chat data. Thus, a subteam can avoid dangerous situations in which all of its members have lost their access to data.” BUT implicit admins can delete subteams, which would delete all of their files and chats. #} 
 
-**Writers:** 
-* Can write and read in chats and folders
-* Can create chat channels
-* *Can not* create subteams
-* *Can not* add and remove members
-* *Can not* manage team members’ roles
-* *Can not* delete the team
+#### Open teams: Build community
+Anyone can join an open team. So, if you’re building a community, you might want to make an open team. You can also let the Keybase community know about it and we may be able to help get the word out. 
 
-**Readers:**
-* Can write in chats but can only read in folders
-* *Can not* create chat channels
-* *Can not* create subteams
-* *Can not* add and remove members
-* *Can not* manage team members’ roles
-* *Can not* delete team
+If you know of an open team you’d like to join, for example keybasefriends or stellar.public, you can hit `Join a team` to request being added. Since you can’t necessarily see who is on a team, Keybase pings the admin for you. The admin can accept or ignore your request.
 
-{# The above info may be more useful as a diagram/chart. There’s a reference with more detail here, under Access Matrix: https://keybase.io/docs/teams/design #}
-
-### Leave or delete a team
-If you leave a team, any messages and files you shared remain with the team, but you lose access to them. You can only rejoin a team if you are invited by an admin or owner. 
-
-Only a team owner can delete a team. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost, all data in the team folder(s) is lost, and all team members are notified.
