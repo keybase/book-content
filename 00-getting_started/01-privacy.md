@@ -1,9 +1,9 @@
 {% set section_title = "Privacy" %}
 
-## Keep private stuff private  
+## Privacy on Keybase  
 Your messages and files on Keybase are end-to-end encrypted. Not even Keybase can access them.  
 
-But accounts on Keybase can’t be totally private. And some public info can’t be totally deleted. To hopefully avoid any confusion or embarrassing moments, we’re gonna lay it all out.
+But accounts on Keybase can’t be totally private. And some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’re gonna lay it all out.
 
 ### Your data is your data 
 You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long and you can skip around to find the info that’s most important to you. 
