@@ -1,26 +1,24 @@
 {% set section_title = "Security" %}
 
-## Keep your data and identity secure
+## Security on Keybase
 Cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account. 
 
-### Your account is your identity
+### Your account is encrypted
 ![](/img/kb-signup.png)
 {# illo need: Update this one. Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
-By identity, we don’t mean your entire being, that would be weird. But you can and should think of your online identity as something you don’t want people to steal or compromise. 
+Lots of other places online only require that you use a username and password. Together, they help establish a potentially secure and trustworthy online identity. You and others may assume that the account belongs to you—thanks to your username—and that only you can access it—thanks to your password.
 
-Often, a username and password are all you need to create an online account. You create a username so you have a friendly way to claim the account as your own. You create a password so no one else can access it. 
+But, even if you use the same username everywhere, your friends can’t know for sure that it’s really you. Overtime, you can build trust by using it. But that’s all wiped out if (when) you’re hacked. (Hackers are getting smarter, but if you’re reading this, so are you.) 
 
-Together, a username and password help establish a potentially secure and trustworthy online identity. You and others may assume that the account belongs to you and that only you can access it.
+Passwords are even less effective. If you want an account to actually be secure, you need a strong, random password. You may also set up multi-factor authentication. So even if your password is compromised, your account might not be. But with just a password, your account can easily be compromised. And that’s bad. Your account is basically your identity. Not in the sense of who you are as a human—that’d be weird. [TK: better explanation here] But your identity online, where people need to be sure that you are really you before they share anything that matters. 
 
-But, usernames are only somewhat effective. Even if you use the same username everywhere, your friends can’t know for sure that it’s really you. Over time, you can build trust by linking to your account from your personal website or other established accounts (like your Twitter or Instagram), or by telling people in person.
+### Cryptography provides exponential security
+Instead of a username and password, Keybase uses cryptography. Everything you keep and share in Keybase is end-to-end encrypted. Your account itself is also encrypted. 
 
-Passwords are less effective. If you want an account to actually be secure, you likely use a password manager to generate a strong, random password. You may also set up multi-factor authentication; so even if your password is compromised, your account might not be. But with just a password, your account — and with it, your identity — can easily be compromised. 
-
-### Encryption provides exponential security
-You don’t need a password on Keybase because your account is protected with layers of encryption. Creating an account on Keybase establishes an online identity that’s much more  trustworthy than most other accounts. Your friends, family, and other contacts can be sure that you are who you say you are on Keybase.
+Creating an account on Keybase establishes an online identity that’s much more  trustworthy than most other accounts. Your friends, family, and other contacts can be sure that you are who you say you are on Keybase.
 
 #### Keybase uses asymmetric, 256-bit encryption
-Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process — basically a ton of math that we won’t get into — that does the encrypting or decrypting.
+Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process—basically a ton of math that we won’t get into—that does the encrypting or decrypting.
 
 Encryption and decryption can happen symmetrically or asymmetrically. In **symmetric encryption**, the same key is used to both scramble and unscramble the data. In **asymmetric encryption**, a pair of two different keys, usually, a public and a private key are used: one for scrambling the data and another for unscrambling. 
 
