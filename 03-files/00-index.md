@@ -1,5 +1,5 @@
 {% set section_title = "Files" %}
-## Store everything that matters
+## Keybase for Files
 Keep and share your most important documents, photos, and videos on Keybase Files. 
 
 TL;DR You can store and share files easily and securely, from any device you use Keybase on. You can organize your documents into private, public, or team files.

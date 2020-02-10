@@ -1,9 +1,9 @@
 {% set section_title = "Blocking" %}
 
-## Control who you chat with
+## Blocking & reporting in chat
 All accounts on Keybase are public but you can control who can chat with you and add you to a team.
 
-### Manage privacy efficiently
+### Control who you chat with
 If someone you don’t follow and haven’t chatted with before contacts you on Keybase, you’ll get a head’s up. With one click, you can wave to say hello, view their profile, or block them. If you want to chat, start typing and the notification will automatically disappear.
 
 #### Block people you don’t want to interact with

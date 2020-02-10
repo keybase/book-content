@@ -1,6 +1,6 @@
 {% set section_title = "Git" %}
 
-## Create super private Git repos
+## Keybase for Git
 Keybase supports free, encrypted, authenticated, and private [Git](https://git-scm.com/) repositories.
 
 You can put any kind of content in these repositories, but they’re especially useful for personal private repos, or for secret content shared among teams. 

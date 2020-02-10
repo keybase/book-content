@@ -1,6 +1,6 @@
 {% set section_title = "Following" %}
 
-## Help keep accounts trustworthy
+## Following helps keep accounts trustworthy
 
 TL;DR: Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
 

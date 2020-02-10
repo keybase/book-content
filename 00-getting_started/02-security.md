@@ -37,18 +37,15 @@ If you used asymmetric encryption, you could encrypt the message using a public 
 ### Messages and files are encrypted
 Every message or file on Keybase is encrypted using a public key and decrypted using a private key. If think of Keybase as a lockbox: anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
 
-Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity or account — or as the username and password you use to access them. 
+Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity or account—or as the username and password you use to access them. 
 
-### Accounts are also encrypted
-{# illo: need to think this through more but would be nice to have something that shows something like a lockbox inside of a lockbox. The outer lockbox is your encrypted account (maybe show the two keys, one on your device and one on Keybase’s server) and the inter lockbox contains the encrypted messages and files you send (maybe also show the keys encrypting and decrypting your messages). #}
+Thank goodness your Keybase account—your identity—is encrypted.
 
-Instead of relying on usernames and passwords to protect your account — your identity — Keybase uses more cryptography. 
-
-#### Devices, proofs, and following provide even more protection
+#### Devices, proofs, and following provide more protection
 When you create your account, Keybase creates a key pair. The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account without having your device (not even Keybase). If you add additional devices to your account, [each one of those devices also gets a key pair]. So, no one else can compromise your account without having all of your devices. This guarantees that only you have access to your account, your “lockbox,” or more importantly — your identity. 
 
 You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also protected by cryptography. 
 
-But now you know, your Keybase account is much more secure and trustworthy than other online accounts.
+But now you know, your Keybase account is much more secure and trustworthy than other online accounts. Phew.
 
 

@@ -1,7 +1,7 @@
 {% set section_title = "Wallet" %}
 
-## Stash cryptocurrency
-You can use Keybase Wallet for Stellar Lumens (XLM) and other currencies that are trusted through the Stellar network. 
+## Keybase Wallet
+You can use Keybase Wallet to stash Stellar Lumens (XLM) and other currencies that are trusted through the Stellar network. 
 
 If you’re new to cryptocurrency, the nice thing about Keybase Wallet is that it just works on any device you use Keybase on. You can easily send and receive Lumens from your Wallet or Chat. And amounts are automatically converted into the currency of your choice (US Dollars, for example). 
 

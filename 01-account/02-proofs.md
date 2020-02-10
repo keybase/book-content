@@ -1,6 +1,6 @@
 {% set section_title = "Proofs" %}
 
-## Confirm who you are 
+## Proofs help confirm who you are 
 TL;DR: Proofs link your Keybase account to your other online accounts so people can see that you are really you. Proofs are public and can be double-checked.
 
 VIP tip: Add multiple proofs to provide more assurance that you are you.

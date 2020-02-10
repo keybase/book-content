@@ -1,5 +1,5 @@
 {% set section_title = "Chat" %}
-## Share messages and files with anyone
+## Keybase for Chat
 Chat with anyone: individuals, groups of people, or teams. 
 
 All of your messages and files—anything you share on Keybase Chat—are end-to-end encrypted and secure. 

@@ -1,6 +1,6 @@
 {% set section_title = "Devices" %}
 
-## Make your account more secure
+## Devices make your account more secure
 TL;DR: Adding devices and paper keys to your Keybase account helps ensure that only you can access it. No one can compromise your account unless they have all of your devices and paper keys.
 
 VIP tip: Add multiple devices and paper keys to your account to ensure its security.

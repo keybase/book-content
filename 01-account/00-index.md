@@ -1,6 +1,6 @@
 {% set section_title = "Your Account" %}
 
-## Protect your identity
+## Your Keybase account
 Multiple layers of encryption make Keybase accounts—and by extension, your identity—extremely secure and trustworthy. 
 
 Installing the app on your computer or device provides the first layer; adding more devices, adding proofs, and following provide additional layers of security.

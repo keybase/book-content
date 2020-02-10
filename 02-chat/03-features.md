@@ -1,5 +1,5 @@
 {% set section_title = "Special features" %}
-## Do more with Chat
+## Special features in chat
  The cryptography that powers Keybase Chat also lets you do a lot of things you can’t do in other chat apps, like share your live location, make extra-sensitive messages explode, or flip a coin. 
 
 You can also send or request funds over chat, in Lumens or any other currency you choose. Learn more in [Wallet](/wallet).
