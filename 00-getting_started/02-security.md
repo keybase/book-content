@@ -4,13 +4,14 @@
 Cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you* — not someone who hacked or otherwise accessed your account.
 
 ### Your account is encrypted
+{# I think we want to come up with a better way to say this, because saying your account is encrypted is imprecise, which can erode trust in what we say. It's as if we're just using terminology to stress that it's secure. #}
 ![](/img/kb-signup.png)
 {# illo need: Update this one. Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
 Lots of other places online only require that you use a username and password. Together, they help establish a potentially secure and trustworthy online identity. You and others may assume that the account belongs to you—thanks to your username—and that only you can access it—thanks to your password.
 
-But, even if you use the same username everywhere, your friends can’t know for sure that it’s really you. Overtime, you can build trust by using it. But that’s all wiped out if (when) you’re hacked. (Hackers are getting smarter, but if you’re reading this, so are you.)
+But, even if you use the same username everywhere, your friends can’t know for sure that it’s really you. Over time, you can build trust by using it. But that’s all wiped out if (when) you’re hacked. (Hackers are getting smarter, but if you’re reading this, so are you.)
 
-Passwords are even less effective. If you want an account to actually be secure, you need a strong, random password. You may also set up multi-factor authentication. So even if your password is compromised, your account might not be. But with just a password, your account can easily be compromised. And that’s bad. Your account is basically your identity. Not in the sense of who you are as a human—that’d be weird. [TK: better explanation here] But your identity online, where people need to be sure that you are really you before they share anything that matters.
+Passwords are even less effective. If you want an account to actually be secure, you need a strong, random password. You may also set up multi-factor authentication, so even if your password is compromised, your account might not be. But with just a password, your account can be compromised. And that’s bad. Your account is basically your identity. Not in the sense of who you are as a human—that’d be weird. [TK: better explanation here] But your identity online, where people need to be sure that you are really you before they share anything that matters.
 
 ### Cryptography provides better security
 Instead of a username and password, Keybase uses cryptography. Everything you keep and share in Keybase is end-to-end encrypted. Your account itself is also encrypted.
@@ -42,7 +43,7 @@ Public-key cryptography also powers secure websites (those with URLS that start 
 Thank goodness your Keybase account—your identity—is encrypted.
 
 #### Devices, proofs, and following provide more protection
-When you create your account, Keybase creates a key pair. The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account without having your device (not even Keybase). If you add additional devices to your account, [each one of those devices also gets a key pair]. So, no one else can compromise your account without having all of your devices. This guarantees that only you have access to your account, your “lockbox,” or more importantly — your identity.
+When you create your account, Keybase creates a key pair. The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account without having your device (not even Keybase). If you add additional devices to your account, [each one of those devices also generates a key pair]. So, no one else can compromise your account without having all of your devices. This guarantees that only you have access to your account, your “lockbox,” or more importantly — your identity.
 
 You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also protected by cryptography.
 
