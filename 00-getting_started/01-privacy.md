@@ -1,11 +1,11 @@
 {% set section_title = "Privacy" %}
 
 ## Privacy on Keybase  
-Messages and files on Keybase are end-to-end encrypted. All your secrets are safe. Not even Keybase can access them. 
+Messages and files on Keybase are end-to-end encrypted. Not even Keybase can access them. 
 
 But accounts on Keybase can’t be totally private. For example, everyone on the internet can see your profile photo. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
 
-Tip: Your username and device names on Keybase are public and can’t be changed or deleted. Give them some thought before you create your account.
+Tip: Before you create your account, consider your username and names for your devices. They’re public and can’t be changed or deleted. 
 
 ### Your data is your data 
 You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long and you can skip around to find the info that’s most important to you. 
@@ -13,7 +13,7 @@ You can and should read our whole [privacy policy](https://keybase.io/docs/priva
 The gist is that Keybase won’t sell or rent your data or content for any reason. Again, we can’t even access it. And, we’ll never rely on ads for revenue. Eventually, we may charge for special features for larger corporations. (But individual and existing accounts will always be free.)
  
 #### Your data is secure
-It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is exponentially more secure than passwords. Learn more in [Security](/getting-started/security).
+It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/getting-started/security).
 
 ### Some of your info is public 
 Public-key cryptography ensures that private info stays private on Keybase. But public-key cryptography works best when public keys are, well, public. (Learn more in [Security](getting-started/security).)
