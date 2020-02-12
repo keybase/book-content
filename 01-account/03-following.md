@@ -1,10 +1,9 @@
 {% set section_title = "Following" %}
 
 ## Following helps keep accounts trustworthy
+Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
 
-TL;DR: Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
-
-You can follow people on Keybase and they can follow you. But it’s not the same as following someone on Twitter or Instagram. Following on Keybase doesn’t necessarily imply any sort of relationship or exchange. 
+Tip: Follow people on Keybase to help make your account and theirs more trustworthy. 
 
 ### Follow people 
 You can and definitely should follow people you know and interact with on Keybase. But following helps keep accounts secure and trustworthy even if you don’t know someone you follow or someone who follows you. 
@@ -25,16 +24,15 @@ Along the same lines, the older a follower is, the more security it provides. Re
 So, as long as someone’s account hasn’t been hacked the day you follow them (which would be wild), you can be pretty confident they are who they say they are on Keybase. Likewise, your own followers help guarantee to your friends that your Keybase account is you, and better, to future friends that your Keybase account is you.
 
 **The big takeaway: follow soon and follow often.** 
+If you keep (ahem) *following* this logic, it’s easy to see that an older Keybase account is more secure and trustworthy than a newer Keybase account. So, if you haven’t already, install the app and set yours up.
 
 This is a pretty simplified version of how following works. You can dig into more details in our [docs](https://keybase.io/docs/server_security/following) and on [Github](https://github.com/keybase/keybase-issues/issues/100). (Note: following was previously called tracking.)
 
-One more sidenote: if you keep (ahem) *following* this logic, it’s easy to see that an older Keybase account is more secure and trustworthy than a newer Keybase account. So, if you haven’t already, install the app and set yours up.
-
 ### Block unwanted followers
-While even followers you don’t know help keep your account secure, you can block them. 
+While even followers you don’t know help keep your account trustworthy, you can block them. 
 
-Blocking lets you hide people on your profile (so they don’t appear in your list of followers). It can also prevent them from starting a chat with you or adding you to a team. But please note, they will still be following you. The public record that was created when they followed you will still exist. And they may know that you blocked them if they attempt to chat with you or add you to a team.
+When you block someone, you can remove them from your public list of followers. You won’t see them and their account will not be publicly associated with yours. They also won’t be able to chat with you or add you to a team.
 
-You can learn more about blocking in (Chat)[/chat/blocking].
+But please note, they will still technically be following you. The public record that was created when they followed you will still exist. And they may know that you blocked them if they attempt to chat with you or add you to a team. You can learn more about blocking in (Chat)[/chat/blocking].
 
 
