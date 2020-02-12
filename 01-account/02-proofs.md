@@ -1,11 +1,11 @@
 {% set section_title = "Proofs" %}
 
 ## Proofs help confirm who you are 
-TL;DR: Proofs link your Keybase account to your other online accounts so people can see that you are really you. Proofs are public and can be double-checked.
-
-VIP tip: Add multiple proofs to provide more assurance that you are you.
-
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.  
+
+Proofs link your Keybase account to your other online accounts so people can see that you are really you. Proofs are public and can be double-checked.
+
+Tip: Add as many proofs as you can to provide the most assurance that you are you on Keybase.
 
 {#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
 
@@ -19,7 +19,7 @@ For convenience, Keybase verifies proofs. But importantly, proofs are public so 
 
 For example, if you want to use your Twitter account as a proof, you’ll tweet a specific phrase that includes your Keybase username. For the proof to work, you must tweet the phrase exactly as it is, your account must be public, and you can’t delete the tweet.
 
-All of that info must be available to allow other people to verify your proof.
+All of that info must be available to allow other people to verify your proof. Most people probably won’t double-check them and again, you don’t have to. But again, you also don’t have to trust Keybase.
 
 ![](/img/kb-three-accounts.png)
 

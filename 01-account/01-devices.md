@@ -1,13 +1,13 @@
 {% set section_title = "Devices" %}
 
 ## Devices make your account more secure
-TL;DR: Adding devices and paper keys to your Keybase account helps ensure that only you can access it. No one can compromise your account unless they have all of your devices and paper keys.
+When you create your Keybase account, cryptography associates your account with the device—your phone or computer—that you sign up with. 
 
-VIP tip: Add multiple devices and paper keys to your account to ensure its security.
+This link guarantees that your account can only be accessed through your device. So long as only you have access to your device, only you have access to your Keybase account. 
 
-When you create your Keybase account, strong cryptography guarantees an association between your account and the device—your phone or computer—that you sign up with. 
+You can and should add more devices and paper keys to your account so you don't lose access to it if you lose a device.
 
-This association guarantees that your account can only be accessed through your device. So long as only you have access to your device, only you have access to your Keybase account.
+Tip: Add multiple devices and paper keys to your account to ensure its security.
 
 ### Add devices 
 Install Keybase on your other devices so that you won’t lose access to your account if you lose access to a device. 
@@ -33,13 +33,12 @@ But, revoked devices still publicly appear on your account.
 ### Add paper keys 
 Add paper keys so that you can access your account even if (worst-case scenario) you lose all of your devices. 
 
+![](/img/kb-three-devices.png)
+{# illo update: minor but can we edit the paper key to show an actual string of words written so it looks more like an actual paper key? #}
+
 A paper key is essentially a long string of words that’s linked to your account just like a device is.
 
 When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home. 
 
-![](/img/kb-three-devices.png)
-{# illo update: minor but can we edit the paper key to show an actual string of words written so it looks more like an actual paper key? #}
 
-Devices and paper keys together help ensure that you—and only you—have access to your account.  
 
-So long as you don’t lose all of your devices and paper keys at the same time, you can always access your Keybase account.
