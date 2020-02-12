@@ -1,9 +1,9 @@
 {% set section_title = "Your Account" %}
 
 ## Your Keybase account
-Multiple layers of encryption make Keybase accounts—and by extension, your identity—extremely secure and trustworthy. 
+Public-key encryption makes Keybase accounts—and by extension, your identity—extremely secure and trustworthy. 
 
-Installing the app on your computer or device provides the first layer; adding more devices, adding proofs, and following provide additional layers of security.
+Installing the app on your computer or device, adding more devices and paper keys, adding proofs, and following all bolster the security of your account.
 
 The more of these steps you take, the more sure you can be that your account is unhackable. And the more sure others can be that you are you on Keybase.
 

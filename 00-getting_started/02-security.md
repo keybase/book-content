@@ -3,10 +3,6 @@
 ## Security on Keybase
 Public-key cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you*—not someone who hacked or otherwise accessed your account. 
 
-Tip: To increase the security of your Keybase account, add multiple devices and paper keys. 
-
-Tip: To ensure to others that you are you on Keybase, add as many proofs as you can.
-
 ## Keybase uses public-key cryptography
 Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process—basically a ton of math that we won’t get into—that does the encrypting or decrypting.
 
