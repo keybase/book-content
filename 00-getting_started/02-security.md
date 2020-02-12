@@ -3,6 +3,10 @@
 ## Security on Keybase
 Public-key cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you*—not someone who hacked or otherwise accessed your account. 
 
+Tip: To increase the security of your Keybase account, add multiple devices and paper keys. 
+
+Tip: To ensure to others that you are you on Keybase, add as many proofs as you can.
+
 ## Keybase uses public-key cryptography
 Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process—basically a ton of math that we won’t get into—that does the encrypting or decrypting.
 
@@ -38,7 +42,7 @@ Instead of a username and password, Keybase uses cryptography.
 When you create your account, Keybase creates a key pair. The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account without having your device (not even Keybase). 
 
 #### Devices, proofs, and following provide more protection
-If you add additional devices to your account, each one of those devices also gets a key pair. So, no one else can compromise your account without having all of your devices. This guarantees that only you have access to your account. 
+When you add additional devices or paper keys to your account, each one also gets a key pair. So, no one else can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
 You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also protected by cryptography. 
 
