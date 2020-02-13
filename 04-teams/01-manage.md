@@ -1,6 +1,6 @@
 {% set section_title = "Manage a team  " %}
 
-### Organize your people
+### Manage a team
 Teams can be what we call big teams, subteams, or open teams. Each has different features and abilities.
 
 #### Big teams: Organize chats in channels
