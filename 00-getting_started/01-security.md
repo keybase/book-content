@@ -10,7 +10,7 @@ Encryption and decryption can happen symmetrically or asymmetrically. In **symme
 
 A **public key** is widely published so anyone can access it. It’s usually used to encrypt data. A **private key** is private and usually used to decrypt data. A public key cannot be used to try and guess or hack a private key. 
 
-More so, Keybase uses 256-bit encryption. This means someone would have to try more than 115 quattuorvigintillion possible keys to hack your private key. Not even a hundred thousand computers could try all those keys in trillions of years. 
+More so, Keybase uses **256-bit encryption**. This means someone would have to try more than 115 quattuorvigintillion possible keys to hack your private key. Not even a hundred thousand computers could try all those keys in trillions of years. 
 
 Now, we’ll tell a short story to show why all this is useful.
 
@@ -42,7 +42,9 @@ When you add additional devices or paper keys to your account, each one also get
 
 You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also bolstered by cryptography. 
 
-So now you know, your Keybase account is much more secure and trustworthy than other online accounts. Phew.
+All of these actions—adding devices and paper keys, adding proofs, and following–are also publicly recorded so anyone can double-check them. 
+
+So, you—and the people you interact with—can see that your Keybase account is much more secure and trustworthy than other online accounts. Phew.
 
 ### Messages and files are encrypted
 On top of all that, every message or file on Keybase is end-to-end encrypted using a public key and decrypted using a private key. Think of Keybase as a lockbox: anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 

@@ -1,9 +1,9 @@
 {% set section_title = "Privacy" %}
 
 ## Privacy on Keybase  
-Messages and files on Keybase are end-to-end encrypted. Not even Keybase can access them. 
+Everything you share and store in Keybase is end-to-end encrypted. Not even Keybase can read or access your data (which also means we can’t and won’t ever sell it).
 
-But accounts on Keybase can’t be totally private. For example, everyone on the internet can see your profile photo. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
+But public-key cryptography means that some information is, well, public. For example, everyone on the internet can see your username. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
 
 Tip: Before you create your account, consider your username and names for your devices. They’re public and can’t be changed or deleted. 
 
@@ -16,7 +16,7 @@ The gist is that Keybase won’t sell or rent your data or content for any reaso
 It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/getting-started/security).
 
 ### Some of your info is public 
-Public-key cryptography ensures that private info stays private on Keybase. But public-key cryptography works best when public keys are, well, public. (Learn more in [Security](getting-started/security).)
+Public-key cryptography ensures that private info stays private on Keybase. But public-key cryptography means that public keys are public. (Learn more in [Security](getting-started/security).)
 
 So, anyone on the internet can search, find, and see your Keybase account and some information associated with it, including:
 * your username 
