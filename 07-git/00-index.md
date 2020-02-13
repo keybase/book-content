@@ -3,9 +3,9 @@
 ## Keybase for Git
 Keybase supports free, encrypted, authenticated, and private [Git](https://git-scm.com/) repositories.
 
-You can put any kind of content in these repositories, but they’re especially useful for personal private repos, or for secret content shared among teams.
+You can put any kind of content in these repositories, but they’re especially useful for personal private repos or for secret content shared among teams.
 
-This isn’t the same as [GitHub](https://git-scm.com/), [GitLab](https://about.gitlab.com/), or other source code management hosting tools. But the repositories you create (or share with teams) can be viewed in the Keybase app. These repositories are *real* Git repositories. They’re 100% fully private, encrypted, and verified. You can be certain they’re safe, not only from prying eyes, but also from malicious people who might try to change your code. (How dare they‽)
+These repositories are *real* Git repositories but you can view them in the Keybase app. They’re 100% private, encrypted, and verified. You can be certain they’re safe, not only from prying eyes, but also from malicious people who might try to change your code. (How dare they?!)
 
 ### Make a Git repository
 Navigate to Git in the app and click the `New Repository` button. You can make it your own personal repository or share it with a team.
