@@ -2,9 +2,11 @@
 ## Keybase for Teams
 Use Teams to work, connect, organize. A team on Keybase is simply a group of people—colleagues, cabals, families, flashmobs, friends, magic circles, metal bands—any group of people.
 
-Teams can [chat](/chat), [share files](/files), and [collaborate with Git](/Git).
+Teams can [chat](/chat), [share files](/files), and [collaborate on Git](/Git).
 
-Like everything else on Keybase, your team chats, files, and Git are secure and end-to-end encrypted. What you and your team say, share, and commit stays between you and your team. Likewise, person-to-person interactions are also encrypted and private. Team admins or owners can’t access private chats or any other interactions they’re not explicitly a part of. (We don’t think letting people snoop should be a feature—ever.)
+Like everything else on Keybase, your team chats, files, and Git are secure and end-to-end encrypted. What you and your team say, share, and commit stays between you and your team. 
+
+Likewise, person-to-person interactions are also encrypted and private. Team admins or owners can’t access private chats or any other interactions they’re not explicitly a part of. (We don’t think letting people snoop should be a feature—ever.)
 
 ## Create a team
 Before you create a team, there are a few things you should know:
@@ -15,7 +17,7 @@ Before you create a team, there are a few things you should know:
 ### Add and remove team members
 You can create a team from scratch. Or if your team’s on Slack, you can [import it right into Keybase](https://keybase.io/slack-importer/).
 
-Adding members by Keybase username is the quickest way to create a team. If you add people by their social handle, email, or phone numbers, they’ll need to create a Keybase account before they can join. {# TODO: This is only true if they don't already have a Keybase account. If they do, and they have proven a social identity, they can be added using that identity. #}
+Adding members by Keybase username is the quickest way to create a team. If you add people by their social handle, email, or phone numbers, they’ll need to create a Keybase account if they don’t already have one. 
 
 As team members are added, they’re announced in chat. All new team members can search and read the entire chat history (or at least whatever hasn’t exploded).
 
