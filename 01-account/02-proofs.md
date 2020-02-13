@@ -24,4 +24,3 @@ All of that info must be available to allow other people to verify your proof. M
 ![](/img/kb-three-accounts.png)
 
 Add as many proofs as you can. More proofs give people more assurance that your Keybase account really belongs to you. 
-

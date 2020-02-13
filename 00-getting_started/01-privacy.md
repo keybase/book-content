@@ -46,6 +46,3 @@ When you block someone, they’ll no longer be able to chat, share files, or oth
 You can also remove people you block from your public list of followers. You won’t see them and their account will not be publicly associated with yours. But they can still follow you. 
 
 When you report someone, we review their account as quickly as humanly possible. We will remove people that have violated our [terms](https://keybase.io/docs/terms). Please provide additional information so we can remove spammers, abusers, and harassers even more quickly.
-
-
-

@@ -34,5 +34,3 @@ While even followers you don’t know help keep your account trustworthy, you ca
 When you block someone, you can remove them from your public list of followers. You won’t see them and their account will not be publicly associated with yours. They also won’t be able to chat with you or add you to a team.
 
 But please note, they will still technically be following you. The public record that was created when they followed you will still exist. And they may know that you blocked them if they attempt to chat with you or add you to a team. You can learn more about blocking in (Chat)[/chat/blocking].
-
-

@@ -39,6 +39,3 @@ Add paper keys so that you can access your account even if (worst-case scenario)
 A paper key is essentially a long string of words that’s linked to your account just like a device is.
 
 When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home. 
-
-
-

@@ -12,7 +12,7 @@ A **public key** is widely published so anyone can access it. It’s usually use
 
 More so, Keybase uses 256-bit encryption. This means someone would have to try more than 115 quattuorvigintillion possible keys to hack your private key. Not even a hundred thousand computers could try all those keys in trillions of years. 
 
-That means all of your data on Keybase is really secure. Now, we’ll tell a short story to show why this is useful.
+Now, we’ll tell a short story to show why all this is useful.
 
 #### Public keys keep private info safe
 {# illo: Piece of paper with a message or something that looks like a credit card number on it —> dotted line to a public key (a key that is labeled Mary Poppins’s public key) —> dotted line to the same piece of paper but with scrambled/indecipherable data on it —> dotted line to another key (labeled Mary Poppins’s private key) —>  same piece of original paper with unscrambled message on it #}
@@ -21,14 +21,14 @@ Say you need to share a top secret message with Mary Poppins,  over the internet
 
 If you used asymmetric encryption, you could encrypt the message using a public key and Ms. Poppins could decrypt it using her private key. You just need to be absolutely sure that Mary Poppins is really Mary Poppins. Thankfully, she has a Keybase account (or at least we’re pretending she does for the sake of this story). 
 
-### Keybase accounts are encrypted
+### Keybase accounts are trustworthy
 ![](/img/kb-signup.png)
 {# illo need: Update this one. Form should be a nice form with Username, Password, and Confirm Password labels above the fields. Fields completed with username marypoppins (or whatever example we want to use) and password ********. Draw lines from the username and password fields with arrows pointing to Mary Poppins (similar to illo on Devices but just use arrows pointing and no lock symbol - maybe even dotted lines?) to indicate that these pieces of information = Mary Poppins. #}
 On Keybase, your account is basically your identity. Not in the sense of who you are as a human—that’d be weird. More simply, people can be sure that you are you on Keybase.
 
 Lots of other places online only require that you use a username and password to establish a potentially secure and trustworthy online identity. You and others may assume that the account belongs to you—thanks to your username—and that only you can access it—thanks to your password.
 
-But, even if you use the same username everywhere, your friends can’t know for sure that it’s really you. And for example, it’d be hard to be certain that Mary Poppins is the person who gets email at mary.poppins@email.com unless she told you so in person. Overtime, you can build trust with usernames by using them. But that’s all wiped out if you’re hacked. 
+But, even if you use the same username everywhere, your friends can’t know for sure that it’s really you. And for example, it’d be hard to be certain that Mary Poppins is the person who gets email at mary.poppins@email.com unless she told you so in person. Over time, you can build trust with usernames by using them. But that’s all wiped out if you’re hacked. 
 
 Passwords are even less effective. If you want an account to actually be secure, you need a strong, random password. You may also set up multi-factor authentication. So even if your password is compromised, your account might not be. But with just a password, your account can easily be compromised. And that’s bad. People can’t be totally sure that you’re really you.
 
@@ -40,13 +40,13 @@ When you create your account, Keybase creates a key pair. The public key is uplo
 #### Devices, proofs, and following provide more protection
 When you add additional devices or paper keys to your account, each one also gets a key pair. So, no one else can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
-You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also protected by cryptography. 
+You further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following), which are also bolstered by cryptography. 
 
 So now you know, your Keybase account is much more secure and trustworthy than other online accounts. Phew.
 
 ### Messages and files are encrypted
-On top of all that, every message or file on Keybase is also end-to-end encrypted using a public key and decrypted using a private key. If you think of Keybase as a lockbox: anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
+On top of all that, every message or file on Keybase is end-to-end encrypted using a public key and decrypted using a private key. Think of Keybase as a lockbox: anyone can drop something in your lockbox using your public key. But only you can retrieve what’s in the lockbox using your private key. 
 
 Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity or account—or as the username and password—you use to access them. 
 
-Thank goodness you know your Keybase account is secure.
+Thank goodness you know your Keybase account is more secure than that.
