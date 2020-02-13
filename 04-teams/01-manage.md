@@ -9,7 +9,7 @@ If you create channels for a chat, your team becomes a big team. It doesn’t ma
 Channels are a way to organize chats. They’re useful for focused conversations on say, a specific project or lunch ideas, but they’re not private. Everyone on a team can search and read all messages and files shared in any and every channel. To privately chat or share files, you need to create a subteam.
 
 #### Subteams: Share private messages and files
-A subteam is a group of people within a team. {# TODO: The next sentence clarifies, but it feels awkward to lead with an untrue statement. #} A subteam can also include people from outside of a team. For example, an organization may want to create subteams for a particular team and a hiring committee. These subteams might be named `earnieforpresident.policy` and `earnieforpresident.policy.hiring`.
+A subteam is a group of people within a team. {# TODO: The next sentence clarifies, but it feels awkward to lead with an untrue statement. SD note: I don't think this statement is untrue. The only way to create a subteam is from within a team. Only then can you add others. #}You can also add people from outside the team. For example, an organization may want to create subteams for a particular team and a hiring committee. These subteams might be named `ernieforpresident.policy` and `ernieforpresident.policy.hiring`.
 
 Subteams let you share private chats and folders within teams. And while teams are public (outsiders may see that they exist but can’t necessarily see everyone in them), subteams are stealthy. People who aren’t in them can’t even see that they exist.
 
