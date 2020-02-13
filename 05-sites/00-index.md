@@ -5,9 +5,7 @@
 One of the lesser known perks of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder.
 
 ### Make a simple website
-To see how it works, create a document and title it `index.md`. You can type anything but it’s kind of a tradition to try new things out on the internet with this:
-
-{# TODO: "title" instead of "name"? #}
+To see how it works, create a document and name it `index.md`. You can type anything but it’s kind of a tradition to try new things out on the internet with this:
 
 ```
 # Hello, world!
