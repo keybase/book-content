@@ -1,16 +1,10 @@
 
 
-# Hello
+# Keybase Book
 [meta description]
 Keybase is secure, private, and end-to-end encrypted chat, file sharing, teams, websites, wallet, and Git repositories.
 
-[Title]
-# Keybase Book
-
-[Tagline]
 ## Encryption for everything that matters
-
-[Subhead]  
 Keybase is a safe, secure, and private app for everything you do online. Chat with friends and family. Share photos, videos, and top secret documents. Collaborate to get work done, or don't. 
 
 Whatever you do, your data is your data. Private stuff stays private. And you don’t have to just take our word for it.
