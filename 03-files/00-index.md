@@ -2,9 +2,13 @@
 ## Keybase for Files
 Keep and share your most important documents, photos, and videos with Keybase Files.
 
-TL;DR: You can store and share files easily and securely, from any device you use Keybase on. You can organize your documents into private, public, or team files.
+You can store and share files easily and securely, from any device you use Keybase on. Anything you upload to Keybase is automatically end-to-end encrypted. 
 
-Anything you upload to Keybase is automatically end-to-end encrypted. So, only the people you choose to share your files with can read or access them (not even Keybase can). If and when someone accesses your files, they can be 100% certain the files were created by you (because they’re automatically signed by you). This also means that you can keep private stuff—finances, family recipes, your life philosophy—totally to yourself.
+Only the people you choose to share your files with can read or access them (not even Keybase can). If and when someone accesses your files, they can be 100% certain the files were created by you (because they’re automatically signed by you). 
+
+This also means that you can keep private stuff—financial info, NSFW photos, your life philosophy—totally to yourself.
+
+{# TODO: need definition and link for signing #}
 
 ### Manage sharing and privacy
 You can store and share files in public, private, or team folders, each with different privacy features. You can add and organize files and folders any way you like inside these folders.
