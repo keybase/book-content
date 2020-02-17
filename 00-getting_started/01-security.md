@@ -1,9 +1,13 @@
 {% set section_title = "Security" %}
 
 ## Security on Keybase
-Public-key cryptography protects your files, messages, *and* your account itself on Keybase. Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you*—not someone who hacked or otherwise accessed your account. 
+To protect your files, messages, *and* your account itself, Keybase uses public-key cryptography. 
 
-## Keybase uses public-key cryptography
+Protecting your account is important because it’s basically your online identity. It confirms that you are actually *you*—not someone who hacked or otherwise accessed your account. 
+
+TL;DR Multiple layers of public-key cryptography ensure the security of your Keybase account. Instead of relying on a username and password, your account is cryptographically linked directly to your device. 
+
+### Keybase uses public-key cryptography
 Before we get into the details of how this works, let’s define some terms that will be useful to understand. **Encryption** is the process of scrambling data or info so that it can’t be read. **Decryption** reverses that so data can be read again. A **key** is the process—basically a ton of math that we won’t get into—that does the encrypting or decrypting.
 
 Encryption and decryption can happen symmetrically or asymmetrically. In **symmetric encryption**, the same key is used to both scramble and unscramble the data. In **asymmetric encryption**, a pair of two different keys, usually, a public and a private key are used: one for scrambling the data and another for unscrambling. 
