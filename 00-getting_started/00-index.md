@@ -7,5 +7,5 @@ Your account itself is also protected by encryption. This means all of your cont
 
 **NCC Group Audit**  
 Read the 2018 report by NCC Group, the global cyber security and risk mitigation experts: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
-{# Henry: can the above blurb be offset/look special like the TL;DR and Tip blurbs? TODO: can we talk about the report in a way that validates Keybase without asking people to read the report? #}
+{# Henry: can the above blurb be offset/look special like the TL;DR and Tip blurbs? TODO: can we talk about the report in a way that validates Keybase without asking people to read the report? E.g. some sort of rating or quick summary? #}
 
