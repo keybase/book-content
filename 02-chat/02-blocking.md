@@ -1,6 +1,6 @@
 {% set section_title = "Blocking" %}
 
-## Blocking & reporting in chat
+## Blocking and reporting in chat
 All accounts on Keybase are public, but you can control who can chat with you and add you to a team.
 
 ### Control who you chat with

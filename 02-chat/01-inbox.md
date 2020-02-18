@@ -1,5 +1,5 @@
 {% set section_title = "Share messages & files" %}
-## Share messages & files
+## Share messages and files
 Message friends, share sensitive information with colleagues, or organize entire projects. All of your chats on Keybase are organized in one secure inbox.
 
 {# insert annotated screenshot of inbox #}
