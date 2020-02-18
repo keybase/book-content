@@ -7,7 +7,7 @@ Keybase is secure, private, and end-to-end encrypted chat, file sharing, teams, 
 ## Encryption for everything that matters
 Keybase is a safe, secure, and private app for everything you do online. Chat with friends and family. Share photos, videos, and top secret documents. Collaborate to get work done, or don't. 
 
-Whatever you do, your data is your data. Private stuff stays private. And you don’t have to just take our word for it.
+Whatever you do, your data is your data. Private stuff stays private. Accounts are secure against spoofing, phishing, and scamming. You can chat, share, and collaborate safely.
 
 ### Security & Privacy  
 Learn how Keybase keeps your data and identity safe. 
