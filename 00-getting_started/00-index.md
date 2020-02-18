@@ -1,11 +1,11 @@
 {% set section_title = "Security & Privacy" %}
 
-## Security & privacy on Keybase
-Your Keybase account is safe and secure. Everything you share through it—in Chat, Files, Teams, Git, Sites, and Wallet—is end-to-end encrypted. No one else can access your data—not even Keybase. 
+## Security & Privacy on Keybase
+Everything you share through your Keybase account—in Chat, Files, Teams, Git, Sites, and Wallet—is automatically end-to-end encrypted. Only you and your intended recipient can access what you share. Not even Keybase can read it. 
 
-Your account itself is also protected by encryption. This means all of your contacts can be sure that you are really you on Keybase. No phishing scams around here.
+Your account itself is also protected by encryption. This is important because your account is basically your online identity. Protecting it means that all of your contacts can be sure that you are really you on Keybase. No phishing, spoofing, or scamming around here.
 
-**NCC Group Audit**  
+### Reviewed by global cyber security experts 
 Read the 2018 report by NCC Group, the global cyber security and risk mitigation experts: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
 {# Henry: can the above blurb be offset/look special like the TL;DR and Tip blurbs? TODO: can we talk about the report in a way that validates Keybase without asking people to read the report? E.g. some sort of rating or quick summary? #}
 
