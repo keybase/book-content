@@ -1,7 +1,7 @@
 {% set section_title = "Your Account" %}
 
 ## Your Keybase Account
-Public-key encryption makes your Keybase account—which serves as an online identity—trustworthy. 
+Public-key encryption makes your Keybase account secure and trustworthy. 
 
 Your contacts can be sure that you are you because your account is linked to your [devices](account/devices). Your identity is further confirmed with [proofs](account/proofs). And [following](account/following) provides a public record that also confirms that you are who you say you are. 
 
