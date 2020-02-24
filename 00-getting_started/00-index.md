@@ -1,9 +1,9 @@
 {% set section_title = "Security & Privacy" %}
 
 ## Security and Privacy on Keybase
-Everything you share through your Keybase account—in Chat, Files, Teams, Git, Sites, and Wallet—is automatically end-to-end encrypted. Only you and your intended recipient can access what you share. Not even Keybase can read it. 
+Everything you share through your Keybase account—in Chat, Files, Teams, Git, Sites, and Wallet—is automatically end-to-end encrypted. Only you and your intended recipient(s) can read what you share. Not even Keybase can access it. 
 
-Your account itself is also protected by encryption. This is important because your account is basically your online identity. Protecting it means that all of your contacts can be sure that you are really you on Keybase. No phishing, spoofing, or scamming around here.
+Your account itself is also protected by encryption. This is important because your account is basically your online identity. Protecting it means that all of your contacts can be sure that you are really you on Keybase. No phishing, spoofing, or scamming around here. 
 
 ### Reviewed by global cyber security experts 
 Read the 2018 report by NCC Group, the global cyber security and risk mitigation experts: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
