@@ -1,11 +1,14 @@
 {% set section_title = "Devices" %}
 
 ## Devices make your account more secure
-When you create your Keybase account, cryptography associates your account with the device—your phone or computer—that you sign up with. 
+When you create your Keybase account, Keybase creates a key pair for your account and the device—your phone or computer—that you sign up with. 
 
-This link guarantees that your account can only be accessed through your device. So long as only you have access to your device, only you have access to your Keybase account. 
+The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account—or anything shared with it—without having your device (not even Keybase).
 
 You can and should add more devices and paper keys to your account so you don't lose access to it if you lose a device.
+When you add additional devices or paper keys to your account, each one also gets a key pair.  
+
+So, no one else can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
 Tip: Add multiple devices and paper keys to your account to ensure its security.
 
