@@ -15,7 +15,7 @@ The gist is that Keybase won’t sell or rent your data or content for any reaso
 #### Your data is secure
 It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/getting-started/security).
 
-### Some of your info is public 
+### Some info is public 
 Public-key cryptography ensures that private info stays private on Keybase. But public-key cryptography means that public keys are public. (Learn more in [Security](getting-started/security).)
 
 So, anyone on the internet can search, find, and see your Keybase account and some information associated with it, including:
