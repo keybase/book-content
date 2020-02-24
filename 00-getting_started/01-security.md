@@ -27,7 +27,7 @@ Your contacts can simply encrypt using your public key and you can decrypt with 
 
 Your contacts just need to be sure that you are you on Keybase. In other words, your account needs to be trustworthy.
 
-### Devices, proofs, and following help make your Keybase account trustworthy
+### Devices, proofs, and following make your Keybase account trustworthy
 To be sure that your Keybase account is trustworthy, your contacts need to know that your account belongs to you and that only you have access to it.
 
 Lots of online accounts require a username and password to accomplish this. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. You can use two-factor authentication for more security with a password but it’s still not perfect. (*[WIRED](https://www.wired.com/story/keybase-two-factor-authentication/)* has a nice explanation.) 
@@ -36,16 +36,16 @@ Keybase uses encryption instead. Your account is cryptographically linked to the
 
 Basically, this ensures that your account can only be accessed through your device. So long as only you have access to your device, only you have access to your account. 
 
-You prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following). 
+You can and should simply tell your contacts that your Keybase account belongs to you. But you can further prove that an account belongs to you through [proofs](/account/proofs) and [following](/account/following). 
 
-All of these actions—adding devices and paper keys, adding proofs, and following–are also publicly recorded. Anyone can double-check them. 
+All of these actions—adding devices and paper keys, adding proofs, and following–are publicly recorded. Anyone can double-check them. 
 
 So, you and your contacts can see that your Keybase account is yours and that only you have access to it. Phew.
 
-### Messages and files are encrypted
-On top of all that, every message or file on Keybase is end-to-end encrypted using a public key and decrypted using a private key. 
+### Messages and files are end-to-end encrypted
+On top of all that, every message or file on Keybase is end-to-end encrypted using your public key and decrypted using your private key. 
 
-Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your identity or account—or as the username and password—you use to access them. 
+Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your account—or as the username and password—you use to access them. 
 
 Thank goodness you know your Keybase account is more secure than that.
 
