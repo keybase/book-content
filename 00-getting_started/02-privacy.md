@@ -13,7 +13,7 @@ You can and should read our whole [privacy policy](https://keybase.io/docs/priva
 The gist is that Keybase won’t sell or rent your data or content for any reason. Again, we can’t even access it. And, we’ll never rely on ads for revenue. Eventually, we may charge for special features for larger corporations. But individual and existing accounts will always be free.
  
 #### Your data is secure
-It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/getting-started/security).
+It may seem strange, but you won’t be asked to create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/security).
 
 ### Some info is public 
 Using public-key cryptography means that some of your info is public by default. (You can learn more about why in [Security](getting-started/security).)
