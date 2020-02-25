@@ -1,4 +1,6 @@
 {% set section_title = "Chat" %}
+{% set section_subtitle = "Share messages and files with anyone." %}
+
 ## Keybase for Chat
 Chat with anyone: individuals, groups of people, or teams. 
 

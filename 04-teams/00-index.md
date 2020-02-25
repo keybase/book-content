@@ -1,4 +1,6 @@
 {% set section_title = "Teams" %}
+{% set section_subtitle = "Use Keybase Files, Chat, and Git with groups of people." %}
+
 ## Keybase for Teams
 Use Teams to work, connect, organize. A team on Keybase is simply a group of people—colleagues, cabals, families, flashmobs, friends, magic circles, metal bands—any group of people.
 

@@ -1,4 +1,5 @@
 {% set section_title = "Your Account" %}
+{% set section_subtitle = "Learn how people can be sure you are you on Keybase." %}
 
 ## Your Keybase Account
 Public-key encryption makes your Keybase account secure and trustworthy. 

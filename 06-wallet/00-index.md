@@ -1,4 +1,5 @@
 {% set section_title = "Wallet" %}
+{% set section_subtitle = "Send, receive, and exchange funds." %}
 
 ## Keybase Wallet
 You can use Keybase Wallet to store Stellar Lumens (XLM) and other currencies that are trusted through the Stellar network.

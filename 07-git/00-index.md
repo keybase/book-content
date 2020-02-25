@@ -1,4 +1,5 @@
 {% set section_title = "Git" %}
+{% set section_subtitle = "Create and share private repositories. " %}
 
 ## Keybase for Git
 Keybase supports free, encrypted, authenticated, and private [Git](https://git-scm.com/) repositories.

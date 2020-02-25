@@ -1,4 +1,5 @@
 {% set section_title = "Keybase Sites" %}
+{% set section_subtitle = "Build and host a simple website." %}
 {% set nav_title = "Sites" %}
 
 ## Keybase Sites

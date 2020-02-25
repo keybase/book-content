@@ -1,4 +1,6 @@
 {% set section_title = "Files" %}
+{% set section_subtitle = "Share and store photos, videos, and documents." %}
+
 ## Keybase for Files
 Keep and share your most important documents, photos, and videos with Keybase Files.
 
