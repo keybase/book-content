@@ -29,7 +29,7 @@ A new folder is automatically created for every team to share files in. Files in
 If you want to share files with only specific team members, create a subteam. Learn more in [Teams](/teams).
 
 ### Drag and drop
-When you install the Keybase app on your computer, you have a choice to install an integration that enables Keybase files are automatically created in Finder (on a Mac) and in Explorer (on Windows). This means you can drag and drop, organize, and delete files right from Finder or Explorer.
+When you install the Keybase app on your computer, you have a choice to install an integration to make Keybase files automatically appear in Finder (on a Mac) and in Explorer (on Windows). This means you can drag and drop, organize, and delete files right from Finder or Explorer.
 
 ### Stream or sync
 Your Keybase files won’t take up storage space on your computer or your device because they stream in when you need them and not when you don’t. If you want files to be available when you’re offline, you can sync folders to the devices of your choice.
