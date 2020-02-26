@@ -10,7 +10,7 @@ TL;DR Multiple layers of public-key cryptography ensure the security of your Key
 ### Public-key cryptography 
 Here are some terms that will be useful to understand as we describe how public-key cryptography keeps your account and the things you share safe and secure:  
 
-**Encryption** is the process of scrambling info or data so that it can’t be read. **Decryption** reverses the process so info or data can be read again. A **key** is part of a process—basically a ton of math that we won’t get into—that does the encrypting or decrypting.
+**Encryption** is the process of scrambling info or data so that it can’t be read. **Decryption** reverses the process so info or data can be read again. A **key** is used in the process—basically a ton of math that we won’t get into—of encrypting or decrypting.
 
 Encryption and decryption can happen symmetrically or asymmetrically. In **symmetric encryption**, the same key is used to both scramble and unscramble the data. In **asymmetric encryption**, a **key pair**—two different keys, usually a public and a private key—are used.
 
