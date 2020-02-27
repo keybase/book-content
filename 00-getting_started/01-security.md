@@ -1,9 +1,7 @@
 {% set section_title = "Security" %}
 
 ## Public-key cryptography 
-TL;DR Multiple layers of public-key cryptography ensure the security of your Keybase account. Everything you share through Keybase is end-to-end encrypted. And, key pairs link your account to your device(s) to ensure that only you can access it.
-
-Everything you share through your Keybase account *and* your account itself are protected with public-key cryptography. 
+TL;DR Public-key cryptography makes it easy for you to securely share or store anything you want on Keybase.
 
 ### How it works
 Here are some terms that will be useful to understand as we describe how public-key cryptography keeps your account and the things you share safe and secure:  
@@ -21,10 +19,11 @@ This makes it safe for your public key to be public, as it is on Keybase.
 
 Keeping your public key public allows your contacts to safely and easily share encrypted info with you without having to rely on other—potentially unsafe—channels. 
 
-When you and your contacts use Keybase, they encrypt using your public key and you can decrypt with your private key. On Keybase, this end-to-end encryption and decryption happen automatically in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git). 
+When you and your contacts use Keybase, they encrypt using your public key and you can decrypt with your private key. On Keybase, this end-to-end encryption happens automatically in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git). 
 
-For extra security, your private keys are **only** stored on the device(s) you use Keybase on. They’re not even stored on Keybase’s servers. So if Keybase gets hacked, the security of your account isn’t compromised. (A new key pair is created for every device you add to your account. Learn more on the [blog](https://keybase.io/blog/keybase-new-key-model).) 
+For extra security, your private keys are **only** stored on the device(s) you use Keybase on. They’re not even stored on Keybase’s servers. So if Keybase gets hacked, the security of your account isn’t compromised. 
 
+(A new key pair is created for every device you add to your account. Learn more on the [blog](https://keybase.io/blog/keybase-new-key-model).) 
 
 ### End-to-end encryption
 Every message or file you share or receive through Keybase is end-to-end encrypted using your public and private keys. No one else can read them—not even Keybase.
@@ -32,6 +31,12 @@ Every message or file you share or receive through Keybase is end-to-end encrypt
 Public-key cryptography also powers secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your account—or as the username and password—you use to access them. 
 
 Thank goodness your [Keybase account](/account) is more secure than that, thanks to more public-key cryptography.
+
+### Reviewed by global cyber security experts 
+Read the 2018 report by NCC Group, the global cyber security and risk mitigation experts: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
+{# Henry: can the above blurb be offset/look special like the TL;DR and Tip blurbs? TODO: can we talk about the report in a way that validates Keybase without asking people to read the report? E.g. some sort of rating or quick summary? #}
+
+
 
 
 

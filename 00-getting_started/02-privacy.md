@@ -1,7 +1,7 @@
 {% set section_title = "Privacy" %}
 
 ## Privacy on Keybase  
-Everything you share and store in Keybase is end-to-end encrypted. Not even Keybase can read or access your data—which also means we can’t and won’t ever sell it.
+Everything you share through your Keybase account—in [Chat](/chat), [Files](/files), [Teams](/teams), [Git](/git), [Sites](/sites), and [Wallet](/wallet)—is automatically end-to-end encrypted. Not even Keybase can read or access your data—which also means we can’t and won’t ever sell it.
 
 Public-key cryptography ensures your privacy and security on Keybase. But public-key cryptography means that some information is, well, public. For example, everyone on the internet can see your username. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
 
