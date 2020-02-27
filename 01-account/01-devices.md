@@ -1,6 +1,6 @@
 {% set section_title = "Devices" %}
 
-## Devices make your account more secure
+## Devices 
 Tip: Add multiple devices and paper keys to your account to ensure its security.
 
 When you create your Keybase account, Keybase creates a key pair for your account and the device—your phone or computer—that you sign up with. 

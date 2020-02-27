@@ -1,12 +1,11 @@
 {% set section_title = "Proofs" %}
 
-## Proofs help confirm who you are 
+## Proofs  
+Tip: Add as many proofs as you can to provide the most assurance that you are you on Keybase.
+
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.
 
 Proofs link your Keybase account to your other online accounts so people can see that you are really you. Proofs are public—Keybase checks them, and so can you. The idea is that when you prove your Keybase identity through your other social proofs, you really are who you say you are, unless your entire online identity has been compromised.
-
-Tip: Add as many proofs as you can to provide the most assurance that you are you on Keybase.
-
 {#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
 
 ### Add proofs

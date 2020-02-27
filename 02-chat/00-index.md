@@ -1,7 +1,7 @@
 {% set section_title = "Chat" %}
 {% set section_subtitle = "Share messages and files with anyone." %}
 
-## Keybase for Chat
+# Keybase for Chat
 Chat with anyone: individuals, groups of people, or teams. 
 
 Anything you share in Chat—all of your messages and files—are end-to-end encrypted and secure. 

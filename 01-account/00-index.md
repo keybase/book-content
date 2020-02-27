@@ -1,10 +1,10 @@
 {% set section_title = "Your Account" %}
-{% set section_subtitle = "Learn how people can be sure you are you on Keybase." %}
+{% set section_subtitle = "Keybase accounts are trustworthy and secure. Learn how.” %}
 
-## Your Keybase Account
+# Your Keybase Account
 TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure. 
 
-Your Keybase account is trustworthy and secure. This means your contacts can be sure your account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. 
+Your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. Your Keybase account is trustworthy and secure. 
 
 Lots of apps only require a username and password to establish an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. 
 
