@@ -1,5 +1,5 @@
 {% set section_title = "Security" %}
-{% set section_subtitle = "Learn how Keybase keeps your data and identity safe." %}
+{% set section_subtitle = "Learn how Keybase keeps your data  safe." %}
 
 ## Security on Keybase
 Everything you share through your Keybase account—in Chat, Files, Teams, Git, Sites, and Wallet—is automatically end-to-end encrypted. Only you and your intended recipient(s) can read what you share. Not even Keybase can access it. 
