@@ -36,7 +36,6 @@ Learn how Keybase keeps your data safe.
 
 [Other bits]  
 * Download the app (it’s freeeeee)
-* Point people to Keybase FM for latest feature updates
 * Send feedback: Was this helpful?  
 
 ### Footer  
