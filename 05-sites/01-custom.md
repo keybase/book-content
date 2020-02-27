@@ -1,11 +1,11 @@
 {% set section_title = "Custom domains" %}
 
-### Add a custom domain
+## Add a custom domain
 You can also use a custom domain with Keybase Sites.
 
 You’ll need to share a private folder with a Keybase bot and add a couple DNS records on your domain name which tell Keybase how and where to host your content.
 
-#### Share a folder with kbpbot
+### Share a folder with kbpbot
 Let’s say you’d like to share some files on a host called `my-site.example.com` (assuming you own `example.com` and control the DNS).
 
 {# Does “share some files on a host called `my-site.example.com`” mean publish your website on that URL? Yes, this is worded a little awkwardly. #}
@@ -16,7 +16,7 @@ Within this folder, add another folder that will hold your site’s contents. Le
 
 {# Does “share on a public HTTPS host” mean publish to that URL? Yeah, same as above. Also, "person" should maybe be "yourusername" for consistency. In fact, we should be consistent with how we refer to the reader's username throughout the book. #}
 
-#### Set up DNS records
+### Set up DNS records
 In order for your domain/hostname to point at the Keybase servers, you need to set up a `CNAME` record (you could also use an `ALIAS` record to forward an `A`/`AAAA` record) that points at the hostname `kbp.keybaseapi.com`. So, you’d have something like:
 
 ```
@@ -33,12 +33,12 @@ _keybase_pages.my-site.example.com. 300 IN TXT "kbp=/keybase/private/person,kbpb
 
 This record tells `kbpbot` to look in this folder to share your files.
 
-#### Bask in sweet HTTPS security
+### Bask in sweet HTTPS security
 If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
 
 You might notice that we said *https*, not just *http*. Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, for free.
 
-### Use Git instead
+## Publish through Git
 You may prefer to publish your content through [Git](/git) instead of [Files](/files). You can do that.
 
 Instead of creating a shared folder, as above, you can create a shared Keybase Git repository and publish that.
@@ -61,7 +61,7 @@ After the regular DNS propagation delays, the pushed contents of the `master` br
 
 {# note: the old bits about private shared (no team) Git repositories seem to be deprecated; I can’t figure out how to do it if it’s still possible #}
 
-### Access control
+## Access control
 If you’d like to set up basic HTTP authentication with your shared sites, you can do this by creating a `.kbp_config` file that is used to handle site-specific configuration.
 
 You can learn more about .kbp_config and HTTP auth [in the docs](https://keybase.io/docs/kbp/kbp_config).
