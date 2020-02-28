@@ -1,5 +1,5 @@
 {% set section_title = "Your Account" %}
-{% set section_subtitle = "Keybase accounts are trustworthy and secure. Learn how.” %}
+{% set section_subtitle = "Keybase accounts are trustworthy and secure. Learn how." %}
 
 # Your Keybase Account
 TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure. 
