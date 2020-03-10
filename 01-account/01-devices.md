@@ -7,8 +7,8 @@ When you create your Keybase account, Keybase creates a key pair for your accoun
 
 The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account—or anything shared through it—without having your device (not even Keybase).
 
-You can and should add more devices and paper keys to your account so you don't lose access to it if you lose a device.
-When you add additional devices or paper keys to your account, each one also gets a key pair.  
+You can and should add more devices and paper keys to your account so you don’t lose access to it if you lose a device.
+When you add a new device or paper key, your existing device vouches for the new one. All your devices and paper keys are cryptographically linked. And each additional device or paper key you add to your account also gets a key pair.  
 
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
