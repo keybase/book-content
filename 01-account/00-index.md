@@ -23,7 +23,9 @@ If anything changes to your devices or proofs—indicating that your account has
 
 ## Usernames
 #### Usernames are public and can’t be changed. 
-Before you create your account, give your username some thought. Choosing it is the first thing in a series of public actions you’ll take to help establish [your account](/account) on Keybase. Changing it has the potential to undo everything that helps confirm that you are who you say you are. And everyone on the internet can see your username.
+Before you create your account, give your username some thought. Everyone on the internet can see it.
+
+Choosing your username is the first action of many that you’ll take to help establish [your account](/account) on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this. 
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 
