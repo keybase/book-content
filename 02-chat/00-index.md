@@ -8,7 +8,7 @@ Anything you share—all of your messages and files—is end-to-end encrypted. Y
 
 {# Nice to have a stylized blurb that says something like: Chat on Keybase is entirely encrypted, private, and secure. You can be 100% sure your conversation is just between you and that person. No one else, not even Keybase, can read your messages. #}
 
-You can chat freely with individuals or groups, [block people](/chat/blocking) you don’t want to chat with, and get even more done with [special features](/chat/special-features) like location sharing, exploding messages, coin flips, and bots.
+You can chat with individuals or groups, [block people](/chat/blocking) you don’t want to chat with, and get even more done with [special features](/chat/special-features) like location sharing, exploding messages, coin flips, and bots.
 
 {# insert annotated screenshot of inbox #}
 
