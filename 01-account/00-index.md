@@ -22,8 +22,8 @@ You do create a username to help let others know an account belongs to you. But 
 If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they share anything with you.
 
 ## Usernames
-#### Anyone on the internet can see your username and it can’t be changed. 
-Before you create your account, give your username some thought. Choosing it is the first thing in a series of public actions you’ll take to help establish [your account](/account) on Keybase. Changing it has the potential to undo everything that helps confirm that you are who you say you are. 
+#### Usernames are public and can’t be changed. 
+Before you create your account, give your username some thought. Choosing it is the first thing in a series of public actions you’ll take to help establish [your account](/account) on Keybase. Changing it has the potential to undo everything that helps confirm that you are who you say you are. And everyone on the internet can see your username.
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 

@@ -1,21 +1,20 @@
 {% set section_title = "Privacy" %}
 
-# Privacy on Keybase  
+# Privacy
 Only your intended recipients can access what you share through Keybase. No one else can access your data—not even Keybase, which also means we can’t and won’t ever sell it.
 
 Public-key cryptography ensures your privacy and security on Keybase. But public-key cryptography means that some information is, well, public. For example, everyone on the internet can see your username. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
 
-Tip: Before you create your account, consider your username and names for your devices. They’re public and can’t be changed or permanently deleted. 
-
-## Your data is your data 
+## Data privacy
+#### Your data is your data. 
 You can and should read our whole [privacy policy](https://keybase.io/docs/privacypolicy). It’s not too long and you can skip around to find the info that’s most important to you. 
 
 The gist is that Keybase won’t sell or rent your data or content for any reason. Again, we can’t even access it. And, we’ll never rely on ads for revenue. Eventually, we may charge for special features for larger corporations. But individual and existing accounts will always be free.
  
-### Your data is secure
-It may seem strange, but you don’t create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/security).
+#### Your data is secure.
+Keybase can’t access your data, no one else can either. It may seem strange, but you don’t create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/security).
 
-## Some info is public 
+## Public info
 Using public-key cryptography means that some of your info is public by default. (You can learn more about why in [Security](/security).)
 
 Anyone on the internet can search, find, and see your Keybase account and some details associated with it, including:
@@ -25,12 +24,6 @@ Anyone on the internet can search, find, and see your Keybase account and some d
 * your followers and who you follow
 * social accounts that you use as proofs (e.g. Twitter, GitHub, Reddit)
 * anything else you choose to share on your profile—maybe a photo, short biography, or your location 
-
-
-### Device names are public and can’t be changed or deleted
-You’ll also name the computer and/or devices you download Keybase on. Device names are also visible to everyone on the internet and can’t be changed or deleted.
-
-Again, choose carefully. Your devices help make your Keybase account secure and trustworthy. Devices can be revoked to indicate that they’re no longer in use or have otherwise changed. Learn more in [Devices](/account/devices).
 
 ## Block and report bad actors
 You can control who can interact with you on Keybase. You can block and report people on an individual basis. You can also limit who can chat with you and add you to a team. Learn more in [Chat](chat/blocking).
