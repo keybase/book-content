@@ -13,7 +13,7 @@ But they can still follow you. They may also know that you blocked them because 
 ### Reporting
 When you report someone, we review their account as quickly as humanly possible. We will remove people that have violated our [terms](https://keybase.io/docs/terms). Please provide additional information so we can remove spammers, abusers, and harassers even faster.
 
-#### Restricting contacts
+### Restricting contacts
 You can further restrict who can chat with you or add you to a team, under Settings > Chat. 
 
 You can select a box that gives you options to only let someone message you or add you to a team if:

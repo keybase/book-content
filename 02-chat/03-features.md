@@ -10,9 +10,9 @@ You can securely share your location with any individual, group, or team on Chat
 When you do so, only the person or people you intend to share your location with will receive it. Not even Keybase or Google Maps will know where you are. 
 
 ### Exploding messages
-An exploding message is completely and permanently erased after a chosen period of time. It won’t be searchable. No one will ever be able to find or read it, not even if they have access to your device or the device of a person you shared information with. It will disappear into thin air. 
+Exploding messages are great for your most sensitive information like passwords or credit card numbers. 
 
-This is great for your most sensitive information like passwords or credit card numbers. 
+An exploding message is completely and permanently erased after a chosen period of time. It won’t be searchable. No one will ever be able to find or read it, not even if they have access to your device or the device of a person you shared the message with. It will disappear into thin air. Poof!
 
 #### Team chats
 If you share an exploding message with a team, it will only be  readable for existing members of the team. For example:
@@ -21,7 +21,7 @@ If you share an exploding message with a team, it will only be  readable for exi
 * anyone added to the team after an exploding message is sent will not be able to read it, even if it hasn’t yet exploded 
 
 ### Coin flips
-If you need to make a really important decision—should you take that job? Buy a Corvette?—Keybase can help. Type `/flip` into a chat, and you’ll get a totally randomized heads-or-tails coin flip. 
+Coin flips can help you make a really important decision—should you take that job? Buy a Corvette? Type `/flip` into a chat and you’ll get a totally randomized heads-or-tails coin flip. 
 
 There are lots of other randomly generated things you can use for more fun: roll a die, pick a random number in a range, shuffle a list of items, and more. 
 
@@ -47,6 +47,3 @@ When you add a bot to a chat or team, you decide what it can read.
 If you choose “unrestricted,” the bot will be able to read all the messages in the chat. 
 
 If you choose “restricted,” the bot will only be able to read the messages it’s mentioned in or otherwise summoned.  
-
-
-
