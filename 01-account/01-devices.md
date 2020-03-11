@@ -13,12 +13,17 @@ When you add a new device or paper key, your existing device vouches for the new
 
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
+#### Device names are public and can’t be changed.
+When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully. 
+
+Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing devices names has the potential to undo this. 
+
 ### Add devices 
 Install Keybase on your other devices so that you won’t lose access to your account if you lose access to a device. 
 
 ![](/img/kb-one-device.png)
 
-**To install Keybase on additional devices, you need:**
+#### To install Keybase on additional devices, you need:
 *  your Keybase username
 *  the device you signed up with (you’ll use a QR code to vouch for the new device)
 *  a name for the new device

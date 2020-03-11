@@ -1,25 +1,43 @@
 {% set section_title = "Your Account" %}
 {% set section_subtitle = "Keybase accounts are trustworthy and secure. Learn how." %}
 
-# Your Keybase Account
+# Accounts
 TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure. 
 
-Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are protected by encryption. 
+Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption. 
 
-Lots of apps only require a username and password to establish an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. 
+Lots of apps only require a username and password to create and protect an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. 
 
 But with just a username and password, accounts can be hacked, phished, and otherwise compromised. They’re not totally trustworthy and secure. In best-case scenarios, you can use two-factor authentication for more security but it’s still not perfect. Keybase uses public-key cryptography instead. 
 
 You can learn more about how public-key cryptography works in [Security](/security).
 
-But the gist is that, thanks to public-key cryptography, your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. Your Keybase account and everything you store or share through it is trustworthy and secure. 
+#### Public-key encryption makes your Keybase account trustworthy and secure.
+The gist is that, thanks to public-key cryptography, your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. Your Keybase account and everything you store or share through it is trustworthy and secure. 
 
-## Protected by public-key cryptography
-Your contacts can trust your Keybase account because it’s cryptographically linked to your [devices](account/devices). Keybase creates a key pair between your account and any device you add to it. This means your account can only be accessed through your devices. So long as only you have access to your devices, only you have access to your account.
+Your contacts can trust your Keybase account because, instead of being protected by just a password, it’s cryptographically linked to your [devices](account/devices). So long as only you have access to your devices, only you can access your account. 
 
-You confirm who you are on Keybase with [proofs](account/proofs). [Following](account/following) provides a public record that also confirms that you are who you say you are. These are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you just because you say you are; they can see for themselves.
+You do create a username to help let others know an account belongs to you. But you also confirm who you are with  [proofs](account/proofs). [Following](account/following) provides a public record that also confirms that you are who you say you are. These are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you just because you say you are; they can see for themselves.
 
 If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they share anything with you.
+
+## Usernames
+#### Usernames are public and can’t be changed. 
+Before you create your account, give your username some thought. Everyone on the internet can see it.
+
+Choosing your username is the first action of many that you’ll take to help establish [your account](/account) on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this. 
+
+We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
+
+#### Usernames must be lowercase letters and numbers only, with no spaces.
+This format helps keep Keybase accounts secure because it makes it hard for tricksters to use visually similar names to impersonate people. 
+
+For example, if uppercase letters were allowed someone could create the account Isteele (with a capital “i”) and pretend to be mlsteele (with a lowercase “L”). Spaces are not allowed for the same reason. The difference between “karen m” and “karen  m” is too subtle.
+
+#### Deleting a username and account is permanent.
+If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it.
+
+
 
 
 
