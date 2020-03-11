@@ -1,28 +1,25 @@
 {% set section_title = "Share messages & files" %}
-## Your inbox
-Message friends, share sensitive information with colleagues, or organize entire projects. All of your chats on Keybase are organized in one secure inbox.
 
-{# insert annotated screenshot of inbox #}
 
-### Chat with individuals
-To start new chats quickly, find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
+## Individual chats
+To start new chats quickly, find your contact by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
 
 If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message.
 
 Chats with individuals and groups work similarly to SMS and group texts (but, in case you forgot, they’re super duper secure). New messages move a conversation to the top of your inbox.   
 
-### Chat with groups of people
+## Group chats 
 You can use Chat on Keybase just like you would group messages on your phone. But you can also do a lot more.
 
 If you want to add or remove people from a group, turn it into a team. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels to a chat, your team becomes a big team (and moves to the lower part of your inbox).
 
-#### Keep private messages private
+#### Keep private messages private.
 You can reply privately to messages within team chats. Those chats move outside of the team chat and always remain private between you and that other person.
 
-#### Organize with channels
+#### Organize with channels.
 You can create channels to organize chats (on say, a specific project or lunch ideas), but they’re not private. Everyone on a team can search and read all messages and files shared in any and every channel. 
 
-#### Get more privacy with subteams
+#### Get more privacy with subteams.
 To create chats or share files that are private to specific team members, you need to [make a subteam](/teams#subteams). Learn more about subteams in [Teams](/teams).
 
 #### Manage chat history
