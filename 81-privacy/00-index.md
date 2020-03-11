@@ -26,12 +26,6 @@ Anyone on the internet can search, find, and see your Keybase account and some d
 * social accounts that you use as proofs (e.g. Twitter, GitHub, Reddit)
 * anything else you choose to share on your profile—maybe a photo, short biography, or your location 
 
-### Your username is public and can’t be changed or deleted 
-Before you create your account, give your username some thought. Anyone on the internet can see it and it can’t be changed or deleted.
-
-Choosing your username is the first thing in a series of things you’ll do to help establish [your account](/your-account) on Keybase. Changing it has the potential to undo everything that helps confirm that you are who you say you are. 
-
-We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 
 ### Device names are public and can’t be changed or deleted
 You’ll also name the computer and/or devices you download Keybase on. Device names are also visible to everyone on the internet and can’t be changed or deleted.
