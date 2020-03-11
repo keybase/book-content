@@ -14,9 +14,9 @@ When you add a new device or paper key, your existing device vouches for the new
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
 #### Device names are public and can’t be changed.
-You’ll also name the computer and/or devices you download Keybase on. Device names are also visible to everyone on the internet and can’t be changed or deleted.
+When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully. 
 
-Again, choose carefully. Your devices help make your Keybase account secure and trustworthy. Devices can be revoked to indicate that they’re no longer in use or have otherwise changed. Learn more in [Devices](/account/devices).
+Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing devices names has the potential to undo this. 
 
 ### Add devices 
 Install Keybase on your other devices so that you won’t lose access to your account if you lose access to a device. 
