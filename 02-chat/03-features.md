@@ -17,8 +17,8 @@ An exploding message is completely and permanently erased after a chosen period 
 #### Team chats
 If you share an exploding message with a team, it will only be  readable for existing members of the team. For example:
 
-* anyone in the team when the message is sent will be able to read it before it explodes, even if they leave and rejoin the team within that time period
-* anyone added to the team after an exploding message is sent will not be able to read it, even if it hasn’t yet exploded 
+* Anyone in the team when the message is sent will be able to read it before it explodes, even if they leave and rejoin the team within that time period.
+* Anyone added to the team after an exploding message is sent will not be able to read it, even if it hasn’t yet exploded. 
 
 ### Coin flips
 Coin flips can help you make a really important decision—should you take that job? Buy a Corvette? Type `/flip` into a chat and you’ll get a totally randomized heads-or-tails coin flip. 
