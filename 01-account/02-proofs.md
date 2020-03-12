@@ -5,7 +5,7 @@ Tip: Add as many proofs as you can to provide the most assurance that you are yo
 
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.
 
-Proofs link your Keybase account to your other online accounts. They help people trust that you are really you on Keybase. Proofs are public. Keybase checks them, but importantly, anyone can. Publicly proving that you are who you say you are is an important part of what makes Keybase accounts so secure and trustworthy.
+Proofs link your Keybase account to your other online accounts. Generally, proofs help people trust that you are really you on Keybase. Some people may already know you as you through your other accounts. But proofs are public so Keybase can (and does) check them, but importantly, anyone can. Publicly proving that you are who you say you are is an important part of what makes Keybase accounts so secure and trustworthy.
 
 If a proof is changed, indicating that your Keybase or other social accounts may have been compromised, Keybase will automatically warn the people you interact with. 
 

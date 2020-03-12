@@ -16,10 +16,10 @@ So, no one can compromise your account without having all of your devices and pa
 #### Device names are public and can’t be changed.
 When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully. 
 
-Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing devices names has the potential to undo this. 
+Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this. 
 
 ### Add devices 
-Install Keybase on your other devices so that you won’t lose access to your account if you lose access to a device. 
+Install Keybase on your other devices so that you don’t lose access to your account if you lose access to a device. 
 
 ![](/img/kb-one-device.png)
 
@@ -28,8 +28,6 @@ Install Keybase on your other devices so that you won’t lose access to your ac
 *  the device you signed up with (you’ll use a QR code to vouch for the new device)
 *  a name for the new device
 
-Device names are public and can’t be changed. Choose carefully. Learn more about why in [Security](/security).
-
 ![](/img/kb-two-devices.png)
 
 ### Revoke lost or old devices
@@ -37,7 +35,7 @@ If you lose or replace a device, you should revoke it. Revoking removes the devi
 
 Revoking lost or old devices helps ensure that only you can access your account. Your account cannot be accessed through revoked devices. 
 
-But, revoked devices still publicly appear on your account. 
+Revoked devices still publicly appear on your account but are marked as revoked. 
 
 ### Add paper keys 
 Add paper keys so that you can access your account even if (worst-case scenario) you lose all of your devices. 

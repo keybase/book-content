@@ -36,5 +36,3 @@ For example, if uppercase letters were allowed someone could create the account 
 
 #### Deleting a username and account is permanent.
 If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it.
-
-## Passwords
