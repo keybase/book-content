@@ -1,7 +1,7 @@
 {% set section_title = "Chat" %}
 
 ## Chat for Teams
-Chat for Teams works pretty much the same as it does for individuals. Learn more in [Chat](/chat).
+Chat for Teams works pretty much the same way it does for individuals. Learn more in [Chat](/chat).
  
 A chat is automatically created for each team. Team members with the right permissions can organize chats with channels and manage chat privacy.
 
