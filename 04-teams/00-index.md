@@ -8,7 +8,7 @@ Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/Git).
 
 Like everything else on Keybase, your team chats, files, and Git are end-to-end encrypted. What you and your team share, store, and commit stays between you and your team. 
 
-Likewise, person-to-person interactions remain encrypted and private. Team admins or owners can’t access private chats between team members or any other interactions they’re not explicitly a part of. No snooping on Keybase—anywhere, ever.
+Likewise, person-to-person interactions remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. No snooping—anywhere, ever—on Keybase.
 
 ## Creating a team
 Before you create a team, there are a few things you should know:
@@ -17,11 +17,11 @@ Before you create a team, there are a few things you should know:
 * Team names cannot be changed.
 
 ### Adding and removing people
-You can create a team from scratch. Or if your team’s on Slack, you can [import it right into Keybase](https://keybase.io/slack-importer/).
+You can create a team from scratch. Or if your team’s on Slack, you can [import it into Keybase](https://keybase.io/slack-importer/).
 
 Adding people by Keybase username is the quickest way to create a team. If you add people by their social handle, email, or phone numbers, they’ll need to create a Keybase account if they don’t already have one. 
 
-As you add people to a team, they’re announced in chat. All new team members can search and read the entire team chat history, except for exploding messages sent before they joined.
+As you add people to a team, they’re announced in the team chat. All new team members can search and read the entire team chat history, except for exploding messages sent before they joined.
 
 If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
 
