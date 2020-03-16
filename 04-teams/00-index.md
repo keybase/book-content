@@ -10,7 +10,7 @@ Like everything else on Keybase, your team chats, files, and Git are end-to-end 
 
 Likewise, person-to-person interactions remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. No snooping—anywhere, ever—on Keybase.
 
-## Creating a team
+## Managing a team
 Before you create a team, there are a few things you should know:
 * Teams are public. Outsiders can see that they exist but not necessarily who is in them.
 * Team members can choose to publish the teams they belong to on their profiles.
@@ -25,7 +25,7 @@ As you add people to a team, they’re announced in the team chat. All new team 
 
 If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
 
-### Roles and permissions
+#### Roles and permissions
 When you add someone to a team, you’ll assign them a role that gives them specific permissions. In most cases, most people should be writers, unless you’re managing a community. Then, you might want your team members to be readers. You can always change roles later.
 
 **Owners:**
@@ -68,8 +68,8 @@ When you add someone to a team, you’ll assign them a role that gives them spec
 * *Cannot* delete team
 * *Cannot* add bots
 
-## Leaving a team
+### Leaving a team
 If you leave a team, any messages and files you shared remain with the team, but you lose access to them. You can only rejoin a team if you are invited by an admin or owner.
 
-## Deleting a team
+### Deleting a team
 A team can only be deleted by the team owner. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost forever, all data in the team folder(s) is lost forever, and all team members are notified.
