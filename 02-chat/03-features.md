@@ -5,7 +5,7 @@
 You can also send or request funds over chat, in Lumens or any other currency you choose. Learn more in [Wallet](/wallet).
 
 ### Location sharing
-You can securely share your location with any individual, group, or team on Chat. You can even share your live location for a set period of time and it will automatically update as you move. 
+So long as you’re using a mobile device, you can securely share your location with any individual, group, or team on Chat. You can even share your live location for a set period of time and it will automatically update as you move. 
 
 When you do so, only the person or people you intend to share your location with will receive it. Not even Keybase or Google Maps will know where you are. 
 
@@ -37,9 +37,7 @@ All Keybase bots are open source. Keybase builds some but anyone can. You can se
 #### Permissions
 In individual or group chats, anyone can add a bot. 
 
-In a team, owners and admins can add bots. Readers and writers can not add bots. 
-
-And importantly, other bots cannot add other bots (to slow the inevitable robot takeover).
+In a team, owners and admins can add bots. Readers and writers can not add bots. And importantly, other bots cannot add other bots (to slow the inevitable robot takeover).
 
 #### Privacy
 When you add a bot to a chat or team, you decide what it can read. 
