@@ -1,16 +1,16 @@
 {% set section_title = "Following" %}
 
 ## Following
+TL;DR Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.
+
 Tip: Follow people on Keybase to help make your account and theirs more trustworthy. 
  
 Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
 
-### Follow people 
+### How it works
 You can and definitely should follow people you know and interact with on Keybase. But following helps keep accounts secure and trustworthy even if you don’t know someone you follow or someone who follows you. 
 
 For example, let’s say you follow Mary Poppins on Keybase. You probably don’t know her and she probably doesn’t know you (if that’s not true, lucky you). By following her, you’re essentially documenting her Keybase account, including all her proofs and devices. This documentation is a time-stamped public record that can be checked by anyone else on Keybase. It’s also automatically checked by your computer or device every time you share messages or files with Ms. Poppins. And if anything about her account changes, you—and everyone else who follows her—will be notified when you attempt to interact with her on Keybase again. 
-
-{# insert illo of people waving illustrations of mary poppins, all of which look the same, except for one that looks different  (e.g. she's wearing sunglasses and a different hat). That illo has a red circle with a slash across it or a red flag waving next to it #}
 
 #### More followers provide more security. 
 But if you don’t know Ms. Poppins, you might not interact with her and get notified that her account has changed. This is where safety in numbers kicks in. 
@@ -30,7 +30,7 @@ If you keep (ahem) *following* this logic, it’s easy to see that an older Keyb
 
 This is a pretty simplified version of how following works. You can dig into more details in our [docs](https://keybase.io/docs/server_security/following) and on [Github](https://github.com/keybase/keybase-issues/issues/100). (Note: following was previously called tracking.)
 
-### Block unwanted followers
+### Blocking followers
 While even followers you don’t know help keep your account trustworthy, you can block them. 
 
 When you block someone, you can remove them from your public list of followers. You won’t see them and their account will not be publicly associated with yours. They also won’t be able to chat with you or add you to a team.

@@ -6,25 +6,29 @@ TL;DR Public-key cryptography makes your Keybase account trustworthy and secure.
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption. 
 
-Lots of apps only require a username and password to create and protect an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. 
-
-But with just a username and password, accounts can be hacked, phished, and otherwise compromised. They’re not totally trustworthy and secure. In best-case scenarios, you can use two-factor authentication for more security but it’s still not perfect. Keybase uses public-key cryptography instead. 
+When you create your Keybase account, it’s linked to your [devices](account/devices). You further protect your account with [proofs](account/proofs) and [following](account/following). All of these actions are backed by public-key cryptography. 
 
 You can learn more about how public-key cryptography works in [Security](/security).
 
-#### Public-key encryption makes your Keybase account trustworthy and secure.
-The gist is that, thanks to public-key cryptography, your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. Your Keybase account and everything you store or share through it are trustworthy and secure. 
+The gist is that your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here. 
 
-Your contacts can trust your Keybase account because, instead of being protected by just a password, it’s cryptographically linked to your [devices](account/devices). So long as only you have access to your devices, only you can access your account. 
+#### Devices, proofs, and following help make your Keybase account trustworthy and secure.
+Lots of other apps only require a username and password to create and protect an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it. 
 
-You do create a username to help let others know an account belongs to you. But you further confirm who you are with  [proofs](account/proofs), which link your Keybase account to your other online accounts. [Following](account/following) provides a public record that also confirms that you are who you say you are. These are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you just because you say you are; they can see for themselves.
+But with just a username and password, accounts can be hacked, phished, and otherwise compromised. They’re not totally trustworthy and secure. In best-case scenarios, you can use two-factor authentication for more security but it’s still not perfect.
 
-Anyone can check your proofs and Keybase regularly does as well. If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they share anything with you.
+Your contacts can trust your Keybase account because, instead of being protected by just a password, it’s cryptographically linked to your [devices](account/devices). Your account can only be accessed through your devices. So long as only you have access to your devices, only you can access your account. 
+
+You do create a username to help let others know an account belongs to you. But you further confirm who you are with  [proofs](account/proofs), which link your Keybase account to your other online accounts. 
+
+[Following](account/following) provides a public record that also confirms that you are who you say you are. Proofs and following are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you just because you say you are; they can see for themselves.
+
+Anyone can check your proofs; Keybase regularly does as well. If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they interact with you.
 
 ## Usernames
-#### Your username is public and can’t be changed. 
-Before you create your account, give your username some thought. Everyone on the internet can see it.
+Tip: Before you create your account, give your username some thought. Everyone on the internet can see it.
 
+#### Your username is public and can’t be changed. 
 Choosing your username is the first action of many that you’ll take to help establish [your account](/account) on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this. 
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).

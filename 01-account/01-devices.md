@@ -1,6 +1,8 @@
 {% set section_title = "Devices" %}
 
 ## Devices 
+TL;DR: You can think of your devices and paper keys as keys to your account. You can only access your account through your devices. Paper keys provide backup access to your account in case you lose your devices.
+
 Tip: Add multiple devices and paper keys to your account to ensure its security.
 
 When you create your Keybase account, Keybase creates a key pair for your account and the device—your phone or computer—that you sign up with. 
@@ -13,13 +15,13 @@ When you add a new device or paper key, your existing device vouches for the new
 
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
+### Adding devices and paper keys
+Install Keybase on your other devices so that you don’t lose access to your account if you lose access to a device. 
+
 #### Device names are public and can’t be changed.
 When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully. 
 
 Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this. 
-
-### Add devices 
-Install Keybase on your other devices so that you don’t lose access to your account if you lose access to a device. 
 
 ![](/img/kb-one-device.png)
 
@@ -41,6 +43,5 @@ Revoked devices still publicly appear on your account but are marked as revoked.
 Add paper keys so that you can access your account even if (worst-case scenario) you lose all of your devices. 
 
 ![](/img/kb-three-devices.png)
-{# illo update: minor but can we edit the paper key to show an actual string of words written so it looks more like an actual paper key? #}
 
 When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home. 
