@@ -9,7 +9,7 @@ Encryption and decryption can happen symmetrically or asymmetrically. In **symme
 
 A **public key** is widely published so anyone can access it. It’s usually used to encrypt data. A **private key** is private and usually used to decrypt data. A public key cannot be used to try and guess or hack a private key.  
 
-#### Both your public and private key help keep your account secure.
+#### Both your public and private key help secure your account.
 Keybase uses **256-bit encryption**. This means someone would have to try more than 115 quattuorvigintillion possible keys to hack your private key. Not even a hundred thousand computers could try all those keys in trillions of years.
 
 This makes it safe for your public key to be public, as it is on Keybase. Keeping your public key public allows your contacts to safely and easily share encrypted info with you without having to rely on other—potentially unsafe—channels. 
@@ -26,10 +26,10 @@ Every message or file you share or receive through Keybase is end-to-end encrypt
 
 Public-key cryptography is also used to encrypt information shared through secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your account—or as the username and password—you use to access them. 
 
-Thank goodness your [Keybase account](/account) is more secure than that, thanks to more public-key cryptography.
+Thank goodness your [Keybase account](/account) is more secure than that.
 
 #### Keybase is reviewed by global cyber security experts. 
-Read the 2018 report by NCC Group, the global cyber security and risk mitigation experts: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
+Read the 2018 report by the global cyber security and risk mitigation experts, NCC Group: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
 
 
 
