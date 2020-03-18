@@ -1,7 +1,7 @@
 {% set section_title = "Your Account" %}
 {% set section_subtitle = "Keybase accounts are trustworthy and secure. Learn how." %}
 
-# Your account
+# Your Keybase Account
 TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure. 
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption. 

@@ -12,10 +12,10 @@ You can and should read our whole [privacy policy](https://keybase.io/docs/priva
 The gist is that Keybase won’t sell or rent your data or content for any reason. Again, we can’t even access it. And, we’ll never rely on ads for revenue. Eventually, we may charge for special features for larger corporations. But individual and existing accounts will always be free.
  
 #### Your data is secure.
-Keybase can’t access your data, no one else can either. It may seem strange, but you don’t create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in [Security](/security).
+Keybase can’t access your data and no one else can either. It may seem strange, but you don’t create a password when you set up your account. The cryptography Keybase uses is significantly more secure than passwords. Learn more in Accounts and [Security](/security).
 
 ## Public info
-Using public-key cryptography means that some of your info is public by default. (You can learn more about why in [Security](/security).)
+Using public-key cryptography means that some of your info is public by default. (You can learn more about why in [Your Account](/accounts) and [Security](/security).)
 
 Anyone on the internet can search, find, and see your Keybase account and some details associated with it, including:
 * your username 
@@ -25,10 +25,10 @@ Anyone on the internet can search, find, and see your Keybase account and some d
 * social accounts that you use as proofs (e.g. Twitter, GitHub, Reddit)
 * anything else you choose to share on your profile—maybe a photo, short biography, or your location 
 
-## Block and report bad actors
-You can control who can interact with you on Keybase. You can block and report people on an individual basis. You can also limit who can chat with you and add you to a team. Learn more in [Chat](chat/blocking).
+## Blocking and reporting
+You can control who can interact with you on Keybase. You can block and report people on an individual basis. You can also proactively restrict who can chat with you or add you to a team. Learn more in [Chat](chat/blocking).
 
-When you block someone, they’ll no longer be able to chat, share files, or otherwise interact with you through Keybase. If you’re on a team together, you may still be able to see messages they share with that team. But you can also choose to block entire conversations and/or teams.
+When you block someone, they’ll no longer be able to chat, share files, or otherwise interact with you on Keybase. If you’re on a team together, you may still be able to see messages they share with that team. But you can also choose to block entire conversations and/or teams.
 
 You can also remove people you block from your public list of followers. You won’t see them and their account will not be publicly associated with yours. But they can still follow you. 
 
