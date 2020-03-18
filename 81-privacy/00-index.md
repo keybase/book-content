@@ -1,6 +1,6 @@
 {% set section_title = "Privacy" %}
 
-# Privacy
+# Privacy on Keybase
 Only your intended recipients can access what you share through Keybase. No one else can access your data—not even Keybase, which also means we can’t and won’t ever sell it.
 
 Public-key cryptography ensures your privacy and security on Keybase. But public-key cryptography means that some information is, well, public. For example, everyone on the internet can see your username. And, some public info can’t be totally deleted. To help avoid any confusion or embarrassing moments, we’ll lay it all out.
