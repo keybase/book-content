@@ -1,30 +1,35 @@
-{% set section_title = "Keybase Sites" %}
+{% set section_title = "Sites" %}
 {% set section_subtitle = "Build and host a simple website." %}
 {% set nav_title = "Sites" %}
 
 # Keybase Sites
-One of the lesser known perks of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder.
+One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder. 
 
-## Make a simple website
-To see how it works, create a document and name it `index.md`. You can type anything but it’s kind of a tradition to try new things out on the internet with this:
+## Getting started
+To see how it works, type anything into a document. You can start with whatever you want but it’s kind of a tradition to try out new things on the internet with this:
 
 ```
 # Hello, world!
 ```
 
-Drop this index file into your public folder, and you’ll immediately see it on your home page at `https://{username}.keybase.pub/`.
+This example uses [Markdown](https://daringfireball.net/projects/markdown/basics) formatting (`#`). You can use [HTML](https://www.w3schools.com/html/), too. 
 
-The formatting (`#`) used in this example is [Markdown](https://daringfireball.net/projects/markdown/basics). You can use [HTML](https://www.w3schools.com/html/), too. But instead of `index.md`, name a file `index.html` to enable formatting with HTML.
+If you use Markdown, name your document `index.md`. If you use HTML, name your document `index.html`.
 
-### Add and organize pages
-To add and organize pages on your website, you just need to create and organize folders in your public folder.
+Drop this index file into your public folder. You’ll immediately see it on your home page at `https://yourusername.keybase.pub/`.
 
-Only files titled `index.md` or `index.html` (also known as index files, go figure) will show up on your website. So, to add multiple pages, you need to add multiple folders, each with an index file.
+### Adding pages
+To add more pages:
+1. Create a new folder in your public folder. Name the folder with the page name.
+2. Add an index file with your content (just remember, it’ll be public!) in it. 
+3. Create a new folder for every new page.
 
-For example, let’s say that from your home page, you want to link to another page called `foo`. To do this, create a folder called `foo` inside your public folder. Add an index file in `foo` with whatever content you want in it (just remember, this is all public!). This new page will appear at `https://{username}.keybase.pub/foo/`.
+Only **index files**, documents titled `index.md` or `index.html`, will show up on your website. 
 
-### Edit pages
-To edit a page, all you need to do is open the file, make your edits, and save it. Your changes will automatically update on your website.
+For example, let’s say that from your home page, you want to link to another page named `foo`. To do this, create a folder named `foo` in your public folder. Add an index file to the `foo` folder, with your content in it. This new page will appear at `https://yourusername.keybase.pub/foo/`.
+
+### Editing pages
+To edit a page, open the index file, make your edits, and save it. Your changes will automatically update on your website.
 
 ### Learn more
 If you’re so inclined, you can see a couple examples and search for others’ websites at [Keybase.pub](https://keybase.pub/).
