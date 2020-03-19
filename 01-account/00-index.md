@@ -57,7 +57,7 @@ When you add a new device or paper key, your existing device vouches for the new
 
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account. 
 
-### Adding devices and paper keys
+### Adding devices 
 Install Keybase on your other devices so that you don’t lose access to your account if you lose access to a device. 
 
 #### Device names are public and can’t be changed.
@@ -74,14 +74,14 @@ Like your username, devices names are part of a public record that helps secure 
 
 ![](/img/kb-two-devices.png)
 
-### Revoke lost or old devices
+### Revoking devices
 If you lose or replace a device, you should revoke it. Revoking removes the device from your account. 
 
 Revoking lost or old devices helps ensure that only you can access your account. Your account cannot be accessed through revoked devices. 
 
 Revoked devices still publicly appear on your account but are marked as revoked. 
 
-### Add paper keys 
+### Adding paper keys 
 Add paper keys so that you can access your account even if (worst-case scenario) you lose all of your devices. 
 
 ![](/img/kb-three-devices.png)
@@ -100,7 +100,7 @@ If a proof is changed, indicating that your Keybase or other social accounts may
 
 {#illo: Screenshot of proofs on Keybase overlaid with the proof (i.e. the tweet that the proof links to) #}
 
-### Add proofs
+### Adding proofs
 You can add proofs for your personal website and social accounts on Twitter, GitHub, Reddit, and Hacker News. But your social accounts must be public for them to work as proofs.
 
 ![](/img/kb-one-account.png)
@@ -120,7 +120,7 @@ Tip: Follow people on Keybase to help make your account and theirs more trustwor
  
 Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
 
-### How it works
+#### Follow people you interact with.
 You can and definitely should follow people you know and interact with on Keybase. But following helps keep accounts secure and trustworthy even if you don’t know someone you follow or someone who follows you. 
 
 For example, let’s say you follow Mary Poppins on Keybase. You probably don’t know her and she probably doesn’t know you (if that’s not true, lucky you). By following her, you’re essentially documenting her Keybase account, including all her proofs and devices. This documentation is a time-stamped public record that can be checked by anyone else on Keybase. It’s also automatically checked by your computer or device every time you share messages or files with Ms. Poppins. And if anything about her account changes, you—and everyone else who follows her—will be notified when you attempt to interact with her on Keybase again. 
