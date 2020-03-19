@@ -8,7 +8,7 @@ Anything you share—all of your messages and files—is end-to-end encrypted. Y
 
 You can chat with individuals or groups, [block people](/chat/blocking) you don’t want to chat with, and get even more done with [special features](/chat/special-features) like location sharing, exploding messages, coin flips, and bots.
 
-{# insert annotated screenshot of inbox #}{% set section_title = "Share messages & files" %}
+{# insert annotated screenshot of inbox #}
 
 
 ## Starting a chat
@@ -36,7 +36,7 @@ Your entire chat history of messages and files is searchable and readable by eve
 In team chats, owners can determine how long chat history is saved. Messages can be auto-deleted never or at set intervals from 30 seconds to 365 days. Individual messages can also be set to [explode](chat/features) after a certain time period.
 
 So long as you choose to keep your chat history, you’ll always be able to dig into all of it.
-{% set section_title = "Blocking" %}
+
 
 ## Privacy 
 All Keybase accounts are public, but you can control who can chat or otherwise interact with you by blocking, reporting, and/or restricting contacts.
@@ -60,7 +60,7 @@ You can select a box that gives you options to only let someone message you or a
 * they’re in a particular team with you.
 
 If you select the team option, you can further specify which teams.
-{% set section_title = "Special features" %}
+
 ## Special features 
  The cryptography that powers Keybase Chat also lets you do a lot of things you can’t do in other chat apps, like share your live location, make extra-sensitive messages explode, flip a coin, or use a bot. 
 

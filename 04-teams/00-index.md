@@ -72,7 +72,7 @@ When you add someone to a team, you’ll assign them a role that gives them spec
 If you leave a team, any messages and files you shared remain with the team, but you lose access to them. You can only rejoin a team if you are invited by an admin or owner.
 
 ### Deleting a team
-A team can only be deleted by the team owner. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost forever, all data in the team folder(s) is lost forever, and all team members are notified.{% set section_title = "Manage a team  " %}
+A team can only be deleted by the team owner. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost forever, all data in the team folder(s) is lost forever, and all team members are notified.
 
 ## Team features
 Teams can be what we call big teams, subteams, or open teams. Each has different features and abilities.
@@ -102,7 +102,6 @@ Just like any other team, a subteam becomes a big team when you add chat channel
 Anyone can join an open team. So, if you’re building a community, you might want to make an open team. You can also let the Keybase community know about it and we may be able to help get the word out.
 
 If you know of an open team you’d like to join, for example `keybasefriends` or `stellar.public`, you can hit `Join a team` to request being added. Since you can’t necessarily see who’s on a team, Keybase pings the admin for you. The admin can accept or ignore your request.
-{% set section_title = "Chat" %}
 
 ## Chat for Teams
 Chat for Teams works pretty much the same way it does for individuals. Learn more in [Chat](/chat).
@@ -122,7 +121,7 @@ Everyone on a team can search and read all of the messages and files shared in t
 By default, your entire chat history is saved and searchable forever. But team owners can manage how long messages are saved. Messages can be auto-deleted never or at set intervals as short as 30 seconds and as long as 365 days. 
 
 To keep chats or files private to specific team members, create a subteam.
-{% set section_title = "Files" %}
+
 ## Files for Teams
 Files for Teams on Keybase works pretty much the same way it works for individuals. Learn more in [Files](/files).
 
@@ -131,7 +130,6 @@ Teams and subteams can store up to 100 GB of documents, photos, and videos. Anyt
 To make files private to specific team members, create a subteam. 
  
 
-{% set section_title = "Git" %}
 ## Git for Teams
 Git for Teams on Keybase works pretty much the same way it works for individuals. Learn more in [Git](/git).
 

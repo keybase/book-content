@@ -33,7 +33,7 @@ To edit a page, open the index file, make your edits, and save it. Your changes 
 
 ### Learn more
 If you’re so inclined, you can see a couple examples and search for others’ websites at [Keybase.pub](https://keybase.pub/).
-{% set section_title = "Custom domains" %}
+
 
 ## Custom domains
 You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of `https://{username}.keybase.pub/`.

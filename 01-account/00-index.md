@@ -39,7 +39,8 @@ This format helps keep Keybase accounts secure because it makes it hard for tric
 For example, if uppercase letters were allowed someone could create the account Isteele (with a capital “i”) and pretend to be mlsteele (with a lowercase “L”). Spaces are not allowed for the same reason. The difference between “karen m” and “karen  m” is too subtle.
 
 #### Deleting a username and account is permanent.
-If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it.{% set section_title = "Devices" %}
+If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it.
+
 
 ## Devices 
 TL;DR: You can think of your devices and paper keys as keys to your account. You can only access your account through your devices. Paper keys provide backup access to your account in case you lose your devices.
@@ -85,7 +86,8 @@ Add paper keys so that you can access your account even if (worst-case scenario)
 
 ![](/img/kb-three-devices.png)
 
-When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home. {% set section_title = "Proofs" %}
+When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home.
+
 
 ## Proofs  
 Tip: Add as many proofs as you can to provide the most assurance that you are you on Keybase.
@@ -108,7 +110,8 @@ For example, if you use your Twitter account as a proof, Keybase will give you a
 
 Keeping proofs public lets Keybase—and anyone else—check them. Everyone can be sure that you are you.
 
-![](/img/kb-three-accounts.png){% set section_title = "Following" %}
+![](/img/kb-three-accounts.png)
+
 
 ## Following
 TL;DR Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.
