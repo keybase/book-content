@@ -13,7 +13,7 @@ The important thing is: no phishing scams or malevolent links around here.
 ## Privacy
 Only the people you choose to share your files with can read or access them (not even Keybase can). You can keep private stuff—financial info, personal photos, your life philosophy—private.
 
-You can store and share files in public, private, or team folders, each with different privacy features. You can add and organize files and folders any way you like inside these folders.
+You can store and share files in public, private, or team folders, each with different privacy features. 
 
 ### Private folders
 Only you and the people you choose to share with can access files in your private folders.
@@ -32,14 +32,17 @@ A new folder is automatically created for every team to share files in. Files in
 
 To share files with only specific team members, create a subteam. Learn more in [Teams](/teams).
 
-## Finder and Explorer integration
-When you install Keybase on your computer, you can enable an integration to make your Keybase files available in Finder (on a Mac) or Explorer (on Windows). 
+## Managing files
+You can add and organize files and folders any way you like inside your private, public, and team folders. 
+
+### Desktop integration
+When you install Keybase on your desktop computer, you can enable an integration to make your Keybase files available in Finder (on a Mac) or Explorer (on Windows). 
 
 This allows you to drag and drop to upload, organize, edit, or delete files right from Finder or Explorer.
 
 You can also enable the integration later by going to Settings > Files.
 
-## Offline file access
+### Offline file access
 Your Keybase files don’t take up storage space on your computer or your device because they stream in when you need them and out when you don’t. 
 
 To make files available when you’re offline, sync folders to the devices you want to access them on.
