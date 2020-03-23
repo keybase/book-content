@@ -22,6 +22,8 @@ You can use Keybase for Chat just like you would group messages on your phone. E
 ## Chatting with teams
 If you turn a group chat into a team, you can add or remove people from it. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels, your team becomes what we call a big team.
 
+![](/img/chat-profileteams.png)
+
 ### Channels
 You can create channels to organize chats (on say, a specific project or lunch ideas), but they’re not private. Everyone on a team can search and read all messages and files shared in any and every channel.
 
