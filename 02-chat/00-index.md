@@ -4,13 +4,11 @@
 # Keybase for Chat
 Message friends, share important info with colleagues, or organize entire projects. All of your chats on Keybase happen in one secure inbox.
 
+![](/img/chat-profileteams.png)
+
 Anything you share—all of your messages and files—is end-to-end encrypted. Your messages can only be read by your intended recipient(s). Private messages stay private.
 
 You can chat with individuals or groups, [block people](/chat/blocking) you don’t want to chat with, and get even more done with [special features](/chat/special-features) like location sharing, exploding messages, coin flips, and bots.
-
-{# insert annotated screenshot of inbox #}
-
-![](/img/chat-profile.png)
 
 ## Starting a chat
 To start new chats quickly, you can find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
@@ -21,8 +19,6 @@ You can use Keybase for Chat just like you would group messages on your phone. E
 
 ## Chatting with teams
 If you turn a group chat into a team, you can add or remove people from it. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels, your team becomes what we call a big team.
-
-![](/img/chat-profileteams.png)
 
 ### Channels
 You can create channels to organize chats (on say, a specific project or lunch ideas), but they’re not private. Everyone on a team can search and read all messages and files shared in any and every channel.
