@@ -72,6 +72,8 @@ You can also send or request funds over chat, in Lumens or any other currency yo
 ### Location sharing
 So long as you’re using a mobile device, you can securely share your location with any individual, group, or team on Chat. You can even share your live location for a set period of time and it will automatically update as you move.
 
+![](/img/chat-location.png)
+
 When you do so, only the person or people you intend to share your location with will receive it. Not even Keybase or Google Maps will know where you are.
 
 ### Exploding messages
