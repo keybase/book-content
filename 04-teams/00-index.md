@@ -29,7 +29,7 @@ If you remove a team member, they lose access to all team chats and folders. Rem
 When you add someone to a team, you’ll assign them a role that gives them specific permissions. In most cases, most people should be writers, unless you’re managing a community. Then, you might want your team members to be readers. You can always change roles later.
 
 <div class="table-wrapper">
-    <h5>Keybase Teams: Roles & Permissions</h5>
+    <h5><img src="/static/img/kbicon.svg" alt=""> Keybase Teams: Roles & Permissions</h5>
     <table>
         <tr>
             <th class="empty">&nbsp;</th>
