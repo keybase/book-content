@@ -28,7 +28,74 @@ If you remove a team member, they lose access to all team chats and folders. Rem
 #### Roles and permissions
 When you add someone to a team, you’ll assign them a role that gives them specific permissions. In most cases, most people should be writers, unless you’re managing a community. Then, you might want your team members to be readers. You can always change roles later.
 
-![](/img/teams-accessmatrix.png)
+<div class="table-wrapper">
+    <h5>Keybase Teams: Roles & Permissions</h5>
+    <table>
+        <tr>
+            <th class="empty">&nbsp;</th>
+            <th>Owners</th>
+            <th>Admins</th>
+            <th>Writers</th>
+            <th>Readers</th>
+        </tr>
+        <tr>
+            <th>Write and read chat messages</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+        </tr>
+        <tr>
+            <th>View, edit, and save files</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="other">View only</td>
+        </tr>
+        <tr>
+            <th>Create chat channels</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+        </tr>
+        <tr>
+            <th>Create subteams</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+        </tr>
+        <tr>
+            <th>Add and remove team members</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+        </tr>
+        <tr>
+            <th>Manage team members' roles</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+        </tr>
+        <tr>
+            <th>Delete team</th>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+        </tr>
+        <tr>
+            <th>Add bots</th>
+            <td class="yes">Yes</td>
+            <td class="yes">Yes</td>
+            <td class="no">No</td>
+            <td class="no">No</td>
+        </tr>
+    </table>
+</div>
 
 ### Leaving a team
 If you leave a team, any messages and files you shared remain with the team, but you lose access to them. You can only rejoin a team if you are invited by an admin or owner.
