@@ -1,5 +1,7 @@
 {% set section_title = "Security" %}
 {% set section_subtitle = "Learn how Keybase keeps your stuff  safe." %}
+{% set page_title = "Learn about Security on Keybase" %}
+{% set page_description = "Your Keybase account and everything you share through it are protected by public-key cryptography. Learn how end-to-end encryption keeps your data secure." %}
 
 # Security on Keybase
 TL;DR Public-key cryptography makes it easy for you to safely and securely share or store anything you want on Keybase.

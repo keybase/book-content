@@ -1,5 +1,7 @@
 {% set section_title = "Chat" %}
 {% set section_subtitle = "Message and share files with anyone." %}
+{% set page_title = "Learn about using Keybase for Chat" %}
+{% set page_description = "Use Keybase Chat for end-to-end encrypted messaging with anyone. Keep your private messages safe and secure. Learn more." %}
 
 # Keybase for Chat
 Message friends, share important info with colleagues, or organize entire projects. All of your chats on Keybase happen in one secure inbox.

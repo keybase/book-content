@@ -1,4 +1,6 @@
 {% set section_title = "Privacy" %}
+{% set page_title = "Learn about Privacy on Keybase" %}
+{% set page_description = "Your data is safe, secure, and yours alone. No one else can access your data—not even Keybase, which means we can’t and won’t ever sell it. Learn more." %}
 
 # Privacy on Keybase
 Only your intended recipients can access what you share through Keybase. No one else can access your data—not even Keybase, which also means we can’t and won’t ever sell it.

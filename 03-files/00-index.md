@@ -1,5 +1,7 @@
 {% set section_title = "Files" %}
 {% set section_subtitle = "Share and store photos, videos, and documents." %}
+{% set page_title = "Learn about using Keybase for Files" %}
+{% set page_description = "Use Keybase for end-to-end encrypted file sharing and storage. Keep your most important documents, photos, and videos safe and secure. Learn more." %}
 
 # Keybase for Files
 Keep your most important documents, photos, and videos safe and secure with Files. 

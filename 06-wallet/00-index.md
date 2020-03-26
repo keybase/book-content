@@ -1,5 +1,7 @@
 {% set section_title = "Wallet" %}
 {% set section_subtitle = "Send, receive, and exchange funds." %}
+{% set page_title = "Learn about using your Keybase Wallet" %}
+{% set page_description = "Use your Keybase Wallet to exchange and transfer Stellar Lumens and other currencies. Learn more." %}
 
 # Keybase Wallet
 You can use Keybase Wallet to send, receive, and exchange Stellar Lumens (XLM) and other currencies that are trusted through the Stellar network. All of your transactions are automatically tied to your Keybase [account](/account).

@@ -1,6 +1,8 @@
 {% set section_title = "Sites" %}
 {% set section_subtitle = "Build and host a simple website." %}
 {% set nav_title = "Sites" %}
+{% set page_title = "Learn about using Keybase for Sites" %}
+{% set page_description = "Build and host a simple, secure website with Keybase Files. Use a custom domain or publish with Git. Learn more." %}
 
 # Keybase Sites
 One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder. 

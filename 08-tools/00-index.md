@@ -1,5 +1,7 @@
 {% set section_title = "Tools" %}
 {% set section_subtitle = "Encrypt, decrypt, sign, and verify messages and files." %}
+{% set page_title = "Learn about using Keybase Tools" %}
+{% set page_description = "Encrypt, decrypt, verify, and sign messages and files. Store and share documents, photos, and videos, safely and securely anywhere. Learn more." %}
 
 # Keybase Tools
 Everywhere else in Keybase, encryption, decryption, signing, and verifying happen seamlessly. All you see are messages and files that you can read or store, safely and securely, within Keybase. 
