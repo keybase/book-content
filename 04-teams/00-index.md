@@ -12,6 +12,9 @@ Like everything else on Keybase, your team chats, files, and Git are end-to-end 
 
 Likewise, person-to-person interactions remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. No snooping—anywhere, ever—on Keybase.
 
+Most importantly, the integrity of Keybase teams—who joins, leaves, what permissions they have—is enforced by the signing keys that live only on your devices. You never have to trust that the Keybase servers are doing the right thing. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we do not have the authority to inject unauthorized “ghost users” into teams that have not explicitly been signed in by the teams’ admins.
+
+
 ## Managing a team
 Before you create a team, there are a few things you should know:
 * Teams are public. Outsiders can see that they exist but not necessarily who is in them.
