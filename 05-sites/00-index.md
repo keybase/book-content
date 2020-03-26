@@ -5,7 +5,7 @@
 {% set page_description = "Build and host a simple, secure website with Keybase Files. Use a custom domain or publish with Git. Learn more." %}
 
 # Keybase Sites
-One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder. 
+One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder.
 
 ## Getting started
 To see how it works, type anything into a document. You can start with whatever you want but it’s kind of a tradition to try out new things on the internet with this:
@@ -14,7 +14,7 @@ To see how it works, type anything into a document. You can start with whatever 
 # Hello, world!
 ```
 
-This example uses [Markdown](https://daringfireball.net/projects/markdown/basics) formatting (`#`). You can use [HTML](https://www.w3schools.com/html/), too. 
+This example uses [Markdown](https://daringfireball.net/projects/markdown/basics) formatting (`#`). You can use [HTML](https://www.w3schools.com/html/), too.
 
 If you use Markdown, name your document `index.md`. If you use HTML, name your document `index.html`.
 
@@ -23,10 +23,12 @@ Drop this index file into your public folder. You’ll immediately see it on you
 ### Adding pages
 To add more pages:
 1. Create a new folder in your public folder. Name the folder with the page name.
-2. Add an index file with your content (just remember, it’ll be public!) in it. 
+2. Add an index file with your content (just remember, it’ll be public!) in it.
 3. Create a new folder for every new page.
 
-Only **index files**, documents titled `index.md` or `index.html`, will show up on your website. 
+![](/img/sites-filestructure.png)
+
+Only **index files**, documents titled `index.md` or `index.html`, will show up on your website.
 
 For example, let’s say that from your home page, you want to link to another page named `foo`. To do this, create a folder named `foo` in your public folder. Add an index file to the `foo` folder, with your content in it. This new page will appear at `https://yourusername.keybase.pub/foo/`.
 
@@ -41,12 +43,12 @@ If you’re so inclined, you can see a couple examples and search for others’ 
 You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of `https://{username}.keybase.pub/`.
 
 ### Using kbpbot
-`kbpbot` is a Keybase bot designed to help you publish your site using a custom domain. 
+`kbpbot` is a Keybase bot designed to help you publish your site using a custom domain.
 
 For example, let’s say you’d like to publish your website at `myname.com`.
 
 1. In your private Keybase folder, create a new folder with the name `yourusername,kbpbot`. Only you and `kbpbot` can access, read, and edit files in this folder.
-2. Within this folder, add another folder that will hold your site’s contents. Let’s name it `my-site`. The complete folder name would be `/keybase/private/person,kbpbot/my-site`. 
+2. Within this folder, add another folder that will hold your site’s contents. Let’s name it `my-site`. The complete folder name would be `/keybase/private/person,kbpbot/my-site`.
 3. Drop any other files you’d like to publicly share on your website in this folder. You can use Markdown, HTML, CSS, and image files.
 
 ### DNS records
@@ -70,9 +72,9 @@ This record tells `kbpbot` to look in this folder to share your files.
 Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, for free.
 
 If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
- 
+
 ## Git publishing
-You can also publish your website through [Git](/git) instead of [Files](/files). 
+You can also publish your website through [Git](/git) instead of [Files](/files).
 
 Instead of sharing a folder with kbpbot, as above, you can create a shared Keybase Git repository and publish that.
 
