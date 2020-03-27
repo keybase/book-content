@@ -8,17 +8,19 @@ Use Teams to work, connect, organize. A team on Keybase is simply a group of peo
 
 Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/Git).
 
-Like everything else on Keybase, your team chats, files, and Git are end-to-end encrypted. What you and your team share, store, and commit stays between you and your team.
+Like everything else on Keybase, team chats, files, and Git are end-to-end encrypted. What you and your team share, store, and commit stays between you and your team.
 
-Likewise, person-to-person interactions remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. No snooping—anywhere, ever—on Keybase.
+Cryptography also protects the integrity of teams on Keybase. Every team member gets a shared key pair. The private key only lives on their devices and is changed anytime someone on the team is removed or revokes a device. This key guarantees that only team admins can add or remove people and edit their permission. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we cannot access that key and cannot add unauthorized people or “ghost users” into teams. Only team members added by an admin can access that team.
 
-Most importantly, the integrity of Keybase teams—who joins, leaves, what permissions they have—is enforced by the signing keys that live only on your devices. You never have to trust that the Keybase servers are doing the right thing. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we do not have the authority to inject unauthorized “ghost users” into teams that have not explicitly been signed in by the teams’ admins.
+Likewise, person-to-person interactions also remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. 
 
+No snooping—anywhere, ever—on Keybase. 
 
 ## Managing a team
 Before you create a team, there are a few things you should know:
-* Teams are public. Outsiders can see that they exist but not necessarily who is in them.
+* Teams are public. Everyone can see that they exist but not necessarily who is in them.
 * Team members can choose to publish the teams they belong to on their profiles.
+* Team names must be unique. 
 * Team names cannot be changed.
 
 ### Adding and removing people
