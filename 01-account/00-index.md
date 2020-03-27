@@ -6,7 +6,7 @@
 # Your Keybase Account
 TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.
 
-![](/img/account-profile.png
+![](/img/account-profile.png)
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption.
 
@@ -20,8 +20,6 @@ The gist is that your contacts can be sure your Keybase account belongs to you a
 Lots of other apps only require a username and password to create and protect an account. Your username theoretically lets others know that an account belongs to you. And your password theoretically allows only you to access it.
 
 But with just a username and password, accounts can be hacked, phished, and otherwise compromised. They’re not totally trustworthy and secure. In best-case scenarios, you can use two-factor authentication for more security but it’s still not perfect.
-
-![](/img/account-passwordsvskb.png)
 
 Your contacts can trust your Keybase account because, instead of being protected by just a password, it’s cryptographically linked to your [devices](account/devices). Your account can only be accessed through your devices. So long as only you have access to your devices, only you can access your account.
 
@@ -96,7 +94,7 @@ Tip: Add as many proofs as you can to provide the most assurance that you are yo
 
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.
 
-Proofs link your Keybase account to your other online accounts. Generally, proofs help people trust that you are really you on Keybase. 
+Proofs link your Keybase account to your other online accounts. Generally, proofs help people trust that you are really you on Keybase.
 
 ![](/img/kb-three-accounts.png)
 
@@ -107,7 +105,7 @@ If a proof is changed, indicating that your Keybase or other social accounts may
 ### Adding proofs
 You can add proofs for your personal website and social accounts on Twitter, GitHub, Reddit, and Hacker News. But your social accounts must be public for them to work as proofs.
 
-For example, if you use your Twitter account as a proof, Keybase will give you a specific phrase to tweet that includes your Keybase username. 
+For example, if you use your Twitter account as a proof, Keybase will give you a specific phrase to tweet that includes your Keybase username.
 
 ![](/img/kb-proof-twitter.png)
 
