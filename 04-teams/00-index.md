@@ -10,7 +10,7 @@ Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/Git).
 
 Like everything else on Keybase, team chats, files, and Git are end-to-end encrypted. What you and your team share, store, and commit stays between you and your team.
 
-Cryptography also protects the integrity of teams on Keybase. Every team member gets a shared key pair. The private key only lives on their devices and is changed anytime someone on the team is removed or revokes a device. This key guarantees that only team admins can add or remove people and edit their permission. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we cannot access that key and cannot add unauthorized people or “ghost users” into teams. Only team members added by an admin can access that team.
+Cryptography also protects the integrity of teams on Keybase. Every team member gets a shared key pair. The private key only lives on their devices and is changed anytime someone on the team is removed or revokes a device. This key guarantees that only team admins can add or remove people and edit their permission. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we can’t access that key and can’t add unauthorized people or “ghost users” into teams. Only team members added by an admin can access that team.
 
 Likewise, person-to-person interactions also remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. 
 
