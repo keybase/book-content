@@ -8,13 +8,13 @@
 One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder.
 
 ## Getting started
-To see how it works, type anything into a document. You can start with whatever you want but it’s kind of a tradition to try out new things on the internet with this:
+To see how it works, type anything into a document. You can start with whatever you want, but it’s kind of a tradition to try out new things on the internet with this:
 
 ```
 # Hello, world!
 ```
 
-This example uses [Markdown](https://daringfireball.net/projects/markdown/basics) formatting (`#`). You can use [HTML](https://www.w3schools.com/html/), too.
+This example uses [Markdown](https://daringfireball.net/projects/markdown/basics) formatting (the `#` is a header). You can use [HTML](https://www.w3schools.com/html/), too.
 
 If you use Markdown, name your document `index.md`. If you use HTML, name your document `index.html`.
 
@@ -23,8 +23,8 @@ Drop this index file into your public folder. You’ll immediately see it on you
 ### Adding pages
 To add more pages:
 1. Create a new folder in your public folder. Name the folder with the page name.
-2. Add an index file with your content (just remember, it’ll be public!) in it.
-3. Create a new folder for every new page.
+2. Add an index file with your content in it (remember, it’ll be public).
+3. Repeat this—create a new folder and add a new index file—for every new page.
 
 ![](/img/sites-filestructure.png)
 
@@ -40,12 +40,12 @@ If you’re so inclined, you can see a couple examples and search for others’ 
 
 
 ## Custom domains
-You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of `https://{username}.keybase.pub/`.
+You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of at `https://{username}.keybase.pub/`.
 
 ### Using kbpbot
 `kbpbot` is a Keybase bot designed to help you publish your site using a custom domain.
 
-For example, let’s say you’d like to publish your website at `myname.com`.
+For example, let’s say you’d like to publish your website at `myname.com`. To do so:
 
 1. In your private Keybase folder, create a new folder with the name `yourusername,kbpbot`. Only you and `kbpbot` can access, read, and edit files in this folder.
 2. Within this folder, add another folder that will hold your site’s contents. Let’s name it `my-site`. The complete folder name would be `/keybase/private/person,kbpbot/my-site`.
@@ -71,20 +71,24 @@ This record tells `kbpbot` to look in this folder to share your files.
 ### HTTPS security
 Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, for free.
 
-If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
+If your configuration went smoothly, the contents of your folder are now shared over a secure HTTPS connection. 
+
+If you added a `/keybase/private/person,kbpbot/my-site/index.html`, that file will be made available at `https://my-site.example.com/` (and also `https://my-site.example.com/index.html`). 
+
+If you shared an image at `/keybase/private/person,kbpbot/my-site/puppy/gettingbig.jpg`, that would be available at `https://my-site.example.com/puppy/gettingbig.jpg`, etc.
 
 ## Git publishing
 You can also publish your website through [Git](/git) instead of [Files](/files).
 
-Instead of sharing a folder with kbpbot, as above, you can create a shared Keybase Git repository and publish that.
+Instead of sharing a folder with [kbpbot](sites#using-kbpbot), you can create a shared Keybase Git repository and publish that.
 
 First, you need to be on a team with `kbpbot`:
-1.  In Teams, select `Create a team` and give it a name (we’ll call this one `gitwithkbpbot`, but it can be anything).
-2.  `Add members` and invite `kbpbot` as a Reader. Or add `kbpbot` to an existing team if you’d prefer.
+1.  In Teams, select `Create a team` and give it a name. (We’ll call this one `gitwithkbpbot`, but it can be anything.)
+2.  `Add members` and invite `kbpbot` as a Reader. You can also add `kbpbot` to an existing team.  
 
-Now you can create a Git repository to use for your new site:
-3. In Git, select `New repository` and `New team repository`. Choose the team you share with `kbpbot`, and give the repository a name. Let’s call this one `git-site`.
-4. Clone the repository and add some content to it. Push to `master`.
+Now you can create a Git repository to use for your new site. 
+3.   In Git, select `New repository` and `New team repository`. Choose the team you share with `kbpbot`, and give the repository a name. (We’ll call this one `git-site`.)  
+4.  Clone the repository and add some content to it. Push to `master`. 
 
 The DNS configuration for Git is a little different. The main `CNAME`/`ALIAS` record is the same (points at `kbp.keybaseapi.com`). But the `TXT` record needs to tell `kbpbot` about the Git repository instead of the filesystem location like before. It looks like this:
 
@@ -99,4 +103,4 @@ After the regular DNS propagation delays, the pushed contents of the `master` br
 ## HTTP authentication
 To set up basic HTTP authentication with your shared sites, create a `.kbp_config` file to handle site-specific configuration.
 
-You can learn more about .kbp_config and HTTP auth in the [Docs](https://keybase.io/docs/kbp/kbp_config).
+You can learn more about .kbp_config and HTTP auth in [Docs](/docs).
