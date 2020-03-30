@@ -4,7 +4,7 @@
 {% set page_description = "Keybase accounts are protected by end-to-end encryption. Devices, proofs, and following help keep it secure. Learn how." %}
 
 # Your Keybase Account
-TL;DR Public-key cryptography makes your Keybase account trustworthy and secure. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.
+TL;DR: Your Keybase account is secured by pubic-key cryptography. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.
 
 ![](/img/account-profile.png)
 
@@ -21,11 +21,11 @@ Lots of other apps only require a username and password to create and protect an
 
 But with just a username and password, accounts can be hacked, phished, and otherwise compromised. They’re not totally trustworthy and secure. In best-case scenarios, you can use two-factor authentication for more security but it’s still not perfect.
 
-Your contacts can trust your Keybase account because, instead of being protected by just a password, it’s cryptographically linked to your [devices](account/devices). Your account can only be accessed through your devices. So long as only you have access to your devices, only you can access your account.
+Your contacts can trust your Keybase account because—instead of being protected by just a password—it’s cryptographically linked to your [devices](account#devices). Your account can only be accessed through your devices. So long as only you can access your devices, only you can access your Keybase account.
 
-You do create a username to help let others know an account belongs to you. But you further confirm who you are with  [proofs](account/proofs), which link your Keybase account to your other online accounts.
+You do create a username to help let others know that an account belongs to you. But you further confirm who you are with  [proofs](account#proofs), which link your Keybase account to your other online accounts.
 
-[Following](account/following) provides a public record that also confirms that you are who you say you are. Proofs and following are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you just because you say you are; they can see for themselves.
+[Following](account#following) provides a public record that also confirms that you are who you say you are. Adding proofs and following are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you on Keybase just because you say you are; they can see for themselves.
 
 Anyone can check your proofs; Keybase regularly does as well. If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they interact with you.
 
@@ -33,7 +33,7 @@ Anyone can check your proofs; Keybase regularly does as well. If anything change
 Tip: Before you create your account, give your username some thought. Everyone on the internet can see it.
 
 #### Your username is public and can’t be changed.
-Choosing your username is the first action of many that you’ll take to help establish [your account](/account) on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this.
+Choosing your username is the first action of many that you take to help establish your account on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this.
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 
@@ -56,7 +56,7 @@ When you create your Keybase account, Keybase creates a key pair for your accoun
 
 The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account—or anything shared through it—without having your device (not even Keybase).
 
-You can and should add more devices and paper keys to your account so you don’t lose access to it if you lose a device. A paper key is a long string of randomly generated words that’s linked to your account the same way a device is.
+You can and should add more devices and paper keys to your account so you don’t lose access to it if you lose a device. A **paper key** is a long string of randomly-generated words that’s linked to your account the same way a device is.
 
 ![](/img/kb-three-devices.png)
 
@@ -67,15 +67,17 @@ So, no one can compromise your account without having all of your devices and pa
 ### Adding devices
 Install Keybase on your other devices so that you don’t lose access to your account if you lose access to a device.
 
-#### Device names are public and can’t be changed.
-When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully.
-
-Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this.
-
 #### To install Keybase on additional devices, you need:
 *  your Keybase username
 *  the device you signed up with (you’ll use a QR code to vouch for the new device)
 *  a name for the new device
+
+You can download the Keybase app for [iOS](https://apps.apple.com/us/app/keybase-crypto-for-everyone/id1044461770), [MacOS](https://keybase.io/docs/the_app/install_macos), [Android](https://play.google.com/store/apps/details?id=io.keybase.ossifrage), [Windows](https://keybase.io/docs/the_app/install_windows), or [Linux](https://keybase.io/docs/the_app/install_linux). 
+
+#### Device names are public and can’t be changed.
+When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully.
+
+Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this.
 
 ### Revoking devices
 If you lose or replace a device, you should revoke it. Revoking removes the device from your account.
@@ -94,16 +96,16 @@ Tip: Add as many proofs as you can to provide the most assurance that you are yo
 
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.
 
-Proofs link your Keybase account to your other online accounts. Generally, proofs help people trust that you are really you on Keybase.
+Proofs link your Keybase account to your other online accounts. Proofs help people trust that you are really you on Keybase.
 
 ![](/img/kb-three-accounts.png)
 
-Some people may already know you as you through your other accounts. But proofs are public so Keybase can (and does) check them, but importantly, anyone can. Publicly proving that you are who you say you are is an important part of what makes Keybase accounts so secure and trustworthy.
+Some people may already know you as you through your other accounts. But proofs are public, so Keybase can (and does) check them, and importantly, anyone can. Publicly proving that you are who you say you are is an important part of what makes Keybase accounts so secure and trustworthy.
 
-If a proof is changed, indicating that your Keybase or other social accounts may have been compromised, Keybase will automatically warn the people you interact with.
+If a proof changes, indicating that your Keybase or other social accounts may have been compromised, Keybase automatically warns the people you interact with.
 
 ### Adding proofs
-You can add proofs for your personal website and social accounts on Twitter, GitHub, Reddit, and Hacker News. But your social accounts must be public for them to work as proofs.
+You can add proofs for your personal website and social accounts on Twitter, GitHub, Reddit, and Hacker News. Your accounts must be public for them to work as proofs.
 
 For example, if you use your Twitter account as a proof, Keybase will give you a specific phrase to tweet that includes your Keybase username.
 
@@ -114,7 +116,7 @@ For the proof to work, you must tweet the phrase exactly as Keybase gives it to 
 Keeping proofs public lets Keybase—and anyone else—check them. Everyone can be sure that you are you.
 
 ## Following
-TL;DR Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.
+TL;DR: Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.
 
 Tip: Follow people on Keybase to help make your account and theirs more trustworthy.
 
@@ -131,15 +133,15 @@ But if you don’t know Ms. Poppins, you might not interact with her and get not
 The more followers Mary Poppins has, the more likely that *someone* will attempt to interact with her on Keybase, be notified about the change, and reach out to her over other channels. Then she can confirm that she made the change or recover her account if it’s been hacked. This helps gives both you and Ms. Poppins more confidence about the safety and trustworthiness of her account.
 
 And even if no one’s interacting with Ms. Poppins on Keybase, you get some confidence knowing that for every follower she has, a public record of who she is (according to her devices and proofs) has been added to a giant, public Keybase database.
-Someone might be able to fake one or even two of these records so they look the same, but it’d be virtually impossible to fake dozens or thousands.
+Someone might be able to fake one or even two of these records so they look the same, but it’d be virtually impossible to fake dozens or more.
 
 #### Older followers provide more security than newer ones.
 Along the same lines, the older a follower is, the more security it provides. Remember that following someone creates a time-stamped public record of who they are on Keybase (according to their proofs and devices). So, if you followed Ms. Poppins way back in February 2014, your record helps confirm that her account hasn’t been hacked over the years between now and then. If someone had hacked her account, they’d have to maintain control of her computer, other device(s), and proofs over that whole period of time.
 
-So, as long as someone’s account hasn’t been hacked the day you follow them (which would be kinda wild), you can be pretty confident they are who they say they are on Keybase. Likewise, your own followers help guarantee to your contacts—and better, to future contacts—that your Keybase account is controlled by you.
+As long as someone’s account hasn’t been hacked the day you follow them (which would be kinda wild), you can be pretty confident they are who they say they are on Keybase. Likewise, your own followers help guarantee to your contacts—and better, to future contacts—that your Keybase account is controlled by you.
 
 #### Follow soon and follow often.
-If you keep (ahem) *following* this logic, it’s easy to see that an older Keybase account is more secure and trustworthy than a newer Keybase account. And, older followers are more valuable than new followers. So, if you haven’t already, install the app, set up your account, and start following your contacts.
+If you keep (ahem) *following* this logic, it’s easy to see that an older Keybase account is more secure and trustworthy than a newer Keybase account. And, older followers are more valuable than new followers. So, if you haven’t already, set up your account and start following your contacts.
 
 This is a pretty simplified version of how following works. You can dig into more details in our [docs](https://keybase.io/docs/server_security/following) and on [Github](https://github.com/keybase/keybase-issues/issues/100). (Note: following was previously called tracking.)
 
@@ -148,4 +150,4 @@ While even followers you don’t know help keep your account trustworthy, you ca
 
 When you block someone, you can remove them from your public list of followers. You won’t see them and their account will not be publicly associated with yours. They also won’t be able to chat with you or add you to a team.
 
-But please note, they will still technically be following you. The public record that was created when they followed you will still exist. And they may know that you blocked them if they attempt to chat with you or add you to a team. You can learn more about blocking in [Chat](/chat).
+But please note, they will still, technically, be following you. The public record that was created when they followed you will still exist. And they may know that you blocked them if they attempt to chat with you or add you to a team. You can learn more about blocking in [Chat](/chat).
