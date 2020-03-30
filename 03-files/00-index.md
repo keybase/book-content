@@ -4,9 +4,9 @@
 {% set page_description = "Use Keybase for end-to-end encrypted file sharing and storage. Keep your most important documents, photos, and videos safe and secure. Learn more." %}
 
 # Keybase for Files
-Keep your most important documents, photos, and videos safe and secure with Files.
+Keep your most important documents, photos, and videos safe and secure with Keybase Files.
 
-You can easily store and share files from any device you use Keybase on. Individuals can store up to 250 GB and teams can store up to 100 GB on Keybase.
+You can easily store and share files from any device you use Keybase on. Individuals can store up to 250 GB and teams can store up to 100 GB.
 
 Anything you add to Keybase Files is automatically end-to-end encrypted and **signed** by you. When a file is signed by you, your private key is used in the encryption. When it’s decrypted, your recipient knows for certain it came from you. Rest assured, they won’t be able to see or guess your private key.
 
@@ -20,7 +20,7 @@ You can store and share files in public, private, or team folders, each with dif
 ### Private folders
 Only you and the people you choose to share with can access files in your private folders.
 
-To quickly share files with someone on Keybase, just create a new folder and name it like so: `yourusername,theirusername`. All the people named on the folder will automatically have access to it.
+To quickly share files with someone on Keybase, just create a new folder and name it like so: `yourusername,theirusername`. All the people named on the folder—and only those people—will automatically have access to it. 
 
 ![](/img/files-finder.png)
 
@@ -34,7 +34,7 @@ You can also turn your public files into a simple website. Learn more in [Sites]
 ### Team folders
 A new folder is automatically created for every team to share files in. Files in a team folder can only be accessed by the people on that team. But everyone on a team can access all the files in the team folder.
 
-To share files with only specific team members, create a subteam. Learn more in [Teams](/teams).
+To share files with only specific team members, create a [subteam](teams#subteams). 
 
 ## Managing files
 You can add and organize files and folders any way you like inside your private, public, and team folders.
@@ -42,7 +42,7 @@ You can add and organize files and folders any way you like inside your private,
 ### Desktop integration
 When you install Keybase on your desktop computer, you can enable an integration to make your Keybase files available in Finder (on a Mac) or Explorer (on Windows).
 
-This allows you to drag and drop to upload, organize, edit, or delete files right from Finder or Explorer.
+This allows you to upload, organize, edit, or delete files right from Finder or Explorer.
 
 You can also enable the integration later by going to Settings > Files.
 
