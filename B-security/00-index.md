@@ -4,12 +4,12 @@
 {% set page_description = "Your Keybase account and everything you share through it are protected by public-key cryptography. Learn how end-to-end encryption keeps your data secure." %}
 
 # Security on Keybase
-TL;DR Public-key cryptography makes it easy for you to safely and securely share or store anything you want on Keybase.
+TL;DR: Public-key cryptography makes it easy for you to safely and securely share or store anything you want on Keybase.
 
 #### Your account is protected by public-key cryptography.
-Your Keybase [account](/accounts) is protected by public-key cryptography. Your [devices](/accounts/devices) are cryptographically linked to your account, ensuring that only you can access it. 
+Your Keybase [account](/account) is protected by public-key cryptography. Your [devices](/account#devices) are cryptographically linked to your account, ensuring that only you can access it. 
 
-[Proofs](/accounts/proofs) and [following](/accounts/following) help ensure that you’re really you on Keybase. They’re backed by public-key cryptography. 
+[Proofs](/account#proofs) and [following](/account#following) help ensure that you’re really you on Keybase. They’re backed by public-key cryptography. 
 
 #### Everything you store or share on Keybase is end-to-end encrypted.
 Everything you store or share through your Keybase account—in [Chat](/chat), [Files](/files), [Teams](/teams), [Git](/git), [Sites](/sites), and [Wallet](/wallet)—is automatically end-to-end encrypted. Only you and your intended recipients can read what you share. Not even Keybase can access it.
@@ -42,7 +42,7 @@ Every message or file you share or receive through Keybase is end-to-end encrypt
 
 Public-key cryptography is also used to encrypt information shared through secure websites (those with URLS that start with https://), emails sent with the PGP protocol, and cryptocurrencies like Lumens. But, the information you share on secure websites or in emails is only as secure as your account—or as the username and password—you use to access them. 
 
-Thank goodness your [Keybase account](/account) is more secure than that.
+Thank goodness your Keybase [account](/account) is more secure than that.
 
 #### Keybase is reviewed by global cyber security experts. 
 Read the 2018 report by the global cyber security and risk mitigation experts, NCC Group: [Keybase Protocol Security Review](https://www.nccgroup.trust/us/our-research/keybase-protocol-security-review/).
