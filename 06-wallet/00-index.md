@@ -6,21 +6,18 @@
 # Keybase Wallet
 You can use Keybase Wallet to send, receive, and exchange Stellar Lumens (XLM) and other currencies that are trusted through the Stellar network. All of your transactions are automatically tied to your Keybase [account](/account).
 
-If you’re new to cryptocurrency, the nice thing about Keybase Wallet is that it just works on any device you use Keybase on. And amounts are automatically converted into the currency of your choice (US dollars, for example).
+A nice thing about Keybase Wallet is that it just works on any device you use Keybase on. And amounts are automatically converted into the currency of your choice (US dollars, for example).
 
 You can learn more on the [blog](https://keybase.io/blog/keybase-stellar-launch). Or, join the team `stellar.public` to chat with others.
 
 ## Sending Lumens
 You can send, receive, and buy Lumens from Keybase Wallet or Chat. 
 
-From your wallet, you can send Lumens to other people on Keybase, to Stellar addresses, or to your other Stellar accounts. 
-
-You can request to receive funds from other people on and outside of Keybase. 
-
-You can buy Lumens through external partners that are not affiliated with Keybase.
+You can send Lumens to other people on Keybase, to Stellar addresses, or to your other Stellar accounts. You can request  funds from people on and outside of Keybase. And, you can buy Lumens through external partners that are not affiliated with Keybase.
 
 ### Chat
-One of the quickest ways to send Lumens is through Chat. In your message, include this format `+123XLM@username`:
+One of the quickest ways to send Lumens to others on Keybase is through Chat. Just include this format in your message `+123XLM@username`. To do so:
+
 1. Enter `+`.
 2. In place of `123`, enter the amount of Lumens you want to send. 
 3. In place of `username`, enter the Keybase username of the person you’d like to send the Lumens to. 
@@ -40,21 +37,21 @@ You need to add trustlines before you can use them. To do so:
 
 Once you’ve added another trustline, such as `USD: anchorusd.com`, you can convert Lumens (or other currencies) to this new currency when you send funds to someone else on Keybase. Once you have another currency in your wallet, you can also send that.
 
-You can remove trustlines in the same way, from “Manage trustlines.” But you can’t remove all trustlines for which you have currency in your wallet. For example, if you have USD in your wallet, you can’t remove all trustlines for USD.
+You can remove trustlines in the same way with “Manage trustlines.” But you can’t remove all trustlines for which you have currency in your wallet. For example, if you have USD in your wallet, you can’t remove all trustlines for USD.
 
 ### Using other currencies
-Once you have trustiness set up, you can send other currencies to other people on Keybase. To do so:
+Once you have trustlines set up, you can send other currencies to other people on Keybase. To do so:
 1. Go to Wallet.
 2. Select Send.
 3. Select To a Keybase user.
 4. Select your recipient’s username.
-5. Select Change and choose your currency.
+5. Select Change, then choose your currency.
 6. Enter your amount, add an encrypted note, or a public memo.
 6. If everything looks right to you, select Send.
 
 If your recipient has a trustline for other currencies, Keybase will let you know that this person accepts funds other than Lumens.
 
-You can also exchange Lumens into other currencies outside of  Keybase. To do so, you’ll need your Stellar address and secret key. Or, you can choose To a Stellar address or To one of your other Stellar accounts from the Send button.
+You can also exchange Lumens into other currencies outside of  Keybase. To do so, you’ll need your Stellar address and secret key. 
 
 ## About Stellar 
  We love Stellar for a couple reasons. One is that [Keybase is funded by the Stellar Development Foundation](https://keybase.io/blog/keybase-stellar). And two is that we think Stellar is actually a great decentralized, open-source, multi-currency network. Unlike most others, Stellar supports global transactions and automatically converts Lumens into whatever currency you prefer.
