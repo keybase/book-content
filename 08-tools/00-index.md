@@ -29,22 +29,22 @@ If you do not sign the message or file, the recipient will be able to decrypt it
 ## Decrypting
 If someone uses Keybase to encrypt a message or file just for you, you can simply copy and paste or drag and drop it in the app to decrypt it with your private key. 
 
-When you copy and paste, be sure to include “BEGIN KEYBASE SALTPACK MESSAGE.” and “END KEYBASE SALTPACK MESSAGE.” You may also have to remove any extra spaces that occur as a result of copying and pasting from the source.
+When you copy and paste, be sure to include “BEGIN KEYBASE SALTPACK MESSAGE.” and “END KEYBASE SALTPACK MESSAGE.” You may also have to remove any extra spaces that occur as a result of copying and pasting.
 
 When you decrypt something, you’ll also be able to see whether or not it’s signed by a specific person. If it is signed, their private key was used so you know that the message hasn’t been tampered with by anyone else.
 
 ## Signing
 Sign messages or files when you want people to know for certain that it was encrypted by you.
 
-If you sign a message or file, anyone who has it can decrypt it and verify that it came from you. This is different from encrypting and then choosing to sign because the ability to decrypt isn’t limited to a specific recipient. 
+If you sign a message or file, anyone who has it can decrypt it and verify that it came from you. Signing is different from encrypting and then choosing to sign because the ability to decrypt isn’t limited to a specific recipient. 
 
 When you sign a message or file, your private key is used in the encryption. No one can guess your private key, but when the message or file is decrypted, they’ll be able to see that it came from you.
 
-A signed file is automatically saved alongside your original file in the Saltpack format. From there, you can put the encrypted file anywhere you like. Your recipients will know that it came from you when they decrypt it.
+A signed file is automatically saved alongside your original file in the Saltpack format. From there, you can put the signed, encrypted file anywhere you like. Recipients will know that it came from you when they verify and decrypt it.
 
 ## Verifying
 Verify a message or file to decrypt it and see who it came from. Verifying is the inverse of signing. Anyone on Keybase can verify and decrypt a signed message. 
 
-When you copy and paste, be sure to include “BEGIN KEYBASE SALTPACK SIGNED MESSAGE.” and “END KEYBASE SALTPACK SIGNED MESSAGE.” You may also have to remove any extra spaces that occur as a result of copying and pasting from the source.
+When you copy and paste, be sure to include “BEGIN KEYBASE SALTPACK SIGNED MESSAGE.” and “END KEYBASE SALTPACK SIGNED MESSAGE.” You may also have to remove any extra spaces that occur as a result of copying and pasting.
 
 When you verify a message or file, you’ll be able to read it, know who it came from and that it hasn’t been tampered with by anyone else. 
