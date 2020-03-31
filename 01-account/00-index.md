@@ -6,7 +6,7 @@
 # Your Keybase Account
 TL;DR: Your Keybase account is secured by pubic-key cryptography. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.
 
-![](/img/account-profile.png)
+![ !Mary Poppins’s account profile page](/img/account-profile.png)
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption.
 
