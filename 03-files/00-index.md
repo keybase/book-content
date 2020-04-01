@@ -22,7 +22,7 @@ Only you and the people you choose to share with can access files in your privat
 
 To quickly share files with someone on Keybase, just create a new folder and name it like so: `yourusername,theirusername`. All the people named on the folder—and only those people—will automatically have access to it. 
 
-![](/img/files-finder.png)
+![ !Enable the Finder or Explorer integration to manage files from your desktop.](/img/files-finder.png)
 
 If you share a file with someone who doesn’t have a Keybase account, they’ll have to create one to access the file. This is an important security measure that ensures your files are only shared with the people you intend to share them with. It also guarantees to the person you’re sharing with that the files came from you (again, no phishing!).
 
