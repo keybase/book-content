@@ -22,6 +22,7 @@ Before you create a team, there are a few things you should know:
 * Team members can choose to publish the teams they belong to on their profiles.
 * Team names must be unique. 
 * Team names cannot be changed.
+* Team names must be lowercase letters (a-z), numbers, and underscores (no spaces).
 
 ### Adding and removing people
 You can create a team from scratch. Or if your team’s on Slack, you can [import it into Keybase](https://keybase.io/slack-importer/).

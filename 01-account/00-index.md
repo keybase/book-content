@@ -6,7 +6,7 @@
 # Your Keybase Account
 TL;DR: Your Keybase account is secured by pubic-key cryptography. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.
 
-![ !Mary Poppins’s account profile page](/img/account-profile.png)
+![ !Your username, devices, proofs, and followers are visible on your Keybase profile.](/img/account-profile.png)
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected by encryption.
 
@@ -52,13 +52,13 @@ Tip: Add multiple devices and paper keys to your account to ensure its security.
 
 When you create your Keybase account, Keybase creates a key pair for your account and the device—your phone or computer—that you sign up with.
 
-![](/img/kb-one-device.png)
+![ !Your Keybase account is linked to the device you sign up on.](/img/kb-one-device.png)
 
 The public key is uploaded to Keybase’s servers and is publicly available. The private key lives only on your device. This means that no one else can access your account—or anything shared through it—without having your device (not even Keybase).
 
 You can and should add more devices and paper keys to your account so you don’t lose access to it if you lose a device. A **paper key** is a long string of randomly-generated words that’s linked to your account the same way a device is.
 
-![](/img/kb-three-devices.png)
+![ !Adding more devices and paper keys helps make your account more secure.](/img/kb-three-devices.png)
 
 When you add a new device or paper key, your existing device vouches for the new one. All your devices and paper keys are cryptographically linked. And each additional device or paper key you add to your account also gets a key pair.  
 
@@ -98,7 +98,7 @@ The best way to let others know that your Keybase account belongs to you is to t
 
 Proofs link your Keybase account to your other online accounts. Proofs help people trust that you are really you on Keybase.
 
-![](/img/kb-three-accounts.png)
+![ !You can link your personal website, Twitter, and GitHub accounts to your Keybase account as proofs.](/img/kb-three-accounts.png)
 
 Some people may already know you as you through your other accounts. But proofs are public, so Keybase can (and does) check them, and importantly, anyone can. Publicly proving that you are who you say you are is an important part of what makes Keybase accounts so secure and trustworthy.
 
@@ -109,7 +109,7 @@ You can add proofs for your personal website and social accounts on Twitter, Git
 
 For example, if you use your Twitter account as a proof, Keybase will give you a specific phrase to tweet that includes your Keybase username.
 
-![](/img/kb-proof-twitter.png)
+![ !Proofs must be public so anyone can check them.](/img/kb-proof-twitter.png)
 
 For the proof to work, you must tweet the phrase exactly as Keybase gives it to you. The tweet must be public and you can’t delete it.
 

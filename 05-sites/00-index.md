@@ -26,7 +26,7 @@ To add more pages:
 2. Add an index file with your content in it (remember, it’ll be public).
 3. Repeat this—create a new folder and add a new index file—for every new page.
 
-![](/img/sites-filestructure.png)
+![ !Create and organize index files in your public folder to build your site.](/img/sites-filestructure.png)
 
 Only **index files**, documents titled `index.md` or `index.html`, will show up on your website.
 

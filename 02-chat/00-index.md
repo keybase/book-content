@@ -6,7 +6,7 @@
 # Keybase for Chat
 Message friends, share important info with colleagues, or organize entire projects. All of your chats on Keybase happen in one secure inbox.
 
-![](/img/chat-profileteams.png)
+![ !One-on-one chats are organized at the top of your inbox; team chats are below.](/img/chat-profileteams.png)
 
 Anything you share—all of your messages and files—is end-to-end encrypted. Your messages can only be read by your intended recipient(s). Private messages stay private.
 
@@ -38,7 +38,6 @@ In team chats, owners can determine how messages are saved. Messages can be auto
 
 So long as you choose to keep your chat history, you’ll always be able to search and read all of it.
 
-
 ## Privacy
 Keybase accounts are public, but you can control who can chat or otherwise interact with you by blocking, reporting, and/or restricting contacts.
 
@@ -68,18 +67,18 @@ If you select the team option, you can further specify which teams.
 You can also send or request funds over chat, in Lumens or any other currency you choose. Learn more in [Wallet](/wallet).
 
 ### Location sharing
-On mobile devices, you can securely share your location with any individual, group, or team on Keybase Chat. You can even share your live location for a set period of time and it will automatically update as you move.
+On mobile devices, you can safely and securely share your location with any individual, group, or team on Keybase Chat. You can even share your live location for a set period of time and it will automatically update as you move.
 
 When you do so, only the person or people you intend to share your location with will receive it. Not even Keybase or Google Maps will know where you are.
 
-![](/img/chat-location.png)
+![ !Safely and securely show your contacts where you are.](/img/chat-location.png)
 
 ### Exploding messages
 Exploding messages are great for your most sensitive information, like passwords or credit card numbers.
 
-An exploding message is completely and permanently erased after a chosen period of time. It won’t be searchable. No one will ever be able to find or read it, not even if they have access to your device or the device of a person you shared the message with. It will disappear into thin air. Poof!
+An exploding message is completely and permanently erased after your chosen period of time. It won’t be searchable. No one will ever be able to find or read it, not even if they have access to your device or the device of a person you shared the message with. It will disappear into thin air. Poof!
 
-![](/img/chat-explodingmessage.gif)
+![ Permanently erase super sensitive information in an exploding message.](/img/chat-explodingmessage.gif)
 
 #### Team chats
 If you share an exploding message with a team, it will only be  readable for existing members of the team. For example:
@@ -94,7 +93,7 @@ Type `/flip` into a chat and you’ll get a totally randomized heads-or-tails co
 
 You can also roll a die, pick a random number in a range, shuffle a list of items, and more.
 
-![](/img/chat-coinflip.gif)
+![ Make very important decisions with a randomized coin flip.](/img/chat-coinflip.gif)
 
 You can safely use `/flip` for important things, too. It’s cryptographically designed to make cheating and colluding all but impossible.
 
