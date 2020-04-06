@@ -1,5 +1,5 @@
 {% set section_title = "Chat" %}
-{% set section_subtitle = "Message and share files with anyone." %}
+{% set section_subtitle = "Share messages and files with anyone." %}
 {% set page_title = "Learn about using Keybase for Chat" %}
 {% set page_description = "Use Keybase Chat for end-to-end encrypted messaging with anyone. Keep your private messages safe and secure. Learn more." %}
 
@@ -17,7 +17,7 @@ To start new chats quickly, you can find your contacts by name, email, or phone 
 
 If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. This helps ensure that only your intended recipients can read your messages.
 
-You can use Keybase for Chat just like you would group messages on your phone. Except, of course, it’s super, super secure. You can do a lot more if you turn a group into a team.
+You can use Keybase Chat just like you would for one-on-one or group messages on your phone. Except, of course, it’s super, super secure. You can do a lot more if you turn a group into a team.
 
 ## Team chats
 If you turn a group chat into a team, you can add or remove people from it. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels, your team becomes what we call a big team.
@@ -34,14 +34,14 @@ You can reply privately to messages within team chats. Those chats move outside 
 ### Chat history
 Your entire chat history of messages and files is searchable and readable by everyone in a team, including new team members.
 
-In team chats, owners can determine how messages are saved. Messages can be auto-deleted never or at set intervals from 30 seconds to 365 days. Individual messages can also be set to [explode](chat#exploding-messages) after a certain time period.
+In team chats, owners can determine how long messages are saved. Messages can be auto-deleted never or at set intervals from 30 seconds to 365 days. Individual messages can also be set to [explode](chat#exploding-messages) after a certain time period.
 
 So long as you choose to keep your chat history, you’ll always be able to search and read all of it.
 
 ## Privacy
 Keybase accounts are public, but you can control who can chat or otherwise interact with you by blocking, reporting, and/or restricting contacts.
 
-Plus, if someone you don’t follow and haven’t chatted with before contacts you on Keybase, you’ll automatically get a heads up. You can choose to wave hello, view their account profile, or block them. If you want to chat, just start typing and the notification will automatically disappear.
+If someone you don’t follow and haven’t chatted with before contacts you on Keybase, you’ll automatically get a heads up. You can choose to wave hello, view their account profile, or block them. If you want to chat, just start typing and the notification will automatically disappear.
 
 ### Blocking
 When you block someone, they won’t be able to chat with you or add you to a team. You can also remove them from your public list of followers. You won’t see them, and their account will not be publicly associated with yours.
@@ -78,31 +78,31 @@ Exploding messages are great for your most sensitive information, like passwords
 
 An exploding message is completely and permanently erased after your chosen period of time. It won’t be searchable. No one will ever be able to find or read it, not even if they have access to your device or the device of a person you shared the message with. It will disappear into thin air. Poof!
 
-![ Permanently erase super sensitive information in an exploding message.](/img/chat-explodingmessage.gif)
+![ !Permanently erase super sensitive information in an exploding message.](/img/chat-explodingmessage.gif)
 
 #### Team chats
-If you share an exploding message with a team, it will only be  readable for existing members of the team. For example:
+If you share an exploding message with a team, it will only be  readable for existing members of the team. This means:
 
 * Everyone in the team—at the time the message is sent—will be able to read it before it explodes, even if they leave and rejoin the team within that time period.
 * Anyone added to the team after an exploding message is sent will not be able to read it, even if it hasn’t yet exploded.
 
 ### Coin flips
-Coin flips can help you make really important decisions, like where to go to lunch or whether or not you should take that job. 
+Coin flips can help you make decisions, like where to go to lunch. 
 
 Type `/flip` into a chat and you’ll get a totally randomized heads-or-tails coin flip.
 
 You can also roll a die, pick a random number in a range, shuffle a list of items, and more.
 
-![ Make very important decisions with a randomized coin flip.](/img/chat-coinflip.gif)
+![ !Make very important decisions with a randomized coin flip.](/img/chat-coinflip.gif)
 
 You can safely use `/flip` for important things, too. It’s cryptographically designed to make cheating and colluding all but impossible.
 
 Learn more about cryptographic coin flipping on [the Keybase blog](https://keybase.io/blog/cryptographic-coin-flipping).
 
 ### Bots
-You can add bots to do things like send reminders, start a Google Meet, integrate your Github or Jira workflow, and so much more in Chat.
+You can add bots to do things like send reminders, start a Google Meet, integrate your GitHub or Jira workflow, and so much more in Chat.
 
-All Keybase bots are open source. Keybase builds some but anyone can. You can see documentation on [Github](https://github.com/keybase/managed-bots).
+All Keybase bots are open source. Keybase builds some but anyone can. You can see documentation on [GitHub](https://github.com/keybase/managed-bots).
 
 #### Permissions
 In individual or group chats, anyone can add a bot.

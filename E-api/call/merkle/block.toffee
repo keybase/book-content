@@ -1,0 +1,72 @@
+{#
+        print partial '../../call_item.toffee',
+          
+          title:  'merkle/block'
+          method: 'GET'
+          login_needed: false
+          cors_support : true
+          suffix: """
+            <h4>merkle/block</h4>
+            <p>
+              Given a hash, lookup the block that hashes to it.  Useful for looking
+              up interior nodes in the Merkle Tree.
+            </p>
+            <p>
+              SHA-512 is used for all Merkle-tree hashes.  Hashes computed over JSON objects
+              assume no unneeeded interior spacing, and that object keys are sorted in hexadecimal order.
+            </p>
+            <p>
+              Provide as input any prefix of the desired hash, as long as it's not ambiguous.  You 
+              can of course also provide the entire hash.
+            </p>
+            <p>
+              Blocks of type <code>1</code> are interior nodes.  Blocks of type <code>2</code>
+              are leaf nodes, which contain lists mapping user IDs to a pair, containing
+              (0) the highest sequence number in their signature chain; and (1) the 
+              SHA-256 hash of the last signature in their chain.
+            </p>
+            <p>
+              Interior nodes are split on substrings of the desired user ID. To find user ID
+              <code>07d5cd6dcedb1fa03408e792d0fdc300</code> in this example tree, we'd first get
+              the root (<code>c9e6dd2...</code>) via <code>merkle/root</code>, then lookup
+              its block via this endpoint, then follow the path given by <code>value.tab.07</code>,
+              and then recursively continue by looking up <code>cc2e1ae...</code>.
+            </p>
+            <p>
+              To check that the block hashes to the right key, you can either re-json-stringify
+              the given <code>value</code> field, or hash the specified <code>value_string</code>,
+              which has been stringified according to the canonical stringification.
+            </p>
+          """
+
+          sample_params : """
+                hash : "c9e6dd2"
+          """
+
+          sample_output : """
+          {
+            "status": {
+              "code": 0,
+              "name": "OK"
+            },
+            "hash": "c9e6dd2ead7218258fffa150b...",
+            "value": {
+              "tab": {
+                "00": "d70b05a791acae2c6072d5bf3086b26...",
+                "01": "92a4ff6f918d257f06f1eb5c296d86e...",
+                "02": "2a7d1e7e3cafed7146eebf0d60c0d05...",
+                "03": "12e4e169bcbe0a42500677902a95c95...",
+                "04": "6e57ba5f779aa825762d1da47de4879...",
+                "05": "02ad26b594b431b0bd331781065350d...",
+                "06": "119e58ac656977c5d2edc296d5ca17c...",
+                "07": "cc2e1ae9a976a5fc824a258d4c006ab...",
+                ...
+              },
+              "type": 1
+            },
+            "value_string": "{\\"tab\\":{\\"00\\":\\"d70b05a...\\"}"
+            "ctime": "2014-04-23T21:29:33.000Z",
+            "type": 1
+          }
+          """
+#}

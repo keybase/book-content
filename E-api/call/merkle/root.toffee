@@ -1,0 +1,61 @@
+{#
+        print partial '../../call_item.toffee',
+          
+          title:  'merkle/root'
+          method: 'GET'
+          login_needed: false
+          cors_support : true
+          sample_params: """
+                seqno:  10         # optional
+                ctime:  1398285664 # optional
+          """
+          watch_for: ["NOT_FOUND"]
+          suffix: """
+            <h4>merkle/root</h4>
+            <p>
+              Every user has a public signature chain, which can be fetched with 
+              then <a href="../user/lookup">user/lookup</a>
+              API endpoint as described above. All of ends of these chains are then hashed as leaves in a Merkle tree, 
+              with interior nodes hashed as normal, yielding a merkle tree root.  This root
+              therefore captures all public signatures across all users in Keybase.
+              It's possible to verify the end of any user's signature chain (and therefore all of his/her
+              signatures) by knowing the global site-wide Merkle root, and the nodes descending
+              from the root to the user's leaf.
+            </p>
+            <p>
+              This call returns the current site-wide Merkle root hash.  It should change
+              whenever anyone on the site uploads a new signature to their signature chain.
+              It also returns the server's signature of this root, as well as the payload
+              of that signature. The public verification key is shipped with the Keybase client
+              or is available <a href="/docs/server_security/our_merkle_key">here via HTTPS</a>.
+              Finally a <code>txid</code> identifies the last
+              transaction that made it into the Merkle.
+            </p>
+            <p>
+              SHA-512 is used for all Merkle-tree hashes.  Hashes computed over JSON objects
+              assume no unneeeded interior spacing, and that object keys are sorted in hexadecimal order.
+            </p>
+            <p>
+              This endpoint takes one of two optional parameters.  If the caller
+              specifies a <code>seqno</code>, then the root with that sequence number
+              is returned (if found).  If the caller specified a <code>ctime</code>,
+              then the first root on or after that time (interpreted as UTC time)
+              is returned.
+            </p>
+          """
+          sample_output : """
+          {
+            "status": {
+              "code": 0,
+              "name": "OK"
+            },
+            "hash": "803b4d2024952280c1cc10f408596951b5d23e...",
+            "seqno": 1052,
+            "ctime_string": "2014-04-27T12:46:05.000Z",
+            "ctime": 1398602765,
+            "sig": "-----BEGIN PGP MESSAGE-----\nVersion: GnuPG...",
+            "payload_json": "{\"body\":{\"key\":{\"fingerprint\":\"03...",
+            "txid": "49fde49b575382954b42920d91057915"
+          }
+          """
+#}
