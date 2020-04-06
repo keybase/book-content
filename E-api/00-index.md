@@ -1,4 +1,9 @@
 #{partial 'api_header.toffee'}
+{% set section_title = "API" %}
+{% set section_subtitle = "Learn about the Keybase API." %}
+{% set nav_title = "API" %}
+{% set page_title = "Learn about the Keybase API" %}
+{% set page_description = "Learn about key posting, key accessing, identity proof lookups, and more on Keybase." %}
 
 <h2>Intro</h2>
 
