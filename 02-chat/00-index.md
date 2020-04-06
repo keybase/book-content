@@ -17,7 +17,7 @@ To start new chats quickly, you can find your contacts by name, email, or phone 
 
 If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. This helps ensure that only your intended recipients can read your messages.
 
-You can use Keybase for Chat just like you would for one-on-one or group messages on your phone. Except, of course, it’s super, super secure. You can do a lot more if you turn a group into a team.
+You can use Keybase Chat just like you would for one-on-one or group messages on your phone. Except, of course, it’s super, super secure. You can do a lot more if you turn a group into a team.
 
 ## Team chats
 If you turn a group chat into a team, you can add or remove people from it. [Teams](/teams) also allow you to organize chats by adding channels. If you add channels, your team becomes what we call a big team.
@@ -62,7 +62,7 @@ You can select a box that gives you options to only let someone message you or a
 If you select the team option, you can further specify which teams.
 
 ## Special features
- The cryptography that powers Keybase for Chat also lets you do a lot of things you can’t do in other chat apps, like share your live [location](chat#location-sharing), make extra-sensitive messages [explode](chat#exploding-messages), flip a [coin](chat#coin-flips), or use a [bot](chat#bots).
+ The cryptography that powers Keybase Chat also lets you do a lot of things you can’t do in other chat apps, like share your live [location](chat#location-sharing), make extra-sensitive messages [explode](chat#exploding-messages), flip a [coin](chat#coin-flips), or use a [bot](chat#bots).
 
 You can also send or request funds over chat, in Lumens or any other currency you choose. Learn more in [Wallet](/wallet).
 

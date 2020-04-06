@@ -15,12 +15,12 @@ The important thing is: no phishing scams or malevolent links around here.
 ## Privacy
 Only the people you choose to share your files with can read or access them (not even Keybase can). You can keep private stuff—financial info, personal photos, your life philosophy—private.
 
-You can store and share files in public, private, or team folders, each with different privacy features.
+You can store and share files in private, public, or team folders, each with different privacy features.
 
 ### Private folders
 Only you and the people you choose to share with can access files in your private folders.
 
-To quickly share files with someone on Keybase, just create a new folder and name it like so: `yourusername,theirusername`. All the people named on the folder—and only those people—will automatically have access to it. 
+To quickly share files with someone on Keybase, just create a new folder and name it like so: `yourusername,theirusername`. All the people named on the folder—and only those people—will have access to it. 
 
 ![ !Enable the Finder or Explorer integration to manage files from your desktop.](/img/files-finder.png)
 
