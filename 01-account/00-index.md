@@ -4,7 +4,7 @@
 {% set page_description = "Keybase accounts are protected by end-to-end encryption. Devices, proofs, and following help keep it secure. Learn how." %}
 
 # Your Keybase Account
-<div class="compose-highlight" data-text="tl;dr">TL;DR: Your Keybase account is secured by public-key cryptography. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.</div>
+<div class="compose-highlight" data-text="tl;dr">Your Keybase account is secured by public-key cryptography. Installing Keybase on your computer or device, adding more devices and paper keys, adding proofs, and following all make your Keybase account more trustworthy and secure.</div>
 
 ![ !Your username, devices, proofs, and followers are visible on your Keybase profile.](/img/account-profile.png)
 
@@ -28,7 +28,7 @@ You do create a username to help let others know that an account belongs to you.
 Anyone can check your proofs; Keybase regularly does as well. If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they interact with you.
 
 ## Usernames
-<div class="compose-highlight" data-text="tip">Tip: Before you create your account, give your username some thought. Everyone on the internet can see it.</div>
+<div class="compose-highlight" data-text="tip">Before you create your account, give your username some thought. Everyone on the internet can see it.</div>
 
 #### Your username is public and can’t be changed.
 Choosing your username is the first action of many that you take to help establish your account on Keybase. These actions are part of a public record that helps secure your account and confirm that you are who you say you are. Changing your username has the potential to undo this.
@@ -44,9 +44,9 @@ For example, if uppercase letters were allowed someone could create the account 
 If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it. If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. 
 
 ## Devices
-<div class="compose-highlight" data-text="tl;dr">TL;DR: You can think of your devices and paper keys as keys to your account. You can only access your account through your devices. Paper keys provide backup access to your account in case you lose your devices.</div>
+<div class="compose-highlight" data-text="tl;dr">You can think of your devices and paper keys as keys to your account. You can only access your account through your devices. Paper keys provide backup access to your account in case you lose your devices.</div>
 
-<div class="compose-highlight" data-text="tip">Tip: Add multiple devices and paper keys to your account to ensure its security.</div>
+<div class="compose-highlight" data-text="tip">Add multiple devices and paper keys to your account to ensure its security.</div>
 
 When you create your Keybase account, Keybase creates a key pair for your account and the device—your phone or computer—that you sign up with.
 
@@ -90,7 +90,7 @@ Add paper keys so that you can access your account even if (worst-case scenario)
 When you create a paper key, write it down on—you guessed it—paper. It’ll be too long to memorize. We recommend storing paper keys somewhere like a locked drawer at home.
 
 ## Proofs  
-<div class="compose-highlight" data-text="tip">Tip: Add as many proofs as you can to provide the most assurance that you are you on Keybase.</div>
+<div class="compose-highlight" data-text="tip">Add as many proofs as you can to provide the most assurance that you are you on Keybase.</div>
 
 The best way to let others know that your Keybase account belongs to you is to tell them in person. The next best way is through proofs.
 
@@ -114,9 +114,9 @@ For the proof to work, you must tweet the phrase exactly as Keybase gives it to 
 Keeping proofs public lets Keybase—and anyone else—check them. Everyone can be sure that you are you.
 
 ## Following
-<div class="compose-highlight" data-text="tl;dr">TL;DR: Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.</div>
+<div class="compose-highlight" data-text="tl;dr">Following helps keep Keybase accounts secure. It allows you and those you interact with to be notified quickly if something on an account changes, indicating that it may be compromised and isn’t trustworthy.</div>
 
-<div class="compose-highlight" data-text="tip">Tip: Follow people on Keybase to help make your account and theirs more trustworthy.</div>
+<div class="compose-highlight" data-text="tip">Follow people on Keybase to help make your account and theirs more trustworthy.</div>
 
 Following helps confirm that people are who they say they are on Keybase. But it doesn’t necessarily indicate a relationship. More importantly, following helps provide reassurance that accounts are trustworthy and secure.
 
