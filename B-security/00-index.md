@@ -4,7 +4,7 @@
 {% set page_description = "Your Keybase account and everything you share through it are protected by public-key cryptography. Learn how end-to-end encryption keeps your data secure." %}
 
 # Security on Keybase
-TL;DR: Public-key cryptography makes it easy for you to safely and securely share or store anything you want on Keybase.
+<div class="compose-highlight" data-text="tl;dr">Public-key cryptography makes it easy for you to safely and securely share or store anything you want on Keybase.</div>
 
 #### Your account is protected by public-key cryptography.
 Your Keybase [account](/account) is protected by public-key cryptography. Your [devices](/account#devices) are cryptographically linked to your account, ensuring that only you can access it. 
