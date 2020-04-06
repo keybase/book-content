@@ -8,12 +8,14 @@ Everywhere else in Keybase, encryption, decryption, signing, and verifying happe
 
 But, you can also encrypt, decrypt, sign, and verify messages and files that need to exist outside of Keybase but remain safe and secure. 
 
-Messages and files that have been encrypted or signed through Keybase are converted into a Keybase format called [Saltpack](https://saltpack.org/) (you’ll see Saltpack in the file names). 
+Messages and files that have been encrypted or signed through Keybase are converted into a Keybase format called [Saltpack](https://saltpack.org/) (you’ll see Saltpack in the file names). (Encrypted or signed text is also known as **ciphertext**.) 
 
 Among other things, this allows you to encrypt or sign messages or files and then share or store them safely anywhere. You can decrypt and verify messages and files from others.
 
 ## Encrypting
-Encrypt a message or file you want to share with someone specific. Just copy and paste, type it right in, drag and drop, or find a file. Keybase will use your recipient’s public key to encrypt the message or file so only they can decrypt and read it. 
+Encrypt a message or file you want to share with someone specific. 
+
+Just copy and paste, type it right in, drag and drop, or find a file. Keybase will use your recipient’s public key to encrypt the message or file so only they can decrypt and read it. 
 
 You can encrypt something for anyone using their Keybase, Twitter, Facebook, GitHub, Reddit, or Hacker News username. If they’re not on Keybase yet, they’ll need an account before they can decrypt it. 
 
@@ -43,7 +45,9 @@ When you sign a message or file, your private key is used in the encryption. No 
 A signed file is automatically saved alongside your original file in the Saltpack format. From there, you can put the signed, encrypted file anywhere you like. Recipients will know that it came from you when they verify and decrypt it.
 
 ## Verifying
-Verify a message or file to decrypt it and see who it came from. Verifying is the inverse of signing. Anyone on Keybase can verify and decrypt a signed message. 
+Verify a message or file to decrypt it and see who it came from. 
+
+Verifying is the inverse of signing. Anyone on Keybase can verify and decrypt a signed message. 
 
 When you copy and paste, be sure to include “BEGIN KEYBASE SALTPACK SIGNED MESSAGE.” and “END KEYBASE SALTPACK SIGNED MESSAGE.” You may also have to remove any extra spaces that occur as a result of copying and pasting.
 
