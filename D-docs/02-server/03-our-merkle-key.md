@@ -21,7 +21,7 @@
 
 <h3>Contents</h3>
 
-<hcode>html
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - https://gpgtools.org
@@ -154,5 +154,4 @@ crsJxVo2npG6lZ4kK4tP9HwyrYwLiUXPhwaPMh5OLfe4TTCdzr8D//sQUwIYyDDq
 SLOcqa+kq/vL6AXsXFpFr+ovOrU=
 =veW2
 -----END PGP PUBLIC KEY BLOCK-----
-
-</hcode>
+```

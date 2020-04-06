@@ -6,10 +6,10 @@
 
 <h3>Signatures</h3>
 
-We've signed this public key with our <a href="./our_code_signing_key">Code-signing key</a>.
+We've signed this public key with our <a href="./our-code-signing-key">Code-signing key</a>.
 
 
-<hcode>html
+```
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - https://gpgtools.org
@@ -31,5 +31,5 @@ sVXOeePGa+0DnrEml4Ui9FO7W/NFxnrJlCLIga+/LGotIZJxS8Oo49Y6B18J4BX8
 QjwajBRoj0bxNTpL
 =ItfX
 -----END PGP MESSAGE-----
+```
 
-</hcode>
