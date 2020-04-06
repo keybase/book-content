@@ -4,7 +4,7 @@
 {% set page_description = "Use Keybase for end-to-end encrypted chat, files, and Git with teams. Collaborate with groups of people to get work done safely and securely. Learn more." %}
 
 # Keybase for Teams
-Use Keybase for Teams to work, connect, and organize. A team on Keybase is simply a group of people—colleagues, cabals, families, flashmobs, magic circles—any group.
+Use Keybase Teams to work, connect, and organize. A team on Keybase is simply a group of people—colleagues, cabals, families, flashmobs, magic circles—any group.
 
 Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/Git).
 
@@ -12,7 +12,7 @@ Like everything else on Keybase, team chats, files, and Git are end-to-end encry
 
 Cryptography also protects the integrity of teams on Keybase. Every team member gets a shared key pair. The private key only lives on their devices and is changed anytime someone on the team is removed or revokes a device. This key guarantees that only team admins can add or remove people and edit their permissions. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we can’t access that key and can’t add unauthorized people or “ghost users” into teams. Only team members added by an admin can access that team. Period.
 
-Likewise, person-to-person interactions remain private. Team admins or owners can’t access individual chats between team members or any other interactions they’re not explicitly a part of. 
+Likewise, person-to-person interactions remain private. Team admins and owners can’t access one-on-one chats between team members or any other interactions they’re not explicitly a part of. 
 
 No snooping—anywhere, ever—on Keybase. 
 
@@ -24,6 +24,8 @@ Before you create a team, there are a few things you should know:
 * Team names cannot be changed.
 * Team names must be lowercase letters (a-z), numbers, and underscores (no spaces).
 
+Learn more about names on Keybase in [Usernames](account#usernames).
+
 ### Adding and removing people
 You can create a team from scratch. Or if your team’s on Slack, you can [import it into Keybase](https://keybase.io/slack-importer/).
 
@@ -34,7 +36,7 @@ As you add people to a team, they’re announced in the team chat. All new team 
 If you remove a team member, they lose access to all team chats and folders. Removed team members cannot rejoin a team unless an admin adds them again.
 
 #### Roles and permissions
-When you add someone to a team, you’ll assign them a role that gives them specific permissions. In most cases, most people should be writers. If you’re managing a community, you might want your team members to be readers. You can always change roles later.
+When you add someone to a team, you’ll assign them a role that gives them specific permissions. In most cases, most people should be writers. If you’re managing an [open team](teams#build-community), you might want your team members to be readers. You can always change roles later.
 
 <div class="table-wrapper">
     <h5><img src="/static/img/kbicon.svg" alt=""> Keybase Teams: Roles & Permissions</h5>
@@ -114,7 +116,7 @@ If you leave a team, any messages and files you shared remain with the team, but
 A team can only be deleted by the team owner. A team can only be deleted if there are no subteams. If a team or subteam is deleted, all team chats are lost forever, all data in the team folder(s) is lost forever, and all team members are notified.
 
 ## Team features
-Teams can be what we call big teams, subteams, or open teams. Each has different features and abilities.
+Teams can be what we call [big teams](teams#organize-chats-in-channels), [subteams](teams#share-private-messages-and-files), or [open teams](teams#build-community). Each has different features and abilities.
 
 ### Big teams
 #### Organize chats in channels.
@@ -126,7 +128,7 @@ Channels are a way to organize chats. They’re useful for focusing conversation
 #### Share private messages and files.
 A subteam is a private group created within a team. A subteam can include members of a team as well as people who are not a part of that team.
 
-For example, an organization may want to create a subteam for a hiring committee. The hiring committee subteam could include team members from within the organization as well as board members that aren’t a part of the team.
+For example, an organization may want to create a subteam for a hiring committee. The hiring committee subteam could include team members as well as board members that aren’t a part of the team.
 
 In a subteam, you can share private chats and files within a team. Only members of the subteam can read them. And while teams are public (outsiders may see that they exist but can’t necessarily see who is in them), subteams are stealthy. People who aren’t in them can’t even see that they exist.
 
@@ -138,14 +140,14 @@ Just like any other team, a subteam becomes a big team when you add chat channel
 
 ### Open teams
 #### Build community.
-Anyone can join an open team. So, if you’re building a community, you might want to make an open team. You can also let the Keybase community know about it and we may be able to help get the word out.
+Anyone can join an open team. So, if you’re building a community, you might want to make an open team. You can also let Keybase know about it and we may be able to help get the word out.
 
 If you know of an open team you’d like to join, for example `keybasefriends` or `stellar.public`, you can select `Join a team` to request being added. Since you can’t necessarily see who’s on a team, Keybase pings the admin for you. The admin can accept or ignore your request.
 
 ## Chat for Teams
 Chat for Teams works pretty much the same way it does for individuals. Learn more in [Chat](/chat).
 
-A chat is automatically created for each team. Team members with the right permissions can organize chats with channels and manage chat privacy.
+A chat is automatically created for each team. Team members with the right permissions can organize chats with [channels](teams#channels) and manage chat [privacy](teams#privacy).
 
 ### Channels
 Owners, admins, and writers (everyone except readers) can create channels to organize team chats. If you add a channel to a team chat, your team becomes a big team (and the chat moves to the lower part of your inbox).
@@ -159,12 +161,12 @@ Everyone on a team can search and read all of the messages and files shared in t
 
 By default, your entire chat history is saved and searchable forever. But team owners can manage how long messages are saved. Messages can be auto-deleted never or at set intervals as short as 30 seconds and as long as 365 days.
 
-To keep chats or files private to specific team members, create a subteam.
+To keep chats or files private to specific team members, create a [subteam](teams#share-private-messages-and-files).
 
 ## Files for Teams
 Files for Teams on Keybase works pretty much the same way it works for individuals. Learn more in [Files](/files).
 
-Teams and subteams can store up to 100 GB of documents, photos, and videos. Anything you store or share with a team on Keybase is automatically end-to-end encrypted. Only the people on a team can access team files. But, everyone on a team can access every file.
+Teams and subteams can store up to 100 GB of documents, photos, and videos. Anything you store or share with a team on Keybase is automatically end-to-end encrypted. Only the people on that team can access team files. But, everyone on a team can access every file.
 
 To make files private to specific team members, [create a subteam](teams#subteams).
 
