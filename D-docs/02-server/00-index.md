@@ -227,11 +227,7 @@ This sigchain is from a user who…
 3. Used squares to add another device called “rectangles” with its own key
 4. Used rectangles to follow [cecileb](/cecileb)
 
-{# if me? {:
-You can browse your own sigchain [online](#{"/#{me.basics.username}/sigchain"}) or through [the API](#{"/_/api/1.0/sig/get.json?uid=#{me.id}"}).
-:} else {:
-You can try browsing a real sigchain [online](/max/sigchain) or through [the API](/_/api/1.0/sig/get.json?uid=dbb165b7879fe7b1174df73bed0b9500).
-:} #} Since sigchains are **public**, you can do this for any user on Keybase!
+You can try browsing a real sigchain [online](/max/sigchain) or through [the API](/_/api/1.0/sig/get.json?uid=dbb165b7879fe7b1174df73bed0b9500). Since sigchains are **public**, you can do this for any user on Keybase!
 
 Every sigchain link is signed by one of the user’s keys and includes a sequence number and the hash of the previous link. Because of this, the server can’t create links on its own or omit links without invalidating the whole sigchain. We use a [public Merkle tree](/docs/server_security) to make it difficult for us to roll back a sigchain to an earlier state without being noticed.
 
