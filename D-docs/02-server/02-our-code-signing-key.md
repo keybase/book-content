@@ -3,9 +3,9 @@
 
 <h3>Expect signatures by</h3>
 <ul>
-  <li><a href="/max">keybase.io/max</a></li>
-  <li><a href="/chris">keybase.io/chris</a></li>
-  <li><a href="/winbot">keybase.io/winbot</a></li>
+  <li><a href="https://keybase.io/max">keybase.io/max</a></li>
+  <li><a href="https://keybase.io/chris">keybase.io/chris</a></li>
+  <li><a href="https://keybase.io/winbot">keybase.io/winbot</a></li>
 </ul>
 
 <h3>Fingerprint</h3>

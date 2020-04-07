@@ -547,7 +547,7 @@ Keybase sigchains aim to avoid this.
         you should be able to get it, and know it's the right one, without talking to them in person.
       </p>
 
-      <p>This is a daunting proposition: servers can be hacked or coerced into lying about a key. So when you run a Keybase client - whether it's our <a href="/docs/command_line">reference client</a> or someone else's - that client needs to be highly skeptical about what the server says.
+      <p>This is a daunting proposition: servers can be hacked or coerced into lying about a key. So when you run a Keybase client - whether it's our <a href="/docs/cli">reference client</a> or someone else's - that client needs to be highly skeptical about what the server says.
       </p>
 
 
