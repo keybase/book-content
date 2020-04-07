@@ -25,7 +25,7 @@ You do create a username to help let others know that an account belongs to you.
 
 [Following](account#following) provides a public record that also confirms that you are who you say you are. Adding proofs and following are both public actions. And, as the name “proof” implies, these actions are also provable. Your contacts don’t have to trust that you’re you on Keybase just because you say you are; they can see for themselves.
 
-Anyone can check your proofs; Keybase regularly does as well. If anything changes to your devices or proofs—indicating that your account has possibly been hacked—your contacts are notified before they interact with you.
+Anyone can check your proofs; Keybase regularly does as well. If there are any changes to your devices or proofs—indicating that your account has possibly been hacked—your followers are notified before they interact with you.
 
 ## Usernames
 <div class="compose-highlight" data-text="tip">Before you create your account, give your username some thought. Everyone on the internet can see it.</div>
