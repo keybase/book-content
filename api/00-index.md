@@ -1,4 +1,3 @@
-#{partial 'api_header.toffee'}
 {% set section_title = "API" %}
 {% set section_subtitle = "Learn about the Keybase API." %}
 {% set nav_title = "API" %}
@@ -54,4 +53,3 @@
   We want everyone in the world to have a key pair, and we want it to feel as simple as a username.
 </p>
 
-#{partial 'api_footer.toffee'}
