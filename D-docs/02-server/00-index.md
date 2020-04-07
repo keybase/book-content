@@ -534,7 +534,7 @@ Keybase sigchains aim to avoid this.
       </p>
     </div>
     <div class="col-sm-4">
-        <img src="/images/tracking/man_in_the_middle.jpg" class="img-responsive img-dreaming" width="1110" height="1113">
+        <img src="https://keybase.io/images/tracking/man_in_the_middle.jpg" class="img-responsive img-dreaming" width="1110" height="1113">
     </div>
   </div>
 
@@ -556,7 +556,7 @@ Keybase sigchains aim to avoid this.
 
   <div class="row">
     <div class="col-sm-3">
-      <img src="/images/tracking/dreams_of_maria.jpg" class="img-responsive img-dreaming" width="1110" height="975">
+      <img src="https://keybase.io/images/tracking/dreams_of_maria.jpg" class="img-responsive img-dreaming" width="1110" height="975">
     </div>
     <div class="col-sm-9">
       <p>
@@ -621,7 +621,7 @@ Keybase sigchains aim to avoid this.
 
   <div class="row row-doc">
     <div class="#{lcol}">
-      <img src="/images/tracking/chalkboard.jpg" class="img-responsive img-dreaming" width="1110" height="971">
+      <img src="https://keybase.io/images/tracking/chalkboard.jpg" class="img-responsive img-dreaming" width="1110" height="971">
     </div>
     <div class="#{rcol} chalk-col">
       <p>
@@ -710,7 +710,7 @@ Is this the maria you wanted? [y/N]</pre>
 
     </div>
     <div class="col-sm-4">
-      <img src="/images/tracking/social.jpg" class="img-responsive img-dreaming" width="1110" height="1046">
+      <img src="https://keybase.io/images/tracking/social.jpg" class="img-responsive img-dreaming" width="1110" height="1046">
     </div>
   </div>
 
