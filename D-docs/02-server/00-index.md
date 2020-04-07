@@ -505,7 +505,8 @@ Add or rotate a [Per-user](https://keybase.io/docs/teams/puk) signing and encryp
 `reverse_sig` is the signature over the sigchain link with new per-user signing key itself.
 The `generation` number starts at one and increments whenever the per-user keys are rotated, typically
 after a device revocation.
-## footnote 1: *PGP key servers and lying by omission*
+
+##### footnote 1: PGP key servers and lying by omission
 
 When someone changes a PGP key — to update its expiration date or add a signature, for example — they’re expected to broadcast the change to a [key server](https://en.wikipedia.org/wiki/Key_server_\(cryptographic\)). That key server is responsible for forwarding the change to other key servers, and so on. Eventually, someone else can ask any other key server if there have been updates to the key, and receive them.
 
@@ -739,7 +740,7 @@ Is this the maria you wanted? [y/N]</pre>
   </p>
 
   <div class="appendix">
-      <h2>footnote 1: <i>the PGP web of trust</i></h2>
+      <h5>footnote 1: the PGP web of trust</h5>
       <p>
         In the web of trust model, you know you have Maria's key because you trust John, and John signed a statement
         saying that another key belongs to his friend "Carla", and then Carla in turn signed a statement saying that Maria is someone whose drivers license
