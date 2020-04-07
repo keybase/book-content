@@ -143,11 +143,11 @@ the signature via `gpg`, or try something quick and dirty to strip out the signa
 this demonstration, the latter suffices. Pull out the hash of the root block as follows:
 
 ```python
-          root_hash = re.compile(r"\\"root\\":\\"([a-f0-9]{128})\\"").search(sig).group(1)
+root_hash = re.compile(r"\\"root\\":\\"([a-f0-9]{128})\\"").search(sig).group(1)
 ```
 
 ```coffeescript
-          root_hash = sig.toString("utf8").match(/"root":"([a-f0-9]{128})"/)[1]
+root_hash = sig.toString("utf8").match(/"root":"([a-f0-9]{128})"/)[1]
 ```
 
 Now we have the root, we can descend the Merkle tree to get the corresponding user data.  Let's look
