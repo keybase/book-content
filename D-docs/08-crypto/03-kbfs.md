@@ -778,7 +778,7 @@ body .kbfs-crypto-spec {
   <h2>Organizations</h2>
 
   <p>
-    See our discussion of <a href="/docs/teams/index">Teams</a>.
+    See our discussion of <a href="/docs/teams">Teams</a>.
   </p>
 
   <h2>Other Topics</h2>

@@ -526,11 +526,11 @@ binaries in your `$PATH`, you can even symlink the provided systemd unit files
 to your `~/.config/systemd/user` directory and use the systemd user manager to
 manage your custom Keybase install. Note that the KBFS mount will not be
 accessible at `/keybase`, but at the user-writable mountdir (see <a
-href="/docs/linux-user-guide#configuring-kbfs">Configuring KBFS</a>).
+href="#configuring-kbfs">Configuring KBFS</a>).
 
 Alternatively, you can choose to build Keybase from source for full customization
 over your install, as described in <a
-href="/docs/linux-user-guide#for-package-maintainers">For Package
+href="#for-package-maintainers">For Package
 Maintainers</a>.
 
 ## For Package Maintainers
@@ -570,5 +570,3 @@ If you have a feature request, you can make a [GitHub
 issue](https://github.com/keybase/client/issues/new) or join the keybasefriends
 team on Keybase and post in the `#feature-requests` channel. Or if you just need
 general help, post in the `#general` channel.
-</md>
-</div>

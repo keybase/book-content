@@ -3,8 +3,8 @@
 
 <h3>Expect signatures by</h3>
 <ul>
-  <li><a href="/max">keybase.io/max</a></li>
-  <li><a href="/chris">keybase.io/chris</a></li>
+  <li><a href="https://keybase.io/max">keybase.io/max</a></li>
+  <li><a href="https://keybase.io/chris">keybase.io/chris</a></li>
 </ul>
 
 <h3>Fingerprint</h3>
@@ -16,7 +16,7 @@
 <h3> Keybase KID</h3>
 
 <p>
-  Keybase <a href="/docs/api/1.0/kid">KID</a>: <code>010159baae6c7d43c66adf8fb7bb2b8b4cbe408c062cfc369e693ccb18f85631dbcd0a</code>
+  Keybase <a href="https://keybase.iodocs/api/1.0/kid">KID</a>: <code>010159baae6c7d43c66adf8fb7bb2b8b4cbe408c062cfc369e693ccb18f85631dbcd0a</code>
 </p>
 
 <h3>Contents</h3>

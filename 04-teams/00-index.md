@@ -6,21 +6,21 @@
 # Keybase for Teams
 Use Keybase Teams to work, connect, and organize. A team on Keybase is simply a group of people—colleagues, cabals, families, flashmobs, magic circles—any group.
 
-Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/Git).
+Teams can [chat](/chat), use [files](/files), and [collaborate on Git](/git).
 
 Like everything else on Keybase, team chats, files, and Git are end-to-end encrypted. What you and your team share, store, and commit stays between you and your team.
 
 Cryptography also protects the integrity of teams on Keybase. Every team member gets a shared key pair. The private key only lives on their devices and is changed anytime someone on the team is removed or revokes a device. This key guarantees that only team admins can add or remove people and edit their permissions. Even if Keybase’s servers are compromised, or if Keybase’s employees are coerced, we can’t access that key and can’t add unauthorized people or “ghost users” into teams. Only team members added by an admin can access that team. Period.
 
-Likewise, person-to-person interactions remain private. Team admins and owners can’t access one-on-one chats between team members or any other interactions they’re not explicitly a part of. 
+Likewise, person-to-person interactions remain private. Team admins and owners can’t access one-on-one chats between team members or any other interactions they’re not explicitly a part of.
 
-No snooping—anywhere, ever—on Keybase. 
+No snooping—anywhere, ever—on Keybase.
 
 ## Managing a team
 Before you create a team, there are a few things you should know:
 * Teams are public. Everyone can see that they exist but not necessarily who is in them.
 * Team members can choose to publish the teams they belong to on their profiles.
-* Team names must be unique. 
+* Team names must be unique.
 * Team names cannot be changed.
 * Team names must be lowercase letters (a-z), numbers, and underscores (no spaces).
 

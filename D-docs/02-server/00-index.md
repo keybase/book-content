@@ -227,11 +227,7 @@ This sigchain is from a user who…
 3. Used squares to add another device called “rectangles” with its own key
 4. Used rectangles to follow [cecileb](/cecileb)
 
-{# if me? {:
-You can browse your own sigchain [online](#{"/#{me.basics.username}/sigchain"}) or through [the API](#{"/_/api/1.0/sig/get.json?uid=#{me.id}"}).
-:} else {:
-You can try browsing a real sigchain [online](/max/sigchain) or through [the API](/_/api/1.0/sig/get.json?uid=dbb165b7879fe7b1174df73bed0b9500).
-:} #} Since sigchains are **public**, you can do this for any user on Keybase!
+You can try browsing a real sigchain [online](/max/sigchain) or through [the API](/_/api/1.0/sig/get.json?uid=dbb165b7879fe7b1174df73bed0b9500). Since sigchains are **public**, you can do this for any user on Keybase!
 
 Every sigchain link is signed by one of the user’s keys and includes a sequence number and the hash of the previous link. Because of this, the server can’t create links on its own or omit links without invalidating the whole sigchain. We use a [public Merkle tree](/docs/server_security) to make it difficult for us to roll back a sigchain to an earlier state without being noticed.
 
@@ -505,7 +501,8 @@ Add or rotate a [Per-user](https://keybase.io/docs/teams/puk) signing and encryp
 `reverse_sig` is the signature over the sigchain link with new per-user signing key itself.
 The `generation` number starts at one and increments whenever the per-user keys are rotated, typically
 after a device revocation.
-## footnote 1: *PGP key servers and lying by omission*
+
+##### footnote 1: PGP key servers and lying by omission
 
 When someone changes a PGP key — to update its expiration date or add a signature, for example — they’re expected to broadcast the change to a [key server](https://en.wikipedia.org/wiki/Key_server_\(cryptographic\)). That key server is responsible for forwarding the change to other key servers, and so on. Eventually, someone else can ask any other key server if there have been updates to the key, and receive them.
 
@@ -546,7 +543,7 @@ Keybase sigchains aim to avoid this.
         you should be able to get it, and know it's the right one, without talking to them in person.
       </p>
 
-      <p>This is a daunting proposition: servers can be hacked or coerced into lying about a key. So when you run a Keybase client - whether it's our <a href="/docs/command_line">reference client</a> or someone else's - that client needs to be highly skeptical about what the server says.
+      <p>This is a daunting proposition: servers can be hacked or coerced into lying about a key. So when you run a Keybase client - whether it's our <a href="/docs/cli">reference client</a> or someone else's - that client needs to be highly skeptical about what the server says.
       </p>
 
 
@@ -739,7 +736,7 @@ Is this the maria you wanted? [y/N]</pre>
   </p>
 
   <div class="appendix">
-      <h2>footnote 1: <i>the PGP web of trust</i></h2>
+      <h5>footnote 1: the PGP web of trust</h5>
       <p>
         In the web of trust model, you know you have Maria's key because you trust John, and John signed a statement
         saying that another key belongs to his friend "Carla", and then Carla in turn signed a statement saying that Maria is someone whose drivers license
