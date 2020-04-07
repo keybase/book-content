@@ -80,21 +80,13 @@ Then the client requests the rest of the team's chain, whether the
 full chain in the case of a slow load, or an abbreviated chain in the
 case of a fast load.
 
-In a final "audit" pass, the client [picks](https://github.com/keybase/client/
-blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L349) a random
+In a final "audit" pass, the client [picks](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L349) a random
 set of historical Merkle roots and requests a path from the root down the
 given team at that sequence number. It then:
 
-* [ensures](https://github.com/keyba
-se/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L396
-) that the most recent global Merkle root points back to this historical roots
-(via hash-chain pointers);
-* verifies that the TeamSequenceNumbers are [monotonically increasing](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d1
-4e6abfcb86/go/teams/audit.go#L291-L293);
-* and checks that the TeamSigchainTailHashes [
-match](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e
-6abfcb86/go/teams/audit.go#L284) those downloaded from the server when the
-fast or slow load happened.
+* [ensures](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L396) that the most recent global Merkle root points back to this historical roots (via hash-chain pointers);
+* verifies that the TeamSequenceNumbers are [monotonically increasing](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L291-L293);
+* and checks that the TeamSigchainTailHashes [match](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L284) those downloaded from the server when the fast or slow load happened.
 
 Because the client controls the random number sequence that will be queried,
 and Alice and Bob both do this audit, it would be extremely unlikely that the
