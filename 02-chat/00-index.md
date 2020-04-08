@@ -26,7 +26,7 @@ If you turn a group chat into a team, you can add or remove people from it. [Tea
 You can create channels to organize chats—on say, a specific project or lunch ideas—but they’re not private. Everyone in a team can search and read all messages and files shared in any and every channel.
 
 ### Subteams
-To create group chats or to share files that are private to specific team members, you need to [make a subteam](/teams#subteams).
+To create group chats or to share files that are private to specific team members, you need to [make a subteam](/teams#subteams). And because a subteam is cryptographically distinct from its parent, you can add people to a subteam who are not in the parent team.
 
 ### Private messages
 You can reply privately to messages within team chats. Those chats move outside of the team chat and always remain private between you and that other person. Team owners and admins can’t snoop.
@@ -87,7 +87,7 @@ If you share an exploding message with a team, it will only be  readable for exi
 * Anyone added to the team after an exploding message is sent will not be able to read it, even if it hasn’t yet exploded.
 
 ### Coin flips
-Coin flips can help you make decisions, like where to go to lunch. 
+Coin flips can help you make decisions, like where to go to lunch.
 
 Type `/flip` into a chat and you’ll get a totally randomized heads-or-tails coin flip.
 
@@ -107,7 +107,7 @@ All Keybase bots are open source. Keybase builds some but anyone can. You can se
 #### Permissions
 In individual or group chats, anyone can add a bot.
 
-In a team, owners and admins can add bots. Readers and writers can not add bots. 
+In a team, owners and admins can add bots. Readers and writers can not add bots.
 
 Importantly, other bots cannot add other bots (we’re doing our part to slow the inevitable robot takeover).
 
@@ -116,4 +116,4 @@ When you add a bot to a chat or team, you decide what it can read.
 
 If you choose “unrestricted,” the bot will be able to read all the messages and files in the chat.
 
-If you choose “restricted,” the bot will only be able to read the messages it’s mentioned in or otherwise summoned.  
+If you choose “restricted,” the bot will only be able to read the messages it’s mentioned in or otherwise summoned.
