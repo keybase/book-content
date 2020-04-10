@@ -26,7 +26,7 @@ If you turn a group chat into a team, you can add or remove people from it. [Tea
 You can create channels to organize chats—on say, a specific project or lunch ideas—but they’re not private. Everyone in a team can search and read all messages and files shared in any and every channel.
 
 ### Subteams
-To create group chats or to share files that are private to specific team members, you need to [make a subteam](/teams#subteams). And because a subteam is cryptographically distinct from its parent, you can add people to a subteam who are not in the parent team.
+To create group chats or to share files that are private to specific team members, you need to [make a subteam](/teams#subteams). Subteams are cryptographically distinct from the parent team, so you can add people to a subteam who are not in the parent team.
 
 ### Private messages
 You can reply privately to messages within team chats. Those chats move outside of the team chat and always remain private between you and that other person. Team owners and admins can’t snoop.
