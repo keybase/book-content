@@ -135,8 +135,8 @@ In a subteam, you can share private chats and files within a team. Only members 
 Just like any other team, a subteam becomes a big team when you add chat channels. But permissions and roles work a little differently:
 * Only team owners and admins can make subteams.
 * Subteams do not have owners.
-* Subteams may have “implicit admins,” people who are admins of the parent team but not of this subteam.
-* Implicit admins do not have access to files and messages shared within a subteam.
+* Subteams may have “implicit admins,” people who are admins of the parent team but not of this subteam. Implicit admins do not have access to files and messages shared within a subteam, but they can add themselves to the subteam and gain access.
+* When implicit admins add anyone (including themselves) to a team, it is announced to the other members.
 
 ### Open teams
 #### Build community.
