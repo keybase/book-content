@@ -58,7 +58,7 @@ In order for your domain/hostname to point at the Keybase servers, you need to s
 my-site.example.com. 300 IN CNAME kbp.keybaseapi.com.
 ```
 
-Note that you can’t have CNAME on a root domain (e.g. `example.com`). Some DNS providers support it by making it a proxy for only `A`/`AAAA` records. This is called `ALIAS` sometimes. If you need to use a root domain with Keybase hosted site but your DNS provider doesn’t allow it, try switching to a different DNS provider.
+Note that you can’t have CNAME on a root domain (e.g., `example.com`). Some DNS providers support it by making it a proxy for only `A`/`AAAA` records. This is called `ALIAS` sometimes. If you need to use a root domain with Keybase hosted site but your DNS provider doesn’t allow it, try switching to a different DNS provider.
 
 In addition to the DNS record, `kbpbot` needs to know which shared folder you’d like to share on this hostname. You’ll need a `TXT` record for `_keybase_pages` as a subdomain of your hostname. In this case, that would be `_keybase_pages.my-site.example.com`. If the `_keybase_pages` prefix isn’t allowed, you may use `_keybasepages.my-site.example.com` as well.
 
