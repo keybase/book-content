@@ -58,7 +58,9 @@ In order for your domain/hostname to point at the Keybase servers, you need to s
 my-site.example.com. 300 IN CNAME kbp.keybaseapi.com.
 ```
 
-In addition to the DNS record, `kbpbot` needs to know which shared folder you’d like to share on this hostname. You’ll need a `TXT` record for `_keybase_pages` as a subdomain of your hostname. In this case, that would be `_keybase_pages.my-site.example.com`.
+Note that you can't have CNAME on a root domain (e.g. `example.com`). Some DNS providers support it by making it a proxy for only `A`/`AAAA` records. This is called `ALIAS` sometimes. If you need to use a root domain with Keybase hosted site but your DNS provider doesn't allow it, try switching to a different DNS provider.
+
+In addition to the DNS record, `kbpbot` needs to know which shared folder you’d like to share on this hostname. You’ll need a `TXT` record for `_keybase_pages` as a subdomain of your hostname. In this case, that would be `_keybase_pages.my-site.example.com`. If the `_keybase_pages` prefix isn't allowed, you may use `_keybasepages.my-site.example.com` as well.
 
 The contents of this record are the prefix `kbp=`, and a full Keybase path to the folder you’d like to share, as created above. For this example setup, the record would look like this:
 
@@ -67,6 +69,10 @@ _keybase_pages.my-site.example.com. 300 IN TXT "kbp=/keybase/private/person,kbpb
 ```
 
 This record tells `kbpbot` to look in this folder to share your files.
+
+### Team folder also works
+
+Other than having a shared private folder with `kbpbot` like `/keybase/private/person,kbpbot`, any Keybase folder that `kbpbot` can read works. For example, you may place your site inside a team folder, and add `kbpbot` as a reader: `/keybase/team/awesometeam/awesome-site`.
 
 ### HTTPS security
 Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, for free.
@@ -100,7 +106,8 @@ After the regular DNS propagation delays, the pushed contents of the `master` br
 
 {# note: the old bits about private shared (no team) Git repositories seem to be deprecated; I can’t figure out how to do it if it’s still possible #}
 
-## HTTP authentication
-To set up basic HTTP authentication with your shared sites, create a `.kbp_config` file to handle site-specific configuration.
+## More customizations
 
-You can learn more about .kbp_config and HTTP auth in [Docs](/docs).
+By default, directory listing is disabled when you host a custom domain with Keybase. You may enable listing by creating a `.kbp_config` file at the root of your site. This config file allows some simple customizations on different parts of the site, including enabling Cross-Origin Resource Sharing (CORS).
+
+You can learn more about `.kbp_config` in [Docs](/docs/kbp/kbp_config).
