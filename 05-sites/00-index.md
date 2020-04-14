@@ -38,7 +38,6 @@ To edit a page, open the index file, make your edits, and save it. Your changes 
 ### Learn more
 If you’re so inclined, you can see a couple examples and search for others’ websites at [Keybase.pub](https://keybase.pub/).
 
-
 ## Custom domains
 You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of at `https://{username}.keybase.pub/`.
 
@@ -51,6 +50,10 @@ For example, let’s say you’d like to publish your website at `myname.com`. T
 2. Within this folder, add another folder that will hold your site’s contents. Let’s name it `my-site`. The complete folder name would be `/keybase/private/person,kbpbot/my-site`.
 3. Drop any other files you’d like to publicly share on your website in this folder. You can use Markdown, HTML, CSS, and image files.
 
+### Team folders
+
+Any Keybase folder that `kbpbot` can read works, so you can also use a team folder (e.g., `/keybase/team/awesometeam/awesome-site`) and add `kbpbot` as a reader.
+
 ### DNS records
 In order for your domain/hostname to point at the Keybase servers, you need to set up a `CNAME` record (you could also use an `ALIAS` record to forward an `A`/`AAAA` record) that points at the hostname `kbp.keybaseapi.com`. So, you’d have something like:
 
@@ -58,7 +61,7 @@ In order for your domain/hostname to point at the Keybase servers, you need to s
 my-site.example.com. 300 IN CNAME kbp.keybaseapi.com.
 ```
 
-Note that you can’t have CNAME on a root domain (e.g., `example.com`). Some DNS providers support it by making it a proxy for only `A`/`AAAA` records. This is called `ALIAS` sometimes. If you need to use a root domain with Keybase hosted site but your DNS provider doesn’t allow it, try switching to a different DNS provider.
+Note that you can’t have `CNAME` on a root domain (e.g., `example.com`). Some DNS providers support it by making it a proxy for only `A`/`AAAA` records. This is sometimes called `ALIAS`. If you need to use a root domain with a Keybase Site, but your DNS provider doesn’t allow it, try switching to a different DNS provider.
 
 In addition to the DNS record, `kbpbot` needs to know which shared folder you’d like to share on this hostname. You’ll need a `TXT` record for `_keybase_pages` as a subdomain of your hostname. In this case, that would be `_keybase_pages.my-site.example.com`. If the `_keybase_pages` prefix isn’t allowed, you may use `_keybasepages.my-site.example.com` as well.
 
@@ -69,10 +72,6 @@ _keybase_pages.my-site.example.com. 300 IN TXT "kbp=/keybase/private/person,kbpb
 ```
 
 This record tells `kbpbot` to look in this folder to share your files.
-
-### Team folder also works
-
-Other than having a shared private folder with `kbpbot` like `/keybase/private/person,kbpbot`, any Keybase folder that `kbpbot` can read works. For example, you may place your site inside a team folder, and add `kbpbot` as a reader: `/keybase/team/awesometeam/awesome-site`.
 
 ### HTTPS security
 Thanks to [Let’s Encrypt](https://letsencrypt.org/), `kbpbot` is able to transparently request and install a HTTPS TLS/SSL certificate on your hosted domain name, for free.
