@@ -1,0 +1,100 @@
+{#
+        print partial '../../call_item.toffee',
+
+          title:  'user/autocomplete'
+          title:  'user/autocomplete'
+          method: 'GET'
+          cors_support: true
+          suffix: """
+            <h4>Autocomplete as search</h4>
+            <p>
+              Autocomplete will only return up to 10 matching results for a search string of your choice, although it will focus on the best matches in can find.
+              Your query can match Keybase usernames, full names, identity usernames, and key fingerprints.
+            </p>
+            <p>
+              We'll likely release a better search API soon, as autocomplete was really only intended to support the web nav search UI. Still, feel free to use it. We're
+              using it in the keybase command line client right now, when you do <code>keybase search</code>.
+            </p>
+
+            <h4>CORS</h4>
+            <p>
+              This API call, along with both <b>user/lookup</b>
+              and <b>username/key.asc</b>, is available via AJAX using CORS. Combining the
+              three, you can search Keybase on any page on the web, present results
+              to a viewer, and let them encrypt or verify.
+            </p>
+
+          """
+          sample_params: """
+                q: "maxtaco"
+          """
+          sample_output: """
+          {
+            "status": {
+              "code": 0,
+              "name": "OK"
+            },
+            "completions": [
+              {
+                "total_score": 2,
+                "components": {
+                  "username": {
+                    "val": "max",
+                    "score": 0
+                  },
+                  "key_fingerprint": {
+                    "val": "937b2cf047755301683ee3cfe19e4459d269c142",
+                    "score": 0
+                  },
+                  "full_name": {
+                    "val": "Max Krohn",
+                    "score": 0
+                  },
+                  "github": {
+                    "val": "maxtaco",
+                    "score": 1
+                  },
+                  "reddit": {
+                    "val": "maxtaco",
+                    "score": 1
+                  },
+                  "twitter": {
+                    "val": "maxtaco",
+                    "score": 1
+                  },
+                  "hackernews": {
+                    "val": "maxtaco",
+                    "score": 1
+                  },
+                  "websites": [
+                    {
+                      "val": "oneshallpass.com",
+                      "score": 0,
+                      "protocol": "https:"
+                    },
+                    {
+                      "val": "keybase.io",
+                      "score": 0,
+                      "protocol": "https:"
+                    },
+                    {
+                      "val": "oneshallpass.com",
+                      "score": 0,
+                      "protocol": "dns"
+                    },
+                    {
+                      "val": "maxk.org",
+                      "score": 0,
+                      "protocol": "dns"
+                    }
+                  ]
+                },
+                "uid": "dbb165b7879fe7b1174df73bed0b9500",
+                "thumbnail": "https://s3.amazonaws.com/key...f.jpeg",
+                "is_followee": true
+              }
+            ],
+            "csrf_token": "lgHZIDIzMjYwYzJjZTE5NDIwZjk3YjU4..."
+          }
+          """
+#}

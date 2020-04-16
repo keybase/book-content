@@ -1,0 +1,8 @@
+@import 'url_map';
+
+@function static-url-for($path) {
+  @if map-has-key($static-assets-map, $path) {
+    @return map-get($static-assets-map, $path);
+  }
+  @return '/static/' + $path;
+}

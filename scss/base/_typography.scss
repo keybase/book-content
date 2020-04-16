@@ -1,0 +1,122 @@
+$base-font-size: 16px;
+$type-scale-ratio: 1.618; // That's Φ, baby
+$type--line-height: 1.5;
+$type--block-end: 1rem;
+
+html {
+  font-family: $font--sans;
+  font-size: $base-font-size;
+  color: $color--content__text;
+}
+
+p {
+  line-height: $type--line-height;
+  margin-block-end: $type--block-end;
+}
+a {
+  color: inherit;
+  &.compose-anchor {
+    font-size: 1rem;
+    display: inline-block;
+    width: 1rem;
+    margin-top: -6rem;
+    margin-right: 1rem;
+    margin-left: -2rem;
+    padding-top: 6rem;
+    text-decoration: none;
+    color: $color--content__compose-anchors;
+    &:hover {
+      color: $color--content__compose-anchors--hover;
+    }
+  }
+}
+ul,
+ol {
+  line-height: $type--line-height;
+  margin-block-end: $type--block-end;
+  padding-left: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+h2:not(:first-child) {
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: $base-font-size * 4;
+}
+h2 {
+  font-size: $base-font-size * 3;
+  z-index: 3;
+}
+h3 {
+  font-size: $base-font-size * 2;
+  z-index: 2;
+}
+h4 {
+  z-index: 1;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background-color: $color--content__code-background;
+}
+pre,
+code {
+  font-family: $font--mono;
+  line-height: 1.3;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+}
+
+blockquote,
+q {
+  padding-left: 2rem;
+  border-left: 0.5rem solid $color--content__quote-border;
+}
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+figcaption {
+  font-family: $font--mono;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  color: $color--content__figcaption;
+}
+
+.compose-highlight {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  background-color: $color--compose-highlight__background;
+
+  &:before {
+    font-family: $font--mono;
+    line-height: 1;
+    display: block;
+    margin-bottom: 1.25rem;
+    content: attr(data-text);
+    text-transform: uppercase;
+    color: $color--compose-highlight__title;
+  }
+}

@@ -1,0 +1,30 @@
+@mixin full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+///
+/// @name Screen
+/// A @mixin that tracks tokenized breakpoints for responsive styling.
+///
+/// @param {String || Number} $breakpoint - The breakpoint at which to show the encapsulated styles.
+///   Can be either any number with a unit OR any key on the map $breakpoints.
+/// @see $breakpoints - ./_variables.scss
+///
+@mixin screen($breakpoint) {
+  $pt: $breakpoint;
+  @if (map-get($breakpoints, $breakpoint)) {
+    $pt: map-get($breakpoints, $breakpoint);
+  }
+  @media screen and (min-width: #{$pt}) {
+    @content;
+  }
+}
+
+@mixin wide-text($color) {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+  color: $color;
+}

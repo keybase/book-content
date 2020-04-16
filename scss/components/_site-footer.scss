@@ -1,0 +1,72 @@
+.site-footer {
+  padding: 3rem;
+  &__inner {
+    width: 100%;
+    max-width: 72rem;
+    margin: 0 auto;
+
+    @include screen(sm) {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  &__brand {
+    font-size: 1.125rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    color: inherit;
+    > svg {
+      width: 1.625rem;
+      margin-right: 0.5ch;
+    }
+    > span {
+      font-weight: bold;
+    }
+  }
+  &__list {
+    font-family: $font--mono;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+    padding: 0;
+    list-style-type: none;
+
+    @include screen(sm) {
+      grid-column: 1;
+      margin-bottom: 10rem;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: $color--chapter-nav__label;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .download {
+    margin-bottom: 2rem;
+
+    @include screen(sm) {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+      align-self: start;
+      justify-self: end;
+      max-width: 21rem;
+    }
+  }
+  &__copyright,
+  &__disclaimer {
+    font-family: $font--mono;
+    font-size: 0.75rem;
+    color: $color--chapter-nav__label;
+  }
+  &__disclaimer {
+    text-align: right;
+    > a {
+      color: $color--content__text;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+$font--sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font--mono: "SFMono-Regular", "Inconsolata", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+$color--mono-100: hsl(0, 0%, 100%);
+$color--mono-94: hsl(0, 0%, 94%);
+$color--mono-87: hsl(0, 0%, 87%);
+$color--mono-83: hsl(0, 0%, 83%);
+$color--mono-55: hsl(0, 0%, 55%);
+$color--mono-11: hsl(0, 0%, 11%);
+$color--mono-01: hsl(0, 0%, 1%);
+
+html {
+  --color--content__background: #{$color--mono-94};
+  --color--content__text: #{$color--mono-01};
+  --color--content__compose-anchor: #{$color--mono-55};
+  --color--content__code-background: #{$color--mono-87};
+  --color--content__quote-border: #{$color--mono-83};
+  --color--content__figcaption: #{$color--mono-55};
+
+  --color--compose-highlight__background: #{$color--mono-83};
+  --color--compose-highlight__title: #{$color--mono-01};
+
+  --color--site-nav__background: #{$color--mono-94};
+  --color--site-nav__chapter-count: #{$color--mono-55};
+  --color--site-nav__active: #{$color--mono-87};
+  --color--site-nav__theme-toggle: #{$color--mono-55};
+  --color--site-nav__progress-bar: #{$color--mono-01};
+  --color--site-nav__crumbs-subheader: #{$color--mono-55};
+  --color--site-nav__hover: #{$color--mono-87};
+
+  --color--chapter-nav__label: #{$color--mono-55};
+  --color--chapter-nav__overlay: #{rgba($color--mono-100, 0.9)};
+  --color--chapter-nav__active-background: #{$color--mono-87};
+
+  --color--footer__label: #{$color--mono-55};
+
+  --scrollProgress: 0;
+
+  &[dark] {
+    --color--content__background: #{$color--mono-01};
+    --color--content__text: #{$color--mono-100};
+    --color--content__code-background: #{$color--mono-11};
+    --color--content__quote-border: #{$color--mono-11};
+
+    --color--compose-highlight__background: #{$color--mono-11};
+    --color--compose-highlight__title: #{$color--mono-55};
+
+    --color--chapter-nav__overlay: #{rgba($color--mono-01, 0.9)};
+    --color--chapter-nav__active-background: #{$color--mono-11};
+
+    --color--site-nav__background: #{$color--mono-01};
+    --color--site-nav__hover: #{$color--mono-11};
+    --color--site-nav__active: #{$color--mono-55};
+    --color--site-nav__progress-bar: #{$color--mono-100};
+  }
+}
+
+// Content
+$color--content__background: var(--color--content__background);
+$color--content__text: var(--color--content__text);
+$color--content__links: var(--color--content__links);
+$color--content__links--hover: var(--color--content__links--hover);
+$color--content__compose-anchors: var(--color--content__compose-anchors);
+$color--content__compose-anchors--hover: var(--color--content__compose-anchors--hover);
+$color--content__code-background: var(--color--content__code-background);
+$color--content__quote-border: var(--color--content__quote-border);
+$color--content__figcaption: var(--color--content__figcaption);
+
+$sizing--content__width: 39rem;
+$sizing--content__grid-gap: 3rem;
+$sizing--content__padding-sm: 1.25rem;
+// $sizing--content__padding-md: 6rem;
+
+$color--compose-highlight__background: var(--color--compose-highlight__background);
+$color--compose-highlight__title: var(--color--compose-highlight__title);
+
+// Nav
+$color--site-nav__background: var(--color--site-nav__background);
+$color--site-nav__chapter-count: var(--color--site-nav__chapter-count);
+$color--site-nav__active: var(--color--site-nav__active);
+$color--site-nav__hover: var(--color--site-nav__hover);
+$color--site-nav__theme-toggle: var(--color--site-nav__theme-toggle);
+$color--nav__border: var(--color--nav__border);
+$color--nav__list-marker: var(--color--nav__list-marker);
+$color--nav__active-item: var(--color--nav__active-item);
+$color--nav__nested-list-background: var(--color--nav__nested-list-background);
+$color--site-nav__crumbs-subheader: var(--color--site-nav__crumbs-subheader);
+
+$sizing--site-nav__width: 16rem;
+
+$color--chapter-nav__label: var(--color--chapter-nav__label);
+$color--chapter-nav__overlay: var(--color--chapter-nav__overlay);
+$color--chapter-nav__active-background: var(--color--chapter-nav__active-background);
+
+$sizing--chapter-nav__width: 13.625rem;
+
+// Footer
+$color--footer__label: var(--color--footer__label);
+
+// Section Header
+$color--section-header__background: var(--color--section-header__background);
+$color--section-header__border: var(--color--section-header__border);
+$color--section-header__subhead: var(--color--section-header__subhead);
+$color--site-nav__progress-bar: var(--color--site-nav__progress-bar);
+
+$sizing--section-header__collapsed-height: 5rem;
+
+$easing--ease-out-editorial: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$breakpoints: (
+  sm: #{$sizing--chapter-nav__width + $sizing--content__width},
+  md: #{$sizing--chapter-nav__width * 2 + $sizing--content__width + $sizing--content__grid-gap * 2},
+);
