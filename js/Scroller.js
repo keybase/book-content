@@ -92,10 +92,11 @@ export default class Scroller {
         (window.scrollY + els.navEl.offsetHeight >= header.offsetTop &&
           window.scrollY + els.navEl.offsetHeight < headers[index + 1].offsetTop)
     );
-    const subheaderHash = this.subheader
-      ? this.subheader.querySelector(".compose-anchor").href
-      : "";
-    const subheaderClone = this.subheader ? this.subheader.cloneNode(true) : "";
+    const subheaderHash =
+      this.subheader && this.subheader.querySelector(".compose-anchor")
+        ? this.subheader.querySelector(".compose-anchor").href
+        : "";
+    const subheaderClone = this.subheader == typeof Node ? this.subheader.cloneNode(true) : "";
     subheaderClone
       ? subheaderClone.removeChild(subheaderClone.querySelector(".compose-anchor"))
       : "";
@@ -123,7 +124,8 @@ export default class Scroller {
   activateHash() {
     let activeSidenavLink;
     if (this.subheader) {
-      const activeSubheaderName = this.subheader.querySelector("a").name;
+      const activeSubheaderName =
+        this.subheader.querySelector("a") && this.subheader.querySelector("a").name;
 
       activeSidenavLink = this.sidenavLinks.find((link) => link.hash == `#${activeSubheaderName}`);
     }
