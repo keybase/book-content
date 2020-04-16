@@ -51,7 +51,7 @@ export default class Scroller {
         text: null,
       },
     };
-    this.headers = [...document.querySelectorAll("h2")];
+    this.headers = [...document.querySelectorAll("h2 .compose-anchor")].map((e) => e.parentNode);
     this.sidenavLinks = [
       ...this.els.headersNav.querySelectorAll(`.${this.classes.chapterNavLink}`),
     ];
@@ -76,7 +76,9 @@ export default class Scroller {
       navEl.classList.remove(navElScrolled);
       this.crumbs.chapterTitle.active = false;
     }
-    this.setCrumbs();
+    if (this.headers.length > 0) {
+      this.setCrumbs();
+    }
     this.activateHash();
   }
   setCrumbs() {
@@ -96,10 +98,10 @@ export default class Scroller {
       this.subheader && this.subheader.querySelector(".compose-anchor")
         ? this.subheader.querySelector(".compose-anchor").href
         : "";
-    const subheaderClone = this.subheader == typeof Node ? this.subheader.cloneNode(true) : "";
+    const subheaderClone = this.subheader ? this.subheader.cloneNode(true) : "";
     subheaderClone
       ? subheaderClone.removeChild(subheaderClone.querySelector(".compose-anchor"))
-      : "";
+      : ``;
     let subheaderText = this.subheader ? subheaderClone.innerHTML : "";
     let breadcrumb = ``;
     if (crumbsAreActive) {
