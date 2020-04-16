@@ -23,11 +23,12 @@ div.table-wrapper {
     text-align: center;
     color: #129edf;
 
-    img {
+    svg {
       display: inline-block;
       height: 2em;
       margin-right: 0.625rem;
       vertical-align: top;
+      color: black;
     }
   }
 }
