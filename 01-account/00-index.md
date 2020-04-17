@@ -58,7 +58,7 @@ You can and should add more devices and paper keys to your account so you don’
 
 ![ !Adding more devices and paper keys helps make your account more secure.](/img/kb-three-devices.png)
 
-When you add a new device or paper key, your existing device vouches for the new one. All your devices and paper keys are cryptographically linked. And each additional device or paper key you add to your account also gets a key pair.  
+When you add a new device or paper key, your existing device vouches for the new one. All your devices and paper keys are [cryptographically linked](/docs/server#meet-your-sigchain-and-everyone-elses). And each additional device or paper key you add to your account also gets a key pair.  
 
 So, no one can compromise your account without having all of your devices and paper keys. This guarantees that only you have access to your account.
 
