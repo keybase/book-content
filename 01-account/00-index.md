@@ -8,7 +8,7 @@
 
 ![ !Your username, devices, proofs, and followers are visible on your Keybase profile.](/img/account-profile.png)
 
-Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected with encryption.
+Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected with [end-to-end encryption](/security).
 
 When you create your Keybase account, it’s linked to your [devices](account/devices). You further protect your account with [proofs](account/proofs) and [following](account/following). All of these actions are backed by public-key cryptography.
 
