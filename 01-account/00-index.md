@@ -10,7 +10,7 @@
 
 Your Keybase account and everything you store or share through it in [Chat](/chat), [Files](files), [Teams](/teams), [Sites](/sites), [Wallet](/wallet), and [Git](/git) are all protected with encryption.
 
-When you create your Keybase account, it’s linked to your [devices](account/devices). You further protect your account with [proofs](account/proofs) and [following](account/following). All of these actions are backed by public-key cryptography.
+When you create your Keybase account, it’s linked to your [devices](/account#devices). You further protect your account with [proofs](/account#proofs) and [following](/account#following). All of these actions are backed by public-key cryptography.
 
 You can learn more about how public-key cryptography works in [Security](/security). The gist is that, thanks to public-key cryptography your contacts can be sure your Keybase account belongs to you and that only you can access it. No phishing, spoofing, or scamming around here.
 
