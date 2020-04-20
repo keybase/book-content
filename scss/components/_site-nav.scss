@@ -36,11 +36,15 @@
       width: $sizing--chapter-nav__width;
       margin-right: 3rem;
     }
-    > svg {
+    > svg.keybase {
       width: 1.625rem;
       margin-right: 0.5ch;
-
-      filter: grayscale(1);
+    }
+    > svg.wordmark {
+      fill: $color--mono-55;
+      width: 4.1rem;
+      margin-right: 0.5ch;
+      margin-top: 0.25ch;
     }
     > span {
       font-weight: bold;

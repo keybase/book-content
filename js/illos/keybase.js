@@ -13,10 +13,10 @@ const text = "keybase";
 const textArr = text.split("");
 
 const palette = {
-  neutral: "#F6F2E9",
-  yellow: "#E8DD10",
-  cyan: "#229FDD",
-  magenta: "#F70B92",
+  neutral: "#fcfcfc",
+  yellow: "#ffb800",
+  cyan: "#4c8eff",
+  magenta: "#ff4d61",
 };
 
 // prettier-ignore
