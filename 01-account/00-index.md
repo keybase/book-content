@@ -75,7 +75,7 @@ Download the Keybase app on any device using [iOS](https://apps.apple.com/us/app
 #### Device names are public and can’t be changed.
 When you add a device, you’ll have to name it. Device names are visible to everyone on the internet and can’t be changed. Choose carefully.
 
-Like your username, devices names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this.
+Like your username, device names are part of a public record that helps secure your account and confirm that you are who you say you are. Changing device names has the potential to undo this.
 
 ### Revoking devices
 If you lose or replace a device, you should revoke it. Revoking removes the device from your account.
