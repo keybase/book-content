@@ -15,7 +15,7 @@ You can chat with individuals or groups, [block people](/chat#blocking) you don�
 ## Starting a chat
 To start new chats quickly, you can find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
 
-If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. This helps ensure that only your intended recipients can read your messages.
+If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. This helps ensure that only your intended recipients can read your messages. Additionally, one of your devices will need to be online for them to receive your message.
 
 You can use Keybase Chat just like you would for one-on-one or group messages on your phone. Except, of course, it’s super, super secure. You can do a lot more if you turn a group into a team.
 

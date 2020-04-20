@@ -1,6 +1,6 @@
 # 📝 Keybase Book Content
 
-👋 Hey there! Welcome to the [Keybase](https://keybase.io) Book content repo.
+👋 Hey there! Welcome to the [Keybase](https://keybase.io) [Book](https://book.keybase.io) content repo.
 
 This repository is a work in progress, and it's our intention for the Keybase Book to be a community project. The target audience is smart people who _aren't necessarily programmers or security folks._
 
@@ -14,7 +14,7 @@ We'll accept a PR from anyone, if it clarifies a section. Note that one of the t
 
 ## If you're a Keybase staff member
 
-If you're making subsantial changes, please build the site locally and make sure it all looks good.
+If you're making substantial changes, please build the site locally and make sure it all looks good.
 
 ## Creating a Highlighted Content Section
 
