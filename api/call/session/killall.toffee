@@ -5,7 +5,7 @@
           method: 'POST'
           login_needed: true
           suffix: """
-            <h4>Cull All Sessions</h4>
+            <h4>Kill All Sessions</h4>
             <p>
               Kill all active sessions for the logged-in user.
             </p>

@@ -421,7 +421,7 @@ For our running example this could look like:
 </a>
 ```
 
-Additionally, you can optionally include a badge: a small SVG image provided by the Keybase server that displays the proof’s status. With the badge, if the user deletes the proof on Keybase but not on the the Identity Service, visitors can tell that the proof is no longer valid at a glance.
+Additionally, you can optionally include a badge: a small SVG image provided by the Keybase server that displays the proof’s status. With the badge, if the user deletes the proof on Keybase but not on the Identity Service, visitors can tell that the proof is no longer valid at a glance.
 
 The endpoint for a proof’s badge is: `https://keybase.io/%{kb_username}/proof_badge/%{sig_hash}?domain=beeactivists.com&username=josavesbees`. In addition to the plaintext link above, you can add:
 

@@ -43,7 +43,7 @@ the commitment scheme.
 As long as a participant trusts at least one person in the flip (including
 themselves if they participated), then the result of the flip is fair.
 
-A caveat with this protocol is that participants can disappear after commiting
+A caveat with this protocol is that participants can disappear after committing
 to a flip. In this case, the chat client will render an error for the flip,
 since it could be the case that a disappearing participant is just trying to
 force a new flip to happen (although it is more likely the user just
@@ -55,4 +55,4 @@ A special feature of the UI is rendering the flip while it is in progress. This
 can be seen with the orange and purple boxes that animate while the flip is
 happening. These boxes are a visualization of the bytes of the commitments and
 secrets as they are received by the chat client. The color of each cell maps a
-byte of a commitment or secret to a color pallete.
+byte of a commitment or secret to a color pallette.

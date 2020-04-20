@@ -560,7 +560,7 @@ For our running example this could look like:
 
 Additionally, you can optionally include a badge: a small SVG image provided by
 the Keybase server that displays the proof&rsquo;s status. With the badge, if the
-user deletes the proof on Keybase but not on the the Identity Service, visitors
+user deletes the proof on Keybase but not on the Identity Service, visitors
 can tell that the proof is no longer valid at a glance.
 
 The endpoint for a proof&rsquo;s badge is:

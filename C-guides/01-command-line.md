@@ -159,7 +159,7 @@ echo "I rock." | keybase pgp sign          # stream
 
 ```bash
 keybase pgp verify -i foo.txt.asc            # verify a self-signed file
-keybase pgp verify -d foo.txt.asc -i foo.txt # verify a file + detatched signature
+keybase pgp verify -d foo.txt.asc -i foo.txt # verify a file + detached signature
 cat foo.txt.asc | keybase pgp verify         # stream a self-signed file
 ```
 
@@ -406,7 +406,7 @@ Keybase servers do know team memberships: team names, users, and roles. Keybase 
 
 ### On the immutability of teams' sig chains
 
-Any change to a team is signed into a chain, referencing the hash of the last change to the team. This chain itself hangs off a Merkle tree, where it can be found, deterministically. If you'e a member of `acme` you can traverse the tree to the chain. This means you will see the exact same `acme` chain as any other acme user. [We even write the root of our merkle tree to the bitcoin blockchain](https://keybase.io/docs/server_security/merkle_root_in_bitcoin_blockchain).
+Any change to a team is signed into a chain, referencing the hash of the last change to the team. This chain itself hangs off a Merkle tree, where it can be found, deterministically. If you're a member of `acme` you can traverse the tree to the chain. This means you will see the exact same `acme` chain as any other acme user. [We even write the root of our merkle tree to the bitcoin blockchain](https://keybase.io/docs/server_security/merkle_root_in_bitcoin_blockchain).
 
 This is so you can say or type: "Hey - we're in a team on Keybase called 'lollipops'. Join Keybase and request access." Or "Expect an invitation from the team dunkindonuts...that'll be me." We believe this kind of human discourse without fingerprints or codes is crucial. Just say no to hex strings or 60-digit numbers you're supposed to compare.
 
@@ -529,7 +529,7 @@ And you'll get an output like:
 ✔ admin of DNS zone chriscoyne.com, but the result isn't reliable over Tor: found TXT entry keybase-site-verification=2_UwxonS869gxbETQdXrKtIpmV1u8539FmGWLQiKdew
 ```
 
-All network traffic is now protected via Tor, so the server or network eavesdroppers can't discern your IP adddress, but the server can still see your login credentials. This mode of operation is akin to [Tor anonymity mode(3)](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO#mode3:userwithnoanonymityusingToranyrecipient). It won't protect you from a Keybase server breach, but it will prevent your ISP (or any other nefarious network snoopers) from knowing you use Keybase.
+All network traffic is now protected via Tor, so the server or network eavesdroppers can't discern your IP address, but the server can still see your login credentials. This mode of operation is akin to [Tor anonymity mode(3)](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO#mode3:userwithnoanonymityusingToranyrecipient). It won't protect you from a Keybase server breach, but it will prevent your ISP (or any other nefarious network snoopers) from knowing you use Keybase.
 
 Note that not everything could be trusted in the above attempt to identify `@malgorithms`. The Keybase CLI printed out that the DNS record for `chriscoyne.com` is untrusted, due to the fact that DNS and naked HTTP are inherently unreliable over Tor; relay nodes can make up whatever they want, and a malicious node can fake a proof.
 
@@ -561,7 +561,7 @@ info: ✔ Wrote tracking info to local database
 info: Success!
 ```
 
-Notice a few new things going on. In the third line of output, there's a warning that the client skipped syncing its local view of your profile with the server's. If it did, someone analyzing traffic on the server could correctly guess that a lookup of Alice directly followed by a lookup of Bob implies that Alice was following or ID'ing Bob. So the lookup of Alice is surpressed. Also note that the client doesn't offer to write a follower statement to the server, which would also divulge the user's identity. Instead, it just settles for writing following information to the local store.
+Notice a few new things going on. In the third line of output, there's a warning that the client skipped syncing its local view of your profile with the server's. If it did, someone analyzing traffic on the server could correctly guess that a lookup of Alice directly followed by a lookup of Bob implies that Alice was following or ID'ing Bob. So the lookup of Alice is suppressed. Also note that the client doesn't offer to write a follower statement to the server, which would also divulge the user's identity. Instead, it just settles for writing following information to the local store.
 
 Some commands won't work at all in strict mode. For instance, if you try to log-in
 afresh:
@@ -581,7 +581,7 @@ You'll get:
 {#
 <h3>Configuring Tor Support</h3>
 
-<p>The relevent options are:</p>
+<p>The relevant options are:</p>
 <ul>
 
   <li><strong>Enable Tor</strong>: turn on Tor support.  Default to anonymity mode(3) as described above.
@@ -604,7 +604,7 @@ You'll get:
      </ul>
   </li>
 
-  <li><strong>Enable Tor "Leaky" Mode</strong>: If you've specifed <em>strict</em> mode
+  <li><strong>Enable Tor "Leaky" Mode</strong>: If you've specified <em>strict</em> mode
      in your configuration or environment, but want to turn strict mode off temporarily
      (say, to log in), you can specify this flag.
      <ul class="sub-ul">

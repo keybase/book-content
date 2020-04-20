@@ -119,7 +119,7 @@ body .kbfs-crypto-spec {
   <strong>End-to-end security</strong>: Keybase promises secrecy and integrity of
   file system data and metadata even in the case of total server compromise.</p>
 
-  <p>Our key cryptographic assumptions are: (1) weak collision-resistence of SHA256; (2) the
+  <p>Our key cryptographic assumptions are: (1) weak collision-resistance of SHA256; (2) the
   security of the
   <a href="https://github.com/golang/crypto/tree/master/nacl">Go</a>
   <a href="https://github.com/agl/ed25519">Implementation</a> of the
@@ -131,8 +131,8 @@ body .kbfs-crypto-spec {
   </p>
 
   <ul>
-    <li>Forward-secrecy for lost or decomissioned devices.</li>
-    <li>Confidentiaility regarding which private folders have data, and which
+    <li>Forward-secrecy for lost or decommissioned devices.</li>
+    <li>Confidentiality regarding which private folders have data, and which
         are empty.</li>
     <li>Confidentiality for quota data.</li>
   </ul>
@@ -140,12 +140,12 @@ body .kbfs-crypto-spec {
   In other words, an adversary who has access to Keybase's server data could:
   learn about who is communicating with whom via KBFS; would have the same
   usage details we would eventually use for billing; and would be able to recover data encrypted
-  for lost or decomissioned devices, if they additionally recover those devices.
+  for lost or decommissioned devices, if they additionally recover those devices.
   </p>
 
   <p>
   Of course we are mere mortals and don't believe we can indefinitely stave off
-  conserted attacks against our infrastructure, so we encourage our users to only
+  concerted attacks against our infrastructure, so we encourage our users to only
   depend on our end-to-end security claims.
   </p>
 
@@ -186,7 +186,7 @@ body .kbfs-crypto-spec {
     responsible for which write, so that users can't put words in each other's mouths.
   </p>
 
-  <p><strong>Forest of Merkle Trees</strong> [Unimplmented]
+  <p><strong>Forest of Merkle Trees</strong> [Unimplemented]
     Keybase keeps public Merkle trees for managing: (1) each user's collection of keypairs
     and public identities; and (2) the progression of file system states, so that the
     server can't maliciously roll back to previous states.
@@ -283,7 +283,7 @@ body .kbfs-crypto-spec {
   <p>
   A top-level folder (TLF) in KBFS has a fixed set of readers and writers, as specified by
   the name of the folder.  Every file and folder recursively contained in a TLF has
-  the same permissions as its parent.  This orginization will feel a little bit different from normal
+  the same permissions as its parent.  This organization will feel a little bit different from normal
   POSIX semantics, but greatly simplifies the system.
   </p>
 
@@ -323,7 +323,7 @@ body .kbfs-crypto-spec {
             \(S^{f,0,i}_{u} = (M_e, \)Box\((m_e, M^i_u, t^{f,0,i}_u))\).
             That is, run the <a href="http://nacl.cr.yp.to/box.html">NaCl Box</a> function with the ephemeral private key, with the user's public device key,
             and on the message \(t^{f,0,i}_u\).
-            This new key \(S^{f,0,i}_u\) can now be published publically.  It
+            This new key \(S^{f,0,i}_u\) can now be published publicly.  It
             can only be decrypted by \(u\)'s private device key, and with some server
             assist (via \(s^{f,0,i}_u\)).  Note that we prepend the public key
             \(M_e\) to the output of Box.  Eventually, we might need to add new keys
@@ -551,7 +551,7 @@ body .kbfs-crypto-spec {
     As described in <a href="../server_security">our
     Server Security</a> document, users sign statements about their keys,
     their identities and the identities of others. They commit these
-    signatures to monitonically growing signature chains, which are collected
+    signatures to monotonically growing signature chains, which are collected
     into a sitewide Merkle Tree. As we describe later in this document, these
     signature chains will eventually cover organizations in addition to single
     users.  These structure all exist outside of KBFS and should be accessible
@@ -708,7 +708,7 @@ document.
   can't assist here, so Alice can only freeze a specific key if she has another provisioned device.
   </p>
 
-  <h3>Decommisioning a Device (And Optionally Adding a New One)</h3>
+  <h3>Decommissioning a Device (And Optionally Adding a New One)</h3>
 
   <p>
   To decommision a device, Alice should first freeze it as above, issuing a final revocation
@@ -756,7 +756,7 @@ document.
     <li>Rekey any organizations that Alice is a member of (see below).</li>
   </ol>
 
-  <h3>Eldest Key Update (or Deletion) [Unimplmented]</h3>
+  <h3>Eldest Key Update (or Deletion) [Unimplemented]</h3>
 
   <p>
     If Alice fears all of her sibling keys have been compromised, she should
@@ -765,8 +765,8 @@ document.
 
   <ol>
     <li>Generate a new eldest key pair.</li>
-    <li>Generate a new per-device keys for the the current device.</li>
-    <li>Decomission all old keys, while provisioning the device keys.</li>
+    <li>Generate a new per-device keys for the current device.</li>
+    <li>Decommission all old keys, while provisioning the device keys.</li>
   </ol>
 
   <p>

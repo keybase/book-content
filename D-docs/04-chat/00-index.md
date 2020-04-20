@@ -2,7 +2,7 @@
 
 Here is the technical documentation for chat:
 
-- [Crypto](crypto) describes the use of crytopgraphy in chat.
+- [Crypto](crypto) describes the use of cryptography in chat.
 - [Exploding Messages](ephemeral) explains the technical details of exploding
   messages.
 - [Link Previews](linkpreviews) discusses how privacy is respected when posting

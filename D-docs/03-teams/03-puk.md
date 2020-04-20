@@ -29,7 +29,7 @@ This process is repeated at every generation *i*. At any given generation, the
 public keys *E* and *D* are signed into the user's public sigchain. Whenever a
 new device is added, *s* is encrypted for the new device's device key. This is
 an instantaneous operation and significantly improves keying performance over
-previous designs we've consdired and implemented. These NaCl boxes are
+previous designs we've considered and implemented. These NaCl boxes are
 written to the server and stored in the main DB. The current *s* should have a
 box for every active device.
 
@@ -65,7 +65,7 @@ The relevant sections are:
 ```
 
 As with any signing key, a *reverse signature* is computed with the new signing key over the entire JSON body, but with the
-reverse signature set to empty. This proves that the user knows the private key corresponding to the adverised `signing_kid`.
+reverse signature set to empty. This proves that the user knows the private key corresponding to the advertised `signing_kid`.
 
 One of these links appears every PUK generation, or roughly, whenever a user *revokes* a device.
 

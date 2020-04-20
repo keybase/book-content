@@ -33,7 +33,7 @@
             </p>
             <p>
               SHA-512 is used for all Merkle-tree hashes.  Hashes computed over JSON objects
-              assume no unneeeded interior spacing, and that object keys are sorted in hexadecimal order.
+              assume no unneeded interior spacing, and that object keys are sorted in hexadecimal order.
             </p>
             <p>
               This endpoint takes one of two optional parameters.  If the caller

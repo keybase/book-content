@@ -15,7 +15,7 @@ guy who steals an unlocked phone can do a lot of damage.
 
 ## Account Probation
 
-The purpose of account *probabation* is to prevent a bad guy from stealing one
+The purpose of account *probation* is to prevent a bad guy from stealing one
 device, and then pressing his advantage to gain complete control of the
 account. For instance, with an unlocked phone, an attacker can change
 passphrases, revoke old devices, and add new ones.
@@ -24,7 +24,7 @@ passphrases, revoke old devices, and add new ones.
 passphrase from a provisioned device, and they have more than one currently
 provisioned device. The server sends email and push notifications upon this
 transition, alerting the user of why probation started, how long it lasts,
-and how to short-ciruit out of it.
+and how to short-circuit out of it.
 
 **During**. Probation lasts for 5 days, and during this time, users cannot
 revoke devices (i.e., they cannot revoke sibkey or subkey signatures),
@@ -34,7 +34,7 @@ they cannot reset their accounts, and they cannot change their email addresses.
 
    * the specified timeout elapses;
    * a device that was authorized before the start of probation signs an "early-release" statement;
-   * or if the user proves knowledge of the passphrase in use before probabtion started.
+   * or if the user proves knowledge of the passphrase in use before probation started.
 
 If a user leaves probation before the timeout, he/she has the option to
 simultaneously revoke the device that caused entry into probation (on the

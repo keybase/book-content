@@ -92,7 +92,7 @@ who [sign up without a passphrase](#signing-up-without-a-passphrase).
 
 ### Password Changes
 
-Alices now updates her password from \\(p_A\\) to \\(p_A'\\) on one
+Alice now updates her password from \\(p_A\\) to \\(p_A'\\) on one
 of her devices. She runs the password update protocol:
 
 - Compute \\(c_A = \\)<strong>Scrypt</strong>\\((p_A)\\) and

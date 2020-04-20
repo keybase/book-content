@@ -126,7 +126,7 @@ They check the site's published Merkle tree root for consistency against
 known signature chains.  And they sign proofs when all these checks complete,
 setting up known safe checkpoints to hold the server accountable to in the future.
 
-So everything depends on the intergrity of the Keybase clients, that they
+So everything depends on the integrity of the Keybase clients, that they
 are functioning properly and aren't compromised.  We offer several
 safeguards to protect client integrity.  First, we keep an Open API and state that
 our open-source client is simply a *reference client*, and that developers are free
@@ -482,7 +482,7 @@ Stop following a user. Your other devices will resume checking their identity pr
 }
 ```
 
-Advertise a cryptocurrency address. Currently Bitcoin, ZCash and ZCash sapling addresses are supported.
+Advertise a cryptocurrency address. Currently Bitcoin, Zcash and Zcash sapling addresses are supported.
 
 ### `per_user_key`
 
@@ -739,7 +739,7 @@ Is this the maria you wanted? [y/N]</pre>
       <h5>footnote 1: the PGP web of trust</h5>
       <p>
         In the web of trust model, you know you have Maria's key because you trust John, and John signed a statement
-        saying that another key belongs to his friend "Carla", and then Carla in turn signed a statement saying that Maria is someone whose drivers license
+        saying that another key belongs to his friend "Carla", and then Carla in turn signed a statement saying that Maria is someone whose driver's license
         and key fingerprint she reviewed at a party. Your trust of Maria's key is a function of these such connections.
       </p>
       <p style="text-align:center;">

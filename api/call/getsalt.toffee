@@ -15,10 +15,10 @@
               responds with the salt the user uploaded during signup,
               and a short-lived random challenge. The salt doesn't change
               for a given user, but the random
-              challege will always be different, and expires after a few minutes.
+              challenge will always be different, and expires after a few minutes.
             </p>
             <p>
-              The random challege is called <code>login_session</code>. It's not a trully
+              The random challenge is called <code>login_session</code>. It's not a truly
               random token, but an unforgeable token cryptographically tied to client's
               user ID (or email) and a timestamp.  This construction saves the server from having
               to keep state, but the client can treat the <code>login_session</code> as

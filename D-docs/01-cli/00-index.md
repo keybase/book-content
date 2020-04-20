@@ -159,7 +159,7 @@ echo "I rock." | keybase pgp sign          # stream
 
 ```bash
 keybase pgp verify -i foo.txt.asc            # verify a self-signed file
-keybase pgp verify -d foo.txt.asc -i foo.txt # verify a file + detatched signature
+keybase pgp verify -d foo.txt.asc -i foo.txt # verify a file + detached signature
 cat foo.txt.asc | keybase pgp verify         # stream a self-signed file
 ```
 

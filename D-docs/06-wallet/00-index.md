@@ -71,7 +71,7 @@ This is so that other users can find which account belongs to you so they can se
 
 As an extra security measure, you can mark any of your Stellar accounts as "mobile-only".  Since mobile
 device applications have better sandboxing, there is less likelihood of a rogue application interacting
-with the keybase app to retreive your secret keys.
+with the keybase app to retrieve your secret keys.
 
 Once you set an account to be mobile-only, the server will only return the encrypted **account private** bundle
 to mobile devices.

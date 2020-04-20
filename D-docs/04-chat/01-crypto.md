@@ -125,7 +125,7 @@ app.
 All Keybase devices publish a [`crypto_box`](https://nacl.cr.yp.to/box.html)
 public key and a [`crypto_sign`](https://nacl.cr.yp.to/sign.html) public key
 when they're first provisioned. Those keys live in the user's signature chain,
-where they're connected to other other devices' keys by mutual signatures. Each
+where they're connected to other devices' keys by mutual signatures. Each
 of a user's identity proofs is also signed by one of these device keys and
 recorded in the signature chain. (PGP keys can participate in the signature
 chain too, but not in chat or KBFS.)

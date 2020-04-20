@@ -14,7 +14,7 @@ that do not follow them.
 For JSON, we enforce the following canonicalization rules for serialized objects:
 
   * Within a given map, keys cannot be repeated.
-  * Keys are ordered lexicographically, sorted with case-sensitiviy.
+  * Keys are ordered lexicographically, sorted with case-sensitivity.
   * Keynames must be quoted with double quotes.
   * No whitespace can be used in stringification output
   * All characters must be in the ASCII range `[0x20,0x7e]`.
@@ -27,7 +27,7 @@ The easiest was to enforce these properties is to decode incoming JSON objects, 
 The rules for [Msgpack](http://msgpack.org) encoding are similar to those for JSON:
 
   * Within a given map, keys cannot be repeated
-  * Keys are ordered lexicographically, sorted with case-sensitiviy.
+  * Keys are ordered lexicographically, sorted with case-sensitivity.
   * All encodings must be minimal length.  For instance:
   	* For maps: `81 a1 61 01` and not `de 00 01 a1 61 01`
   	* For arrays: `9a 02` and not `dc 00 01 02`
