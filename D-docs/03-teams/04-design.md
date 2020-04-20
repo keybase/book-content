@@ -26,9 +26,9 @@ the team definitions.
 ## Applications
 
 [Chat](/blog/keybase-chat) and [KBFS](/docs/kbfs) are the two applications
-that we initially support with Keybase teams. In both cases, teams are a
+that we initially support with Keybase teams. In both cases, teams are
 mutable and uniquely identified by name, without fear of a malicious server
-remapping a teams.
+remapping teams.
 
 For chat, every team like `nike.hr.interns.volleyball`, will have private chats,
 with multiple channels, and every member of the team, regardless of their role,

@@ -353,7 +353,7 @@ The KBFS servers store your data in opaque blobs called _blocks_.
 Both files and directories within a TLF are stored as blocks, and the
 servers can't tell which block belongs to which file or directory
 within the TLF.  The data in these blocks are encrypted, and their
-size are increased (i.e., _padded_) to avoid leaking information to
+size is increased (i.e., _padded_) to avoid leaking information to
 our servers.
 
 Each user has a quota, expressed in a number of bytes.  Whenever you

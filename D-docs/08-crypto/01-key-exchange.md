@@ -114,7 +114,7 @@ a channel. Then the protocol can begin.
 
 All messages sent between *X* and *Y* via the server are protected via
 NaCl's SecretBox cipher, with the shared secret (either *S<sub>X</sub>*
-or *S<sub>Y</sub>*) as the session key. Each message send from *X*
+or *S<sub>Y</sub>*) as the session key. Each message sent from *X*
 to *Y* is [message-packed](http://msgpack.org) as an array into the form:
 
 ```
@@ -209,9 +209,9 @@ Here are the steps of this protocol:
 
   1. Device *X* receives the JSON blob with the `reverse_sig` signed by *Y*.
   Device *X* removes the signature and the expected fields provided by *Y*, and
-  builds a new JSON blob, verifiying the signature from *Y* on this structure.
+  builds a new JSON blob, verifying the signature from *Y* on this structure.
   *X* rebuilds the JSON blob to match the expected structure to prevent them
-  from signing an abitrary statement from *Y*. If the signature checks out, *X*
+  from signing an arbitrary statement from *Y*. If the signature checks out, *X*
   counter-signs the whole JSON blob and sends the result to *Y* in the
   **DidCounterSign** RPC.  Device *X* also sends back the user's passphrase
   stream, encrypted for Device *X*'s public device key, and a secret ephemeral
@@ -282,7 +282,7 @@ type MessageRouter interface {
 	// Get messages on the channel.  Only poll for `poll` milliseconds. If the timeout
 	// elapses without any data ready, then `io.ErrNoProgress` is returned as an error.
 	// Several messages can be returned at once, which should be processes in serial.
-	// They are guarnateed to be in order; otherwise, there was an issue.
+	// They are guaranteed to be in order; otherwise, there was an issue.
 	// On close of the connection, Get returns an empty array and an error of type `io.EOF`
 	Get(I SessionID, receiver DeviceID, seqno Seqno, poll int) (msg [][]byte, err error)
 }
@@ -331,8 +331,8 @@ device will receive this cancelation upon its next `Get`.
 
 It's at the RPC level that the application will handle these exceptions.  In the
 first case, a device has sent an RPC but hasn't received a reply, and in
-the mean time, the peer device hangs up. The RPC library will then generate
-a error response to the RPC `Call` method.
+the meantime, the peer device hangs up. The RPC library will then generate
+an error response to the RPC `Call` method.
 
 The second case, a device is acting as an RPC server and its peer disconnects or
 cancels. In this case, it will just never receive the next expected message in
@@ -343,7 +343,7 @@ interpret such a cancelation accordingly.
 In terms of generating these EOFs from the application level, the application
 just calls `Close()` on the `net.Conn`, which signals a cancelation to the
 other side. If a device crashes or goes offline before finishing the protocol,
-the other side will see a timeout in its `Get()` call, and should propogate an
+the other side will see a timeout in its `Get()` call, and should propagate an
 `Error` to any outstanding `Read()` calls on the connection.
 
 ## Glossary

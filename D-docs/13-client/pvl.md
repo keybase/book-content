@@ -127,7 +127,7 @@ And here it is again in JSON:
 ### Registers
 Instructions can read and write named registers. Each register stores a string value, can only be set once, and cannot be read before being set. Registers must be named according to `[a-z0-9_]+`.
 
-Some registers are pre-filled before the script is run. These special registers are described in the following table. A few of these special registers do not make senes in certain proof types, for example `username_service` does not make sense in DNS proofs. Such registers are banned in those situations and cannot be read or set.
+Some registers are pre-filled before the script is run. These special registers are described in the following table. A few of these special registers do not make sense in certain proof types, for example `username_service` does not make sense in DNS proofs. Such registers are banned in those situations and cannot be read or set.
 
 When register values are substituted into regexes they are regex-escaped by the client. The proof sig is opened in order to derive the shorter sig IDs.
 
@@ -252,7 +252,7 @@ Traverse a json document and select an element. If the value is not a string, it
 
 A `selector_json` instruction can only appear in a script with a json-typed fetch. This will be detected as part of validating a PVL chunk.
 
-If an index is negative, it looks for that element from the end python-style. If an index is is the special `{all: true}` object then the rest of the selector is run on all elements of the array or values of the object and the result strings are concatenated with a separating space.
+If an index is negative, it looks for that element from the end python-style. If an index is the special `{all: true}` object then the rest of the selector is run on all elements of the array or values of the object and the result strings are concatenated with a separating space.
 
 ```coffeescript
 { selector_json: {
@@ -555,7 +555,7 @@ services:
       , pattern: "^keybaseproofs$"
       , case_insensitive: true
       , from: "subreddit_from_json"
-      , error: ["CONTENT_FAILURE", "Wrong subreddti %{subreddit_from_json}"] } },
+      , error: ["CONTENT_FAILURE", "Wrong subreddit %{subreddit_from_json}"] } },
     # check the author
     { selector_json: {
       , selectors: [0, "data", "children", 0, "data", "author"]

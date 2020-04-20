@@ -14,7 +14,7 @@ We'll accept a PR from anyone, if it clarifies a section. Note that one of the t
 
 ## If you're a Keybase staff member
 
-If you're making subsantial changes, please build the site locally and make sure it all looks good.
+If you're making substantial changes, please build the site locally and make sure it all looks good.
 
 ## Creating a Highlighted Content Section
 

@@ -3,7 +3,7 @@
 
 Keybase introduces a new format for public key IDs, inspired by PGP's
 fingerprint, but: (1) versioned and hence upgradable in the future; (2) based
-on SHA2 rather than SHA1; and (3) able to accomodate newer cryptosystems like
+on SHA2 rather than SHA1; and (3) able to accommodate newer cryptosystems like
 EdDSA without the need for hashing.
 
 ### The KID format

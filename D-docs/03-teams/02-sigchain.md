@@ -134,7 +134,7 @@ The relevant components are:
 
 
   * **Position 0**: `version` — value is `2` for all V2 links
-  * **Position 1**: `seqno` — In the above exampke, the value is `278` which describes the sequence number of this chainlink in the sigchain. As always, this must be an exactly sequential sequence. It must match `seqno` of the inner link.
+  * **Position 1**: `seqno` — In the above example, the value is `278` which describes the sequence number of this chainlink in the sigchain. As always, this must be an exactly sequential sequence. It must match `seqno` of the inner link.
   * **Position 2**: `prev` — The full SHA2 hash of the previous outer link, after msgpack encoding. In the above example, the value is `PmSQP8Pm6CScHv43wBBqFoZ7c9ItLztn6828B1WD4OU=` (in base64).
   * **Position 3**: `curr` — The full SHA2 hash of the inner link; `hash(payload_json)`. In this example, the value is
 `Nl6GvU1ABnORNY4s2sKRyxNl9Pyx1r/TQeA/eYRMnA4=` (in base64)

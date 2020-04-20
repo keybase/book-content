@@ -19,7 +19,7 @@ key, or changes to subteams. They check that a [proper chain](https://github.com
 is formed, that the tail of the chain is [advertised correctly](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/ftl.go#L669)
  in the global Merkle Tree, and
 that this abbreviated view of the chain is consistent with full loads of the
-team (via the [audit](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/ftl.go#L827) mechanism described below). Full loads of the team still happen as usual when the a user lists or
+team (via the [audit](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/ftl.go#L827) mechanism described below). Full loads of the team still happen as usual when a user lists or
 edits team memberships, or when his/her client rotates team keys. Once a
 client downloads the abbreviated team chain, it downloads the encrypted secret
 halves of those keys, [decrypts](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/ftl.go#L679) the secret keys,
@@ -48,7 +48,7 @@ Thinking about speeding up first entry into a team chat via FTL did bring up
 the possibility of an attack that was always possible in loading teams, even
 the slow way. Imagine two users, Alice and Bob, who want to view the team
 *acme*. The server is trying to give them diverging versions A and B of the
-team without commiting to a global fork. It might publish the following
+team without committing to a global fork. It might publish the following
 sigchain tail to the Merkle tree:
 
 * GlobalMerkleSequenceNumber=1000: acme=[TeamSequenceNumber=10, TeamSigchainTailHash=aa001122]
@@ -84,7 +84,7 @@ In a final "audit" pass, the client [picks](https://github.com/keybase/client/bl
 set of historical Merkle roots and requests a path from the root down the
 given team at that sequence number. It then:
 
-* [ensures](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L396) that the most recent global Merkle root points back to this historical roots (via hash-chain pointers);
+* [ensures](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L396) that the most recent global Merkle root points back to these historical roots (via hash-chain pointers);
 * verifies that the TeamSequenceNumbers are [monotonically increasing](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L291-L293);
 * and checks that the TeamSigchainTailHashes [match](https://github.com/keybase/client/blob/cfffb80ff83dad98ca5d2366cc73d14e6abfcb86/go/teams/audit.go#L284) those downloaded from the server when the fast or slow load happened.
 

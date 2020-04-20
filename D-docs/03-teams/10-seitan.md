@@ -161,7 +161,7 @@ disposal. Our iPhone app automatically uses iMessage.
 ### Step 4: Bob Accepts the Invitation
 
 When Bob receives the `iKey` from Alice, he stretches it to make an `siKey`,
-and then he can computes the `inviteID` and EdDSA keypair as Alice has done.
+and then he can compute the `inviteID` and EdDSA keypair as Alice has done.
 With the keypair, Bob can create a
 [signature](https://github.com/keybase/client/blob/98327b58939a5b769fb2025743a31fcd08c7265b/go/teams/seitan_v2.go#L210-L224)
 (`sig`), and post it to the server, to claim ownership of his spot in the team.

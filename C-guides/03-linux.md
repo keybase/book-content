@@ -400,7 +400,7 @@ systemctl --user start kbfs-backup.timer
 
 For more information about how KBFS works, you can read [Understanding KBFS](https://keybase.io/docs/kbfs/understanding_kbfs).
 
-On Linux, `kbfsfuse` mounts a FUSE fileystem to a directory the user running Keybase owns. Then, `keybase-redirector` mounts at `/keybase`, and shows a different version of `/keybase` depending on which user is asking for KBFS data.
+On Linux, `kbfsfuse` mounts a FUSE filesystem to a directory the user running Keybase owns. Then, `keybase-redirector` mounts at `/keybase`, and shows a different version of `/keybase` depending on which user is asking for KBFS data.
 
 If `$XDG_RUNTIME_USER` is configured (usually by systemd), this mountdir is at `$XDG_RUNTIME_USER/keybase/kbfs/`, or otherwise, at `~/.config/keybase/kbfs`. Additionally, your package maintainer may have preconfigured this to be somewhere else.
 

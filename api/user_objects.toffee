@@ -117,7 +117,7 @@ while public via the API call <code>getsalt</code>, is excluded if the user is n
 
 <p>
   Keybase users are free to <a href="https://keybase.io/triplesec">Triplesec</a>-encrypt their
-  private keys and store them on Keybase. This allows for great portabilitiy and more power in the
+  private keys and store them on Keybase. This allows for great portability and more power in the
   client.
 </p>
 

@@ -38,7 +38,7 @@ sig = sign(key, "Keybase-Auth-NIST-1\0" + msgpack(payload))
 ```
 
 Here, `"Keybase-Auth-NIST-1\0"` is a *context string* so that these signatures cannot be
-used in other conexts (like signing chats or signing updates to the user's sigchain). The
+used in other contexts (like signing chats or signing updates to the user's sigchain). The
 function `msgpack` is the [canonical packing](canonical_packings) via the Msgpack encoding
 scheme.
 
@@ -83,7 +83,7 @@ with the long-form NIST it's derived from.
 To save some bandwidth, we're only using the first 19 bytes of the SHA256 of the
 long token. If Keybase had 2<sup>24</sup> concurrently active users, an attacker
 would have a 1 in 2<sup>128</sup> chance of guessing a session token, which is small
-enough to be comfortable with. We don't need the full collision-resistence property
+enough to be comfortable with. We don't need the full collision-resistance property
 of SHA256 here, and we can shave bandwidth.
 
 ## The Finer Points
@@ -91,7 +91,7 @@ of SHA256 here, and we can shave bandwidth.
 NISTs stay valid until `generated+lifetime`, as computed by the server's clock. If the
 client uploads a NIST with a `generated` time more than a day away from the current time,
 or with a `lifetime` that's too short or long, or with `generated+lifetime` in the past,
-then the NIST is immiedately rejected.
+then the NIST is immediately rejected.
 
 When a user deletes or resets his/her account, or revokes the signing device, the NIST
 (whether short-form or long-form) is also revoked and is no longer valid.

@@ -41,7 +41,7 @@
               The client can provide an optional nonce to randomize the signatures. If
               the client does provide a nonce, it will enforce that it hasn't been used
               before (and return a <code>"REPLAY"</code> error if so).
-              The server checks the signature for validatity, and on success,
+              The server checks the signature for validity, and on success,
               will return an <em>auth_token</em>, which is the SHA-256 hash of signature body
               (i.e., the binary PGP message minus the headers and checksum).
               Note that the client dictates when this token will expire

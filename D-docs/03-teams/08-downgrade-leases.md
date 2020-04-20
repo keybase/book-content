@@ -81,5 +81,5 @@ Here's the solution called "downgrade leases."  There are two classes of importa
 1. Device C asks the server for a "lease" that covers some downgrade activity, like user u deprovisioning device B with device C.
 1. The server replies with a lease at merkle root time <i>t<sub>1</sub></i>.
 1. All actions that use device B are not valid if there is an outstanding lease for device B's revocation.  So we have to change all signature handlers to not just check if B is still active, but also to check if B isn't slated for imminent revocation.
-1. When device C uploads the revocation of B, the server checks that the revocation is properly leased, and that the `body.merkle_root.hash_meta` in the signature happens at of after the <i>t<sub>1</sub></i> specified in the lease.  If so, the revocation succeeds.
+1. When device C uploads the revocation of B, the server checks that the revocation is properly leased, and that the `body.merkle_root.hash_meta` in the signature happens at or after the <i>t<sub>1</sub></i> specified in the lease.  If so, the revocation succeeds.
 1. It's possible for a client to die when holding a lease, so these leases expire after about a minute. The same solution is also employed whenever someone loses adminship privileges from a team, and the analogy holds exactly.

@@ -20,7 +20,7 @@ console.log(hexed);
 ```
 
 Outputs the string `05327b776e5fbf5ee3d7a5905bff26`.  And indeed the team ID for the root `Keybase` team is
-`05327b776e5fbf5ee3d7a5905bff2624`, which is [publically visible](https://keybase.io/_/api/1.0/merkle/path.json?leaf_id=05327b776e5fbf5ee3d7a5905bff2624) in the Main merkle tree.
+`05327b776e5fbf5ee3d7a5905bff2624`, which is [publicly visible](https://keybase.io/_/api/1.0/merkle/path.json?leaf_id=05327b776e5fbf5ee3d7a5905bff2624) in the Main merkle tree.
 
 When clients create new Keybase subteams, they generate a random 15 byte value, and then attach a `0x25`
 suffix to make an ID.
@@ -33,7 +33,7 @@ of the subteam's ID in the Keybase Merkle tree, and also when it updates, but th
 name of the subteam of the parent of the subteam just based on the ID.
 
 Though this construction is simple, it has a notable shortcoming.  Outside
-observers might be able to guess the team's parent based on corrleated changes
+observers might be able to guess the team's parent based on correlated changes
 to leaves in the tree. Though members of the `adidas` teams can't know the
 names of teams like `nike.hr`, `nike.hr.interns`, or `nike.acquisitions.puma`,
 they can infer the **shape** of `nike`'s subteam tree, and when those subteams
@@ -51,8 +51,8 @@ At some point in the future, these constraints might be relaxed.
 Like Keybase users, Keybase teams have their own "signature chains" or "sigchains".  A sigchain is an append-only
 data structure that is appended to whenever a mutation is needed. Users mutate their identities whenever they
 add external proofs, add or revoke devices, follow or unfollow friends. Teams mutate their composition whenever
-they add, remove, upgrade or downgrade members, whenver they add or rename subteams, whenever their cryptographic
-keys rotate, etc.  The geneal shape of the sigchain links are as in [user sigchains](../sigchain), but the
+they add, remove, upgrade or downgrade members, whenever they add or rename subteams, whenever their cryptographic
+keys rotate, etc.  The general shape of the sigchain links are as in [user sigchains](../sigchain), but the
 new `team` section of the JSON signature body captures team-specific features. Also, all team signature
 links are in the [V2 format](sigchain_v2).
 
@@ -85,7 +85,7 @@ with such a signature. Here is an example snippet from a `team.root` chain link:
 ```
 
 The team section specifies the team's name, the team's ID (determined as above), the initial members of the team, and the initial
-public keys for the team. As with [Per-User Keys](puk), a reverse signature is computed with the per-team signiging key
+public keys for the team. As with [Per-User Keys](puk), a reverse signature is computed with the per-team signing key
 over the entire chain link. See below for a more complete description of team key cryptographic specifics.
 
 Team role lists are specified with regular Keybase UIDs. If a user has reset his/her account, the UID is the form
@@ -203,7 +203,7 @@ an admin's permissions come from. And like a `team.root` or
 `team.subteam_head` link, a `team.change_memberhip` link has a `members`
 subobject to describe changes.  By including a user ID in the `none` list, the
 admin removes the user from the group. The admin can upgrade or downgrade an
-existing user by specifing their UID in a different role list (since a user
+existing user by specifying their UID in a different role list (since a user
 can only take one role in a team at a time). In the above example, if the user
 `93b82086be2f8e206cd6bbef8483b219` was previously an admin of this group,
 specifying her as a `writer` will be considered a downgrade in roles. An admin
@@ -241,7 +241,7 @@ rotated.
 
 ### team.leave
 
-When an non-admin wants to leave a team, they sign a "leave" statement to this effect:
+When a non-admin wants to leave a team, they sign a "leave" statement to this effect:
 
 ```javascript
 "team": {
@@ -310,7 +310,7 @@ link in `adidas.omg`'s chain. Example shown here:
 ### team.invite
 
 Admins can invite members into teams without their being Keybase users. The invites
-can be refered to by social media handles or by email addresses. In the former case,
+can be referred to by social media handles or by email addresses. In the former case,
 when users sign up, admins can check that the social media proofs were satisfactory
 before keying the team for the user.  In the case of `email`-based invitations,
 the admin has to take Keybase's word for the legitimacy of this proof. Admins who
@@ -362,7 +362,7 @@ there is this funny notion of a "keybase" invitation. What's happening here is t
 the user `l52701844` is a Keybase user but doesn't a [Per-User Key](puk).  They must
 fix this situation first, and once their PUK is established, a team admin can swing by
 and rekey the team for the user.  It shares so much machinery with off-site invitations
-that we've implented it as a funny sort of invitation.
+that we've implemented it as a funny sort of invitation.
 
 Admins or owners must issue invitations. Any admin can close the loop by keying the
 team for the user once the user has signed up and has established a PUK. See [CLKR](clkr)
@@ -431,7 +431,7 @@ When mutating a team, users post signatures of the above form to the
 are often required to be posted in one HTTP post. For instance,
 rename, and subteam deletion operations need to mutate multiple
 team sigchains at the same time, and do so on the server inside of
-a single database transactions.
+a single database transaction.
 
 Some relevant fields involved in these posts are:
 

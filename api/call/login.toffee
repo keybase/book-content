@@ -28,7 +28,7 @@
             <p>
               At first, let's cover version 5 of the protocol, and then we'll
               go back and cover version 4 below. The 32-byte slice of the
-              passphrase stream (<code>v5</code> above) is intepreted as an <a
+              passphrase stream (<code>v5</code> above) is interpreted as an <a
               href="https://ed25519.cr.yp.to/">EdDSA</a> private key. The server
               knows the corresponding public key. The client proves knowledge of this
               secret key by making a signature that the server can verify.
@@ -65,7 +65,7 @@
               <li> <code>username</code>: the username who is trying to login. If the login is done via email, this field will be absent
                  and an <code>email</code> field will be present with the intended email address</li>
               <li> <code>ctime</code>: the UTC-time when this signature was generated</li>
-              <li> <code>expire_in</code>: how long this signature is good for; after it expires, it will not be admissable for login</li>
+              <li> <code>expire_in</code>: how long this signature is good for; after it expires, it will not be admissible for login</li>
             </ul>
            </p>
 
