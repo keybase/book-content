@@ -37,10 +37,10 @@ const settings = {
   activeRMax: step * 0.5
 };
 const palette = {
-  green: `#37bd99e6`,
-  blue: `#4c8effe6`,
-  yellow: `#ffb800e6`,
-  magenta: `#ff4d61e6`
+  green: `#316F45E6`,
+  blue: `#229FDDE6`,
+  yellow: `#FCCD03E6`,
+  magenta: `#F70B92E6`
 };
 const black = `#4E3F3C`;
 
@@ -186,7 +186,7 @@ class App {
       canvases[this.sentenceIn][frame].height = height;
       let localctx = canvases[this.sentenceIn][frame].getContext('2d')
 
-      localctx.fillStyle = `#fcfcfc`;
+      localctx.fillStyle = `#FFFFF8`;
       localctx.fillRect(0, 0, width, height);
       const sentenceArr = this.sentences[this.sentenceIn].split("");
       let sentenceSelector = 0;
