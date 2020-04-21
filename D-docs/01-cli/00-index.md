@@ -32,7 +32,6 @@ keybase prove dns you.com    # prove via a DNS entry
 #### Looking up other people & following
 
 ```bash
-keybase search max                 # find users like "max"
 keybase id max                     # look "max" up, verify identity
 keybase id maxtaco@twitter         # look twitter maxtaco up
 keybase follow max                 # track max's identity publicly
