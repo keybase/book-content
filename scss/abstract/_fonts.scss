@@ -1,47 +1,47 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-medium-webfont.eot');
-  src: url('/fonts/proximanova-medium-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-medium-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-medium-webfont.woff') format('woff'),
-    url('/fonts/proximanova-medium-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-medium-webfont.svg#proxima_novamedium') format('svg');
+  src: url('/static/fonts/proximanova-medium-webfont.eot');
+  src: url('/static/fonts/proximanova-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-medium-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-medium-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-medium-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-medium-webfont.svg#proxima_novamedium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-mediumit-webfont.eot');
-  src: url('/fonts/proximanova-mediumit-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-mediumit-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-mediumit-webfont.woff') format('woff'),
-    url('/fonts/proximanova-mediumit-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-mediumit-webfont.svg#proxima_novamedium_italic') format('svg');
+  src: url('/static/fonts/proximanova-mediumit-webfont.eot');
+  src: url('/static/fonts/proximanova-mediumit-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-mediumit-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-mediumit-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-mediumit-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-mediumit-webfont.svg#proxima_novamedium_italic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-semibold-webfont.eot');
-  src: url('/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-semibold-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-semibold-webfont.woff') format('woff'),
-    url('/fonts/proximanova-semibold-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+  src: url('/static/fonts/proximanova-semibold-webfont.eot');
+  src: url('/static/fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-semibold-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-semiboldit-webfont.eot');
-  src: url('/fonts/proximanova-semiboldit-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-semiboldit-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-semiboldit-webfont.woff') format('woff'),
-    url('/fonts/proximanova-semiboldit-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-semiboldit-webfont.svg#proxima_novasemibold_italic') format('svg');
+  src: url('/static/fonts/proximanova-semiboldit-webfont.eot');
+  src: url('/static/fonts/proximanova-semiboldit-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-semiboldit-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-semiboldit-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-semiboldit-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-semiboldit-webfont.svg#proxima_novasemibold_italic') format('svg');
   font-weight: 500;
   font-style: italic;
 
@@ -49,48 +49,48 @@
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-bold-webfont.eot');
-  src: url('/fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-bold-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-bold-webfont.woff') format('woff'),
-    url('/fonts/proximanova-bold-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-bold-webfont.svg#proxima_novabold') format('svg');
+  src: url('/static/fonts/proximanova-bold-webfont.eot');
+  src: url('/static/fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-bold-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-bold-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-bold-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-bold-webfont.svg#proxima_novabold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('/fonts/proximanova-extrabold-webfont.eot');
-  src: url('/fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/proximanova-extrabold-webfont.woff2') format('woff2'),
-    url('/fonts/proximanova-extrabold-webfont.woff') format('woff'),
-    url('/fonts/proximanova-extrabold-webfont.ttf') format('truetype'),
-    url('/fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
+  src: url('/static/fonts/proximanova-extrabold-webfont.eot');
+  src: url('/static/fonts/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/proximanova-extrabold-webfont.woff2') format('woff2'),
+    url('/static/fonts/proximanova-extrabold-webfont.woff') format('woff'),
+    url('/static/fonts/proximanova-extrabold-webfont.ttf') format('truetype'),
+    url('/static/fonts/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Source Code Pro';
-  src: url('/fonts/sourcecodepro-light-webfont.eot');
-  src: url('/fonts/sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/sourcecodepro-light-webfont.woff2') format('woff2'),
-    url('/fonts/sourcecodepro-light-webfont.woff') format('woff'),
-    url('/fonts/sourcecodepro-light-webfont.ttf') format('truetype'),
-    url('/fonts/sourcecodepro-light-webfont.svg#source_code_prolight') format('svg');
+  src: url('/static/fonts/sourcecodepro-light-webfont.eot');
+  src: url('/static/fonts/sourcecodepro-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/sourcecodepro-light-webfont.woff2') format('woff2'),
+    url('/static/fonts/sourcecodepro-light-webfont.woff') format('woff'),
+    url('/static/fonts/sourcecodepro-light-webfont.ttf') format('truetype'),
+    url('/static/fonts/sourcecodepro-light-webfont.svg#source_code_prolight') format('svg');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Source Code Pro';
-  src: url('/fonts/sourcecodepro-regular-webfont.eot');
-  src: url('/fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
-    url('/fonts/sourcecodepro-regular-webfont.woff') format('woff'),
-    url('/fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
-    url('/fonts/sourcecodepro-regular-webfont.svg#source_code_proregular') format('svg');
+  src: url('/static/fonts/sourcecodepro-regular-webfont.eot');
+  src: url('/static/fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+    url('/static/fonts/sourcecodepro-regular-webfont.woff') format('woff'),
+    url('/static/fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
+    url('/static/fonts/sourcecodepro-regular-webfont.svg#source_code_proregular') format('svg');
   font-weight: 400;
   font-style: normal;
 
@@ -98,12 +98,12 @@
 
 @font-face {
   font-family: 'Source Code Pro';
-  src: url('/fonts/sourcecodepro-bold-webfont.eot');
-  src: url('/fonts/sourcecodepro-bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/sourcecodepro-bold-webfont.woff2') format('woff2'),
-    url('/fonts/sourcecodepro-bold-webfont.woff') format('woff'),
-    url('/fonts/sourcecodepro-bold-webfont.ttf') format('truetype'),
-    url('/fonts/sourcecodepro-bold-webfont.svg#source_code_probold') format('svg');
+  src: url('/static/fonts/sourcecodepro-bold-webfont.eot');
+  src: url('/static/fonts/sourcecodepro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/static/fonts/sourcecodepro-bold-webfont.woff2') format('woff2'),
+    url('/static/fonts/sourcecodepro-bold-webfont.woff') format('woff'),
+    url('/static/fonts/sourcecodepro-bold-webfont.ttf') format('truetype'),
+    url('/static/fonts/sourcecodepro-bold-webfont.svg#source_code_probold') format('svg');
   font-weight: 700;
   font-style: normal;
 }
