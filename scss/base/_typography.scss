@@ -41,7 +41,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: bold;
+  font-weight: 600;
   position: relative;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -93,6 +93,10 @@ em {
 
 figure {
   margin-bottom: 2rem;
+
+  &.figure--with-img-space img {
+    margin-bottom: 1rem;
+  }
 }
 figcaption {
   font-family: $font--mono;

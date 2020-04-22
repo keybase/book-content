@@ -7,7 +7,7 @@ div.table-wrapper {
   background-color: #fff;
 
   @media (min-width: 525px) {
-    margin: 40px;
+    margin: 40px 0;
     padding: 40px;
   }
 
@@ -17,18 +17,17 @@ div.table-wrapper {
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 2em;
     margin: 1.25rem;
     text-align: center;
-    color: #129edf;
+    color: #3663ea;
 
-    svg {
+    img {
       display: inline-block;
       height: 2em;
       margin-right: 0.625rem;
       vertical-align: top;
-      color: black;
     }
   }
 }
@@ -38,17 +37,17 @@ table {
   font-weight: 600;
   width: 100%;
   margin: auto;
-  color: #2c3170;
+  color: rgba(0, 0, 0, 0.85);
   background-color: white;
 
   td {
-    padding: 0.625rem;
+    padding: 0.75rem 0.625rem;
     border: solid 1px #d2d2d2;
   }
 }
 
 th {
-  padding: 0.625rem;
+  padding: 0.75rem 0.625rem;
   border: solid 1px #d2d2d2;
 }
 
@@ -66,16 +65,19 @@ table {
   }
 
   td {
+    color: white;
+
     &.yes {
-      background-color: #58cd79;
+      background-color: #189e7a;
     }
 
     &.no {
-      background-color: #ff7270;
+      background-color: #eb253b;
     }
 
     &.other {
-      background-color: #ffe252;
+      background-color: #ffb800;
+      color: black;
     }
   }
 }

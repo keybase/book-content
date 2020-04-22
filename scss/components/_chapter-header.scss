@@ -27,7 +27,7 @@
   }
   &__title {
     font-size: 4.5rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 80%;
     position: relative;
     margin-top: 0;
@@ -112,7 +112,7 @@
 }
 .chapter-header-nav {
   font-family: $font--mono;
-  font-weight: 300;
+  font-weight: 400;
   display: none;
   align-self: stretch;
   padding-top: 5rem;
