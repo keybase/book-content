@@ -1811,11 +1811,12 @@ div.table-wrapper {
     margin: 1.25rem;
     text-align: center;
     color: #129edf; }
-    div.table-wrapper h5 img {
+    div.table-wrapper h5 svg {
       display: inline-block;
       height: 2em;
       margin-right: 0.625rem;
-      vertical-align: top; }
+      vertical-align: top;
+      color: black; }
 
 table {
   font-size: 0.7em;
@@ -1852,8 +1853,7 @@ table td.other {
 
 .home__illo {
   display: block;
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
   margin-top: 2rem; }
   .home__illo--hidden {
     display: none; }
