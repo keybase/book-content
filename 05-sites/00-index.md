@@ -89,9 +89,7 @@ Instead of sharing a folder with [kbpbot](sites#using-kbpbot), you can create a 
 
 First, you need to be on a team with `kbpbot`:
 1.  In Teams, select `Create a team` and give it a name. (We’ll call this one `gitwithkbpbot`, but it can be anything.)
-2.  `Add members` and invite `kbpbot` as a Reader. You can also add `kbpbot` to an existing team.  
-
-Now you can create a Git repository to use for your new site. 
+2.  `Add members` and invite `kbpbot` as a Reader. You can also add `kbpbot` to an existing team.  Now you can create a Git repository to use for your new site. 
 3.   In Git, select `New repository` and `New team repository`. Choose the team you share with `kbpbot`, and give the repository a name. (We’ll call this one `git-site`.)  
 4.  Clone the repository and add some content to it. Push to `master`. 
 
