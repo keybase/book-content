@@ -8,7 +8,7 @@ const rect = canvas.getBoundingClientRect();
 let loaded_images = [];
 
 const arrowsImg = new Image();
-arrowsImg.src = "/static/img/illos/wallet/background.png";
+arrowsImg.src = url_for("img/illos/wallet/background.png");
 arrowsImg.onload = function() {
   loaded_images.push("bg");
   if (loaded_images.length >= 2) {
@@ -17,7 +17,7 @@ arrowsImg.onload = function() {
 };
 
 const viewerImg = new Image();
-viewerImg.src = "/static/img/illos/wallet/scanner.png";
+viewerImg.src = url_for("img/illos/wallet/scanner.png");
 let mouse = { 
   x: ( window.pageYOffset / (canvas.height / 2)) * canvas.width * 2.5 - canvas.width / 2,
   y: .5 * canvas.height

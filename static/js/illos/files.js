@@ -19,8 +19,8 @@ class App {
     this.imageTotal = Object.values(this.images).length;
     this.images.top.onload = this.imageLoad.bind(this);
     this.images.bottom.onload = this.imageLoad.bind(this);
-    this.images.top.src = "/static/img/illos/files/top.png";
-    this.images.bottom.src = "/static/img/illos/files/bottom.png";
+    this.images.top.src = url_for("img/illos/files/top.png");
+    this.images.bottom.src = url_for("img/illos/files/bottom.png");
 
     this.imageOffset = 0;
   }

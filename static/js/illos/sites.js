@@ -53,7 +53,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight * 2;
 
 const backgroundImg = new Image();
-backgroundImg.src = "/static/img/illos/sites/background.png";
+backgroundImg.src = url_for("img/illos/sites/background.png");
 
 const config = {
   yellow: {

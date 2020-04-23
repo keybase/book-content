@@ -116,7 +116,7 @@ canvas.width = windowWidth / 2;
 canvas.height = windowHeight;
 context.globalCompositeOperation = "multiply";
 
-wrapper.style["background-image"] = "url(/static/img/illos/chat/background-min.jpg)";
+wrapper.style["background-image"] = "url(" + url_for("img/illos/chat/background-min.jpg") + ")";
 wrapper.style["background-size"] = "cover";
 
 const canvasConstraints = [

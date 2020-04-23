@@ -49,7 +49,7 @@ const draw = () => {
 };
 
 const lettersImg = new Image();
-lettersImg.src = "/static/img/illos/teams/background.png";
+lettersImg.src = url_for("img/illos/teams/background.png");
 let lettersImgAspectRatio;
 lettersImg.onload = function() {
   lettersImgAspectRatio = this.naturalHeight / this.naturalWidth;
@@ -60,7 +60,7 @@ lettersImg.onload = function() {
 };
 
 const viewerImg = new Image();
-viewerImg.src = "/static/img/illos/teams/viewer.png";
+viewerImg.src = url_for("img/illos/teams/viewer.png");
 let mouse = { x: 0, y: 0 };
 let viewerImgAspectRatio;
 viewerImg.onload = function() {
