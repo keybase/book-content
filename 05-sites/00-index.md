@@ -96,7 +96,7 @@ First, you need to be on a team with `kbpbot`:
 The DNS configuration for Git is a little different. The main `CNAME`/`ALIAS` record is the same (points at `kbp.keybaseapi.com`). But the `TXT` record needs to tell `kbpbot` about the Git repository instead of the filesystem location like before. It looks like this:
 
 ```
-my-site.example.com. 300 IN TXT "kbp=git@keybase:team/gitwithkbpbot/git-site"
+_keybase_pages.my-site.example.com. 300 IN TXT "kbp=git@keybase:team/gitwithkbpbot/git-site"
 ```
 
 After the regular DNS propagation delays, the pushed contents of the `master` branch of your repository will be available at `https://my-site.example.com`.
