@@ -46,121 +46,121 @@ table {
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
 @font-face {
   font-family: 'KaTeX_AMS';
-  src: url("https://static.local.kb.faculty.net/c143b562d871a9cbe53751b31ff2d952811ef469859ae41ec1c0e8a901428f22dafc3f80bf9a3701274648922fe7884a-2019102003/fonts/KaTeX_AMS-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/776e0467b0cd7a3f494ac390edde2d0fddce835013f6b4b6ab6703be4a018968d354f46ae76915883213c89add8918cf-2019102003/fonts/KaTeX_AMS-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/02c1df5e0fef3a97f3314f58c8f1caad4b36c448ddc65c345c7232f9ac9d3b2138c8998ba606ce537a007fd76b0b00c4-2019102003/fonts/KaTeX_AMS-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_AMS-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_AMS-Regular.woff") format("woff"), url("/static/fonts/KaTeX_AMS-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Caligraphic';
-  src: url("https://static.local.kb.faculty.net/38de7c5050b3871fa0bc657142bc8c7131710fca76125c1cc515517c4b946ddf68e315307b0ad8a9993e68649f381679-2019102003/fonts/KaTeX_Caligraphic-Bold.woff2") format("woff2"), url("https://static.local.kb.faculty.net/6673c28bb30eda38045cee22930df69b93c9f3de357754171a5f997069f205fa31058d299a6885a30b2287d6aec06fdc-2019102003/fonts/KaTeX_Caligraphic-Bold.woff") format("woff"), url("https://static.local.kb.faculty.net/358139f29923c15b28450e0704b4d7a672e08305186b71257f0706d36a59a1d14e65c33ce5544289958b7a6136e0e5e5-2019102003/fonts/KaTeX_Caligraphic-Bold.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Caligraphic-Bold.woff2") format("woff2"), url("/static/fonts/KaTeX_Caligraphic-Bold.woff") format("woff"), url("/static/fonts/KaTeX_Caligraphic-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Caligraphic';
-  src: url("https://static.local.kb.faculty.net/08220f5f7808d97530a561a4d6a9b2de3b51dd0a1bf17d3a2e91730e9538b353045b4270b807a003412a98ce82753259-2019102003/fonts/KaTeX_Caligraphic-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/1e0761527a56064c55d7ea344bc1e139885b305ceb2aea28b733769089d6497af2f5e53250f40c0417cee61e5e71223e-2019102003/fonts/KaTeX_Caligraphic-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/93f5ad620e5c8ffb0e5bc9c2e1f94e394afbe0ef080b3c23a38ee6b395951df9e4b4bdc0ce87c2d33d47e8642005173b-2019102003/fonts/KaTeX_Caligraphic-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Caligraphic-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Caligraphic-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Caligraphic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Fraktur';
-  src: url("https://static.local.kb.faculty.net/581fb129a9aee0a6b2ad0a1182810bf3275ea07f2559582b4094da5936913cf04bfbcc164d3b85414c1ff8ac05a982b7-2019102003/fonts/KaTeX_Fraktur-Bold.woff2") format("woff2"), url("https://static.local.kb.faculty.net/e448f0fa61d6a536aebfb982a5d299eeb8d76ae2b44c7e1daae37f326fc7b3b7bdeb8569740c96f182a0a209ab9a9323-2019102003/fonts/KaTeX_Fraktur-Bold.woff") format("woff"), url("https://static.local.kb.faculty.net/0babca5074170d5273a61b71913461d723671775803e2b0c03ec85260cea47ce3e5084bc6658ca3e1f892ce7cbe923f4-2019102003/fonts/KaTeX_Fraktur-Bold.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Fraktur-Bold.woff2") format("woff2"), url("/static/fonts/KaTeX_Fraktur-Bold.woff") format("woff"), url("/static/fonts/KaTeX_Fraktur-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Fraktur';
-  src: url("https://static.local.kb.faculty.net/e4d10c5cbdb7f1acb80ae1d2527e36149c0be4117d1f0f39483bb5dfb869a089834f5f49709630dde05f270284c73e42-2019102003/fonts/KaTeX_Fraktur-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/cb2095c0ce94621f0cc79bd0bc6fa0928cf875f0877f2d4192f4f4fb42d10de61d8338c6ca41b64d9003acdcbd7a0ca3-2019102003/fonts/KaTeX_Fraktur-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/7efaf8b24a77535980415776bda5dea0914f791f9f974a59f5be25e013124cb06f93e55f046380d44860c87052a594e8-2019102003/fonts/KaTeX_Fraktur-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Fraktur-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Fraktur-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Fraktur-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Main';
-  src: url("https://static.local.kb.faculty.net/6a9eb2b854c744dba5270130c494b3971aab7f95b0b0927656baed634d49f5434753077e8a086af8380564ad4a4a6bf9-2019102003/fonts/KaTeX_Main-Bold.woff2") format("woff2"), url("https://static.local.kb.faculty.net/b840dbb83d49fdaf2352f8e04359979872e5e7e7e1f11ce84977a2aaa74762555908849cfbf77825b815d93754137db3-2019102003/fonts/KaTeX_Main-Bold.woff") format("woff"), url("https://static.local.kb.faculty.net/6d587ba0bee8d4c83e97f86f7a2cb65e067e3a01ad9b05b4c6cb6dd061aa5fd639f966bbd3fda26755b44462618bdee2-2019102003/fonts/KaTeX_Main-Bold.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Main-Bold.woff2") format("woff2"), url("/static/fonts/KaTeX_Main-Bold.woff") format("woff"), url("/static/fonts/KaTeX_Main-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Main';
-  src: url("https://static.local.kb.faculty.net/87b0172ab59562700d2f5dd5e524723f8c5e4a92ba64fbad3730bc001d48fa52ed697c6245d025b341b1752daf34010b-2019102003/fonts/KaTeX_Main-BoldItalic.woff2") format("woff2"), url("https://static.local.kb.faculty.net/6e8a505aba28947d655e4514ef15b054f8fca23b55d5fbe7a3f2537cced70cc1166c100de85a16b929e27e992461833a-2019102003/fonts/KaTeX_Main-BoldItalic.woff") format("woff"), url("https://static.local.kb.faculty.net/51aca16fa94e02a1054e7468268752e10ed11d55d40fc6e1a61dc566b138f555b370e92ac1b1ba3bb6e24dcf4b127256-2019102003/fonts/KaTeX_Main-BoldItalic.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Main-BoldItalic.woff2") format("woff2"), url("/static/fonts/KaTeX_Main-BoldItalic.woff") format("woff"), url("/static/fonts/KaTeX_Main-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'KaTeX_Main';
-  src: url("https://static.local.kb.faculty.net/5e61d6cccd6e8f29d2aad8b72c19a7ebc10073d74639e2d093a71aaeaa0660ea6f161448b012522d3441d9eec52f8b2e-2019102003/fonts/KaTeX_Main-Italic.woff2") format("woff2"), url("https://static.local.kb.faculty.net/e6fe86c401266f448bc256d693c9e288b4e7127932e18b16ef4939ce160e95d1935600f24f37df596d521a6c9e4736e7-2019102003/fonts/KaTeX_Main-Italic.woff") format("woff"), url("https://static.local.kb.faculty.net/01c4ec677b36d467eca16b469e16bd4b8fafe67907d5e562dc997a5bc156478735f057d851952e5d9385054f1d5d5291-2019102003/fonts/KaTeX_Main-Italic.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Main-Italic.woff2") format("woff2"), url("/static/fonts/KaTeX_Main-Italic.woff") format("woff"), url("/static/fonts/KaTeX_Main-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'KaTeX_Main';
-  src: url("https://static.local.kb.faculty.net/8d133c26695d288d02a1cbdac5be31641022dca897c8fb7c6948be0da61914daeaf08cbee4fa09b3180cf6afc225e45d-2019102003/fonts/KaTeX_Main-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/67b95aaceba1b672bda3436b86040e3b55c0b2f03be3802fdb3b7862435063a6217105aab9827c898dd292a3df469e32-2019102003/fonts/KaTeX_Main-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/b348073945de1a488e8da6a3182258e1efbee0151fb466a63d767fa75e8c9b789320efa3e3e7e85c632ff5177c2a626e-2019102003/fonts/KaTeX_Main-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Main-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Main-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Main-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Math';
-  src: url("https://static.local.kb.faculty.net/266dcf587579df668699c61d9f9d43fc2788626faa39dd7c2433ccae37f31a3f643c2398d720259e281f45de856acf47-2019102003/fonts/KaTeX_Math-BoldItalic.woff2") format("woff2"), url("https://static.local.kb.faculty.net/1c5ce097ffb4b88bdbf5a36d94598ec2cc73886f9393583d8cb088d18d92b04d521f44afd7d5fa3d50f12d5a74f70a5c-2019102003/fonts/KaTeX_Math-BoldItalic.woff") format("woff"), url("https://static.local.kb.faculty.net/ed478cb6f00e74c49565ffac5e78f7f73a9c4fd2ffd4cd158a99bf5e48bd0734f508e72f4e82a59b1609b76e3c9a3f3f-2019102003/fonts/KaTeX_Math-BoldItalic.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Math-BoldItalic.woff2") format("woff2"), url("/static/fonts/KaTeX_Math-BoldItalic.woff") format("woff"), url("/static/fonts/KaTeX_Math-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic; }
 
 @font-face {
   font-family: 'KaTeX_Math';
-  src: url("https://static.local.kb.faculty.net/7d3f6a65de0f17cce80aefe3692f86afb3aca2be2e6d49b8077cf5a0fcc0b33856e5f5dafb513d7cf800c7cd6cf04413-2019102003/fonts/KaTeX_Math-Italic.woff2") format("woff2"), url("https://static.local.kb.faculty.net/858ec79393d9174ef37adcdfde95ae83d06493ae74b897ce1987032ad543e08dffcfc1d95ce22ee778dec93dc957d40d-2019102003/fonts/KaTeX_Math-Italic.woff") format("woff"), url("https://static.local.kb.faculty.net/a0b34fb038e80d434df4f456cdd9cea50398052021e2105ca54c1dd84225d1afea6a7e957f4b2b528cbf2b1a36972974-2019102003/fonts/KaTeX_Math-Italic.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Math-Italic.woff2") format("woff2"), url("/static/fonts/KaTeX_Math-Italic.woff") format("woff"), url("/static/fonts/KaTeX_Math-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'KaTeX_SansSerif';
-  src: url("https://static.local.kb.faculty.net/d60b2ac02c5c32c8514ff14c36f0ccc5b97a0d9f286c42de1b458380d92a832980373410cb0408ce965a98ce3df49f75-2019102003/fonts/KaTeX_SansSerif-Bold.woff2") format("woff2"), url("https://static.local.kb.faculty.net/394281370fa7fec5067703b7f069e3d26f0d378aa3d28e4139401a62fa0c0ca3f6758261537639000d14b5a35a3ec933-2019102003/fonts/KaTeX_SansSerif-Bold.woff") format("woff"), url("https://static.local.kb.faculty.net/a6a4bca37bbcbc826531b61a9d08fb1072fbefffd175a35358acb0a7c77bd2e8fe0a3b17c7b587559c0f6e54c0c479b7-2019102003/fonts/KaTeX_SansSerif-Bold.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_SansSerif-Bold.woff2") format("woff2"), url("/static/fonts/KaTeX_SansSerif-Bold.woff") format("woff"), url("/static/fonts/KaTeX_SansSerif-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_SansSerif';
-  src: url("https://static.local.kb.faculty.net/cf0b65fb03e65c52a7f2ea3481e2763c67c5bc0fc7ef0bb82f12adefbf2a9c57044ee9a1e84725c80a4fa3128138fc70-2019102003/fonts/KaTeX_SansSerif-Italic.woff2") format("woff2"), url("https://static.local.kb.faculty.net/16a1c2a6ced64bd22055e6e86b9153e436f37ed52f3fde0e7e38582e6a10d4c89646c8e26e10869c901cde14dca2b319-2019102003/fonts/KaTeX_SansSerif-Italic.woff") format("woff"), url("https://static.local.kb.faculty.net/9e039a9da65d5ec9e0a83c3eac54972eb7e415b50355cd1a9271d126cfcb3a03a3889525aa5dedc1a248296968c666cc-2019102003/fonts/KaTeX_SansSerif-Italic.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_SansSerif-Italic.woff2") format("woff2"), url("/static/fonts/KaTeX_SansSerif-Italic.woff") format("woff"), url("/static/fonts/KaTeX_SansSerif-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'KaTeX_SansSerif';
-  src: url("https://static.local.kb.faculty.net/23fffda770e41f4922ef395f62e240cf4bb1713fbf8427d76b07e0833b5d9832a52e098dcd883a68bd15dcb830d63f06-2019102003/fonts/KaTeX_SansSerif-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/f21d24bb57740231a8a3612e737fe04f04d62fdb22368dbf0f4853e9d97e5ccf994f71e12374d0fb7ee1b057c8a293c4-2019102003/fonts/KaTeX_SansSerif-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/55e74ee77f67f466645ba36ff7b473f82a844e76d112f712a9d4ee6bfdef1f470fd2c2b3485e2d2d8b4f77bad55f854d-2019102003/fonts/KaTeX_SansSerif-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_SansSerif-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_SansSerif-Regular.woff") format("woff"), url("/static/fonts/KaTeX_SansSerif-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Script';
-  src: url("https://static.local.kb.faculty.net/8a7dd4c4f6cf0e1f3509b5a3f16134be42cba65e238f65e3e1c7c688999dcdad9252d92a2cc1fdf1f4f8f7d4d86cb8ba-2019102003/fonts/KaTeX_Script-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/e59a3e8663dfb7e68ba9d57d9346b017905dcba2f59aee10e897cca4dbfca7992c86199bd5cd66314dfd6df86b1817b8-2019102003/fonts/KaTeX_Script-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/2d1d971f2630c79b247a885ee717a004faab33b93c333a35ffef7c8130bab63874b22cb5455b4e7e3564c1f381d26259-2019102003/fonts/KaTeX_Script-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Script-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Script-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Script-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Size1';
-  src: url("https://static.local.kb.faculty.net/a5f22e1ac43e869b0f1502e2eaf9a38de3dc08178bf1b728a62ce1476614b52e92f63e567d7b66b8854b7e5fde51e2c4-2019102003/fonts/KaTeX_Size1-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/939644376cde2bcf2a103362b7f4da04dc8c8bf1a5875cf148f23ab5260ce8e524b7c015a5f13ff118e5ea32b8da225f-2019102003/fonts/KaTeX_Size1-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/b133c6335d6ad838fafc006dccadfad7d2ac3bbb954f0117eca467d55ead00358d9659512969aead2b32f05bebc78b0e-2019102003/fonts/KaTeX_Size1-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Size1-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Size1-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Size1-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Size2';
-  src: url("https://static.local.kb.faculty.net/c54e6bc9b00ed79e815aeca7b877e814db6572bd224a478d16802ea856a65df2040c0b0d3be2941018d10ab708036f71-2019102003/fonts/KaTeX_Size2-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/6e127216be524ec60b59957659b97e049be12bb237e342f5cd59da1bcecfd6b4305716fd2668b0ee3195ef1dce465bbd-2019102003/fonts/KaTeX_Size2-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/b5946fda7a9ebfca636681ac4758b23372a5db33e1bac5080449d3fd62d69095324984678774c68dfdcddb153e27f9a3-2019102003/fonts/KaTeX_Size2-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Size2-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Size2-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Size2-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Size3';
-  src: url("https://static.local.kb.faculty.net/7e126f653a5e71b06938840b1ec624a71dbcec940e3da678ef588353093300dd904868a85bbdc282b451b14fdff163c1-2019102003/fonts/KaTeX_Size3-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/3c5ba4be4033494570cdfe27fa2a7c0cad1f3a8fd4f5ff8a439143eadc75fbba3aca827cb073cce1f9f39e798a9213c8-2019102003/fonts/KaTeX_Size3-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/7352bdf2f8eef1675048435129a788404310167ffbff837d93196add06ad0b56cc798000b2adf193f581b0a36e3bcd7e-2019102003/fonts/KaTeX_Size3-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Size3-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Size3-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Size3-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Size4';
-  src: url("https://static.local.kb.faculty.net/3e51dbd0a9fa299211b4c3d874e478163eb1ef1e5dc5532bab7071401eeb877b3b0306eb22236a99df35f506b7fc5d14-2019102003/fonts/KaTeX_Size4-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/914e624219edd3bf556900a99e6560cd3511cde440b1018db3f6746106c1d08632d0a8f2ac2772ab5b425a9e4ba07cce-2019102003/fonts/KaTeX_Size4-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/958c65e7adc39a5a54aa9362758277def1562173e26ff25cb0b531a11c64e4a2c60f615bf4a0bece5069d214918d54d3-2019102003/fonts/KaTeX_Size4-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Size4-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Size4-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Size4-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'KaTeX_Typewriter';
-  src: url("https://static.local.kb.faculty.net/1716a8bea2c654407b0c698286f0649e09f4c532c9c5bad26413b2ed5bcc8294a48e3a613995869b96983d9fb29d613a-2019102003/fonts/KaTeX_Typewriter-Regular.woff2") format("woff2"), url("https://static.local.kb.faculty.net/84e5fa786e68aae53949e2b23f9b9cfa7507c7a4e4e812451666faa110e21f19c0508ba983ff642bbae445600c8945e9-2019102003/fonts/KaTeX_Typewriter-Regular.woff") format("woff"), url("https://static.local.kb.faculty.net/e51f7405a296e7c48d2a79c7c8d4066568e03abc061d7e53624a5af9e52db99918796f63d096c933daf66c0af315c4f2-2019102003/fonts/KaTeX_Typewriter-Regular.ttf") format("truetype");
+  src: url("/static/fonts/KaTeX_Typewriter-Regular.woff2") format("woff2"), url("/static/fonts/KaTeX_Typewriter-Regular.woff") format("woff"), url("/static/fonts/KaTeX_Typewriter-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -1145,7 +1145,7 @@ html {
       color: var(--color--content__links--hover); }
 
 html {
-  font-family: "Comic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   color: var(--color--content__text); }
 
@@ -1383,7 +1383,7 @@ figcaption {
     overflow: hidden;
     place-items: center;
     height: 100%;
-    background-image: url("https://static.local.kb.faculty.net/183c335a8992217d9ba19e9e397e6b145081099680f3bb3280df4c47faf586a3e9aea7b57a7fa82a361ca0263b473f34-2019102003/img/illos/chat/background-min.jpg");
+    background-image: url("/static/img/illos/chat/background-min.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
     .chapter-illustration-wrapper--img svg {
@@ -1778,6 +1778,7 @@ figcaption {
     font-weight: bold;
     justify-self: end;
     width: 60%;
+    max-width: 12rem;
     margin-bottom: 0.75rem;
     cursor: pointer;
     color: #fff;
@@ -1910,7 +1911,7 @@ table td.other {
     margin: 0 auto;
     content: "";
     pointer-events: none;
-    background-image: url("https://static.local.kb.faculty.net/5c738a2cf113741ff43762b45ce8afed566c6a73516216156b051e8d4a6fc28dcfbeee16903e8e4596b70d1e9aa59dd2-2019102003/img/start-here.svg");
+    background-image: url("/static/img/start-here.svg");
     background-repeat: no-repeat; }
     @media screen and (min-width: 52.625rem) {
       .home__chapters:before {
