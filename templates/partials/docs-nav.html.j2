@@ -1,0 +1,32 @@
+<div class="side-nav side-nav--extended">
+    <nav class="chapter-nav chapter-nav--start">
+        <ol class="chapter-nav__list">
+            {% for this_section in sections[1:] %}
+                {% if this_section["nav"][-1] == "index" %}
+                <li class="chapter-nav__list-item">
+                    {% set is_active_section = section["route"].startswith(this_section["route"]) %}
+                    <a href="{{ this_section["link"] }}" class="chapter-nav__link{% if is_active_section %} chapter-nav__link--active{% endif %}">{{ this_section["title"] }}</a>
+                    {% if section["route"].startswith(this_section["route"]) %}{# active section #}
+                        {# weird two-layer nav here #}
+                        {% set found_sub_sections = [] %}
+                        {% for sub_section in sections[1:] %}
+                            {% if sub_section["nav"] != this_section["nav"] and sub_section["nav"][0:2] == this_section["nav"][0:2] %}
+                                {% set _ = found_sub_sections.append(sub_section) %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if found_sub_sections %}
+                            <ol class="chapter-nav__nested-list">
+                                {% for sub_section in found_sub_sections %}
+                                <li class="chapter-nav__nested-list-item">
+                                    <a href="{{ sub_section["link"] }}" class="chapter-nav__nested-link">{{ sub_section["title"] }}</a>
+                                </li>
+                                {% endfor %}
+                            </ol>
+                        {% endif %}
+                    {% endif %}
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </nav>
+</div>

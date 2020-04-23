@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{% block title %}Keybase Book{% endblock %}</title>
+    <meta name="description" content="{% block description %}{% endblock %}" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+
+    <!-- Favicon --> 
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ url_for('static', filename='favicon/safari-pinned-tab.svg') }}" color="#030303">
+    <meta name="msapplication-TileColor" content="#f0f0f0">
+    <meta name="theme-color" content="#f0f0f0">
+  </head>
+  <body>
+
+    <div class="app">
+      {% filter indent(8)%}{% include 'partials/site-nav.html.j2' %}{% endfilter %}
+      <main class="main">
+        {% block content %}{% endblock %}
+      </main>
+    </div>
+    {% include 'partials/site-footer.html.j2' %}
+    {# <script src="{{ url_for('static', filename='js/Nav.js') }}" type="module" async></script> #}
+    <script src="{{ url_for('static', filename='js/Header.js') }}" type="module" async></script>
+    <script src="{{ url_for('static', filename='js/DarkMode.js') }}" type="module" async></script>
+  </body>
+</html>

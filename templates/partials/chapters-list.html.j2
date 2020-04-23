@@ -1,0 +1,23 @@
+
+<ol class="{% if prefix %}{{prefix}}__chapters {% endif %}chapters">
+{% for section_name, section in tree["sections"].items() %}
+    {% set sec = section[0] %}
+    {% set subtitle = sec["subtitle"] %}
+    {% set has_subtitle = true if subtitle else false %}
+    {% set is_appendix = sec['is_appendix']%}
+    {% set chapter_number = sec["chapter_number"] %}
+    {% set idx = sec["nav"][0] %}
+    <li class="chapter{% if idx == root_nav  %} chapter--active{% endif %}{% if not has_subtitle %} chapter--narrow{% endif %}">
+        <a class="chapter__link " href="/{{ idx }}">
+            <span class="chapter__count">{{- chapter_number -}}</span>
+            <img alt="" class="chapter__image" src="{{ url_for('static', filename='img/illos/' + idx + '.jpg') }}" loading="lazy" width="215"/>
+            <span class="chapter__title">
+                {{- sec["title"] -}}
+            </span>
+            {% if has_subtitle %}
+                <span class="chapter__subtitle">{{- subtitle -}}</span>
+            {% endif%}
+        </a>
+    </li>
+{% endfor %}
+</ol>

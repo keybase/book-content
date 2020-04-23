@@ -1,0 +1,37 @@
+.download {
+  $color--download-cta--accent: #3e74f3;
+  $color--download-cta--button-text: #fff;
+  $color--download-cta--link-text: #8c8c8c;
+
+  display: grid;
+  padding: 1.25rem;
+  border: 1px solid $color--download-cta--accent;
+  border-radius: 0.25rem;
+  &__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    text-decoration: none;
+  }
+  &__title a {
+    text-decoration: none;
+  }
+  &__button {
+    font-size: 0.75rem;
+    font-weight: bold;
+    justify-self: end;
+    width: 60%;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+    color: $color--download-cta--button-text;
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: $color--content__background;
+  }
+  &__link {
+    font-size: 0.625rem;
+    line-height: 1.3;
+    justify-self: end;
+    color: $color--download-cta--link-text;
+  }
+}

@@ -1,0 +1,10 @@
+<nav class="site-nav">
+    <a class="site-nav__brand" href="/">{% include './icons/keybase.svg' %} Keybase&nbsp;<span>Book</span></a>
+    <div class="site-nav__crumbs">
+    </div>
+    <button class="site-nav__theme-toggle" aria-hidden="true">
+        {% with class="site-nav__toggle-icon site-nav__toggle-icon--dark" %}{% include './icons/moon.svg' %}{% endwith %}
+        {% with class="site-nav__toggle-icon site-nav__toggle-icon--light" %}{% include './icons/sun.svg' %}{% endwith %}
+    </button>
+    <div class="site-nav__progress-bar"></div>
+</nav>

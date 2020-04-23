@@ -1,0 +1,24 @@
+{% set active = 'home' %}
+{% extends 'layout.html.j2' %}
+
+{% block title %}Keybase Book: Encryption for everything that matters{% endblock %}
+{% block description %}Use Keybase for end-to-end encrypted chat messaging, file sharing, and team collaboration. Get the free app for iOS, Mac, Android, Windows, and Linux.{% endblock %}
+
+{% block content %}
+    <div class="home__intro">
+        <h1 class="home__title">Encryption for everything that matters</h1>
+    </div>
+    <canvas class="home__illo home__illo--hidden"></canvas>
+    <section class="home__blurb">
+        {{ compose_content("home") }}
+    </section>
+    <section class="home__chapters">
+    {% include './partials/chapters-list.html.j2' %}
+    </section>
+    {% with nav_next =tree["sections"]['account'][0]%}
+        {% filter indent(4)%}{% include "partials/chapter-footer.html.j2" %}{% endfilter %}
+    {% endwith %}
+    <footer class="home__footer">
+    </footer>
+    <script src="{{ url_for('static', filename='js/illos/keybase.js') }}"></script>
+{% endblock %}
