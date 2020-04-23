@@ -87,7 +87,7 @@ When you add someone to a team, you’ll assign them a role that gives them spec
                 <td class="no">No</td>
             </tr>
             <tr>
-                <th>Manage team members' roles</th>
+                <th>Manage team members’ roles</th>
                 <td class="yes">Yes</td>
                 <td class="yes">Yes</td>
                 <td class="no">No</td>
