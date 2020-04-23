@@ -4,7 +4,7 @@
 
 This repository is a work in progress, and it’s our intention for the Keybase Book to be a community project. The target audience is smart people who _aren’t necessarily programmers or security folks._
 
-We’ll encourage PR’s from the whole community. Help us make this book better.
+We’ll encourage PRs from the whole community. Help us make this book better.
 
 Note this is brand new and there may be some errors, especially since initial contributions came from outside the Keybase staff.
 
