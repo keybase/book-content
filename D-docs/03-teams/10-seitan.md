@@ -98,10 +98,8 @@ MAC key. Then the first 15 bytes are used for the "invitation ID".
 
 Using the `siKey`, we
 [generate](https://github.com/keybase/client/blob/98327b58939a5b769fb2025743a31fcd08c7265b/go/teams/seitan_v2.go#L103-L134)
-an EdDSA keypair as follows `privKey = HMAC(sikey, {"stage" : "eddsa",
-"version" : 2})[0:32]` and `pubKey = NewEdDSAPublic(privkey)` which we use
-later to produce a signature to verify our invitation id.
-
+an EdDSA keypair as follows `seed = HMAC(sikey, {"stage" : "eddsa", "version" : 2})[0:32]` 
+and `keyPair = NewEdDSA(seed)` which we use later to produce a signature to verify our invitation id.
 
 ### Step 2: Encryption and Signing of the pubKey
 
