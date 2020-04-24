@@ -1,0 +1,50 @@
+{% extends 'layout.html.j2' %}
+{% set content = compose_content(docs_path, capture=["page_title", "page_description"], html_in_markdown=True) %}
+{% set compose_page_title = compose_captured("page_title") %}
+{% set compose_page_description = compose_captured("page_description") %}
+
+{% block title %}{{ super() }}: {% if compose_page_title %}{{ compose_page_title }}{% else %}{{ page_title }}{% endif %}{% endblock %}
+{% block description %}{% if compose_page_description %}{{ compose_page_description }}{% else %}{{ page_description }}{% endif %}{% endblock %}
+
+{% block content %}
+    {% filter indent(4)%}{% include "partials/chapter-header.html.j2" %}{% endfilter %}
+    <div class="content">
+        {% if section['chapter_number'] == "D" %}{# docs is special #}
+        {% filter indent(4)%}{% include "partials/docs-nav.html.j2" %}{% endfilter %}
+        {% elif sections|length > 1 %}
+        {% filter indent(4)%}{% include "partials/extended-nav.html.j2" %}{% endfilter %}
+        {% else %}
+        {% filter indent(4)%}{% include "partials/chapter-nav.html.j2" %}{% endfilter %}
+        {% endif %}
+        <div class="content__inner">
+            <section id="overview" class="content__section">
+                {{ content }}
+            </section>
+        </div>
+    </div>
+    {%- if nav_next %}
+        {% filter indent(4)%}{% include "partials/chapter-footer.html.j2" %}{% endfilter %}
+    {% endif %}
+    <script src="{{ url_for('static', filename='js/Scroller.js') }}" type="module" async></script>
+    <script src="{{ url_for('static', filename='js/Nav.js') }}" type="module" async></script>
+
+    {% if is_appendix %}
+        <script src="{{ url_for('static', filename='js/vendor/gsap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/vendor/katex.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/vendor/auto-render.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/docs.js')}}" type="module" async></script>
+        <script src="{{ url_for('static', filename='js/illos/appendix.js')}}"></script>
+    {% else %}
+
+        {% if section["route"] == "account" %}
+            <script src="{{ url_for('static', filename='js/vendor/simplex-noise.min.js') }}"></script>
+
+        {% elif section["route"] in ["chat", "teams", "sites", "wallet", "git"] %}
+            <script src="{{ url_for('static', filename='js/vendor/gsap.min.js') }}"></script>
+        {% endif %}
+
+        {# this probably needs a tighter guard (match only certain route names #}
+        <script src="{{ url_for('static', filename='js/illos/' + section["route"].split("/")[0] + '.js')}}"></script>
+    {% endif %}
+
+{%- endblock %}

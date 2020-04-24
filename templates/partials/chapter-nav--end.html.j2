@@ -1,0 +1,20 @@
+<nav class="chapter-nav chapter-nav--end">
+    <p class="chapter-nav__label">Chapters</p>
+    <ol class="chapter-nav__list">
+        {%- for chapter_name in tree["chapters"] %}
+            {% set chapter = tree["sections"][chapter_name][0] %}
+            <li class="chapter-nav__list-item">
+                <a class="chapter-nav__link{% if section["route"] == chapter["route"] %} chapter-nav__link--active{% endif %}" href="/{{ chapter["route"] }}">{{ chapter["chapter_number"] }} — {{ chapter["title"] }}</a>
+            </li>
+        {% endfor %}
+    </ol>
+    <p class="chapter-nav__label">Appendices</p>
+    <ol class="chapter-nav__list">
+        {%- for appendix_name in tree["appendices"] %}
+            {% set chapter = tree["sections"][appendix_name][0] %}
+            <li class="chapter-nav__list-item">
+                <a class="chapter-nav__link{% if section["route"] == chapter["route"] or section["route"].startswith(chapter["route"] + "/") %} chapter-nav__link--active{% endif %}" href="/{{ chapter["route"] }}">{{ chapter["chapter_number"] }} — {{ chapter["title"] }}</a>
+            </li>
+        {% endfor %}
+    </ol>
+</nav>

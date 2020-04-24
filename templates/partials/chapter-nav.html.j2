@@ -1,0 +1,16 @@
+<div class="side-nav">
+    <nav class="chapter-nav chapter-nav--start">
+        <p class="chapter-nav__label">In This Chapter</p>
+        <ol class="chapter-nav__list">
+            <li class="chapter-nav__list-item">
+                <a href="#" class="chapter-nav__link">{{ section["title"] }}</a>
+            </li>
+            {% for hash, text in section["h2s"].items() %}
+                <li class="chapter-nav__list-item">
+                    <a href="#{{ hash }}" class="chapter-nav__link">{{ text }}</a>
+                </li>
+            {% endfor %}
+        </ol>
+    </nav>
+    {% include './partials/chapter-nav--end.html.j2' %}
+</div>

@@ -1,0 +1,23 @@
+<div class="side-nav side-nav--extended">
+    <nav class="chapter-nav chapter-nav--start">
+        {# <a href="#content"  class="chapter-nav__chapter-title">{{ sections[0]["title"] }}</a> #}
+        <ol class="chapter-nav__list">
+            {% for this_section in sections[1:] %}
+            {% set is_active_section = this_section["route"] == section["route"] %}
+            <li class="chapter-nav__list-item">
+                <a href="{{ this_section['link'] }}" class="chapter-nav__link{% if is_active_section %} chapter-nav__link--active{% endif %}">{{ this_section["title"] }}</a>
+                {% if this_section["h2s"] and is_active_section %}
+                <ol class="chapter-nav__nested-list">
+                    {% for h2_slug, h2_title in this_section["h2s"].items() %}
+                    <li class="chapter-nav__nested-list-item">
+                         <a href="{{ this_section["link"] }}#{{ h2_slug }}" class="chapter-nav__nested-link">{{ h2_title}}</a>
+                    </li>
+                    {% endfor %}
+                </ol>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ol>
+    </nav>
+    {% include './partials/chapter-nav--end.html.j2' %}
+</div>
