@@ -9,7 +9,7 @@
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 
-    <!-- Favicon --> 
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
@@ -17,6 +17,26 @@
     <link rel="mask-icon" href="{{ url_for('static', filename='favicon/safari-pinned-tab.svg') }}" color="#030303">
     <meta name="msapplication-TileColor" content="#f0f0f0">
     <meta name="theme-color" content="#f0f0f0">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@KeybaseIO">
+    <meta name="twitter:creator" content="@KeybaseIO">
+    <meta name="twitter:title" content="Keybase Book">
+    <meta name="twitter:description" content="Use Keybase for end-to-end encrypted chat messaging, file sharing, and team collaboration. Get the free app for iOS, Mac, Android, Windows, and Linux.">
+    <meta name="twitter:image" content="{{ url_for('static', filename='img/twitter-card.jpg') }}">
+
+    <script>
+    function url_for(filename) {
+        const prefix = {{ prefix|tojson }};
+        const STATIC_ASSET_MAP = {{ STATIC_ASSET_MAP|tojson }};
+
+        if (STATIC_ASSET_MAP.hasOwnProperty(filename)) {
+            return prefix + STATIC_ASSET_MAP[filename] + "/" + filename;
+        }
+
+        return prefix + filename;
+    }
+    </script>
   </head>
   <body>
 
