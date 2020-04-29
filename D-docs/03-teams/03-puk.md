@@ -1,8 +1,7 @@
 
 # Per-User Keys
 
-Users on Keybase have one or more [*device keys*](https://keybase.io/blog
-/keybase-new-key-model), whose public halves are advertised in the user's
+Users on Keybase have one or more [*device keys*](https://keybase.io/blog/keybase-new-key-model), whose public halves are advertised in the user's
 signature chain, and whose private halves stay local to the device that
 generated them. Users can also have *paper keys*, which act as device
 keys for the purposes of recovery from lost devices.
