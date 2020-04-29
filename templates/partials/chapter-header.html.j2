@@ -1,0 +1,43 @@
+{% set has_subtitle = true if page_subtitle else false %}
+<header class="chapter-header{% if is_appendix %} chapter-header--narrow{% endif %}" data-chapter-title="{{ section_root_title }}" {% if is_appendix %}data-section-title="{{ section['title'] }}"{% endif %}>
+  <nav class="chapter-header-nav">
+    <ol class="chapter-header-nav__list">
+        {%- for chapter_name in tree["chapters"] %}
+            {% set chapter = tree["sections"][chapter_name][0] %}
+            <li class="chapter-header-nav__chapter{% if chapter['_index'] == root_nav  %} chapter-header-nav__chapter--active{% endif %}">
+                <a class="chapter-header-nav__link" href="{{ chapter['link'] }}">
+                    {{ chapter["chapter_number"] }} - {{ chapter["title"] }}
+                </a>
+            </li>
+        {% endfor %}
+
+        {%- for appendix_name in tree["appendices"] %}
+            {% set chapter = tree["sections"][appendix_name][0] %}
+            <li class="chapter-header-nav__chapter{% if chapter['_index'] == root_nav  %} chapter-header-nav__chapter--active{% endif %}{% if chapter["is_appendix"] %} chapter-header-nav__chapter--appendix{% endif %} {% if chapter["chapter_number"] == "A" %} chapter-header-nav__chapter--first-appendix{% endif %}">
+                <a class="chapter-header-nav__link" href="{{ chapter['link'] }}">
+                    {{ chapter["chapter_number"] }} - {{ chapter["title"] }}
+                </a>
+            </li>
+        {% endfor %}
+
+    </ol>
+  </nav>
+  <div class="chapter-header__titling" id="content">
+    <h1 class="chapter-header__title" data-chapter-count="{{ chapter_number }}">
+        <a class="chapter-header__title-link" href="/{{section["nav"][0]}}">{{ section_root_title }}</a>
+    </h1>
+    {% if has_subtitle %}<p class="chapter-header__subtitle">{{ page_subtitle }}</p>{% endif %}
+  </div>
+  <div class="chapter-header__progress"></div>
+  {% if is_appendix %}
+  <div class="chapter-illustration-wrapper chapter-illustration-wrapper--img">
+    {% include './illos/' + section["nav"][0] + '.svg' %}
+    {% include './illos/' + section["nav"][0] + '.svg' %}
+    {% include './illos/' + section["nav"][0] + '.svg' %}
+  </div>
+  {% else %}
+  <div class="chapter-illustration-wrapper">
+    <canvas class="chapter-illustration" />
+  </div>
+  {% endif %}
+</header>

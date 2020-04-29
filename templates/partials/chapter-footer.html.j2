@@ -1,0 +1,11 @@
+<footer class="footer" data-footer-label="{{ nav_next['label'] }}">
+    <a class="footer__link" href="{{ nav_next['link'] }}">
+        <div class="footer__inner">
+        <p class="footer__title" data-chapter-count="{{ nav_next['chapter_number'] }}">{{ nav_next['title'] }}</p>
+            {% if nav_next['subtitle'] %}
+            <p class="footer__subtitle">{{ nav_next['subtitle'] }}</p>
+            {% endif %}
+        </div>
+        <img alt="" class="footer__image" src="{{ url_for('static', filename='img/illos/' + nav_next['nav'][0] + '.jpg') }}" loading="lazy" width="870"/>
+    </a>
+</footer>
