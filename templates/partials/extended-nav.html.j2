@@ -1,5 +1,5 @@
 <div class="side-nav side-nav--extended">
-    <nav class="chapter-nav chapter-nav--start">
+    <nav class="chapter-nav">
         {# <a href="#content"  class="chapter-nav__chapter-title">{{ sections[0]["title"] }}</a> #}
         <ol class="chapter-nav__list">
             {% for this_section in sections[1:] %}
@@ -19,5 +19,4 @@
             {% endfor %}
         </ol>
     </nav>
-    {% include './partials/chapter-nav--end.html.j2' %}
 </div>

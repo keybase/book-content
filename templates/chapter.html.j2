@@ -7,7 +7,6 @@
 {% block description %}{% if compose_page_description %}{{ compose_page_description }}{% else %}{{ page_description }}{% endif %}{% endblock %}
 
 {% block content %}
-    {% filter indent(4)%}{% include "partials/chapter-header.html.j2" %}{% endfilter %}
     <div class="content">
         {% if section['chapter_number'] == "D" %}{# docs is special #}
         {% filter indent(4)%}{% include "partials/docs-nav.html.j2" %}{% endfilter %}
@@ -25,7 +24,6 @@
     {%- if nav_next %}
         {% filter indent(4)%}{% include "partials/chapter-footer.html.j2" %}{% endfilter %}
     {% endif %}
-    <script src="{{ url_for('static', filename='js/Scroller.js') }}" type="module" async></script>
     <script src="{{ url_for('static', filename='js/Nav.js') }}" type="module" async></script>
 
     {% if is_appendix %}
@@ -33,7 +31,6 @@
         <script src="{{ url_for('static', filename='js/vendor/katex.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/vendor/auto-render.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/docs.js')}}" type="module" async></script>
-        <script src="{{ url_for('static', filename='js/illos/appendix.js')}}"></script>
     {% else %}
 
         {% if section["route"] == "account" %}
@@ -42,9 +39,6 @@
         {% elif section["route"] in ["chat", "teams", "sites", "wallet", "git"] %}
             <script src="{{ url_for('static', filename='js/vendor/gsap.min.js') }}"></script>
         {% endif %}
-
-        {# this probably needs a tighter guard (match only certain route names #}
-        <script src="{{ url_for('static', filename='js/illos/' + section["route"].split("/")[0] + '.js')}}"></script>
     {% endif %}
 
 {%- endblock %}

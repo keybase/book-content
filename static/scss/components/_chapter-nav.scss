@@ -1,5 +1,4 @@
 .side-nav {
-  top: 5rem;
   display: grid;
   align-content: space-between;
   align-self: stretch;
@@ -7,34 +6,16 @@
 .chapter-nav {
   $this: &;
   position: sticky;
-  top: 5rem;
+  margin-bottom: var(--sizing--chapter-nav-end);
+  padding-bottom: 1rem;
   max-width: $sizing--chapter-nav__width;
   padding-right: $sizing--content__padding-sm;
   padding-left: $sizing--content__padding-sm;
-
+  top: 9.65rem;
+  
   @include screen(sm) {
     padding-right: 0;
-    padding-left: 0.5rem;
-  }
-  &--start {
-    margin-bottom: var(--sizing--chapter-nav-end, 25rem);
-    padding-bottom: 1rem;
-  }
-  &--end {
-    display: none;
-
-    @include screen(sm) {
-      position: sticky;
-      bottom: 2rem;
-      align-self: end;
-      margin-top: var(--sizing--chapter-nav-start, 14rem);
-    }
-    @media screen and (min-height: 47rem) {
-      display: block;
-    }
-    .docs & {
-      display: none;
-    }
+    padding-left: 0;
   }
   &__chapter-title {
     font-size: 1.5rem;
@@ -51,10 +32,17 @@
     padding: 0;
     padding-bottom: 1rem;
     list-style-type: none;
+    .chapter-nav__list {
+      font-size: 0.9rem;
+      padding: 0.5rem 0 0 2.75rem;
+      .chapter-nav__list-item:first-child {
+        display: none;
+      }
+    }
   }
   &__nested-list {
-    font-size: 0.75rem;
-    padding: 1rem 0 0 1rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0 2.75rem;
     list-style-type: none;
   }
   &__nested-list-item {

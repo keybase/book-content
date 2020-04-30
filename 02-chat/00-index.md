@@ -80,7 +80,7 @@ An exploding message is completely and permanently erased after your chosen peri
 
 ![ !Permanently erase super sensitive information in an exploding message.](/img/chat-explodingmessage.gif)
 
-#### Team chats
+#### Teams
 If you share an exploding message with a team, it will only be  readable for existing members of the team. This means:
 
 * Everyone in the team—at the time the message is sent—will be able to read it before it explodes, even if they leave and rejoin the team within that time period.
@@ -111,7 +111,7 @@ In a team, owners and admins can add bots. Readers and writers can not add bots.
 
 Importantly, other bots cannot add other bots (we’re doing our part to slow the inevitable robot takeover).
 
-#### Privacy
+#### Bot privacy
 When you add a bot to a chat or team, you decide what it can read.
 
 If you choose “unrestricted,” the bot will be able to read all the messages and files in the chat.
