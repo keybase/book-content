@@ -6,7 +6,7 @@ This repository is a work in progress, and it’s our intention for the Keybase 
 
 We’ll encourage PRs from the whole community. Help us make this book better.
 
-Note this is brand new and there may be some errors, especially since initial contributions came from outside the Keybase staff.
+Note this is brand new and there may be some errors.
 
 ## Contributing
 
