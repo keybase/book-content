@@ -41,7 +41,7 @@ This format helps keep Keybase accounts secure because it makes it harder for tr
 For example, if uppercase letters were allowed someone could create the account Isteele (with a capital “i”) and pretend to be lsteele (with a lowercase “L”). Spaces are not allowed for the same reason. The difference between “karen m” and “karen&nbsp;&nbsp;m” is too subtle for people to notice the difference.
 
 #### Deleting a username and account is permanent.
-If you’ve gone to the trouble of deleting your account, we don’t want to give that username to anyone who asks for it. If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. 
+Should the need of deleting your account arise, we don’t want to give that username to anyone who asks for it. If undeleting were allowed, it would be hard to be sure that the person undeleting is the same person who deleted the account. 
 
 ## Devices
 <div class="compose-highlight" data-text="tl;dr">You can think of your devices and paper keys as keys to your account. You can only access your account through your devices. Paper keys provide backup access to your account in case you lose your devices.</div>
