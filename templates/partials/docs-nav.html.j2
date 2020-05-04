@@ -1,5 +1,6 @@
 <div class="side-nav side-nav--extended">
-    <nav class="chapter-nav chapter-nav--start">
+    <nav class="chapter-nav">
+        <p class="chapter-nav__label">Docs</p>
         <ol class="chapter-nav__list">
             {% for this_section in sections[1:] %}
                 {% if this_section["nav"][-1] == "index" %}
@@ -28,5 +29,6 @@
                 {% endif %}
             {% endfor %}
         </ol>
+        <a href="/account" class="chapter-nav__back">Back to chapters</a>
     </nav>
 </div>

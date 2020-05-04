@@ -1,3 +1,5 @@
+# Bots
+
 Here is the technical documentation for bot development. This section is under development, check back soon for updates!
 
 ## Key-Value Storage

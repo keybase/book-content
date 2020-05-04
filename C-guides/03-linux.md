@@ -1,5 +1,7 @@
 {% set section_title = "Linux User Guide" %}
 
+# Linux
+
 This guide is intended for everyone from Linux beginners to experts to distribution package maintainers. It covers some topics that are unique to Keybase on Linux. If you have any [feedback or questions](#feedback-and-questions), let us know!
 
 ## Quickstart

@@ -1,4 +1,4 @@
-## Basics
+# Command Line
 
 This page is just a sampler. [Download](/download) the Keybase app and use the built-in help:
 

@@ -41,6 +41,10 @@ table {
   color: #2c3170;
   background-color: white;
 
+  &.padded-table {
+    margin-bottom: 1rem;
+  }
+
   td {
     padding: 0.625rem;
     border: solid 1px #d2d2d2;

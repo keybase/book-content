@@ -1,4 +1,4 @@
-## 🚀 Keybase is now writing to the Stellar blockchain 🚀
+# Keybase is now writing to the Stellar blockchain
 
 (Note, we previously were writing to the *Bitcoin* Blockchain, see the prior post [here](https://keybase.io/docs/server_security/merkle_root_in_bitcoin_blockchain).)
 

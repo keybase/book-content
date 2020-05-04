@@ -6,17 +6,17 @@ distribution package maintainers. It covers some topics that are unique
 to Keybase on Linux. If you have any [feedback or
 questions](#feedback-and-questions), let us know!
 
-1. [Quickstart](#quickstart)
-2. [Example Commands](#example-commands)
-3. [Nightly Builds](#nightly-builds)
-4. [Autostart](#autostart)
-5. [run_keybase](#run_keybase)
-6. [systemd and running headless Keybase](#systemd-and-running-headless-keybase)
-7. [Example: Daily KBFS backup on a systemd timer](#example-daily-kbfs-backup-on-a-systemd-timer)
-8. [Configuring KBFS](#configuring-kbfs)
-9. [Installing Keybase without Root Privileges](#installing-keybase-without-root-privileges)
-10. [For Package Maintainers](#for-package-maintainers)
-11. [Feedback and Questions](#feedback-and-questions)
+ 1. [Quickstart](#quickstart)
+ 1. [Example Commands](#example-commands)
+ 1. [Nightly Builds](#nightly-builds)
+ 1. [Autostart](#autostart)
+ 1. [`run_keybase`](#runkeybase)
+ 1. [systemd and running headless Keybase](#systemd-and-running-headless-keybase)
+ 1. [Example: Daily KBFS backup on a systemd timer](#example-daily-kbfs-backup-on-a-systemd-timer)
+ 1. [Configuring KBFS](#configuring-kbfs)
+ 1. [Installing Keybase without Root Privileges](#installing-keybase-without-root-privileges)
+ 1. [For Package Maintainers](#for-package-maintainers)
+ 1. [Feedback and Questions](#feedback-and-questions)
 
 ## Quickstart
 Keybase officially supports only Ubuntu, Debian, Fedora, CentOS, and Arch, but
@@ -37,37 +37,37 @@ your package manager's update command.
     </tr>
     <tr>
         <td>Source code</td>
-        <td>[github.com/keybase/client](https://github.com/keybase/client)</td>
+        <td><a href="https://github.com/keybase/client">github.com/keybase/client</a></td>
         <td>Keybase</td>
     </tr>
     <tr>
         <td>Ubuntu, Debian, etc.</td>
-        <td>[Keybase Install Page](/docs/the_app/install_linux#ubuntu-debian-and-friends)</td>
+        <td><a href="https://keybase.io/docs/the_app/install_linux#ubuntu-debian-and-friends">Keybase Install Page</a></td>
         <td>Keybase</td>
     </tr>
     <tr>
         <td>Fedora, CentOS, etc.</td>
-        <td>[Keybase Install Page](/docs/the_app/install_linux#fedora-red-hat)</td>
+        <td><a href="https://keybase.io/docs/the_app/install_linux#fedora-red-hat">Keybase Install Page</a></td>
         <td>Keybase</td>
     </tr>
     <tr>
         <td>Arch AUR</td>
-        <td>`keybase-bin` [(link)](https://aur.archlinux.org/packages/keybase-bin/), [Keybase Install Page](/docs/the_app/install_linux#arch-linux)</td>
+        <td>`keybase-bin` [<a href="https://aur.archlinux.org/packages/keybase-bin/">link</a>], [<a href="https://keybase.io/docs/the_app/install_linux#arch-linux">Keybase Install Page</a>]</td>
         <td>Keybase</td>
     </tr>
     <tr>
         <td>Arch Community</td>
         <td>
-            `keybase` [(link)](https://www.archlinux.org/packages/community/x86_64/keybase/),
-            `kbfs` [(link)](https://www.archlinux.org/packages/community/x86_64/kbfs/),
-            `keybase-gui` [(link)](https://www.archlinux.org/packages/community/x86_64/keybase-gui/)
+            `keybase` [<a href="https://www.archlinux.org/packages/community/x86_64/keybase/">link</a>],
+            `kbfs` [<a href="https://www.archlinux.org/packages/community/x86_64/kbfs/">link</a>],
+            `keybase-gui` [<a href="https://www.archlinux.org/packages/community/x86_64/keybase-gui/">link</a>]
         </td>
         <td>Community</td>
     </tr>
     <tr>
         <td>Slackware</td>
         <td>
-            `kbfs` [(link)](https://www.slackbuilds.org/repository/14.2/system/kbfs/)
+            `kbfs` [<a href="https://www.slackbuilds.org/repository/14.2/system/kbfs/">link</a>]
             (provides keybase and gui as well)
         </td>
         <td>Community</td>
@@ -75,26 +75,26 @@ your package manager's update command.
     <tr>
         <td>FreeBSD</td>
         <td>
-            `keybase` [(link)](https://www.freshports.org/security/keybase/),
-            `kbfs` [(link)](https://www.freshports.org/security/kbfs/),
-            `kbfsd` [(link)](https://www.freshports.org/security/kbfsd/),
+            `keybase` [<a href="https://www.freshports.org/security/keybase/">link</a>],
+            `kbfs` [<a href="https://www.freshports.org/security/kbfs">link</a>],
+            `kbfsd` [<a href="https://www.freshports.org/security/kbfsd">link</a>],
         </td>
         <td>Community</td>
     </tr>
     <tr>
         <td>Nix</td>
         <td>
-            `keybase` [(link)](https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/keybase/default.nix) [(options)](https://nixos.org/nixos/options.html#services.keybase),
-            `kbfs` [(link)](https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/kbfs/default.nix) [(options)](https://nixos.org/nixos/options.html#services.kbfs),
-            `keybase-gui` [(link)](https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/keybase/gui.nix),
+            `keybase` [<a href="https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/keybase/default.nix) [(options)](https://nixos.org/nixos/options.html#services.keybase">link</a>],
+            `kbfs` [<a href="https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/kbfs/default.nix) [(options)](https://nixos.org/nixos/options.html#services.kbfs">link</a>],
+            `keybase-gui` [<a href="https://github.com/NixOS/nixpkgs/blob/release-19.03/pkgs/tools/security/keybase/gui.nix">link</a>],
         </td>
         <td>Community</td>
     </tr>
     <tr>
         <td>Gentoo</td>
         <td>
-            `keybase` [(link)](https://packages.gentoo.org/packages/app-crypt/keybase),
-            `kbfs` [(link)](https://packages.gentoo.org/packages/app-crypt/kbfs)
+            `keybase` [<a href="https://packages.gentoo.org/packages/app-crypt/keybase">link</a>],
+            `kbfs` [<a href="https://packages.gentoo.org/packages/app-crypt/kbfs">link</a>]
         </td>
         <td>Community</td>
     </tr>
@@ -212,20 +212,20 @@ crashes and instability. Use with caution.
     </tr>
     <tr>
         <td>Metadata</td>
-        <td colspan=2>[update-linux-prod.json](https://prerelease.keybase.io/nightly/update-linux-prod.json)</td>
+        <td colspan=2><a href="https://prerelease.keybase.io/nightly/update-linux-prod.json">update-linux-prod.json</a></td>
     </tr>
     <tr>
         <td>`.deb`</td>
-        <td>[keybase_amd64.deb](https://prerelease.keybase.io/nightly/keybase_amd64.deb) ([sig](https://prerelease.keybase.io/nightly/keybase_amd64.deb.sig))</td>
-        <td>[keybase_i386.deb](https://prerelease.keybase.io/nightly/keybase_i386.deb) ([sig](https://prerelease.keybase.io/nightly/keybase_i386.deb.sig))</td>
+        <td><a href="https://prerelease.keybase.io/nightly/keybase_amd64.deb">keybase_amd64.deb</a> (<a href="https://prerelease.keybase.io/nightly/keybase_amd64.deb.sig">sig</a>)</td>
+        <td><a href="https://prerelease.keybase.io/nightly/keybase_i386.deb">keybase_i386.deb</a> (<a href="https://prerelease.keybase.io/nightly/keybase_i386.deb.sig">sig</a>)</td>
     </tr>
     <tr>
         <td>`.rpm`</td>
-        <td>[keybase_amd64.rpm](https://prerelease.keybase.io/nightly/keybase_amd64.rpm) ([sig](https://prerelease.keybase.io/nightly/keybase_amd64.rpm.sig))</td>
-        <td>[keybase_i386.rpm](https://prerelease.keybase.io/nightly/keybase_i386.rpm) ([sig](https://prerelease.keybase.io/nightly/keybase_i386.rpm.sig))</td>
+        <td><a href="https://prerelease.keybase.io/nightly/keybase_amd64.rpm">keybase_amd64.rpm</a> (<a href="https://prerelease.keybase.io/nightly/keybase_amd64.rpm.sig">sig</a>)</td>
+        <td><a href="https://prerelease.keybase.io/nightly/keybase_i386.rpm">keybase_i386.rpm</a> (<a href="https://prerelease.keybase.io/nightly/keybase_i386.rpm.sig">sig</a>)</td>
     <tr>
         <td>Arch Linux AUR</td>
-        <td colspan=2>[keybase-git](https://aur.archlinux.org/packages/keybase-git/); supports 64-bit, 32-bit, and ARM</td>
+        <td colspan=2><a href="https://aur.archlinux.org/packages/keybase-git/">keybase-git</a>; supports 64-bit, 32-bit, and ARM</td>
     </tr>
 </table>
 

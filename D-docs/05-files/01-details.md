@@ -1,4 +1,4 @@
-## Understanding the Keybase filesystem
+# Understanding the Keybase Filesystem
 
 (For a gentler introduction to KBFS, see our [launch announcement](https://keybase.io/docs/kbfs).)
 

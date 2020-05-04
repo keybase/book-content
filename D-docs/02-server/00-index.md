@@ -1,3 +1,5 @@
+# Server
+
 We've been working on Keybase.io for a little over half a year now, and we
 would like it succeed, but we're a little bit nervous. The more successful we
 are, the more valuable target we become.
