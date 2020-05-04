@@ -1,5 +1,7 @@
 {% set section_title = "kbpgp.js" %}
 
+# PGP in JavaScript
+
 *kbpgp* is Keybase's implementation of PGP in JavaScript. It's easy to use, designed for concurrency, and stable in both Node.js and the browser. It's actively maintained and yours forever under a BSD license. This page begins a brief tutorial.
 
 {# TODO: JavaScript mini app thing from https://keybase.io/kbpgp #}

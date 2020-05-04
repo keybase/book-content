@@ -1,6 +1,5 @@
-<md>
 
-## Stellar wallet key management
+# Stellar Wallet Key Management
 
 The Keybase Stellar wallet keeps your Stellar account keys secure yet conveniently available
 on your devices.

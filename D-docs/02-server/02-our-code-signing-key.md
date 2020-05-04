@@ -1,6 +1,5 @@
 <h2>Our public code-signing key</h2>
 
-
 <h3>Expect signatures by</h3>
 <ul>
   <li><a href="https://keybase.io/max">keybase.io/max</a></li>

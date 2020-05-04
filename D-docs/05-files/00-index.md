@@ -1,4 +1,4 @@
-## Introducing the Keybase filesystem
+# Introducing the Keybase Filesystem
 
 Alpha releases of the Keybase app are starting to come with a cryptographically secure file mount. It is brand new. And very different.
 

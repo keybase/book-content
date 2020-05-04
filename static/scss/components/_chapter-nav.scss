@@ -1,7 +1,15 @@
 .side-nav {
-  display: grid;
+  display: none;
   align-content: space-between;
   align-self: stretch;
+  @include screen(sm) {
+    display: grid;
+  }
+  &--extended {
+    .chapter-nav__nested-list {
+      padding-left: 0.75rem;
+    }
+  }
 }
 .chapter-nav {
   $this: &;
@@ -60,6 +68,23 @@
     &--active {
       font-weight: bold;
       background-color: $color--chapter-nav__active-background;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__back {
+    display: flex;
+    font-size: 0.9rem;
+    text-decoration: none;
+    &::before {
+      align-self: baseline;
+      content: url(static-url-for('img/arrow-left.svg'));
+      display: inline-block;
+      height: 10px;
+      margin-right: 5px;
+      opacity: 0.35;
+      width: 10px;
     }
     &:hover {
       text-decoration: underline;

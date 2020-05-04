@@ -1,5 +1,6 @@
 <div class="side-nav side-nav--extended">
     <nav class="chapter-nav">
+        <p class="chapter-nav__label">Guides</p>
         {# <a href="#content"  class="chapter-nav__chapter-title">{{ sections[0]["title"] }}</a> #}
         <ol class="chapter-nav__list">
             {% for this_section in sections[1:] %}
@@ -18,5 +19,6 @@
             </li>
             {% endfor %}
         </ol>
+        <a href="/account" class="chapter-nav__back">Back to chapters</a>
     </nav>
 </div>

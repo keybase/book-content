@@ -1,5 +1,7 @@
 ## Keybase is now writing to the Bitcoin blockchain
 
+**Deprecation Notice**: We are now writing to the [stellar blockchain](/docs/server/stellar).
+
 Every public announcement you make on Keybase is now verifiably signed by Keybase and hashed into the Bitcoin blockchain. To be specific, all of these:
 
 * announcing your Keybase username
@@ -11,7 +13,7 @@ Every public announcement you make on Keybase is now verifiably signed by Keybas
 
 ### Quick background
 
-Earlier, in [the server security overview](/docs/server_security) we described Keybase's approach
+Earlier, in [the server security overview](/docs/server) we described Keybase's approach
 to server security: (1) each user has his or her own signature chain that grows
 monotonically with each announcement; (2) the server maintains a global Merkle Tree that
 covers all signature chains; and (3) the server signs and publishes the root of the Merkle

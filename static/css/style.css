@@ -1253,9 +1253,14 @@ figcaption {
     color: var(--color--compose-highlight__title); }
 
 .side-nav {
-  display: grid;
+  display: none;
   align-content: space-between;
   align-self: stretch; }
+  @media screen and (min-width: 52.625rem) {
+    .side-nav {
+      display: grid; } }
+  .side-nav--extended .chapter-nav__nested-list {
+    padding-left: 0.75rem; }
 
 .chapter-nav {
   position: sticky;
@@ -1307,6 +1312,20 @@ figcaption {
       font-weight: bold;
       background-color: var(--color--chapter-nav__active-background); }
     .chapter-nav__link:hover, .chapter-nav__nested-link:hover {
+      text-decoration: underline; }
+  .chapter-nav__back {
+    display: flex;
+    font-size: 0.9rem;
+    text-decoration: none; }
+    .chapter-nav__back::before {
+      align-self: baseline;
+      content: url("/static/img/arrow-left.svg");
+      display: inline-block;
+      height: 10px;
+      margin-right: 5px;
+      opacity: 0.35;
+      width: 10px; }
+    .chapter-nav__back:hover {
       text-decoration: underline; }
 
 .chapter-header {
@@ -1762,6 +1781,8 @@ table {
   margin: auto;
   color: #2c3170;
   background-color: white; }
+  table.padded-table {
+    margin-bottom: 1rem; }
   table td {
     padding: 0.625rem;
     border: solid 1px #d2d2d2; }

@@ -1,5 +1,7 @@
 {% set section_title = "Proof Integration Guide" %}
 
+# Proof Integration
+
 The most basic idea behind Keybase is that it’s a protocol and directory for connecting people’s identities and keys together. For example, it is
 cryptographically proven that Keybase user **[tammy](https://keybase.io/tammy)** is all of these identities:
 

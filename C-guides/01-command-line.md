@@ -1,5 +1,7 @@
 {% set section_title = "Command Line" %}
 
+# Command Line
+
 This page is just a sampler. [Download](https://keybase.io/download) the Keybase app and use the built-in help:
 
 ```bash
