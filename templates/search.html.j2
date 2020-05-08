@@ -1,0 +1,17 @@
+{% extends 'layout.html.j2' %}
+{% block content %}
+<style>
+.site-footer {display: none;}
+form {
+    position: relative;
+    top: 100px;
+}
+</style>
+<form>
+    <label for="query">Search</label>
+    <input id="query" name="query" placeholder="Search" autofocus />
+</form>
+<script src="{{ url_for('static', filename='js/vendor/fuse.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/Search.js') }}"></script>
+<script>const search = new Search({{tree.sections|tojson}});</script>
+{%- endblock %}
