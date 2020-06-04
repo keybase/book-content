@@ -149,7 +149,7 @@ cat foo.txt.asc | keybase pgp decrypt          # decrypt a stream
 ```bash
 keybase pgp sign -m "Hello"                # sign a message
 keybase pgp sign --clearsign -m "Hello"    # sign, but don't encode contents
-Gkeybase pgp sign -i foo.txt --detached     # generate foo.txt.asc, just a signature
+keybase pgp sign -i foo.txt --detached     # generate foo.txt.asc, just a signature
 keybase pgp sign -i foo.txt                # generate foo.txt.asc, containing signed foo.txt
 echo "I rock." | keybase pgp sign          # stream
 ```
