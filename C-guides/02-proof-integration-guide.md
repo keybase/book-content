@@ -16,7 +16,7 @@ This short guide is a walkthrough of the endpoints you’ll need to implement to
 
 #### Looking for a Mastodon instance?
 
-Mastodon has built-in support for Keybase proofs starting with version 2.8.0. If you don't see the instance you're looking for in the Keybase app, contact *[@mlsteele](https://keybase.io/mlsteele)* or email `miles@keyba.se` to have it added to the list.
+Mastodon has built-in support for Keybase proofs starting with version 2.8.0. Many instances are in listed in the Keybase app but we have paused adding new instances for now. If you are looking to prove your identity on a personal instance then an https proof of the domain should do the trick, proving that you own that instance.
 
 ## Getting started
 
