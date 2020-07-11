@@ -9,4 +9,4 @@ Here is the technical documentation for chat:
   URLs that can be previewed inline.
 - [Location Sharing](location) discusses how the location sharing feature is implemented.
 - [Coin Flip](coinflip) describes the /flip coin flipping protocol.
-- [Phone Numbers and Emails](phones_and_emails) describes how users can start conversations with phone numbers or emails.
+- [Phone Numbers and Emails](phones-and-emails) describes how users can start conversations with phone numbers or emails.
