@@ -4,16 +4,16 @@
 {% set page_description = "Use Keybase Chat for end-to-end encrypted messaging with anyone. Keep your private messages safe and secure. Learn more." %}
 
 # Keybase for Chat
-Message friends, share important info with colleagues, or organize entire projects. All of your chats on Keybase happen in one secure inbox.
+Message with friends, share important info with colleagues, or organize entire events. No matter how many chats you lead (or take part in), you can access them from within one single place which is Chat Inbox.
 
 ![ !One-on-one chats are organized at the top of your inbox; team chats are below.](/img/chat-profileteams.png)
 
-Anything you share—all of your messages and files—is end-to-end encrypted. Your messages can only be read by your intended recipient(s). Private messages stay private.
+Whatever you share, gets end-to-end encrypted.
 
 You can chat with individuals or groups, [block people](/chat#blocking) you don’t want to chat with, and get even more done with [special features](/chat#special-features) like location sharing, exploding messages, coin flips, and bots.
 
 ## Starting a chat
-To start new chats quickly, you can find your contacts by name, email, or phone number; or by username from other platforms like Twitter, Facebook, and GitHub.
+To start new chats, find your contacts by name, email, phone number, or username from other platforms like Twitter, Facebook, and GitHub.
 
 If you start a chat with someone who doesn’t have a Keybase account, they’ll have to create one before they can receive your message. This helps ensure that only your intended recipients can read your messages. Additionally, one of your devices will need to be online for them to receive your message.
 
