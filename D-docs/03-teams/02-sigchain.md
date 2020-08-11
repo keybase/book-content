@@ -162,7 +162,7 @@ When a client posts a signature, it now posts:
   * `sig(outer_link)`
 
 When other clients replay sigchains, they always get `outer_links` but
-sometimes do not download `inner_links` either to save bandwidth because they
+sometimes do not download `inner_links` either to save bandwidth or because they
 are unauthorized. A client who is decoding a full sigchain must manually check
 that the outer values match the inner values, and should reject links that
 don't match.
