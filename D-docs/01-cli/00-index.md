@@ -1,6 +1,6 @@
 # Command Line
 
-This page is just a sampler. [Download](/download) the Keybase app and use the built-in help:
+This page is just a sampler. [Download](https://keybase.io/download) the Keybase app and use the built-in help:
 
 ```bash
 keybase help        # general
