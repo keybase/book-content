@@ -11,7 +11,7 @@ You can put any kind of content in these repositories, but they’re especially 
 These repositories are *real* Git repositories but you can view them in the Keybase app. They’re 100% private, encrypted, and verified. You can be certain they’re safe, not only from prying eyes, but also from malicious people who might try to change your code. (How dare they?!)
 
 #### All of your data is automatically encrypted and verified.
-Under the hood, Git supports [remote helpers](https://git-scm.com/docs/git-remote-helpers). This allows Git itself to interface with datastores other than the local filesystem. Keybase has created an [open source remote helper](https://github.com/keybase/client/tree/master/go/kbfs/kbfsgit/) that facilitates this interaction, keeping the data in your repository within your control via your local Keybase app.
+Under the hood, Git supports [remote helpers](https://git-scm.com/docs/gitremote-helpers). This allows Git itself to interface with datastores other than the local filesystem. Keybase has created an [open source remote helper](https://github.com/keybase/client/tree/master/go/kbfs/kbfsgit/) that facilitates this interaction, keeping the data in your repository within your control via your local Keybase app.
 
 This means that your data is encrypted—not even Keybase can see what’s in there (nor its name, the filenames, your other configuration—nothing). This also means that every time you or a member of your team pushes or pulls (or clones) data to or from one of these repositories, all writes are verified by your private keys, which never leave your device. You can be sure that your team members did indeed push the changes that the Git history log says they did.
 
