@@ -56,8 +56,8 @@ All of this can also be managed from the command line interface. Let’s say you
 ```
 keybase git create config
 Repo created! You can clone it with:
-  git clone keybase://private/scoates/dotfiles
+  git clone keybase://private/scoates/config
 Or add it as a remote to an existing repo with:
-  git remote add origin keybase://private/scoates/dotfiles
+  git remote add origin keybase://private/scoates/config
 ```
 
