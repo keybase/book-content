@@ -548,7 +548,7 @@ body .kbfs-crypto-spec {
   <h3>The Keybase Core Merkle Tree</h3>
 
   <p>
-    As described in <a href="../server_security">our
+    As described in <a href="../server">our
     Server Security</a> document, users sign statements about their keys,
     their identities and the identities of others. They commit these
     signatures to monotonically growing signature chains, which are collected
