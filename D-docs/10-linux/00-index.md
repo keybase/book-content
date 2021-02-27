@@ -548,7 +548,7 @@ Our code signing fingerprint is in the same directory at
 website](https://keybase.io/docs/server_security/our_code_signing_key).
 
 You can also extract the binaries we build ourselves from the `.deb` files in
-[our release directory](prerelease.keybase.io/linux_binaries/deb/index.html)
+[our release directory](https://prerelease.keybase.io/linux_binaries/deb/index.html)
 instead of building from source. You may choose to package Keybase, KBFS,
 and the GUI all together or in separate packages, but make sure the
 dependencies are specified.
