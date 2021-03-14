@@ -137,7 +137,7 @@ And drag files on in.
 
 ### Paper keys
 
-As discussed in our [blog post about device keys](https://keybase.io/blog/keybase-new-key-model), until our phone app is ready, you'll be asked to make a paper key. This is a full-powered private key. It can be used to provision and even rekey. Carry it in your wallet if you want to provision new Keybase installs. You can make extras with `keybase paperkey` and revoke lost ones with `keybase device [list|remove]`.
+This is a full-powered private key. It can be used to provision and even rekey. Carry it in your wallet if you want to provision new Keybase installs without requiring an already provisioned device. You can make extras with `keybase paperkey` and revoke lost ones with `keybase device [list|remove]`.
 
 
 ![you'll choose `option 2` unless you have two computers side-by-side `option 3` usually won't work (it will for the first computer you set up)](https://keybase.io/images/getting-started/provision.png)
