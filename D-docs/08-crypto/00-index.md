@@ -6,11 +6,11 @@ Keybase system.
 
 ## Core Security
 
-[This document](/docs/server_security) describes our high-level approach to system security: namely, that Keybase clients take hints and raw data from our server, but mistrust it, and check all of its work.
+[This document](/docs/server) describes our high-level approach to system security: namely, that Keybase clients take hints and raw data from our server, but mistrust it, and check all of its work.
 
-We posted a [follow-on public document](/docs/server_security/merkle_root_in_bitcoin_blockchain) describing how we use the bitcoin blockchain to enhance security guarantees.
+We posted a [follow-on public document](/docs/server/merkle-root-in-bitcoin-blockchain) describing how we use the bitcoin blockchain to enhance security guarantees.
 
-As we launched per-device secret keys, we posted another [document](/docs/sigchain) describing the specifics of user signature chains, and how users go about delegating authority to new keys and revoking old keys.
+As we launched per-device secret keys, we posted another [document](/docs/server#meet-your-sigchain-and-everyone-elses) describing the specifics of user signature chains, and how users go about delegating authority to new keys and revoking old keys.
 
 ## Key Exchange
 
