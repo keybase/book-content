@@ -35,7 +35,7 @@ Choosing your username is the first action of many that you take to help establi
 
 We know there are lots of reasons why people may need to change their usernames. And there are solutions we could implement to help people do so. But they’re complicated and, unfortunately, not something we can work on right now. In the meantime, you can learn more about this issue [on GitHub](https://github.com/keybase/keybase-issues/issues/2842#issuecomment-283706335).
 
-#### Usernames must be lowercase letters and numbers only, with no spaces.
+#### Usernames must be lowercase letters, numbers and underscores only, with no spaces.
 This format helps keep Keybase accounts secure because it makes it harder for tricksters to use visually similar names to impersonate people.
 
 For example, if uppercase letters were allowed someone could create the account Isteele (with a capital “i”) and pretend to be lsteele (with a lowercase “L”). Spaces are not allowed for the same reason. The difference between “karen m” and “karen&nbsp;&nbsp;m” is too subtle for people to notice the difference.
