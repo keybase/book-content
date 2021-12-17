@@ -227,7 +227,7 @@ This sigchain is from a user who…
 1. Signed up for Keybase from a device called “squares” which generated a [NaCl](http://nacl.cr.yp.to/) device key
 2. Proved their GitHub account
 3. Used squares to add another device called “rectangles” with its own key
-4. Used rectangles to follow [cecileb](/cecileb)
+4. Used rectangles to follow [cecileb](https://keybase.io/cecileb)
 
 You can try browsing a real sigchain [online](https://keybase.io/max/sigchain) or through [the API](/_/api/1.0/sig/get.json?uid=dbb165b7879fe7b1174df73bed0b9500). Since sigchains are **public**, you can do this for any user on Keybase!
 
