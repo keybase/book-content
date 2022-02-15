@@ -24,7 +24,7 @@ Our cloud-backed file system is live for all.
 **[Stellar Wallet](/docs/server/stellar)**  
 A description of Keybase's Stellar wallet implementation.
 
-**[Git](/docs/git)**  
+**[Git](/git)**  
 Description of the design, implementation, and use of Keybase Git.
 
 **[Crypto](/docs/crypto)**  
