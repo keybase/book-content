@@ -107,4 +107,4 @@ After the regular DNS propagation delays, the pushed contents of the `master` br
 
 By default, directory listing is disabled when you host a custom domain with Keybase. You may enable listing by creating a `.kbp_config` file at the root of your site. This config file allows some simple customizations on different parts of the site, including enabling Cross-Origin Resource Sharing (CORS).
 
-Learn more about [`.kbp_config`](https://keybase.io/docs/kbp/kbp_config).
+Learn more about [`.kbp_config`](https://keybase.io/docs/sites/access-control).
