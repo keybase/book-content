@@ -1,10 +1,13 @@
+**Note**: As of March 1, 2023, [the Keybase.pub service was discontinued](https://www.reddit.com/r/Keybase/comments/10xeqbw/keybasepub_shutting_down_on_short_notice/). This page is just archived
+for historic purposes.
+* * *
   ## Keybase.pub
 
   [Keybase.pub](https://keybase.pub) serves anything it can find in `/keybase/public`. Poetry. Cat pics. Midi files. Hot, hot recipes.
 
   For example, here we see `/keybase/public/chris/photos/` served at https://keybase.pub/chris/photos :
 
-  <img src="/images/getting-started/kpub-screenshot.jpg" class="img img-responsive">
+  ~~<img src="/images/getting-started/kpub-screenshot.jpg" class="img img-responsive">~~
 
   #### Raw vs. wrapped
 
