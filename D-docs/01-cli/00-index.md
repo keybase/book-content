@@ -65,7 +65,7 @@ keybase device add         # provision a new device
 When you install Keybase for the first time, you'll be asked
 to generate a paper key. It's  a full-powered key, just like a device key.
 
-You can have as many paper keys as you like. You should have at least 1, until Keybase releases a mobile app.
+You can have as many paper keys as you like.
 
 ```bash
 keybase paperkey    # make a new paper key
