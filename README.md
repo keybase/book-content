@@ -27,3 +27,5 @@ To create a callout section, like a `TL;DR` or `Tip`, etc, use the following mar
 ```
 
 The `data-text` prop on the container will render as the title of the callout section.
+
+For issues post to https://github.com/keybase/keybase-issues
