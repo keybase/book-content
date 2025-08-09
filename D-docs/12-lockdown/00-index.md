@@ -1,7 +1,7 @@
 
 # Lockdown Mode
 
-Keybase users can opt! into _lockdown mode_ if they want extra protection for
+Keybase users can opt into _lockdown mode_ if they want extra protection for
 their account. Doing so will disable all Web site features that mutate or
 expose sensitive cloud-hosted data. Once in lockdown mode, all
 security-sensitive features must be performed on a valid Keybase device, with an active
