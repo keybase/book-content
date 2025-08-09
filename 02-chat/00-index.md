@@ -46,7 +46,7 @@ If someone you don’t follow and haven’t chatted with before contacts you on 
 ### Blocking
 When you block someone, they won’t be able to chat with you or add you to a team. You can also remove them from your public list of followers. You won’t see them, and their account will not be publicly associated with yours.
 
-But they can still follow you. They may also know that you blocked them because they won’t be able to chat with you or add you to a team.
+But they can still follow you. They may also know that you've blocked them because they won't be able to chat with you or add you to a team.
 
 ### Reporting
 When you report someone, we review their account as quickly as humanly possible. We will remove people that have violated our [terms](https://keybase.io/docs/terms). Please provide additional information so we can remove spammers, abusers, and harassers even faster.
