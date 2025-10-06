@@ -35,7 +35,7 @@ Learn more in [Your account](/account) and [Security](/security).
 ## Blocking and reporting
 You can control who can interact with you on Keybase. You can block and report people on an individual basis. You can also proactively restrict who can chat with you or add you to a team. Learn more in [Chat](chat#privacy).
 
-When you block someone, they’ll no longer be able to chat, share files, or otherwise interact with you on Keybase. If you’re on a team together, you may still be able to see messages they share with that team. But you can also choose to block entire conversations and/or teams.
+When you block someone, they’ll no longer be able to chat, share files, or otherwise interact with you on Keybase. If you’re on a team together, you may still be able to see messages they share with that team. But you can also choose to block entire conversations and/or teams. Blocking is implemented by hiding the messages the blockee sends. If they are unblocked, all hidden messages will be available.
 
 You can also remove people you block from your public list of followers. You won’t see them and their account will not be publicly associated with yours. But they can still follow you. 
 
