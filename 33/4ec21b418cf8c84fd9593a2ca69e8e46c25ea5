@@ -1,0 +1,21 @@
+06-wallet/00-index.md
+  s_a324f13b493375::t_1c334b9bbf9ead 59
+02-chat/00-index.md
+  s_a324f13b493375::t_316f43234719f7 49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "334ec21b418cf8c84fd9593a2ca69e8e46c25ea5",
+  "prompts": {},
+  "sessions": {
+    "s_a324f13b493375": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "76cd3518-0452-4654-ac0c-319e3c454390",
+        "model": "grok-4.6"
+      },
+      "human_author": "Joshua Blum <joshua.blum@zoom.us>"
+    }
+  }
+}
