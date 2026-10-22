@@ -284,7 +284,7 @@ kbpgp.KeyManager.generate(opts, some_callback_function);
 
 If you pass an ASP object, as described above, you can use it to cancel your process.
 
-```javaascript
+```javascript
 kbpgp.KeyManager.generate(opts, some_callback_function);
 
 // oh, heck, let's give up if it takes more than a second
@@ -372,7 +372,7 @@ kbpgp.box (params, function(err, result_string, result_buffer) {
 
 kbpgp can take *Node.js Buffers* as input, instead of strings. The following reads a .png file and writes a new encrypted copy of it. For more info, check out the kbpgp [buffers](#files-and-buffers) documentation.
 
-```javaascript
+```javascript
 var kbpgp  = require('kbpgp');
 var fs     = require('fs');
 var buffer = fs.readFileSync('dirty_deeds.png');
