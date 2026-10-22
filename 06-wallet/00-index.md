@@ -56,6 +56,6 @@ You can also exchange Lumens into other currencies outside of Keybase. To do so,
 ## About Stellar 
 We love Stellar for a couple reasons. One is that [Keybase is funded by the Stellar Development Foundation](https://keybase.io/blog/keybase-stellar). And two is that we think Stellar is actually a great decentralized, open-source, multi-currency network. Unlike most others, Stellar supports global transactions and automatically converts Lumens into whatever currency you prefer.
 
-Plus, transactions cost a fraction of a cent, are very fast, and don't consume massive amounts of energy. (For a little context, Bitcoin uses at least 22 terawatt-hours (TWh) of energy annually—almost the same as the entire country of Ireland. Compare this to Google, which used 5.7 TWh globally, in 2015.)
+Plus, transactions cost a fraction of a cent, are very fast, and don’t consume massive amounts of energy. (For a little context, Bitcoin uses at least 22 terawatt-hours (TWh) of energy annually—almost the same as the entire country of Ireland. Compare this to Google, which used 5.7 TWh globally, in 2015.)
 
 Learn more about Stellar on their [site](https://www.stellar.org/learn/intro-to-stellar).
