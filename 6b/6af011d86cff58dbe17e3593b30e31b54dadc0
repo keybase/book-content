@@ -1,0 +1,41 @@
+05-sites/00-index.md
+  s_5b4d62c4a62fc4::t_22d256b8066c33 12
+  s_a324f13b493375::t_8e34b2082fef6e 37
+  s_5b4d62c4a62fc4::t_423f47a13c89f2 25
+  s_5b4d62c4a62fc4::t_f042f24ef9afb7 9-11
+  s_5b4d62c4a62fc4::t_0e50597bf1e000 8,29-30,33,43
+D-docs/14-sites/custom.md
+  s_5b4d62c4a62fc4::t_6560c2657ed736 32
+  s_5b4d62c4a62fc4::t_ef807ff17afa8f 31
+  s_5b4d62c4a62fc4::t_ca91b5b24ccf38 33
+  s_5b4d62c4a62fc4::t_7945822b6d8677 28-29
+D-docs/14-sites/00-index.md
+  s_5b4d62c4a62fc4::t_5b5146dbd7aa76 5,7,9
+  s_5b4d62c4a62fc4::t_e70bbddf644334 1,3
+03-files/00-index.md
+  s_5b4d62c4a62fc4::t_1742c60fd3c6e3 30,32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "6b6af011d86cff58dbe17e3593b30e31b54dadc0",
+  "prompts": {},
+  "sessions": {
+    "s_5b4d62c4a62fc4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7d65ebd8-fb4e-4d22-84cd-29baae9fa2f6",
+        "model": "claude-haiku-5-5"
+      },
+      "human_author": "Joshua Blum <joshua.blum@zoom.us>"
+    },
+    "s_a324f13b493375": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "76cd3518-0452-4654-ac0c-319e3c454390",
+        "model": "grok-4.6"
+      },
+      "human_author": null
+    }
+  }
+}
