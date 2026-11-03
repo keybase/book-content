@@ -27,9 +27,9 @@ To quickly share files with someone on Keybase, just create a new folder and nam
 If you share a file with someone who doesn’t have a Keybase account, they’ll have to create one to access the file. This is an important security measure that ensures your files are only shared with the people you intend to share them with. It also guarantees to the person you’re sharing with that the files came from you (again, no phishing!).
 
 ### Public folders
-Anyone on the internet can view the files in your public folder. Since all of your Keybase files are signed, you can think of your public folder as a source of authenticity or authority. Anyone can view them and know that they definitely came from you.
+Until December 2026, anyone on the internet can view the files in your public folder. Since all of your Keybase files are signed, the public folder is a source of authenticity or authority: anyone can view them and know they definitely came from you.
 
-You can also turn your public files into a simple website. Learn more in [Sites](/sites).
+Public folders shut down in December 2026. Copy anything you need to keep. To host a website from Keybase, use a custom domain with [Sites](/sites) rather than the discontinued `username.keybase.pub` site.
 
 ### Team folders
 A new folder is automatically created for every team to share files in. Files in a team folder can only be accessed by the people on that team. But everyone on a team can access all the files in the team folder.
