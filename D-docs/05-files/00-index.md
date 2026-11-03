@@ -64,10 +64,6 @@ If you want some more info, go ahead and look at this text file, signed by me:
 cat /keybase/public/chris/plan.txt
 ```
 
-### Keybase.pub
-
-As a proof-of-concept, https://keybase.pub is a website that serves static content straight out of `/keybase/public`. You can see my `plan.txt` file at https://keybase.pub/chris/plan.txt. The site is also a work-in-progress.
-
 ### But there's more!
 
 Keybase mounts **end-to-end encrypted folders** in **`/keybase/private`**.
@@ -189,15 +185,6 @@ We've made no performance optimizations yet. There's a lot of low-hanging fruit.
 Keybase is about to be a full-featured GUI app.
 
 When the Keybase app offers to install an update, we encourage you to accept it. It'll be signed by us.
-
-### Public folders of interest
-
-* [/keybase/public/libevent](https://keybase.pub/libevent) – the popular callback notification library. [browse](https://keybase.pub/libevent) | [glossy site](https://libevent.keybase.pub)
-* /keybase/public/chris - my example folder [browse](https://keybase.pub/chris) | [glossy site](https://chris.keybase.pub)
-
-
-
-I'll add some people above if they're known authors of popular packages or well-known people. Email me if you've got anything interesting (chris@keybase.io).
 
 ### Bug reporting
 

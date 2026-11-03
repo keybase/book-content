@@ -25,10 +25,12 @@ where to look for the site content.
 ### Prepare or Update the Site
 
 The simplest way to prepare a site is to copy a directory with static site
-content into a folder in Keybase Filesystem. This can be simply your public
-folder (`/keybase/public/#{yername}`), or a non-public folder that `#{botname}`
-has read access to. For example, `/keybase/private/#{yername},#{botname}` or 
+content into a folder in Keybase Filesystem that `#{botname}` can read. For
+example, `/keybase/private/#{yername},#{botname}` or
 `/keybase/team/aclu.bots` (assuming #{botname} is a reader in `aclu.bots`).
+Do not rely on `/keybase/public/#{yername}`: public folders will shut down
+in December 2026, and `https://#{yername}.keybase.pub` was discontinued
+in March 2023.
 
 If you prefer to deploy with git for easy atomic updates, you can also push
 your static site into a git repo. For example,

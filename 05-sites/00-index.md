@@ -5,7 +5,11 @@
 {% set page_description = "Build and host a simple, secure website with Keybase Files. Use a custom domain or publish with Git. Learn more." %}
 
 # Keybase Sites
-One perk of [Keybase Files](/files) is that you can easily build and host a simple website in your public folder.
+You can host a simple static website from [Keybase Files](/files) or [Git](/git), under your own domain, with HTTPS from Let’s Encrypt.
+
+The `https://yourusername.keybase.pub` website was discontinued in March 2023. Use a custom domain with `kbpbot` as described below.
+
+Public folders (`/keybase/public/...`) will shut down in December 2026. Prefer a private folder shared with `kbpbot`, a team folder, or Git. Private and team folders are not affected.
 
 ## Getting started
 To see how it works, type anything into a document. You can start with whatever you want, but it’s kind of a tradition to try out new things on the internet with this:
@@ -18,28 +22,25 @@ This example uses [Markdown](https://daringfireball.net/projects/markdown/basics
 
 If you use Markdown, name your document `index.md`. If you use HTML, name your document `index.html`.
 
-Drop this index file into your public folder. You’ll immediately see it on your home page at `https://yourusername.keybase.pub/`.
+Put this index file in a folder that `kbpbot` can read (a private folder you share with the bot, a team folder, or a Git repo), then point a custom domain at it as described below.
 
 ### Adding pages
 To add more pages:
-1. Create a new folder in your public folder. Name the folder with the page name.
-2. Add an index file with your content in it (remember, it’ll be public).
+1. Create a new folder in your site folder. Name the folder with the page name.
+2. Add an index file with your content in it (remember, it’ll be public on the web).
 3. Repeat this—create a new folder and add a new index file—for every new page.
 
-![ !Create and organize index files in your public folder to build your site.](/img/sites-filestructure.png)
+![ !Create and organize index files in your site folder to build your site.](/img/sites-filestructure.png)
 
 Only **index files**, documents titled `index.md` or `index.html`, will show up on your website.
 
-For example, let’s say that from your home page, you want to link to another page named `foo`. To do this, create a folder named `foo` in your public folder. Add an index file to the `foo` folder, with your content in it. This new page will appear at `https://yourusername.keybase.pub/foo/`.
+For example, let’s say that from your home page, you want to link to another page named `foo`. To do this, create a folder named `foo` in your site folder. Add an index file to the `foo` folder, with your content in it. This new page will appear at `https://my-site.example.com/foo/`.
 
 ### Editing pages
 To edit a page, open the index file, make your edits, and save it. Your changes will automatically update on your website.
 
-### Learn more
-If you’re so inclined, you can see a couple examples and search for others’ websites at [Keybase.pub](https://keybase.pub/).
-
 ## Custom domains
-You can also use a custom domain with Keybase Sites. This lets your website appear at any domain you own instead of at `https://{username}.keybase.pub/`.
+Use a custom domain with Keybase Sites so your website appears at a domain you own.
 
 ### Using kbpbot
 `kbpbot` is a Keybase bot designed to help you publish your site using a custom domain.
